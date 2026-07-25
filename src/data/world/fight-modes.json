@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Damage Challenge (Crab)",
+    "summary": "Damage Challenge (Crab) DamageDealt vs Crab Tier Threshold Gold Tier 1 Deal 2500 10 Tier 2 Deal 3750 20 Tier 3 Deal 5000 30 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105201 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Deal 2500",
+            "Gold": "10"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Deal 3750",
+            "Gold": "20"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Deal 5000",
+            "Gold": "30"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105201",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Survival Challenge (SwampGiant)",
+    "summary": "Survival Challenge (SwampGiant) Survival vs SwampGiant Tier Threshold Gold Tier 1 Survive 20s 10 Tier 2 Survive 40s 20 Tier 3 Survive 60s 30 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105101 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Survive 20s",
+            "Gold": "10"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Survive 40s",
+            "Gold": "20"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Survive 60s",
+            "Gold": "30"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105101",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "1v1 Duel (Mimic)",
+    "summary": "1v1 Duel (Mimic) OneOnOne vs Mimic Result Gold Win the duel 30 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105001 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Result",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Result": "Win the duel",
+            "Gold": "30"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105001",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Damage Challenge (Crab)",
+    "summary": "Damage Challenge (Crab) DamageDealt vs Crab Tier Threshold Gold Tier 1 Deal 4000 10 Tier 2 Deal 6000 30 Tier 3 Deal 8000 50 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105201 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Deal 4000",
+            "Gold": "10"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Deal 6000",
+            "Gold": "30"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Deal 8000",
+            "Gold": "50"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105201",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Survival Challenge (SwampGiant)",
+    "summary": "Survival Challenge (SwampGiant) Survival vs SwampGiant Tier Threshold Gold Tier 1 Survive 20s 10 Tier 2 Survive 40s 30 Tier 3 Survive 60s 50 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105101 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Survive 20s",
+            "Gold": "10"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Survive 40s",
+            "Gold": "30"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Survive 60s",
+            "Gold": "50"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105101",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "1v1 Duel (Mimic)",
+    "summary": "1v1 Duel (Mimic) OneOnOne vs Mimic Result Gold Win the duel 50 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105001 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Result",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Result": "Win the duel",
+            "Gold": "50"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105001",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Damage Challenge (Crab)",
+    "summary": "Damage Challenge (Crab) DamageDealt vs Crab Tier Threshold Gold Tier 1 Deal 12500 20 Tier 2 Deal 25000 30 Tier 3 Deal 50000 40 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105201 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Deal 12500",
+            "Gold": "20"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Deal 25000",
+            "Gold": "30"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Deal 50000",
+            "Gold": "40"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105201",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Survival Challenge (SwampGiant)",
+    "summary": "Survival Challenge (SwampGiant) Survival vs SwampGiant Tier Threshold Gold Tier 1 Survive 20s 20 Tier 2 Survive 40s 30 Tier 3 Survive 60s 40 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105101 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Tier",
+          "Threshold",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Tier": "Tier 1",
+            "Threshold": "Survive 20s",
+            "Gold": "20"
+          },
+          {
+            "Tier": "Tier 2",
+            "Threshold": "Survive 40s",
+            "Gold": "30"
+          },
+          {
+            "Tier": "Tier 3",
+            "Threshold": "Survive 60s",
+            "Gold": "40"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105101",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "1v1 Duel (Mimic)",
+    "summary": "1v1 Duel (Mimic) OneOnOne vs Mimic Result Gold Win the duel 40 Formation ➤ the enemy formation, as the player sees it front line faces down ↓ toward your team Enemy #105001 fight-only",
+    "tables": [
+      {
+        "columns": [
+          "Result",
+          "Gold"
+        ],
+        "rows": [
+          {
+            "Result": "Win the duel",
+            "Gold": "40"
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Enemy_105001",
+        "slug": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,1265 @@
+[
+  {
+    "name": "Aria",
+    "addressBar": "aria",
+    "title": "The Requiem",
+    "guild": "L'Héritage",
+    "attackType": "Ranged",
+    "classes": [
+      "Mage"
+    ],
+    "keywords": [
+      "Frost",
+      "Burn"
+    ],
+    "stats": [
+      600,
+      23,
+      0.4,
+      4,
+      15,
+      0,
+      25,
+      26,
+      0,
+      110,
+      4,
+      40,
+      1,
+      1.5,
+      5
+    ],
+    "ability": [
+      "Requiem Barrage",
+      "Channels for 2.5 seconds. Every 0.5 seconds, the beam deals 15 + 100% Magic damage and applies Frost and Burn to enemies inside it."
+    ],
+    "paths": [
+      [
+        "The Crescendo",
+        "Permanent Magic growth from Stall triggers."
+      ],
+      [
+        "The Resplendent",
+        "Amplifies Mage debuffs and adds a backup effect."
+      ],
+      [
+        "The Harmony",
+        "Turns the beam into a Magic and Mana Regen shield provider."
+      ]
+    ],
+    "role": "Back-line magic carry and dual-debuff engine",
+    "fieldNote": "Protect the channel and decide early whether the run needs damage scaling, stronger debuffs, or team shielding."
+  },
+  {
+    "name": "Dragomir",
+    "addressBar": "dragomir",
+    "title": "The Executive",
+    "guild": "Aegis Global",
+    "attackType": "Melee",
+    "classes": [
+      "Assassin"
+    ],
+    "keywords": [
+      "Shards",
+      "Crit",
+      "Omnivamp"
+    ],
+    "stats": [
+      800,
+      35,
+      0.45,
+      1,
+      50,
+      0,
+      0,
+      40,
+      0,
+      75,
+      4,
+      35,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Devour",
+      "Gains Omnivamp, then deals 250 + 200% Magic + 1000% Omnivamp damage. A kill generates Shards."
+    ],
+    "paths": [
+      [
+        "The Greedy",
+        "Converts Shards and casts into permanent Crit and Omnivamp."
+      ],
+      [
+        "The Sanguine",
+        "Teleports to the lowest-health enemy and chains mana on kills."
+      ],
+      [
+        "The Kingpin",
+        "Shares Shard-driven Crit and Omnivamp with Assassins and Vanguards."
+      ]
+    ],
+    "role": "Melee executioner with economy scaling",
+    "fieldNote": "He needs a safe first takedown; once Devour starts converting kills into Shards, the run can compound quickly."
+  },
+  {
+    "name": "Fiona",
+    "addressBar": "fiona",
+    "title": "The Maker",
+    "guild": "Aegis Global",
+    "attackType": "Ranged",
+    "classes": [
+      "Mystic"
+    ],
+    "keywords": [
+      "Shields"
+    ],
+    "stats": [
+      750,
+      25,
+      0.39,
+      3,
+      15,
+      0,
+      0,
+      31,
+      0,
+      115,
+      8,
+      45,
+      0.75,
+      1.5,
+      5
+    ],
+    "ability": [
+      "Vault Spark",
+      "Applies 250 + 250% Magic Shields to the lowest-health allies; high Mana Regen increases the number of targets."
+    ],
+    "paths": [
+      [
+        "The Right Hand",
+        "Creates items and Shards after repeated casts."
+      ],
+      [
+        "The Lustrous",
+        "Adds self-shields and retaliatory Burn."
+      ],
+      [
+        "The Tycoon",
+        "Turns repeated casts into team-wide Max HP."
+      ]
+    ],
+    "role": "Shield support with economy and scaling branches",
+    "fieldNote": "Mana Regen is both uptime and coverage. Use her path to solve economy, retaliation, or long-fight durability."
+  },
+  {
+    "name": "Funke",
+    "addressBar": "funke",
+    "title": "The Shackled",
+    "guild": "A Temple",
+    "attackType": "Ranged",
+    "classes": [
+      "Mage"
+    ],
+    "keywords": [
+      "Burn"
+    ],
+    "stats": [
+      650,
+      21,
+      0.47,
+      4,
+      15,
+      0,
+      25,
+      27,
+      0,
+      85,
+      4,
+      45,
+      1,
+      1.5,
+      6
+    ],
+    "ability": [
+      "Wildfire",
+      "Blasts every enemy in range for 175 + 200% Magic damage and applies 15 + 66% Magic Burn."
+    ],
+    "paths": [
+      [
+        "The Stoked",
+        "Burn damage feeds Mage Magic and Funke's mana."
+      ],
+      [
+        "The Inferno",
+        "Adds range and timed Burn waves."
+      ],
+      [
+        "The Detonator",
+        "Makes casts trigger multiple Burn ticks."
+      ]
+    ],
+    "role": "Area Burn mage",
+    "fieldNote": "Range is the constraint: position him so Wildfire sees the full enemy group instead of over-investing in damage that cannot connect."
+  },
+  {
+    "name": "Grace",
+    "addressBar": "grace",
+    "title": "The Saint",
+    "guild": "Frontline",
+    "attackType": "Ranged",
+    "classes": [
+      "Mystic"
+    ],
+    "keywords": [
+      "Shields",
+      "Stall"
+    ],
+    "stats": [
+      575,
+      20,
+      0.38,
+      4,
+      15,
+      0,
+      0,
+      25,
+      0,
+      120,
+      8,
+      35,
+      1,
+      1.5,
+      4
+    ],
+    "ability": [
+      "Salvation",
+      "Shields and heals the lowest-health ally. After Stall 20, it can target and resurrect defeated heroes."
+    ],
+    "paths": [
+      [
+        "The Selfless",
+        "Expands Salvation to the team after Stall."
+      ],
+      [
+        "The Benevolent",
+        "Grants permanent class stats after late casts."
+      ],
+      [
+        "The Radiant",
+        "Makes Mystic shielding grant Attack and Magic."
+      ]
+    ],
+    "role": "Late-fight shield, healing, and resurrection support",
+    "fieldNote": "Grace is strongest when the formation can survive to her Stall breakpoints; she cannot rescue a board that collapses immediately."
+  },
+  {
+    "name": "Gustav",
+    "addressBar": "gustav",
+    "title": "The Analyst",
+    "guild": "Aegis Global",
+    "attackType": "Ranged",
+    "classes": [
+      "Mystic"
+    ],
+    "keywords": [
+      "Frost",
+      "Shields"
+    ],
+    "stats": [
+      700,
+      22,
+      0.36,
+      3,
+      15,
+      0,
+      0,
+      30,
+      0,
+      150,
+      8,
+      45,
+      1,
+      1.5,
+      4
+    ],
+    "ability": [
+      "Blizzard",
+      "Creates a five-second zone that damages and Frosts enemies while shielding heroes inside it."
+    ],
+    "paths": [
+      [
+        "The Investor",
+        "Spends Shards on Investments that grant team Mana Regen."
+      ],
+      [
+        "The Glacier",
+        "Centers Blizzard on Gustav and scales Defense."
+      ],
+      [
+        "The Avalanche",
+        "Converts casts into Shards, Mana Regen, and Magic."
+      ]
+    ],
+    "role": "Zone-control Mystic and shield engine",
+    "fieldNote": "Choose whether Gustav stays protected in the rear or becomes the center of a defensive Blizzard formation."
+  },
+  {
+    "name": "Hoyoung",
+    "addressBar": "hoyoung",
+    "title": "The Newcomer",
+    "guild": "The Hunt",
+    "attackType": "Ranged",
+    "classes": [
+      "Assassin"
+    ],
+    "keywords": [
+      "Crit"
+    ],
+    "stats": [
+      675,
+      37,
+      0.47,
+      5,
+      50,
+      0,
+      0,
+      30,
+      0,
+      80,
+      4,
+      45,
+      0.5,
+      1.5,
+      6
+    ],
+    "ability": [
+      "Killshot",
+      "Fires at the farthest enemy for 250 + 250% Attack + 250% Magic damage with a large Crit bonus."
+    ],
+    "paths": [
+      [
+        "The Conduit",
+        "Kill mana and permanent Mana Regen for Assassin–Mystic teams."
+      ],
+      [
+        "The Hunter",
+        "Front-loads Killshot Crit and rewards distance with Shards."
+      ],
+      [
+        "The Sniper",
+        "Always targets the farthest enemy and scales attacks by distance."
+      ]
+    ],
+    "role": "Long-range back-line executioner",
+    "fieldNote": "His farthest-target logic is a formation tool. Check which enemy will actually be selected before committing the lane."
+  },
+  {
+    "name": "Irini",
+    "addressBar": "irini",
+    "title": "Second Wind",
+    "guild": "Frontline",
+    "attackType": "Ranged",
+    "classes": [
+      "Duelist"
+    ],
+    "keywords": [
+      "Stall"
+    ],
+    "stats": [
+      650,
+      31,
+      0.54,
+      3,
+      15,
+      0,
+      0,
+      29,
+      20,
+      75,
+      4,
+      10,
+      0.75,
+      1.5,
+      5
+    ],
+    "ability": [
+      "Limitless",
+      "Each auto attack grants Attack Speed. After Stall 15, attacks also deal Attack-Speed-scaled bonus damage."
+    ],
+    "paths": [
+      [
+        "Gathering Storm",
+        "Turns total Stall and Rush triggers into spell damage."
+      ],
+      [
+        "The Mighty",
+        "Shares incremental Attack and Attack Speed with Duelists."
+      ],
+      [
+        "The Olympic",
+        "Awards the unique Zeus's Thunder quest item."
+      ]
+    ],
+    "role": "Attack-speed Duelist with late-fight payoff",
+    "fieldNote": "She needs uninterrupted attack time. A durable front line is more valuable than another fragile damage piece."
+  },
+  {
+    "name": "Kai",
+    "addressBar": "kai",
+    "title": "The Shotcaller",
+    "guild": "The Hunt",
+    "attackType": "Melee",
+    "classes": [
+      "Warrior"
+    ],
+    "keywords": [
+      "Shields"
+    ],
+    "stats": [
+      875,
+      46,
+      0.38,
+      1,
+      15,
+      25,
+      0,
+      40,
+      0,
+      105,
+      4,
+      50,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Resolute Strike",
+      "Gains 300 + 400% Attack + 250% Magic Shields, then deals damage based partly on the Shields remaining after two seconds."
+    ],
+    "paths": [
+      [
+        "The Unstoppable",
+        "Improves all Shields and converts new Shields into Attack."
+      ],
+      [
+        "The Bold",
+        "Accelerates the strike, enlarges its area, and adds lasting Shields."
+      ],
+      [
+        "The Intrepid",
+        "Uses Rush to guarantee Crits and shred Defense."
+      ]
+    ],
+    "role": "Shield-powered melee Warrior",
+    "fieldNote": "Shield timing matters more than raw armor: preserve enough of Resolute Strike's shield to make the delayed hit meaningful."
+  },
+  {
+    "name": "Karsu",
+    "addressBar": "karsu",
+    "title": "The Finisher",
+    "guild": "A Temple",
+    "attackType": "Ranged",
+    "classes": [
+      "Duelist"
+    ],
+    "keywords": [
+      "Frost"
+    ],
+    "stats": [
+      650,
+      30,
+      0.53,
+      5,
+      15,
+      0,
+      0,
+      29,
+      20,
+      80,
+      4,
+      40,
+      1,
+      1.5,
+      5
+    ],
+    "ability": [
+      "Snowpiercer",
+      "Fires five arrows at nearby enemies; every arrow deals mixed scaling damage and applies Frost."
+    ],
+    "paths": [
+      [
+        "The Falling Snow",
+        "Adds arrows and delayed Crit."
+      ],
+      [
+        "The Warband",
+        "Permanent cast stats shared with Duelists."
+      ],
+      [
+        "The Frostbite",
+        "Adds a Frost-inflicting arrow to every auto attack."
+      ]
+    ],
+    "role": "Ranged Duelist and Frost applicator",
+    "fieldNote": "Karsu can either blanket the board with Frost or become a conventional attack-speed carry; do not split items between both plans."
+  },
+  {
+    "name": "Logan",
+    "addressBar": "logan",
+    "title": "The Executioner",
+    "guild": "Frontline",
+    "attackType": "Melee",
+    "classes": [
+      "Warrior"
+    ],
+    "keywords": [],
+    "stats": [
+      825,
+      50,
+      0.4,
+      1,
+      15,
+      25,
+      0,
+      40,
+      0,
+      80,
+      4,
+      30,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Execution",
+      "Swings for heavy Attack- and Magic-scaled damage and grows stronger by dealing damage with the ability."
+    ],
+    "paths": [
+      [
+        "The Iron",
+        "Turns Rush history into Warrior Attack and Defense."
+      ],
+      [
+        "The Juggernaut",
+        "Converts Execution damage into lasting Shields."
+      ],
+      [
+        "The Momentous",
+        "Kills refund mana and grant permanent Attack and Crit."
+      ]
+    ],
+    "role": "Physical finisher with permanent growth",
+    "fieldNote": "Logan wants repeated executions, not only one large hit. Mana access and safe target selection determine whether he scales."
+  },
+  {
+    "name": "Ming",
+    "addressBar": "ming",
+    "title": "The Drifter",
+    "guild": "The Hunt",
+    "attackType": "Melee",
+    "classes": [
+      "Vanguard"
+    ],
+    "keywords": [
+      "Burn",
+      "Rush"
+    ],
+    "stats": [
+      1100,
+      37,
+      0.35,
+      1,
+      15,
+      0,
+      0,
+      41,
+      0,
+      70,
+      4,
+      30,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Inner Flame",
+      "Applies Max-HP-scaled Burn to adjacent enemies every second; Rush 5 doubles the Burn."
+    ],
+    "paths": [
+      [
+        "Searing Mantra",
+        "Adds a surrounding damage, Burn, and stun cast."
+      ],
+      [
+        "The Tempered",
+        "Shares Max HP with Vanguards after Rush 15."
+      ],
+      [
+        "The Enlightened",
+        "Extends Rush abilities and can grant damage immunity."
+      ]
+    ],
+    "role": "High-health Rush Vanguard and Burn aura",
+    "fieldNote": "Ming must remain adjacent to valuable targets. Build enough durability to keep the aura active through the Rush window."
+  },
+  {
+    "name": "Niklas",
+    "addressBar": "niklas",
+    "title": "The Dealer",
+    "guild": "Aegis Global",
+    "attackType": "Melee",
+    "classes": [
+      "Vanguard"
+    ],
+    "keywords": [
+      "Shards",
+      "Burn",
+      "Rush"
+    ],
+    "stats": [
+      1150,
+      40,
+      0.4,
+      1,
+      15,
+      0,
+      0,
+      44,
+      0,
+      90,
+      4,
+      45,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Red Hot Deals",
+      "After surviving combat, consumes his left-most item to permanently gain its stats and recover 80% of its value as Shards."
+    ],
+    "paths": [
+      [
+        "Wheel and Deal",
+        "Adds a stunning mace cast with a chance to create an item."
+      ],
+      [
+        "The Executive",
+        "Adds item slots and Rush-based shielding per item."
+      ],
+      [
+        "The Hoarder",
+        "Turns total generated Shards into retaliation damage for Vanguards and Tanks."
+      ]
+    ],
+    "role": "Item-consuming Vanguard economy engine",
+    "fieldNote": "Item order is part of the build. Put only a deliberately expendable item in the left-most slot before combat."
+  },
+  {
+    "name": "Nyx",
+    "addressBar": "nyx",
+    "title": "The Stray",
+    "guild": "The Hunt",
+    "attackType": "Melee",
+    "classes": [
+      "Duelist"
+    ],
+    "keywords": [
+      "Rush"
+    ],
+    "stats": [
+      800,
+      38,
+      0.53,
+      1,
+      15,
+      0,
+      0,
+      38,
+      20,
+      55,
+      4,
+      15,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Ferality",
+      "Rush 5 grants stacking Attack and Attack Speed. Every 12 auto attacks refreshes all of Nyx's Rush abilities."
+    ],
+    "paths": [
+      [
+        "The Keen-Eyed",
+        "Adds an execute threshold for Assassin and Duelist damage."
+      ],
+      [
+        "Wild Flurry",
+        "A five-hit combo that can jump and recast after a kill."
+      ],
+      [
+        "The Spark",
+        "Adds Burn, Frost, and Poison to attacks at later Stall thresholds."
+      ]
+    ],
+    "role": "Rush-refresh melee Duelist",
+    "fieldNote": "Nyx needs enough survival to reach the first refresh loop; early Attack Speed matters only if she can stay on target."
+  },
+  {
+    "name": "Pimenta",
+    "addressBar": "pimenta",
+    "title": "The Rose Knight",
+    "guild": "Gaia Project",
+    "attackType": "Melee",
+    "classes": [
+      "Tank"
+    ],
+    "keywords": [
+      "Poison",
+      "Stall"
+    ],
+    "stats": [
+      950,
+      33,
+      0.42,
+      1,
+      15,
+      0,
+      0,
+      58,
+      0,
+      90,
+      4,
+      35,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Pepper Spray",
+      "Creates a four-second cloud that deals Magic- and Defense-scaled damage, applies Poison, and later grants HP per second."
+    ],
+    "paths": [
+      [
+        "The Spicy",
+        "Auto attacks amplify every debuff already on the target."
+      ],
+      [
+        "The Seasoned",
+        "Expands the cloud and shares Defense with Tanks and Mages."
+      ],
+      [
+        "The Lover",
+        "Permanently grants Attack Speed to heroes directly behind her."
+      ]
+    ],
+    "role": "Front-line Poison Tank and formation anchor",
+    "fieldNote": "The unit behind Pimenta matters as much as her own items. Align the formation so her fixed positional bonus reaches the carry."
+  },
+  {
+    "name": "Pollen",
+    "addressBar": "pollen",
+    "title": "The Bloom",
+    "guild": "Gaia Project",
+    "attackType": "Ranged",
+    "classes": [
+      "Mystic"
+    ],
+    "keywords": [
+      "Poison",
+      "Shields",
+      "Stall"
+    ],
+    "stats": [
+      575,
+      20,
+      0.42,
+      4,
+      15,
+      0,
+      0,
+      30,
+      0,
+      135,
+      8,
+      35,
+      1,
+      1.5,
+      4
+    ],
+    "ability": [
+      "Sanctuary of Bloom",
+      "Creates a five-second field that Poisons enemies, Shields allies, and begins healing after Stall 15."
+    ],
+    "paths": [
+      [
+        "The Bloomer",
+        "Doubles late healing and shielding and extends the field."
+      ],
+      [
+        "The Fae's Kiss",
+        "Amplifies late Poison and enemy debuffs."
+      ],
+      [
+        "The Earth's Child",
+        "Adds Frost and Burn scaling to the field."
+      ]
+    ],
+    "role": "Sustain field Mystic and status hub",
+    "fieldNote": "Pollen rewards clustered formations. Place the team so both allies and priority enemies remain inside the field."
+  },
+  {
+    "name": "Ratna",
+    "addressBar": "ratna",
+    "title": "The Matriarch",
+    "guild": "L'Héritage",
+    "attackType": "Ranged",
+    "classes": [
+      "Mage"
+    ],
+    "keywords": [
+      "Crit"
+    ],
+    "stats": [
+      575,
+      20,
+      0.43,
+      4,
+      15,
+      0,
+      25,
+      27,
+      0,
+      80,
+      4,
+      30,
+      0.75,
+      1.5,
+      6
+    ],
+    "ability": [
+      "Starfall",
+      "Deals rank-scaling Magic damage. Kills permanently grant Magic; Crits stun the full enemy team."
+    ],
+    "paths": [
+      [
+        "The Fashionable",
+        "Adds an item slot and converts item rarity into combat stats."
+      ],
+      [
+        "The Ostentatious",
+        "Shares Magic and Mana Regen with Mage–Mystic teams."
+      ],
+      [
+        "The Magnanimous",
+        "Adds extra low-health hits, kill Stealth, and permanent Crit."
+      ]
+    ],
+    "role": "Crit-control Mage with kill scaling",
+    "fieldNote": "Ratna must either secure kills or Crit reliably. Build toward one trigger first, then let the permanent growth support the other."
+  },
+  {
+    "name": "Reyna",
+    "addressBar": "reyna",
+    "title": "The Contender",
+    "guild": "Frontline",
+    "attackType": "Melee",
+    "classes": [
+      "Warrior"
+    ],
+    "keywords": [
+      "Shields"
+    ],
+    "stats": [
+      850,
+      43,
+      0.44,
+      1,
+      15,
+      25,
+      0,
+      39,
+      0,
+      70,
+      4,
+      35,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Triple Threat",
+      "Performs three attack-counting punches and gains lasting Shields equal to part of the damage dealt."
+    ],
+    "paths": [
+      [
+        "The Champion",
+        "Converts Rush history into Attack and team Crit/Omnivamp."
+      ],
+      [
+        "The Brawler",
+        "Improves Triple Threat shielding and converts Shields into Attack."
+      ],
+      [
+        "The Boxer",
+        "Adds a frequent damage-and-Burn attack proc."
+      ]
+    ],
+    "role": "Combo Warrior with self-shielding",
+    "fieldNote": "She scales by staying engaged. Give her enough sustain to complete repeated three-hit cycles instead of chasing only peak Attack."
+  },
+  {
+    "name": "Rip",
+    "addressBar": "rip",
+    "title": "The Butcher",
+    "guild": "A Temple",
+    "attackType": "Melee",
+    "classes": [
+      "Vanguard"
+    ],
+    "keywords": [
+      "Rush"
+    ],
+    "stats": [
+      1250,
+      41,
+      0.42,
+      1,
+      15,
+      0,
+      0,
+      42,
+      0,
+      75,
+      4,
+      25,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Bloodthirsty",
+      "Rush 10 grants Max-HP-scaled Attack. Health thresholds refresh Rush abilities and add Max-HP-scaled Attack Speed."
+    ],
+    "paths": [
+      [
+        "The Glutton",
+        "Permanently gains Max HP on Rush and can share it with Vanguards."
+      ],
+      [
+        "Rampage",
+        "Repeatedly stacks Max HP, Attack Speed, and Omnivamp."
+      ],
+      [
+        "The Brute",
+        "Crits steal health from the target."
+      ]
+    ],
+    "role": "High-health Rush bruiser",
+    "fieldNote": "Rip wants controlled health loss, not immediate collapse. Sustain should keep him near trigger ranges without removing the payoff."
+  },
+  {
+    "name": "Rowan",
+    "addressBar": "rowan",
+    "title": "The Anchor",
+    "guild": "Gaia Project",
+    "attackType": "Melee",
+    "classes": [
+      "Vanguard",
+      "Tank"
+    ],
+    "keywords": [
+      "Stall"
+    ],
+    "stats": [
+      1000,
+      31,
+      0.35,
+      1,
+      15,
+      0,
+      0,
+      54,
+      0,
+      110,
+      4,
+      60,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Hearty",
+      "After Stall 10, gains HP per second based on Max HP and Defense."
+    ],
+    "paths": [
+      [
+        "The Tectonic",
+        "Adds Fault Line: shields Rowan, damages, and stuns enemies in front."
+      ],
+      [
+        "The Protector",
+        "Attacks create Max-HP Shields and deal damage from current Shields."
+      ],
+      [
+        "The Friend",
+        "Permanently grows HP and Defense on Stall and shares it from backup."
+      ]
+    ],
+    "role": "Dual-class defensive anchor",
+    "fieldNote": "Rowan can occupy the board or become a backup scaling engine. Decide before class modifiers split across both pools."
+  },
+  {
+    "name": "Sal",
+    "addressBar": "sal",
+    "title": "The Keeper",
+    "guild": "Gaia Project",
+    "attackType": "Ranged",
+    "classes": [
+      "Mage"
+    ],
+    "keywords": [
+      "Frost"
+    ],
+    "stats": [
+      725,
+      30,
+      0.45,
+      2,
+      15,
+      0,
+      25,
+      34,
+      0,
+      100,
+      4,
+      50,
+      1,
+      1.5,
+      6
+    ],
+    "ability": [
+      "Permafrost",
+      "Empowers attacks to splash a nearby enemy, deal Magic-scaled bonus damage, and apply Frost. The effect stacks."
+    ],
+    "paths": [
+      [
+        "The Breezy",
+        "Debuff application grants Mage–Duelist Attack Speed and Magic."
+      ],
+      [
+        "The Lover",
+        "Permanently grants Defense to the hero directly in front."
+      ],
+      [
+        "The Brisk",
+        "Allows Permafrost damage to Crit and adds Frost on Crit."
+      ]
+    ],
+    "role": "Short-range Frost Mage and formation support",
+    "fieldNote": "Sal's two-hex range and front-facing bonus make placement unusually strict. Pair her with a deliberate front partner."
+  },
+  {
+    "name": "Skorn",
+    "addressBar": "skorn",
+    "title": "The Bulwark",
+    "guild": "A Temple",
+    "attackType": "Melee",
+    "classes": [
+      "Tank"
+    ],
+    "keywords": [
+      "Poison",
+      "Stall"
+    ],
+    "stats": [
+      925,
+      30,
+      0.38,
+      1,
+      15,
+      0,
+      0,
+      60,
+      0,
+      105,
+      4,
+      30,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Retribution",
+      "After Stall 10, being auto-attacked retaliates with Magic damage and Defense-scaled Poison."
+    ],
+    "paths": [
+      [
+        "Come At Me!",
+        "Taunts all enemies, gains Stall-scaled Shields, then returns remaining Shield as damage."
+      ],
+      [
+        "The Winter's Bite",
+        "Links Poison to Frost and Frost to Shields."
+      ],
+      [
+        "The Bristleguard",
+        "Starts combat with Tank-scaled Poison and team Defense."
+      ]
+    ],
+    "role": "Retaliation Tank and status front line",
+    "fieldNote": "Skorn needs to be targeted. Place him where enemy attacks land, then use Stall and shielding to turn pressure into output."
+  },
+  {
+    "name": "Tilly",
+    "addressBar": "tilly",
+    "title": "The Heiress",
+    "guild": "L'Héritage",
+    "attackType": "Melee",
+    "classes": [
+      "Warrior",
+      "Duelist"
+    ],
+    "keywords": [
+      "Shards"
+    ],
+    "stats": [
+      750,
+      38,
+      0.5,
+      2,
+      15,
+      25,
+      0,
+      34,
+      20,
+      75,
+      4,
+      25,
+      1,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Luxurious",
+      "Cross-converts Attack and Attack Speed. Every 25 auto attacks, it generates Shards."
+    ],
+    "paths": [
+      [
+        "The Stylish",
+        "Adds an item slot and Shard-history bonus damage."
+      ],
+      [
+        "The Sharp",
+        "Shares separate Rush and Stall bonuses with Warriors and Duelists."
+      ],
+      [
+        "Pirouette",
+        "Adds Crit and Omnivamp before an area strike."
+      ]
+    ],
+    "role": "Dual-class tempo carry and Shard engine",
+    "fieldNote": "Her two class pools create flexibility but dilute later offers. Commit to Warrior power or Duelist speed before Rank A."
+  },
+  {
+    "name": "Yuuna",
+    "addressBar": "yuuna",
+    "title": "The Professional",
+    "guild": "The Hunt",
+    "attackType": "Melee",
+    "classes": [
+      "Assassin"
+    ],
+    "keywords": [
+      "Crit"
+    ],
+    "stats": [
+      800,
+      40,
+      0.45,
+      1,
+      50,
+      0,
+      0,
+      39,
+      0,
+      75,
+      4,
+      35,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Shuriken Shadow Strike",
+      "Leaps and throws Crit-scaled shurikens at the lowest-health enemy for mixed Attack and Magic damage."
+    ],
+    "paths": [
+      [
+        "The Shadow",
+        "Health loss grants Stealth, mana, and permanent Crit."
+      ],
+      [
+        "The Collector",
+        "Adds a shuriken and turns kills into growing Shard income."
+      ],
+      [
+        "The Nightshade",
+        "Crits against Poisoned targets and makes Assassin Crits apply Poison."
+      ]
+    ],
+    "role": "Crit Assassin and low-health finisher",
+    "fieldNote": "Yuuna's lowest-health targeting works best when the team can soften several enemies without accidentally pulling her into opening focus."
+  },
+  {
+    "name": "Zuri",
+    "addressBar": "zuri",
+    "title": "The Gorgon",
+    "guild": "L'Héritage",
+    "attackType": "Melee",
+    "classes": [
+      "Tank",
+      "Assassin"
+    ],
+    "keywords": [
+      "Crit"
+    ],
+    "stats": [
+      900,
+      33,
+      0.38,
+      1,
+      50,
+      0,
+      0,
+      52,
+      0,
+      100,
+      4,
+      65,
+      0.5,
+      1.5,
+      0
+    ],
+    "ability": [
+      "Stone Skin",
+      "Crits permanently grant Defense and Magic a limited number of times each combat; Crit and Defense raise the trigger cap."
+    ],
+    "paths": [
+      [
+        "Petrification",
+        "Damages, Poisons, and stuns all enemies targeting Zuri."
+      ],
+      [
+        "The Serpent's Kiss",
+        "Retaliates with Poison and gains HP per second."
+      ],
+      [
+        "The Bladedancer",
+        "Adds Rush and Stall attack damage and healing."
+      ]
+    ],
+    "role": "Crit-scaling hybrid Tank and Assassin",
+    "fieldNote": "Zuri needs both incoming pressure and reliable Crit. Build one defensive item first so the permanent stat engine has time to work."
+  }
+]

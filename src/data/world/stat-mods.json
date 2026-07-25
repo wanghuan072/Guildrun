@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Max HP",
+    "rows": [
+      {
+        "id": "sm-1",
+        "name": "Small Health",
+        "value": "+100 Max HP",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "902"
+          }
+        ]
+      },
+      {
+        "id": "sm-50",
+        "name": "Small Health Loss",
+        "value": "-100 Max HP",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-106",
+        "name": "Endless HP",
+        "value": "+800 Max HP",
+        "events": [
+          {
+            "name": "Max HP Boost",
+            "id": "2005"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mana Regen",
+    "rows": [
+      {
+        "id": "sm-4",
+        "name": "Small MR",
+        "value": "+2 Mana Regen",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "903"
+          }
+        ]
+      },
+      {
+        "id": "sm-53",
+        "name": "Small MR Loss",
+        "value": "-2 Mana Regen",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-107",
+        "name": "Endless MR",
+        "value": "+16 Mana Regen",
+        "events": [
+          {
+            "name": "Mana Regen Boost",
+            "id": "2006"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Attack",
+    "rows": [
+      {
+        "id": "sm-7",
+        "name": "Small Attack",
+        "value": "+12 Attack",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "904"
+          }
+        ]
+      },
+      {
+        "id": "sm-56",
+        "name": "Small Attack Loss",
+        "value": "-12 Attack",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-108",
+        "name": "Endless Attack",
+        "value": "+100 Attack",
+        "events": [
+          {
+            "name": "Attack Boost",
+            "id": "2007"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Magic",
+    "rows": [
+      {
+        "id": "sm-10",
+        "name": "Small Magic",
+        "value": "+12 Magic",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "905"
+          }
+        ]
+      },
+      {
+        "id": "sm-59",
+        "name": "Small Magic Loss",
+        "value": "-12 Magic",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-109",
+        "name": "Endless Magic",
+        "value": "+100 Magic",
+        "events": [
+          {
+            "name": "Magic Boost",
+            "id": "2008"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Defense",
+    "rows": [
+      {
+        "id": "sm-13",
+        "name": "Small Defense",
+        "value": "+15 Defense",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "906"
+          }
+        ]
+      },
+      {
+        "id": "sm-62",
+        "name": "Small Defense Loss",
+        "value": "-15 Defense",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-110",
+        "name": "Endless Defense",
+        "value": "+120 Defense",
+        "events": [
+          {
+            "name": "Defense Boost",
+            "id": "2009"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Attack Speed",
+    "rows": [
+      {
+        "id": "sm-16",
+        "name": "Small AS",
+        "value": "+10 Attack Speed",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "907"
+          }
+        ]
+      },
+      {
+        "id": "sm-65",
+        "name": "Small AS Loss",
+        "value": "-10 Attack Speed",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-111",
+        "name": "Endless AS",
+        "value": "+80 Attack Speed",
+        "events": [
+          {
+            "name": "Attack Speed Boost",
+            "id": "2010"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crit",
+    "rows": [
+      {
+        "id": "sm-19",
+        "name": "Small Crit",
+        "value": "+7 Crit",
+        "events": [
+          {
+            "name": "Crystalline Prison",
+            "id": "1014"
+          },
+          {
+            "name": "Train a Hero",
+            "id": "908"
+          }
+        ]
+      },
+      {
+        "id": "sm-68",
+        "name": "Small Crit Loss",
+        "value": "-7 Crit",
+        "events": [
+          {
+            "name": "The Curse of the Kiss",
+            "id": "1006"
+          },
+          {
+            "name": "Strange Fruits",
+            "id": "1019"
+          }
+        ]
+      },
+      {
+        "id": "sm-112",
+        "name": "Endless Crit",
+        "value": "+60 Crit",
+        "events": [
+          {
+            "name": "Crit Boost",
+            "id": "2011"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Omnivamp",
+    "rows": [
+      {
+        "id": "sm-113",
+        "name": "Endless Vamp",
+        "value": "+40 Omnivamp",
+        "events": [
+          {
+            "name": "Omnivamp Boost",
+            "id": "2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HP/s",
+    "rows": [
+      {
+        "id": "sm-114",
+        "name": "Endless HP/S",
+        "value": "+40 HP/s",
+        "events": [
+          {
+            "name": "HP/S Boost",
+            "id": "2014"
+          }
+        ]
+      }
+    ]
+  }
+]

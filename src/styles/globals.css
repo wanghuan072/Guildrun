@@ -1,0 +1,103 @@
+:root {
+  --color-background: oklch(13% 0.025 245);
+  --color-background-deep: oklch(9% 0.02 245);
+  --color-surface: oklch(18% 0.025 245);
+  --color-surface-light: oklch(23% 0.035 240);
+  --color-border: oklch(36% 0.035 238);
+  --color-primary: oklch(74% 0.12 78);
+  --color-primary-bright: oklch(84% 0.1 82);
+  --color-secondary: oklch(72% 0.09 184);
+  --color-accent: oklch(60% 0.13 300);
+  --color-text: oklch(94% 0.02 82);
+  --color-muted: oklch(74% 0.025 235);
+  --color-danger: oklch(68% 0.15 30);
+  --font-display: "Cinzel", Georgia, serif;
+  --font-body: "Instrument Sans", "Segoe UI", sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  background: var(--color-background-deep);
+}
+
+[id] {
+  scroll-margin-top: 80px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 74% 4%, oklch(24% 0.055 230), transparent 34rem),
+    linear-gradient(180deg, var(--color-background) 0%, var(--color-background-deep) 100%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  font-weight: 400;
+  font-kerning: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 5.25rem);
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-size: clamp(1.85rem, 3.4vw, 3.2rem);
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: min(100% - 48px, 1400px);
+  margin: 0 auto;
+}

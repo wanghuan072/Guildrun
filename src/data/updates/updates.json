@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "version": "Demo 0.5.1.718",
+    "addressBar": "demo-update-0-5-1",
+    "publishDate": "2026-07-24",
+    "updateType": "Balance Patch",
+    "title": "Demo Update 0.5.1: First Public Balance Pass",
+    "excerpt": "The first public balance update broadened viable strategies, reduced several punishing fights, revised relic and class-modifier values, and fixed Rush, shop, leaderboard, and result-screen issues.",
+    "imageUrl": "/images/gameplay/combat-system.webp",
+    "imageAlt": "Guildrun combat affected by the Demo 0.5.1 balance update",
+    "summary": "Leyline framed 0.5.1 around player frustration, broader Endless and Red Rift viability, and internal data from nearly two million completed first-week runs.",
+    "affectedSystems": [
+      "Challenge Fights",
+      "Fight Events",
+      "Relics",
+      "Items",
+      "Class Modifiers",
+      "Heroes",
+      "Leaderboards",
+      "Bug Fixes"
+    ],
+    "editorialImpact": [
+      "Old build advice that depends on exact relic, hero, or modifier numbers should be reconsidered.",
+      "Rush counters no longer double-count refreshed Rushes.",
+      "Several underused class modifiers received buffs, widening viable A/S offers.",
+      "Team Size quest relics cost 5 fewer Shards at the Auction House."
+    ],
+    "sections": [
+      {
+        "name": "General changes",
+        "intro": "Small quality-of-life changes reduce repeated setup between runs.",
+        "changes": [
+          "The last difficulty selected in the previous run is now selected by default for the next run.",
+          "Leaderboard panels now show a reset timer.",
+          "Merged and SSS leaderboards reset with weekly updates; Red Rift remains on a longer seasonal cadence."
+        ]
+      },
+      {
+        "name": "Bug fixes",
+        "intro": "The patch closes several progression and interface failure cases.",
+        "changes": [
+          "Refreshing Rush abilities no longer counts twice toward the Rush counter.",
+          "The shop quit-without-saving exploit was fixed.",
+          "The data-collection opt-out now appears correctly in settings.",
+          "An Emergency Rewind result-screen timing issue that could soft-lock the run was fixed.",
+          "Rapidly pressing Proceed in the shop no longer causes the reported exception.",
+          "S-rank shop and Endless event heroes should no longer receive duplicate class modifiers."
+        ]
+      },
+      {
+        "name": "Challenge fights",
+        "intro": "The most punishing higher-difficulty outliers were reduced.",
+        "changes": [
+          "Rapid Growth no longer multiplies the Hydra Healing SSS Act Boss effect beyond the intended amount.",
+          "Pain in Act 1 was reduced from 2.75% to 2.5% Max HP damage per second.",
+          "Pain in Act 2 was reduced from 8% to 7% Max HP damage per second.",
+          "Decay in Act 2 was reduced from 17.5% to 15% decreased basic stats."
+        ]
+      },
+      {
+        "name": "Fight events",
+        "intro": "Fight-event difficulty was brought closer to neighboring choices.",
+        "changes": [
+          "Single Combat was moderately reduced in both acts.",
+          "Endurance in Act 2 was slightly reduced.",
+          "Forest Golem offensive and defensive pressure in Single Combat was reduced."
+        ]
+      },
+      {
+        "name": "Relics and items",
+        "intro": "Quest pricing and several performance outliers changed.",
+        "changes": [
+          "All Team Size quest relics cost 5 fewer Shards.",
+          "Merchant Mandate now asks for 8 rerolls instead of 9.",
+          "Bossy grants 40 Shards instead of 50.",
+          "Shield Fragmentation Engine reflects 250% instead of 200% of Shield damage taken.",
+          "Critical Absorption Prism steals 50 Max HP instead of 60.",
+          "Deceleration Aegis grants 700 Shields instead of 800.",
+          "Poison Ascendancy reduces affected enemy Attack and Attack Speed by 66% instead of 50%.",
+          "Precision Nexus heals 30 HP and grants 3 Mana on Crit.",
+          "Adaptive Sword gained more base Attack Speed and now resolves later than other start-of-combat effects."
+        ]
+      },
+      {
+        "name": "Class modifiers",
+        "intro": "This pass was primarily buffs for underperforming modifier choices.",
+        "changes": [
+          "Assassin Poisonous Eye, Poisonous Edge, and Poisonous Burst were buffed.",
+          "Duelist Golden Eye and Poisonous Attacks activate more efficiently.",
+          "Mystic Sideline Empowerment grants more base Attack and Magic.",
+          "Mage Burning Absorption, Hermit, and Stalled Heat were buffed."
+        ]
+      },
+      {
+        "name": "Heroes and specializations",
+        "intro": "Hero changes were deliberately smaller than the systemic relic pass.",
+        "changes": [
+          "Hoyoung's Killshot now scales its Crit gain by rank.",
+          "Zuri received base-stat and Max Mana adjustments.",
+          "Funke's The Inferno reaches its Stall breakpoint sooner.",
+          "Kai's The Bold grants less base Shield on cast.",
+          "Dragomir's The Sanguine moved Omnivamp from base value into per-rank scaling and now grants 60 Mana on a Devour kill.",
+          "Nyx's Ferality no longer double-counts refreshed Rush triggers."
+        ]
+      }
+    ],
+    "ledger": []
+  },
+  {
+    "id": 2,
+    "version": "Demo Launch",
+    "addressBar": "guildrun-demo-live",
+    "publishDate": "2026-07-16",
+    "updateType": "Demo Update",
+    "title": "Guildrun Demo Is Live on Steam",
+    "excerpt": "Leyline launched a free standalone Demo for Windows and macOS with the complete current campaign loop, eight difficulties, and Endless mode.",
+    "imageUrl": "/images/home/guildrun-home-hero.webp",
+    "imageAlt": "Guildrun Demo battle scene shown on Steam",
+    "summary": "The Demo exposes the core PvE roguelike autobattler systems and is designed to receive frequent balance updates while the full game remains in development.",
+    "affectedSystems": [
+      "Demo",
+      "Steam",
+      "Windows",
+      "macOS",
+      "Endless"
+    ],
+    "editorialImpact": [
+      "Players can learn the full current rank, item, relic, route, and difficulty loop without buying the full game.",
+      "Demo records are version-specific because weekly updates can change numbers and interactions."
+    ],
+    "sections": [
+      {
+        "name": "What launched",
+        "intro": "The public Demo is a standalone Steam app.",
+        "changes": [
+          "25 heroes across 75 specialization paths.",
+          "Around 180 specialization outcomes when later class modifiers are included.",
+          "More than 300 relics and more than 100 items.",
+          "Eight campaign difficulties followed by Endless mode and leaderboards.",
+          "Single-player PvE with no PvP.",
+          "Mid-run saving and no decision timer."
+        ]
+      },
+      {
+        "name": "What it means for this site",
+        "intro": "All reference pages now use the public Demo as the applicable version boundary.",
+        "changes": [
+          "Hero, item, relic, enemy, event, stage, and status pages identify the applicable Demo version.",
+          "Strategy guidance is kept separate from fixed names, values, and effects.",
+          "The current in-game tooltip remains final authority after a patch."
+        ]
+      }
+    ],
+    "ledger": []
+  },
+  {
+    "id": 3,
+    "version": "2027 Plan",
+    "addressBar": "release-window-2027",
+    "publishDate": "2026-07-16",
+    "updateType": "Release News",
+    "title": "Guildrun Full Release Is Planned for 2027",
+    "excerpt": "Guildrun is planned as a premium full release in 2027. No exact launch date or final price is announced.",
+    "imageUrl": "/images/home/official-hero-lineup.webp",
+    "imageAlt": "Guildrun hero lineup art",
+    "summary": "The full game is planned as a one-time purchase. Timing and price remain development plans rather than shipped facts.",
+    "affectedSystems": [
+      "Release Date",
+      "Pricing",
+      "Platforms"
+    ],
+    "editorialImpact": [
+      "Use Steam for the live release date because plans can move.",
+      "Do not present an unannounced price as fixed."
+    ],
+    "sections": [
+      {
+        "name": "Current release plan",
+        "intro": "The full release remains a plan until a specific launch date is announced.",
+        "changes": [
+          "Target year: 2027.",
+          "Business model: premium one-time purchase.",
+          "Final price: not announced.",
+          "Platforms: Windows and macOS are supported by the Demo.",
+          "Steam Deck is playable with the mousepad and shoulder-button setup described by the developer."
+        ]
+      }
+    ],
+    "ledger": []
+  },
+  {
+    "id": 4,
+    "version": "In Development",
+    "addressBar": "two-player-co-op-development",
+    "publishDate": "2026-07-16",
+    "updateType": "Development",
+    "title": "Two-Player Co-op Is in Development",
+    "excerpt": "Guildrun currently focuses on single-player PvE. Leyline says a two-player co-op mode is in development, while PvP is not planned.",
+    "imageUrl": "/images/gameplay/formation-battle.webp",
+    "imageAlt": "Guildrun team formation representing planned co-op play",
+    "summary": "The developer has not announced a co-op launch date or final mode design.",
+    "affectedSystems": [
+      "Co-op",
+      "Multiplayer",
+      "PvP"
+    ],
+    "editorialImpact": [
+      "Current strategy pages should be read as single-player guidance.",
+      "Do not infer co-op systems before Leyline publishes the design."
+    ],
+    "sections": [
+      {
+        "name": "Current multiplayer boundary",
+        "intro": "Shipped and planned features are different states.",
+        "changes": [
+          "Current public Demo: single-player PvE.",
+          "In development: two-player co-op.",
+          "Not planned: PvP.",
+          "Co-op date and exact rules: not announced."
+        ]
+      }
+    ],
+    "ledger": []
+  },
+  {
+    "id": 5,
+    "version": "Current Plan",
+    "addressBar": "demo-progress-carryover",
+    "publishDate": "2026-07-16",
+    "updateType": "Progression",
+    "title": "Demo Progress Is Planned to Carry Into the Full Game",
+    "excerpt": "Leyline plans to preserve metaprogression, difficulty unlocks, and hero mastery stars for each Steam account.",
+    "imageUrl": "/images/progression/rank-up.webp",
+    "imageAlt": "Guildrun hero progression interface",
+    "summary": "Carryover is the current developer plan and should not be presented as an immutable technical guarantee before full release.",
+    "affectedSystems": [
+      "Metaprogression",
+      "Difficulty",
+      "Hero Mastery"
+    ],
+    "editorialImpact": [
+      "Demo clears and mastery work are intended to retain long-term value.",
+      "Run-specific boards, items, and relics are not the same as account metaprogression."
+    ],
+    "sections": [
+      {
+        "name": "Planned carryover",
+        "intro": "The FAQ names the account-level systems intended to persist.",
+        "changes": [
+          "Metaprogression unlocks.",
+          "Difficulty unlocks.",
+          "Hero mastery stars.",
+          "Progress is associated with the same Steam account."
+        ]
+      }
+    ],
+    "ledger": []
+  }
+]

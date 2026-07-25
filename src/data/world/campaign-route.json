@@ -1,0 +1,86 @@
+[
+  {
+    "floor": 0,
+    "act": "Act 1",
+    "node": "Starter Kit → Combat 1",
+    "reward": "15 Shards",
+    "purpose": "Choose the opening bundle, set the first three-hero formation, and learn the baseline fight."
+  },
+  {
+    "floor": 1,
+    "act": "Act 1",
+    "node": "Event → Combat 2",
+    "reward": "20–30 Shards",
+    "purpose": "Use the first event without abandoning early stability."
+  },
+  {
+    "floor": 2,
+    "act": "Act 1",
+    "node": "Challenge → Combat 3",
+    "reward": "20–30 Shards",
+    "purpose": "Choose a fight rule the current board can actually absorb."
+  },
+  {
+    "floor": 3,
+    "act": "Act 1",
+    "node": "Random Event → Combat 4",
+    "reward": "20–30 Shards",
+    "purpose": "Convert the event into a rank, stat, item, relic, or economy advantage."
+  },
+  {
+    "floor": 4,
+    "act": "Act 1",
+    "node": "Campfire → Combat 5",
+    "reward": "20–30 Shards",
+    "purpose": "Repair the build or accelerate the hero already carrying the run."
+  },
+  {
+    "floor": 5,
+    "act": "Act 1",
+    "node": "Act Boss → Auction House",
+    "reward": "75–85 Shards",
+    "purpose": "Clear the first major test, then make the run-defining Auction House purchase."
+  },
+  {
+    "floor": 6,
+    "act": "Act 2",
+    "node": "Random Event → Combat 7",
+    "reward": "25–35 Shards",
+    "purpose": "Re-evaluate the build after its first large power spike."
+  },
+  {
+    "floor": 7,
+    "act": "Act 2",
+    "node": "Challenge → Combat 8",
+    "reward": "25–35 Shards",
+    "purpose": "Avoid a challenge that directly attacks the team’s weakest axis."
+  },
+  {
+    "floor": 8,
+    "act": "Act 2",
+    "node": "Guild Banner → Combat 9",
+    "reward": "25–35 Shards",
+    "purpose": "Commit to the established engine rather than open an unrelated package."
+  },
+  {
+    "floor": 9,
+    "act": "Act 2",
+    "node": "Random Event → Combat 10",
+    "reward": "25–35 Shards",
+    "purpose": "Use the last flexible event window to fix target access or scaling."
+  },
+  {
+    "floor": 10,
+    "act": "Act 2",
+    "node": "Campfire → Combat 11",
+    "reward": "25–35 Shards",
+    "purpose": "Prepare the final formation, ranks, and item ownership before the boss."
+  },
+  {
+    "floor": 11,
+    "act": "Act 2",
+    "node": "Final Boss → Auction House",
+    "reward": "75–85 Shards",
+    "purpose": "Finish the campaign and carry the build into Endless mode."
+  }
+]

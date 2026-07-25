@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Items",
+    "href": "/wiki/items/",
+    "countKey": "items",
+    "label": "Equipped power",
+    "description": "Browse every current item by rarity, price, stats, and triggered effect in one searchable table.",
+    "imageUrl": "/images/gameplay/shop-economy.webp"
+  },
+  {
+    "name": "Relics",
+    "href": "/wiki/relics/",
+    "countKey": "relics",
+    "label": "Run-wide rules",
+    "description": "Compare the full relic pool, including quests, economy effects, status engines, and run-defining triggers.",
+    "imageUrl": "/images/wiki/relics/acceleration-ascendancy.webp"
+  },
+  {
+    "name": "Enemies",
+    "href": "/wiki/enemies/",
+    "countKey": "enemies",
+    "label": "Threat database",
+    "description": "Open all enemy families with range type, health span, known variants, appearances, and targeting context.",
+    "imageUrl": "/images/wiki/enemies/hydra.webp"
+  },
+  {
+    "name": "Status effects",
+    "href": "/wiki/status-effects/",
+    "countKey": "statusEffects",
+    "label": "Combat language",
+    "description": "Understand Poison, Burn, Frost, Stun, Stealth, Taunt, Shields, Rush, Stall, and other live combat rules.",
+    "imageUrl": "/images/gameplay/combat-system.webp"
+  }
+]

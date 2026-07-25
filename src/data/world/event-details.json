@@ -1,0 +1,1440 @@
+[
+  {
+    "id": "2007",
+    "title": "Attack Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2010",
+    "title": "Attack Speed Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2002",
+    "title": "Choose a Rare Relic",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "a random Rare relic",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "a random Rare relic",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "a random Rare relic",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2001",
+    "title": "Choose an Epic Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "a random Epic item",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "a random Epic item",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "a random Epic item",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2011",
+    "title": "Crit Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "1014",
+    "title": "Crystalline Prison",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Re-roll a modifier on one of your Heroes.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Reroll a rank modifier",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Permanently give a Hero stats .",
+        "outcome": "a Hero was buffed.",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "Your Heroes have +25% basic stats in the next fight.",
+        "outcome": "Good luck!",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "2009",
+    "title": "Defense Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "1023",
+    "title": "Express Delivery",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      },
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "800",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common HP item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "801",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Mana Regen item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "802",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Attack Damage item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "803",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Magic item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "804",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Def item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "805",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Attack Speed item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "806",
+    "title": "Find an Item",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Take it!",
+        "outcome": "You got a random Common Crit item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "2014",
+    "title": "HP/S Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2008",
+    "title": "Magic Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2006",
+    "title": "Mana Regen Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2005",
+    "title": "Max HP Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "809",
+    "title": "Mine Shards",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Get shards",
+        "outcome": "You got 5 Shards.",
+        "rewards": [
+          {
+            "label": "Shards",
+            "amount": "5"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "2013",
+    "title": "Omnivamp Boost",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2003",
+    "title": "Random Epic Relic",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Get the epic relic: a random Epic relic",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2004",
+    "title": "Retrain",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Re-roll a modifier on one of your Heroes.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Reroll a rank modifier",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "2012",
+    "title": "S-Rank Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Get a Hero.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Hero",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Leave.",
+        "outcome": "You left.",
+        "rewards": []
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 123",
+        "href": "/world/crossroads/#cr-123"
+      }
+    ]
+  },
+  {
+    "id": "506",
+    "title": "Starter Kit",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 23",
+        "href": "/world/crossroads/#cr-23"
+      }
+    ]
+  },
+  {
+    "id": "1019",
+    "title": "Strange Fruits",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "A hero of your choice rips a common relic from its core and permanently loses some stats. You will gain: a random Common relic And they will permanently lose stats .",
+        "outcome": "Power at any cost!",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          },
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Grab all the Shards you can see: Gain Shards . Your Heroes start next combat Stunned for 5 seconds.",
+        "outcome": "A stunning choice.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          },
+          {
+            "label": "Shards",
+            "amount": "30"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "Safely grab a few Shards: Gain Shards",
+        "outcome": "Better safe than sorry",
+        "rewards": [
+          {
+            "label": "Shards",
+            "amount": "5"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "505",
+    "title": "The Abandoned Camp",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "503",
+    "title": "The Altar",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "600",
+    "title": "The Campfire",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Train: Rank up an eligible Hero.",
+        "outcome": "a Hero has ranked up.",
+        "rewards": [
+          {
+            "label": "Rank up a hero",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Study: Re-roll a modifier on one of your Heroes.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Reroll a rank modifier",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "Repair: Restore the Shard Stabilizer.",
+        "outcome": "The Shard Stabilizer has returned to full functionality.",
+        "rewards": [
+          {
+            "label": "Restore a life (stabilizer)",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "prompt": "Rest: Your Heroes gain +10% to all their basic stats next fight.",
+        "outcome": "Your Heroes are rested.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "prompt": "(no text)",
+        "outcome": "",
+        "rewards": [
+          {
+            "label": "Skip",
+            "amount": ""
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 50",
+        "href": "/world/crossroads/#cr-50"
+      }
+    ]
+  },
+  {
+    "id": "601",
+    "title": "The Campfire",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Train: Rank up an eligible Hero.",
+        "outcome": "a Hero has ranked up.",
+        "rewards": [
+          {
+            "label": "Rank up a hero",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Study: Re-roll a modifier on one of your Heroes.",
+        "outcome": "Done!",
+        "rewards": [
+          {
+            "label": "Reroll a rank modifier",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "Rest: Your Heroes gain +10% to all their basic stats next fight.",
+        "outcome": "Your Heroes are rested.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "prompt": "(no text)",
+        "outcome": "",
+        "rewards": [
+          {
+            "label": "Skip",
+            "amount": ""
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 53",
+        "href": "/world/crossroads/#cr-53"
+      }
+    ]
+  },
+  {
+    "id": "1006",
+    "title": "The Curse of the Kiss",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "All of your Heroes give her a peck on the cheek. Gain the rare relic: a random Decay relic Next fight, your Heroes have 25% reduced basic stats.",
+        "outcome": "You received a random Decay relic .",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          },
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "One of your Heroes gives her a big smooch. Choose a Hero to permanenlty lose stats . Gain the common relic: a random Common relic",
+        "outcome": "You received a random Common relic .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          },
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "prompt": "Decline the witch. Your Heroes are rested. Next fight, they gain +10% to all their basic stats.",
+        "outcome": "You're far too busy to waste time at shrines.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1030",
+    "title": "The Debtor",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1025",
+    "title": "The Etched Path",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "1028",
+    "title": "The Fairy Ring",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "504",
+    "title": "The Fallen Beast",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "1013",
+    "title": "The Guild Banner",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Join a guild. Get a special relic for a class of your choice.",
+        "outcome": "You joined a guild!",
+        "rewards": [
+          {
+            "label": "Class reward",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Besmerch the guilds. Your Heroes are rested. Next fight, they gain +10% to all their basic stats.",
+        "outcome": "Who needs a guild, anyways?",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 113",
+        "href": "/world/crossroads/#cr-113"
+      }
+    ]
+  },
+  {
+    "id": "1018",
+    "title": "The Nest",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Stick to the plan and take your cut of Shards.",
+        "outcome": "Professional pays. You got Shards.",
+        "rewards": [
+          {
+            "label": "Shards",
+            "amount": "10"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Double-cross the thief and keep the goods for yourself. Gain the common relic: a random Wanted relic You'll be \"Wanted!\" next fight, giving your Heroes -25% Defense .",
+        "outcome": "No honor amongst thieves, eh? You acquired a random Wanted relic.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          },
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1022",
+    "title": "The Reflecting Pool",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1026",
+    "title": "The Rift Puppy",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      }
+    ]
+  },
+  {
+    "id": "1024",
+    "title": "The Ringing Fall",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "1017",
+    "title": "The Slumbering Monster",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Grab the burning item. At the start of next fight, your Heroes receive Burn equal to 2% of their Max HP. Get the rare item: a random Rare item",
+        "outcome": "You acquired a random Rare item",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          },
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Get a random common item.",
+        "outcome": "You acquired a random Common item",
+        "rewards": [
+          {
+            "label": "Item",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1001",
+    "title": "The Void Beast",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Feed it your memories. Your Heroes start next fight Stunned for 5 seconds. Gain the rare relic: a random Stunned relic",
+        "outcome": "A dark deal was made.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          },
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "prompt": "Decline the offer. Your Heroes are rested. Next fight, they gain +10% to all their basic stats.",
+        "outcome": "We're fine, thanks, Mr. Void Beast.",
+        "rewards": [
+          {
+            "label": "Relic",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      },
+      {
+        "label": "Crossroads 33",
+        "href": "/world/crossroads/#cr-33"
+      }
+    ]
+  },
+  {
+    "id": "1029",
+    "title": "The Well of Temptations",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "1027",
+    "title": "Three Paths",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 30",
+        "href": "/world/crossroads/#cr-30"
+      },
+      {
+        "label": "Crossroads 31",
+        "href": "/world/crossroads/#cr-31"
+      },
+      {
+        "label": "Crossroads 32",
+        "href": "/world/crossroads/#cr-32"
+      }
+    ]
+  },
+  {
+    "id": "902",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 100 Max Health .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "903",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 2 Mana Regen .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "904",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 12 Attack .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "905",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 12 Magic .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "906",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 15 Defense .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "907",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 10 Attack Speed .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "908",
+    "title": "Train a Hero",
+    "choices": [
+      {
+        "number": "1",
+        "prompt": "Choose a Hero.",
+        "outcome": "a Hero gained 7 Crit .",
+        "rewards": [
+          {
+            "label": "Stat bonus",
+            "amount": "1"
+          }
+        ]
+      }
+    ],
+    "reachedVia": [
+      {
+        "label": "Crossroads 120",
+        "href": "/world/crossroads/#cr-120"
+      }
+    ]
+  },
+  {
+    "id": "1034",
+    "title": "Trial: Demolition",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 34",
+        "href": "/world/crossroads/#cr-34"
+      },
+      {
+        "label": "Crossroads 35",
+        "href": "/world/crossroads/#cr-35"
+      }
+    ]
+  },
+  {
+    "id": "1033",
+    "title": "Trial: Endurance",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 34",
+        "href": "/world/crossroads/#cr-34"
+      },
+      {
+        "label": "Crossroads 35",
+        "href": "/world/crossroads/#cr-35"
+      }
+    ]
+  },
+  {
+    "id": "1035",
+    "title": "Trial: Rematch",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 36",
+        "href": "/world/crossroads/#cr-36"
+      }
+    ]
+  },
+  {
+    "id": "1032",
+    "title": "Trial: Single Combat",
+    "choices": [],
+    "reachedVia": [
+      {
+        "label": "Crossroads 34",
+        "href": "/world/crossroads/#cr-34"
+      },
+      {
+        "label": "Crossroads 35",
+        "href": "/world/crossroads/#cr-35"
+      },
+      {
+        "label": "Crossroads 36",
+        "href": "/world/crossroads/#cr-36"
+      }
+    ]
+  }
+]

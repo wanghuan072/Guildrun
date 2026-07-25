@@ -1,0 +1,1622 @@
+[
+  {
+    "id": 1,
+    "name": "Accuracy Contract",
+    "addressBar": "accuracy-contract",
+    "rarity": "Rare",
+    "effect": "+25 Attack , +25 Magic , +15 Crit Quest: Crit 10 times. Reward: Gain 15 Shards .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/accuracy-contract.webp",
+    "sourcePath": "/items/accuracy-contract/"
+  },
+  {
+    "id": 2,
+    "name": "Adaptive Sword",
+    "addressBar": "adaptive-sword",
+    "rarity": "Epic",
+    "effect": "+15 Crit , +20 Attack Speed , +15 Omnivamp At start of combat, set the holder's Attack and Magic to the higher of the two.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/adaptive-sword.webp",
+    "sourcePath": "/items/adaptive-sword/"
+  },
+  {
+    "id": 3,
+    "name": "Adrenal Eye",
+    "addressBar": "adrenal-eye",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +25 Attack For Rush ( 7 ), gain + 33 % basic stats .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/adrenal-eye.webp",
+    "sourcePath": "/items/adrenal-eye/"
+  },
+  {
+    "id": 4,
+    "name": "Aegis",
+    "addressBar": "aegis",
+    "rarity": "Common",
+    "effect": "+15 Defense , +5 HP/s",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/aegis.webp",
+    "sourcePath": "/items/aegis/"
+  },
+  {
+    "id": 5,
+    "name": "Amulet",
+    "addressBar": "amulet",
+    "rarity": "Common",
+    "effect": "+10 Attack Speed , +2 Mana Regen",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/amulet.webp",
+    "sourcePath": "/items/amulet/"
+  },
+  {
+    "id": 6,
+    "name": "Amulet of Shields",
+    "addressBar": "amulet-of-shields",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +8 Mana Regen Whenever the holder applies Shields , apply 25 % more.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/amulet-of-shields.webp",
+    "sourcePath": "/items/amulet-of-shields/"
+  },
+  {
+    "id": 7,
+    "name": "Amulet of Storms",
+    "addressBar": "amulet-of-storms",
+    "rarity": "Epic",
+    "effect": "+25 Magic , +4 Mana Regen , +25 Starting Mana On cast, remove 30 Frost from each enemy with 30 or more Frost to Stun those enemies for 2 seconds.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/amulet-of-storms.webp",
+    "sourcePath": "/items/amulet-of-storms/"
+  },
+  {
+    "id": 8,
+    "name": "Amulet of Winter",
+    "addressBar": "amulet-of-winter",
+    "rarity": "Epic",
+    "effect": "+40 Magic , +45 Defense Quest: Inflict 400 Frost Reward: Whenever the holder inflicts Frost, inflict 33 % more.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/amulet-of-winter.webp",
+    "sourcePath": "/items/amulet-of-winter/"
+  },
+  {
+    "id": 9,
+    "name": "Assassin's Blade",
+    "addressBar": "assassin-s-blade",
+    "rarity": "Unique",
+    "effect": "+25 Attack , +15 Crit If this item is held by an Assassin , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/assassin-s-blade.webp",
+    "sourcePath": "/items/assassin-s-blade/"
+  },
+  {
+    "id": 10,
+    "name": "Assassin's Crest",
+    "addressBar": "assassin-s-crest",
+    "rarity": "Unique",
+    "effect": "+30 Crit The holder counts as an Assassin during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/assassin-s-crest.webp",
+    "sourcePath": "/items/assassin-s-crest/"
+  },
+  {
+    "id": 11,
+    "name": "Assassin's Glyph",
+    "addressBar": "assassin-s-glyph",
+    "rarity": "Epic",
+    "effect": "+45 Crit The holder counts as an Assassin during combat. If they were already an Assassin , they gain + 30 % Crit .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/assassin-s-glyph.webp",
+    "sourcePath": "/items/assassin-s-glyph/"
+  },
+  {
+    "id": 12,
+    "name": "Assassin's Hood",
+    "addressBar": "assassin-s-hood",
+    "rarity": "Rare",
+    "effect": "+15 Crit , +15 Omnivamp On kill, if held by an Assassin this item gains 4 Crit .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/assassin-s-hood.webp",
+    "sourcePath": "/items/assassin-s-hood/"
+  },
+  {
+    "id": 13,
+    "name": "Assassin's Tome",
+    "addressBar": "assassin-s-tome",
+    "rarity": "Unique",
+    "effect": "+25 Magic , +15 Crit If this item is held by an Assassin , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/assassin-s-tome.webp",
+    "sourcePath": "/items/assassin-s-tome/"
+  },
+  {
+    "id": 14,
+    "name": "Battlemage Robes",
+    "addressBar": "battlemage-robes",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +25 Magic On kill, gain 25 Mana . On cast, heal 25 % Max HP .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/battlemage-robes.webp",
+    "sourcePath": "/items/battlemage-robes/"
+  },
+  {
+    "id": 15,
+    "name": "Belt",
+    "addressBar": "belt",
+    "rarity": "Common",
+    "effect": "+200 Max HP",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/belt.webp",
+    "sourcePath": "/items/belt/"
+  },
+  {
+    "id": 16,
+    "name": "Big Amulet",
+    "addressBar": "big-amulet",
+    "rarity": "Unique",
+    "effect": "+8 Mana Regen",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-amulet.webp",
+    "sourcePath": "/items/big-amulet/"
+  },
+  {
+    "id": 17,
+    "name": "Big Blade",
+    "addressBar": "big-blade",
+    "rarity": "Unique",
+    "effect": "+50 Attack",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-blade.webp",
+    "sourcePath": "/items/big-blade/"
+  },
+  {
+    "id": 18,
+    "name": "Big Bow",
+    "addressBar": "big-bow",
+    "rarity": "Unique",
+    "effect": "+40 Attack Speed",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-bow.webp",
+    "sourcePath": "/items/big-bow/"
+  },
+  {
+    "id": 19,
+    "name": "Big Scepter",
+    "addressBar": "big-scepter",
+    "rarity": "Unique",
+    "effect": "+50 Magic",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-scepter.webp",
+    "sourcePath": "/items/big-scepter/"
+  },
+  {
+    "id": 20,
+    "name": "Big Shield",
+    "addressBar": "big-shield",
+    "rarity": "Unique",
+    "effect": "+60 Defense",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-shield.webp",
+    "sourcePath": "/items/big-shield/"
+  },
+  {
+    "id": 21,
+    "name": "Big Shiv",
+    "addressBar": "big-shiv",
+    "rarity": "Unique",
+    "effect": "+30 Crit",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-shiv.webp",
+    "sourcePath": "/items/big-shiv/"
+  },
+  {
+    "id": 22,
+    "name": "Big Vest",
+    "addressBar": "big-vest",
+    "rarity": "Unique",
+    "effect": "+400 Max HP",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/big-vest.webp",
+    "sourcePath": "/items/big-vest/"
+  },
+  {
+    "id": 23,
+    "name": "Blade",
+    "addressBar": "blade",
+    "rarity": "Common",
+    "effect": "+12 Attack , +7 Crit",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/blade.webp",
+    "sourcePath": "/items/blade/"
+  },
+  {
+    "id": 24,
+    "name": "Bloodfang",
+    "addressBar": "bloodfang",
+    "rarity": "Common",
+    "effect": "+12 Attack , +7 Omnivamp",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/bloodfang.webp",
+    "sourcePath": "/items/bloodfang/"
+  },
+  {
+    "id": 25,
+    "name": "Boots",
+    "addressBar": "boots",
+    "rarity": "Common",
+    "effect": "+100 Max HP , +10 Attack Speed",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/boots.webp",
+    "sourcePath": "/items/boots/"
+  },
+  {
+    "id": 26,
+    "name": "Brawler's Ledger",
+    "addressBar": "brawler-s-ledger",
+    "rarity": "Rare",
+    "effect": "+20 Attack Speed , +15 Omnivamp Gain 1 Attack per 8 Shards generated this game.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/brawler-s-ledger.webp",
+    "sourcePath": "/items/brawler-s-ledger/"
+  },
+  {
+    "id": 27,
+    "name": "Bruiser's Mitts",
+    "addressBar": "bruiser-s-mitts",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +25 Attack On auto attack, gain 10 Max HP . When auto attacked, gain 1 Attack .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/bruiser-s-mitts.webp",
+    "sourcePath": "/items/bruiser-s-mitts/"
+  },
+  {
+    "id": 28,
+    "name": "Bulwark",
+    "addressBar": "bulwark",
+    "rarity": "Common",
+    "effect": "+30 Defense",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/bulwark.webp",
+    "sourcePath": "/items/bulwark/"
+  },
+  {
+    "id": 29,
+    "name": "Catalyst of Patience",
+    "addressBar": "catalyst-of-patience",
+    "rarity": "Epic",
+    "effect": "+40 Magic , +45 Defense The holder gains 1 Defense and 1 Magic per Stall trigger this game.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/catalyst-of-patience.webp",
+    "sourcePath": "/items/catalyst-of-patience/"
+  },
+  {
+    "id": 30,
+    "name": "Chain Mail",
+    "addressBar": "chain-mail",
+    "rarity": "Common",
+    "effect": "+100 Max HP , +15 Defense",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/chain-mail.webp",
+    "sourcePath": "/items/chain-mail/"
+  },
+  {
+    "id": 31,
+    "name": "Chalice",
+    "addressBar": "chalice",
+    "rarity": "Common",
+    "effect": "+15 Omnivamp",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/chalice.webp",
+    "sourcePath": "/items/chalice/"
+  },
+  {
+    "id": 32,
+    "name": "Charm",
+    "addressBar": "charm",
+    "rarity": "Common",
+    "effect": "+12 Magic , +2 Mana Regen",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/charm.webp",
+    "sourcePath": "/items/charm/"
+  },
+  {
+    "id": 33,
+    "name": "Cleansing Charm",
+    "addressBar": "cleansing-charm",
+    "rarity": "Epic",
+    "effect": "+6 Mana Regen , +15 HP/s Every 5 seconds, remove 33 % of all Debuffs from the holder.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/cleansing-charm.webp",
+    "sourcePath": "/items/cleansing-charm/"
+  },
+  {
+    "id": 34,
+    "name": "Cleric's Circlet",
+    "addressBar": "cleric-s-circlet",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +50 Magic Quest: Apply 10000 Shields Reward: Whenever the holder applies Shields, also heal for 50 % of the Shields applied.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/cleric-s-circlet.webp",
+    "sourcePath": "/items/cleric-s-circlet/"
+  },
+  {
+    "id": 35,
+    "name": "Cleric's Scroll",
+    "addressBar": "cleric-s-scroll",
+    "rarity": "Rare",
+    "effect": "+8 Mana Regen Quest: Apply 2500 Shields . Reward: After Stall ( 20 ), remove 50 % of all Debuffs from all Heroes.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/cleric-s-scroll.webp",
+    "sourcePath": "/items/cleric-s-scroll/"
+  },
+  {
+    "id": 36,
+    "name": "Crown of Haste",
+    "addressBar": "crown-of-haste",
+    "rarity": "Epic",
+    "effect": "+300 Max HP , +40 Attack The holder gains 1 Attack and 8 Max HP per Rush trigger this game.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/crown-of-haste.webp",
+    "sourcePath": "/items/crown-of-haste/"
+  },
+  {
+    "id": 37,
+    "name": "Crown of Patience",
+    "addressBar": "crown-of-patience",
+    "rarity": "Epic",
+    "effect": "+40 Magic , +45 Defense The holder's Stall abilities trigger 12 seconds sooner.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/crown-of-patience.webp",
+    "sourcePath": "/items/crown-of-patience/"
+  },
+  {
+    "id": 38,
+    "name": "Crystal",
+    "addressBar": "crystal",
+    "rarity": "Common",
+    "effect": "+25 Starting Mana",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/crystal.webp",
+    "sourcePath": "/items/crystal/"
+  },
+  {
+    "id": 39,
+    "name": "Dagger",
+    "addressBar": "dagger",
+    "rarity": "Common",
+    "effect": "+20 Attack Speed",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/dagger.webp",
+    "sourcePath": "/items/dagger/"
+  },
+  {
+    "id": 40,
+    "name": "Deadeye Hood",
+    "addressBar": "deadeye-hood",
+    "rarity": "Rare",
+    "effect": "+15 Crit , +20 Attack Speed At start of combat, if the holder is alone in the back row triple this item's stats.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/deadeye-hood.webp",
+    "sourcePath": "/items/deadeye-hood/"
+  },
+  {
+    "id": 41,
+    "name": "Duelist's Bow",
+    "addressBar": "duelist-s-bow",
+    "rarity": "Unique",
+    "effect": "+25 Attack , +20 Attack Speed If this item is held by a Duelist , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/duelist-s-bow.webp",
+    "sourcePath": "/items/duelist-s-bow/"
+  },
+  {
+    "id": 42,
+    "name": "Duelist's Crest",
+    "addressBar": "duelist-s-crest",
+    "rarity": "Unique",
+    "effect": "+40 Attack Speed The holder counts as a Duelist during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/duelist-s-crest.webp",
+    "sourcePath": "/items/duelist-s-crest/"
+  },
+  {
+    "id": 43,
+    "name": "Duelist's Foil",
+    "addressBar": "duelist-s-foil",
+    "rarity": "Rare",
+    "effect": "+20 Attack Speed , +15 Omnivamp Every 15 auto attacks, if held by a Duelist this item gains 1 Attack Speed .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/duelist-s-foil.webp",
+    "sourcePath": "/items/duelist-s-foil/"
+  },
+  {
+    "id": 44,
+    "name": "Duelist's Glyph",
+    "addressBar": "duelist-s-glyph",
+    "rarity": "Epic",
+    "effect": "+60 Attack Speed The holder counts as a Duelist during combat. If they were already a Duelist , they gain + 20 % Attack Speed .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/duelist-s-glyph.webp",
+    "sourcePath": "/items/duelist-s-glyph/"
+  },
+  {
+    "id": 45,
+    "name": "Duelist's Vest",
+    "addressBar": "duelist-s-vest",
+    "rarity": "Unique",
+    "effect": "+200 Max HP , +20 Attack Speed If this item is held by a Duelist , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/duelist-s-vest.webp",
+    "sourcePath": "/items/duelist-s-vest/"
+  },
+  {
+    "id": 46,
+    "name": "Emerald Charm",
+    "addressBar": "emerald-charm",
+    "rarity": "Rare",
+    "effect": "+20 Attack Speed , +25 Starting Mana On cast, gain 1 Mana Regen and 5 HP/S .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/emerald-charm.webp",
+    "sourcePath": "/items/emerald-charm/"
+  },
+  {
+    "id": 47,
+    "name": "Enlarging Vest",
+    "addressBar": "enlarging-vest",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +10 HP/s After Stall ( 20 ), gain + 20 % Max HP and grow in size.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/enlarging-vest.webp",
+    "sourcePath": "/items/enlarging-vest/"
+  },
+  {
+    "id": 48,
+    "name": "Executioner's Axe",
+    "addressBar": "executioner-s-axe",
+    "rarity": "Rare",
+    "effect": "+30 Omnivamp Gain 1 Crit per 1 % missing health on the holder's target.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/executioner-s-axe.webp",
+    "sourcePath": "/items/executioner-s-axe/"
+  },
+  {
+    "id": 49,
+    "name": "Executioner's Blade",
+    "addressBar": "executioner-s-blade",
+    "rarity": "Epic",
+    "effect": "+50 Crit Quest: Crit 25 times. Reward: damage from the holder executes enemies below 15 % Max HP .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/executioner-s-blade.webp",
+    "sourcePath": "/items/executioner-s-blade/"
+  },
+  {
+    "id": 50,
+    "name": "Eye of Haste",
+    "addressBar": "eye-of-haste",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +25 Attack The holder's Rush abilities last 3 seconds longer.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/eye-of-haste.webp",
+    "sourcePath": "/items/eye-of-haste/"
+  },
+  {
+    "id": 51,
+    "name": "Eye of Patience",
+    "addressBar": "eye-of-patience",
+    "rarity": "Rare",
+    "effect": "+30 Defense , +4 Mana Regen The holder's Stall abilities trigger 6 seconds sooner.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/eye-of-patience.webp",
+    "sourcePath": "/items/eye-of-patience/"
+  },
+  {
+    "id": 52,
+    "name": "Fang",
+    "addressBar": "fang",
+    "rarity": "Common",
+    "effect": "+7 Crit , +7 Omnivamp",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/fang.webp",
+    "sourcePath": "/items/fang/"
+  },
+  {
+    "id": 53,
+    "name": "Flaming Gauntlets",
+    "addressBar": "flaming-gauntlets",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +30 Defense , +20 Attack Speed On auto attack, inflict 4 Burn on the target. When auto attacked, inflict 4 Burn on the attacker.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/flaming-gauntlets.webp",
+    "sourcePath": "/items/flaming-gauntlets/"
+  },
+  {
+    "id": 54,
+    "name": "Flask",
+    "addressBar": "flask",
+    "rarity": "Common",
+    "effect": "+4 Mana Regen",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/flask.webp",
+    "sourcePath": "/items/flask/"
+  },
+  {
+    "id": 55,
+    "name": "Force Crystal",
+    "addressBar": "force-crystal",
+    "rarity": "Unique",
+    "effect": "At start of combat, give the holder and adjacent Heroes 100 Attack Speed and 50 Crit . At end of combat, destroy this item if it has been used 3 times.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/force-crystal.webp",
+    "sourcePath": "/items/force-crystal/"
+  },
+  {
+    "id": 56,
+    "name": "Freezing Contract",
+    "addressBar": "freezing-contract",
+    "rarity": "Rare",
+    "effect": "+25 Magic , +30 Defense Quest: Inflict 200 Frost . Reward: Whenever the holder inflicts Frost, inflict 20 % more.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/freezing-contract.webp",
+    "sourcePath": "/items/freezing-contract/"
+  },
+  {
+    "id": 57,
+    "name": "Freezing Gauntlet",
+    "addressBar": "freezing-gauntlet",
+    "rarity": "Unique",
+    "effect": "+30 Defense Every 2 times the holder is auto attacked, inflict 1 Frost on the attacker.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/freezing-gauntlet.webp",
+    "sourcePath": "/items/freezing-gauntlet/"
+  },
+  {
+    "id": 58,
+    "name": "Freezing Ring",
+    "addressBar": "freezing-ring",
+    "rarity": "Unique",
+    "effect": "+12 Magic , +15 Defense Quest: Inflict 50 Frost . Reward: Gain 10 Shards .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/freezing-ring.webp",
+    "sourcePath": "/items/freezing-ring/"
+  },
+  {
+    "id": 59,
+    "name": "Freezing Tome",
+    "addressBar": "freezing-tome",
+    "rarity": "Unique",
+    "effect": "+25 Magic On cast, inflict 10 Frost on the nearest enemy.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/freezing-tome.webp",
+    "sourcePath": "/items/freezing-tome/"
+  },
+  {
+    "id": 60,
+    "name": "Freezing Wand",
+    "addressBar": "freezing-wand",
+    "rarity": "Rare",
+    "effect": "+25 Magic , +4 Mana Regen On cast, inflict 12 Frost on the nearest enemy.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/freezing-wand.webp",
+    "sourcePath": "/items/freezing-wand/"
+  },
+  {
+    "id": 61,
+    "name": "Frosted Gauntlets",
+    "addressBar": "frosted-gauntlets",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +30 Defense , +20 Attack Speed On auto attack, inflict 2 Frost on the target. When auto attacked, inflict 2 Frost on the attacker.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/frosted-gauntlets.webp",
+    "sourcePath": "/items/frosted-gauntlets/"
+  },
+  {
+    "id": 62,
+    "name": "Gauntlet",
+    "addressBar": "gauntlet",
+    "rarity": "Common",
+    "effect": "+12 Attack , +10 Attack Speed",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/gauntlet.webp",
+    "sourcePath": "/items/gauntlet/"
+  },
+  {
+    "id": 63,
+    "name": "Gem",
+    "addressBar": "gem",
+    "rarity": "Common",
+    "effect": "+15 Crit",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/gem.webp",
+    "sourcePath": "/items/gem/"
+  },
+  {
+    "id": 64,
+    "name": "Golden Helmet",
+    "addressBar": "golden-helmet",
+    "rarity": "Rare",
+    "effect": "+100 Max HP , +45 Defense After Stall ( 30 ), gain 3 Shards .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/golden-helmet.webp",
+    "sourcePath": "/items/golden-helmet/"
+  },
+  {
+    "id": 65,
+    "name": "Greedy Gauntlet",
+    "addressBar": "greedy-gauntlet",
+    "rarity": "Unique",
+    "effect": "+200 Max HP On Shards generated, give all Heroes 1250 Shields .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/greedy-gauntlet.webp",
+    "sourcePath": "/items/greedy-gauntlet/"
+  },
+  {
+    "id": 66,
+    "name": "Greedy Ring",
+    "addressBar": "greedy-ring",
+    "rarity": "Unique",
+    "effect": "+100 Max HP , +7 Crit Quest: Generate 10 Shards from any source. Reward: At start of combat, gain 1 Shard .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/greedy-ring.webp",
+    "sourcePath": "/items/greedy-ring/"
+  },
+  {
+    "id": 67,
+    "name": "Greedy Shiv",
+    "addressBar": "greedy-shiv",
+    "rarity": "Unique",
+    "effect": "+15 Crit On Shards generated, deal 750 damage to all enemies.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/greedy-shiv.webp",
+    "sourcePath": "/items/greedy-shiv/"
+  },
+  {
+    "id": 68,
+    "name": "Guardian's Lantern",
+    "addressBar": "guardian-s-lantern",
+    "rarity": "Rare",
+    "effect": "+400 Max HP At start of combat, the holder and adjacent Heroes gain a Shield equal to 10 % of the holder's Max HP .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/guardian-s-lantern.webp",
+    "sourcePath": "/items/guardian-s-lantern/"
+  },
+  {
+    "id": 69,
+    "name": "Hammer",
+    "addressBar": "hammer",
+    "rarity": "Common",
+    "effect": "+25 Attack",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/hammer.webp",
+    "sourcePath": "/items/hammer/"
+  },
+  {
+    "id": 70,
+    "name": "Hasty Ring",
+    "addressBar": "hasty-ring",
+    "rarity": "Unique",
+    "effect": "+100 Max HP , +12 Attack Quest: Trigger Rush 3 times from any source. Reward: The holder's Rush abilities last 2 seconds longer.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/hasty-ring.webp",
+    "sourcePath": "/items/hasty-ring/"
+  },
+  {
+    "id": 71,
+    "name": "Hasty Sword",
+    "addressBar": "hasty-sword",
+    "rarity": "Unique",
+    "effect": "+25 Attack On Rush trigger, gain 15 Attack Speed and 15 Attack .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/hasty-sword.webp",
+    "sourcePath": "/items/hasty-sword/"
+  },
+  {
+    "id": 72,
+    "name": "Hasty Vest",
+    "addressBar": "hasty-vest",
+    "rarity": "Unique",
+    "effect": "+200 Max HP On Rush trigger, gain 250 Shields .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/hasty-vest.webp",
+    "sourcePath": "/items/hasty-vest/"
+  },
+  {
+    "id": 73,
+    "name": "Hourglass",
+    "addressBar": "hourglass",
+    "rarity": "Rare",
+    "effect": "+4 Mana Regen , +25 Starting Mana Quest: Trigger Stall 5 times from any source. Reward: After Stall ( 30 ), restore the holder to 100 % Max HP and give them 100 Mana .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/hourglass.webp",
+    "sourcePath": "/items/hourglass/"
+  },
+  {
+    "id": 74,
+    "name": "Infectious Bow",
+    "addressBar": "infectious-bow",
+    "rarity": "Unique",
+    "effect": "+20 Attack Speed Whenever the holder inflicts a Debuff, inflict 1 more.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/infectious-bow.webp",
+    "sourcePath": "/items/infectious-bow/"
+  },
+  {
+    "id": 75,
+    "name": "Infectious Gauntlet",
+    "addressBar": "infectious-gauntlet",
+    "rarity": "Unique",
+    "effect": "+30 Defense Whenever the holder inflicts a Debuff, inflict 1 more.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/infectious-gauntlet.webp",
+    "sourcePath": "/items/infectious-gauntlet/"
+  },
+  {
+    "id": 76,
+    "name": "Infectious Ring",
+    "addressBar": "infectious-ring",
+    "rarity": "Unique",
+    "effect": "+15 Defense , +10 Attack Speed Quest: Inflict 125 Debuffs . Reward: Gain 10 Shards .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/infectious-ring.webp",
+    "sourcePath": "/items/infectious-ring/"
+  },
+  {
+    "id": 77,
+    "name": "Large Power Crystal",
+    "addressBar": "large-power-crystal",
+    "rarity": "Unique",
+    "effect": "When this item is destroyed, permanently give the holder a very large amount of primary stats for each of their classes. When the holder survives combat, destroy this item if it has survived 2 combats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/large-power-crystal.webp",
+    "sourcePath": "/items/large-power-crystal/"
+  },
+  {
+    "id": 78,
+    "name": "Leather Vest",
+    "addressBar": "leather-vest",
+    "rarity": "Common",
+    "effect": "+100 Max HP , +5 HP/s",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/leather-vest.webp",
+    "sourcePath": "/items/leather-vest/"
+  },
+  {
+    "id": 79,
+    "name": "Lone Wolf's Bow",
+    "addressBar": "lone-wolf-s-bow",
+    "rarity": "Epic",
+    "effect": "+75 Attack At start of combat, if there are no Heroes within 2 hexes of the holder the holder's attacks hit the nearest enemy to their target for 50 % damage.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/lone-wolf-s-bow.webp",
+    "sourcePath": "/items/lone-wolf-s-bow/"
+  },
+  {
+    "id": 80,
+    "name": "Mage's Crest",
+    "addressBar": "mage-s-crest",
+    "rarity": "Unique",
+    "effect": "+50 Magic The holder counts as a Mage during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mage-s-crest.webp",
+    "sourcePath": "/items/mage-s-crest/"
+  },
+  {
+    "id": 81,
+    "name": "Mage's Glyph",
+    "addressBar": "mage-s-glyph",
+    "rarity": "Epic",
+    "effect": "+75 Magic The holder counts as a Mage during combat. If they were already a Mage , they gain + 25 % Magic .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/mage-s-glyph.webp",
+    "sourcePath": "/items/mage-s-glyph/"
+  },
+  {
+    "id": 82,
+    "name": "Mage's Staff",
+    "addressBar": "mage-s-staff",
+    "rarity": "Unique",
+    "effect": "+25 Magic , +15 Crit If this item is held by a Mage , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mage-s-staff.webp",
+    "sourcePath": "/items/mage-s-staff/"
+  },
+  {
+    "id": 83,
+    "name": "Mage's Tome",
+    "addressBar": "mage-s-tome",
+    "rarity": "Unique",
+    "effect": "+25 Magic , +4 Mana Regen If this item is held by a Mage , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mage-s-tome.webp",
+    "sourcePath": "/items/mage-s-tome/"
+  },
+  {
+    "id": 84,
+    "name": "Mage's Wand",
+    "addressBar": "mage-s-wand",
+    "rarity": "Rare",
+    "effect": "+25 Magic , +25 Starting Mana On active ability kill, if held by a Mage this item gains 6 Magic .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/mage-s-wand.webp",
+    "sourcePath": "/items/mage-s-wand/"
+  },
+  {
+    "id": 85,
+    "name": "Magician's Ledger",
+    "addressBar": "magician-s-ledger",
+    "rarity": "Rare",
+    "effect": "+15 Crit , +4 Mana Regen Gain 1 Magic per 8 Shards generated this game.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/magician-s-ledger.webp",
+    "sourcePath": "/items/magician-s-ledger/"
+  },
+  {
+    "id": 86,
+    "name": "Merchant's Scroll",
+    "addressBar": "merchant-s-scroll",
+    "rarity": "Rare",
+    "effect": "+25 Magic , +15 Crit Quest: Win a combat with 25 or more Shards or more in the bank. Reward: The holder's active abilities gain 150 Crit .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/merchant-s-scroll.webp",
+    "sourcePath": "/items/merchant-s-scroll/"
+  },
+  {
+    "id": 87,
+    "name": "Mystic's Crest",
+    "addressBar": "mystic-s-crest",
+    "rarity": "Unique",
+    "effect": "+8 Mana Regen The holder counts as a Mystic during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mystic-s-crest.webp",
+    "sourcePath": "/items/mystic-s-crest/"
+  },
+  {
+    "id": 88,
+    "name": "Mystic's Glyph",
+    "addressBar": "mystic-s-glyph",
+    "rarity": "Epic",
+    "effect": "+12 Mana Regen The holder counts as a Mystic during combat. If they were already a Mystic , they gain + 25 % Mana Regen .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/mystic-s-glyph.webp",
+    "sourcePath": "/items/mystic-s-glyph/"
+  },
+  {
+    "id": 89,
+    "name": "Mystic's Orb",
+    "addressBar": "mystic-s-orb",
+    "rarity": "Rare",
+    "effect": "+4 Mana Regen , +25 Starting Mana Every 6 casts, if held by a Mystic this item gains 1 Mana Regen .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/mystic-s-orb.webp",
+    "sourcePath": "/items/mystic-s-orb/"
+  },
+  {
+    "id": 90,
+    "name": "Mystic's Staff",
+    "addressBar": "mystic-s-staff",
+    "rarity": "Unique",
+    "effect": "+20 Attack Speed , +4 Mana Regen If this item is held by a Mystic , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mystic-s-staff.webp",
+    "sourcePath": "/items/mystic-s-staff/"
+  },
+  {
+    "id": 91,
+    "name": "Mystic's Tome",
+    "addressBar": "mystic-s-tome",
+    "rarity": "Unique",
+    "effect": "+25 Magic , +4 Mana Regen If this item is held by a Mystic , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/mystic-s-tome.webp",
+    "sourcePath": "/items/mystic-s-tome/"
+  },
+  {
+    "id": 92,
+    "name": "Nimble Boots",
+    "addressBar": "nimble-boots",
+    "rarity": "Rare",
+    "effect": "+40 Attack Speed For Rush ( 8 ), gain 25 Attack Speed . Double the holder's move speed .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/nimble-boots.webp",
+    "sourcePath": "/items/nimble-boots/"
+  },
+  {
+    "id": 93,
+    "name": "Onyx Gem",
+    "addressBar": "onyx-gem",
+    "rarity": "Rare",
+    "effect": "+30 Crit After Stall ( 20 ), gain Stealth for 4 seconds.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/onyx-gem.webp",
+    "sourcePath": "/items/onyx-gem/"
+  },
+  {
+    "id": 94,
+    "name": "Orb",
+    "addressBar": "orb",
+    "rarity": "Common",
+    "effect": "+2 Mana Regen , +12 Starting Mana",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/orb.webp",
+    "sourcePath": "/items/orb/"
+  },
+  {
+    "id": 95,
+    "name": "Patient Flask",
+    "addressBar": "patient-flask",
+    "rarity": "Unique",
+    "effect": "+4 Mana Regen On Stall trigger, gain 15 Attack Speed and 15 Magic .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/patient-flask.webp",
+    "sourcePath": "/items/patient-flask/"
+  },
+  {
+    "id": 96,
+    "name": "Patient Gauntlet",
+    "addressBar": "patient-gauntlet",
+    "rarity": "Unique",
+    "effect": "+30 Defense On Stall trigger, heal 500 .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/patient-gauntlet.webp",
+    "sourcePath": "/items/patient-gauntlet/"
+  },
+  {
+    "id": 97,
+    "name": "Patient Ring",
+    "addressBar": "patient-ring",
+    "rarity": "Unique",
+    "effect": "+15 Defense , +2 Mana Regen Quest: Trigger Stall 3 times from any source. Reward: The holder's Stall abilities trigger 4 seconds faster.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/patient-ring.webp",
+    "sourcePath": "/items/patient-ring/"
+  },
+  {
+    "id": 98,
+    "name": "Plague Amulet",
+    "addressBar": "plague-amulet",
+    "rarity": "Rare",
+    "effect": "+4 Mana Regen , +10 HP/s On cast, gain 4 Magic per type of Debuff on all enemies.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/plague-amulet.webp",
+    "sourcePath": "/items/plague-amulet/"
+  },
+  {
+    "id": 99,
+    "name": "Polymath's Prism",
+    "addressBar": "polymath-s-prism",
+    "rarity": "Epic",
+    "effect": "+10 HP/s , +25 Starting Mana Gain + 20 % to the primary stats of each of the holder's classes .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/polymath-s-prism.webp",
+    "sourcePath": "/items/polymath-s-prism/"
+  },
+  {
+    "id": 100,
+    "name": "Power Crystal",
+    "addressBar": "power-crystal",
+    "rarity": "Unique",
+    "effect": "When this item is destroyed, permanently give the holder a large amount of primary stats for each of their classes. When the holder survives combat, destroy this item.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/power-crystal.webp",
+    "sourcePath": "/items/power-crystal/"
+  },
+  {
+    "id": 101,
+    "name": "Protection Crystal",
+    "addressBar": "protection-crystal",
+    "rarity": "Unique",
+    "effect": "At start of combat, give the holder and adjacent Heroes 100 Defense and 1000 Max HP . At end of combat, destroy this item if it has been used 3 times.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/protection-crystal.webp",
+    "sourcePath": "/items/protection-crystal/"
+  },
+  {
+    "id": 102,
+    "name": "Quiver",
+    "addressBar": "quiver",
+    "rarity": "Common",
+    "effect": "+7 Crit , +10 Attack Speed",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/quiver.webp",
+    "sourcePath": "/items/quiver/"
+  },
+  {
+    "id": 103,
+    "name": "Ring of the Leech",
+    "addressBar": "ring-of-the-leech",
+    "rarity": "Epic",
+    "effect": "+22 Crit , +10 HP/s Whenever an enemy takes Poison damage, gain 1 Crit and 1 HP/S .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/ring-of-the-leech.webp",
+    "sourcePath": "/items/ring-of-the-leech/"
+  },
+  {
+    "id": 104,
+    "name": "Ring of Virality",
+    "addressBar": "ring-of-virality",
+    "rarity": "Epic",
+    "effect": "+300 Max HP , +6 Mana Regen Quest: Inflict 175 Poison Reward: Whenever the holder inflicts Poison, inflict 50 % more.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/ring-of-virality.webp",
+    "sourcePath": "/items/ring-of-virality/"
+  },
+  {
+    "id": 105,
+    "name": "Robes",
+    "addressBar": "robes",
+    "rarity": "Common",
+    "effect": "+100 Max HP , +12 Magic",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/robes.webp",
+    "sourcePath": "/items/robes/"
+  },
+  {
+    "id": 106,
+    "name": "Rogue's Cowl",
+    "addressBar": "rogue-s-cowl",
+    "rarity": "Epic",
+    "effect": "+25 Attack , +25 Magic , +25 Crit For Rush ( 6 ), gain Stealth .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/rogue-s-cowl.webp",
+    "sourcePath": "/items/rogue-s-cowl/"
+  },
+  {
+    "id": 107,
+    "name": "Runestone",
+    "addressBar": "runestone",
+    "rarity": "Common",
+    "effect": "+12 Magic , +12 Starting Mana",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/runestone.webp",
+    "sourcePath": "/items/runestone/"
+  },
+  {
+    "id": 108,
+    "name": "Runic Buckler",
+    "addressBar": "runic-buckler",
+    "rarity": "Rare",
+    "effect": "+60 Defense At start of combat, the holder gains a Shield equal to 400 % of their Defense .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/runic-buckler.webp",
+    "sourcePath": "/items/runic-buckler/"
+  },
+  {
+    "id": 109,
+    "name": "Sacrificial Scythe",
+    "addressBar": "sacrificial-scythe",
+    "rarity": "Epic",
+    "effect": "+15 Crit , +30 Omnivamp At start of combat, lose 25 % Max HP . The first time each combat the holder reaches 100 % Max HP , gain 5 Shards .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/sacrificial-scythe.webp",
+    "sourcePath": "/items/sacrificial-scythe/"
+  },
+  {
+    "id": 110,
+    "name": "Salve",
+    "addressBar": "salve",
+    "rarity": "Common",
+    "effect": "+10 HP/s",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/salve.webp",
+    "sourcePath": "/items/salve/"
+  },
+  {
+    "id": 111,
+    "name": "Scroll of Enlightenment",
+    "addressBar": "scroll-of-enlightenment",
+    "rarity": "Epic",
+    "effect": "+25 Magic , +4 Mana Regen , +25 Starting Mana Quest: Cast 15 times. Reward: Gain + 25 % Magic and + 25 % Mana Regen .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/scroll-of-enlightenment.webp",
+    "sourcePath": "/items/scroll-of-enlightenment/"
+  },
+  {
+    "id": 112,
+    "name": "Scroll of Perseverance",
+    "addressBar": "scroll-of-perseverance",
+    "rarity": "Epic",
+    "effect": "+300 Max HP , +45 Defense Quest: Take 7500 Damage. Reward: Gain + 25 % Max HP and + 25 % Defense .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/scroll-of-perseverance.webp",
+    "sourcePath": "/items/scroll-of-perseverance/"
+  },
+  {
+    "id": 113,
+    "name": "Scroll of Violence",
+    "addressBar": "scroll-of-violence",
+    "rarity": "Epic",
+    "effect": "+40 Attack , +30 Attack Speed Quest: Auto attack 100 times. Reward: Gain + 25 % Attack and + 25 % Attack Speed .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/scroll-of-violence.webp",
+    "sourcePath": "/items/scroll-of-violence/"
+  },
+  {
+    "id": 114,
+    "name": "Searing Contract",
+    "addressBar": "searing-contract",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +25 Magic Quest: Inflict 300 Burn . Reward: Whenever the holder inflicts Burn, inflict 33 % more.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/searing-contract.webp",
+    "sourcePath": "/items/searing-contract/"
+  },
+  {
+    "id": 115,
+    "name": "Searing Lance",
+    "addressBar": "searing-lance",
+    "rarity": "Rare",
+    "effect": "+25 Attack , +20 Attack Speed On auto attack, inflict 1 Burn .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/searing-lance.webp",
+    "sourcePath": "/items/searing-lance/"
+  },
+  {
+    "id": 116,
+    "name": "Searing Ring",
+    "addressBar": "searing-ring",
+    "rarity": "Unique",
+    "effect": "+100 Max HP , +12 Magic Quest: Inflict 75 Burn . Reward: Gain 10 Shards .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/searing-ring.webp",
+    "sourcePath": "/items/searing-ring/"
+  },
+  {
+    "id": 117,
+    "name": "Searing Tome",
+    "addressBar": "searing-tome",
+    "rarity": "Unique",
+    "effect": "+25 Magic On cast, inflict 15 Burn on the nearest enemy.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/searing-tome.webp",
+    "sourcePath": "/items/searing-tome/"
+  },
+  {
+    "id": 118,
+    "name": "Searing Vest",
+    "addressBar": "searing-vest",
+    "rarity": "Unique",
+    "effect": "+200 Max HP Whenever the holder is auto attacked, inflict 1 Burn on the attacker.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/searing-vest.webp",
+    "sourcePath": "/items/searing-vest/"
+  },
+  {
+    "id": 119,
+    "name": "Sentinel's Plate",
+    "addressBar": "sentinel-s-plate",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +30 Defense At start of combat, if the holder is alone in the front row triple this item's stats.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/sentinel-s-plate.webp",
+    "sourcePath": "/items/sentinel-s-plate/"
+  },
+  {
+    "id": 120,
+    "name": "Serrated Dagger",
+    "addressBar": "serrated-dagger",
+    "rarity": "Epic",
+    "effect": "+30 Crit , +20 Attack Speed On Crit, reduce the target's Defense by 3 .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/serrated-dagger.webp",
+    "sourcePath": "/items/serrated-dagger/"
+  },
+  {
+    "id": 121,
+    "name": "Shattering Charm",
+    "addressBar": "shattering-charm",
+    "rarity": "Epic",
+    "effect": "+25 Magic , +4 Mana Regen , +25 Starting Mana Whenever the holder Shields another Hero, damage all enemies equal to 33 % of the Shield applied.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/shattering-charm.webp",
+    "sourcePath": "/items/shattering-charm/"
+  },
+  {
+    "id": 122,
+    "name": "Shielding Flask",
+    "addressBar": "shielding-flask",
+    "rarity": "Unique",
+    "effect": "+4 Mana Regen Gain 30 Crit and 4 Mana Regen while Shielded .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/shielding-flask.webp",
+    "sourcePath": "/items/shielding-flask/"
+  },
+  {
+    "id": 123,
+    "name": "Shielding Ring",
+    "addressBar": "shielding-ring",
+    "rarity": "Unique",
+    "effect": "+100 Max HP , +2 Mana Regen Quest: Apply 750 Shields . Reward: Gain 10 Shards .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/shielding-ring.webp",
+    "sourcePath": "/items/shielding-ring/"
+  },
+  {
+    "id": 124,
+    "name": "Shielding Vest",
+    "addressBar": "shielding-vest",
+    "rarity": "Unique",
+    "effect": "+200 Max HP At start of combat, gain 500 Shields .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/shielding-vest.webp",
+    "sourcePath": "/items/shielding-vest/"
+  },
+  {
+    "id": 125,
+    "name": "Sigil",
+    "addressBar": "sigil",
+    "rarity": "Common",
+    "effect": "+10 Attack Speed , +7 Omnivamp",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/sigil.webp",
+    "sourcePath": "/items/sigil/"
+  },
+  {
+    "id": 126,
+    "name": "Siphoning Dagger",
+    "addressBar": "siphoning-dagger",
+    "rarity": "Epic",
+    "effect": "+25 Attack , +15 Crit , +20 Attack Speed On auto attack, steal 1 Mana from the target.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/siphoning-dagger.webp",
+    "sourcePath": "/items/siphoning-dagger/"
+  },
+  {
+    "id": 127,
+    "name": "Sniper's Jewel",
+    "addressBar": "sniper-s-jewel",
+    "rarity": "Epic",
+    "effect": "+22 Crit , +1 Attack Range , +22 Omnivamp +1 Attack Range , +22 Crit , +22 Omnivamp",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/sniper-s-jewel.webp",
+    "sourcePath": "/items/sniper-s-jewel/"
+  },
+  {
+    "id": 128,
+    "name": "Spellblade",
+    "addressBar": "spellblade",
+    "rarity": "Rare",
+    "effect": "+12 Attack , +12 Magic , +15 Crit On cast, gain 25 Attack . On auto attack, gain 1 Magic .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/spellblade.webp",
+    "sourcePath": "/items/spellblade/"
+  },
+  {
+    "id": 129,
+    "name": "Spiked Plate",
+    "addressBar": "spiked-plate",
+    "rarity": "Rare",
+    "effect": "+400 Max HP Quest: Take 2500 Shield damage. Reward: Reflect 33 % of Shield damage taken back to the source.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/spiked-plate.webp",
+    "sourcePath": "/items/spiked-plate/"
+  },
+  {
+    "id": 130,
+    "name": "Squire's Helm",
+    "addressBar": "squire-s-helm",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +30 Defense At start of combat, if there is exactly one Hero in front of the holder they both permanently gain 40 Max HP .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/squire-s-helm.webp",
+    "sourcePath": "/items/squire-s-helm/"
+  },
+  {
+    "id": 131,
+    "name": "Squire's Sword",
+    "addressBar": "squire-s-sword",
+    "rarity": "Rare",
+    "effect": "+25 Attack , +20 Attack Speed At start of combat, if there is exactly one Hero in front of the holder they both permanently gain 6 Attack .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/squire-s-sword.webp",
+    "sourcePath": "/items/squire-s-sword/"
+  },
+  {
+    "id": 132,
+    "name": "Sword of Combustion",
+    "addressBar": "sword-of-combustion",
+    "rarity": "Epic",
+    "effect": "+40 Attack , +30 Attack Speed On auto attack, deal bonus damage equal to the Burn on the target.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/sword-of-combustion.webp",
+    "sourcePath": "/items/sword-of-combustion/"
+  },
+  {
+    "id": 133,
+    "name": "Sword of the Spark",
+    "addressBar": "sword-of-the-spark",
+    "rarity": "Epic",
+    "effect": "+300 Max HP , +30 Attack Speed Quest: Inflict 600 Burn . Reward: Whenever the holder inflicts Burn, inflict 66 % more.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/sword-of-the-spark.webp",
+    "sourcePath": "/items/sword-of-the-spark/"
+  },
+  {
+    "id": 134,
+    "name": "Tank's Buckler",
+    "addressBar": "tank-s-buckler",
+    "rarity": "Unique",
+    "effect": "+200 Max HP , +30 Defense If this item is held by a Tank , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/tank-s-buckler.webp",
+    "sourcePath": "/items/tank-s-buckler/"
+  },
+  {
+    "id": 135,
+    "name": "Tank's Cape",
+    "addressBar": "tank-s-cape",
+    "rarity": "Unique",
+    "effect": "+30 Defense , +4 Mana Regen If this item is held by a Tank , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/tank-s-cape.webp",
+    "sourcePath": "/items/tank-s-cape/"
+  },
+  {
+    "id": 136,
+    "name": "Tank's Crest",
+    "addressBar": "tank-s-crest",
+    "rarity": "Unique",
+    "effect": "+60 Defense The holder counts as a Tank during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/tank-s-crest.webp",
+    "sourcePath": "/items/tank-s-crest/"
+  },
+  {
+    "id": 137,
+    "name": "Tank's Glyph",
+    "addressBar": "tank-s-glyph",
+    "rarity": "Epic",
+    "effect": "+90 Defense The holder counts as a Tank during combat. If they were already a Tank , they gain + 15 % Defense .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/tank-s-glyph.webp",
+    "sourcePath": "/items/tank-s-glyph/"
+  },
+  {
+    "id": 138,
+    "name": "Tank's Tower Shield",
+    "addressBar": "tank-s-tower-shield",
+    "rarity": "Rare",
+    "effect": "+30 Defense , +10 HP/s On Stall trigger, if held by a Tank this item gains 2 Defense .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/tank-s-tower-shield.webp",
+    "sourcePath": "/items/tank-s-tower-shield/"
+  },
+  {
+    "id": 139,
+    "name": "Temporal Accelerator",
+    "addressBar": "temporal-accelerator",
+    "rarity": "Epic",
+    "effect": "+300 Max HP , +40 Attack The holder's Rush abilities last 5 seconds longer.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/temporal-accelerator.webp",
+    "sourcePath": "/items/temporal-accelerator/"
+  },
+  {
+    "id": 140,
+    "name": "The Golden Standard",
+    "addressBar": "the-golden-standard",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +4 Mana Regen Gain 1 Attack , 1 Magic , 1 Attack Speed , and 1 Defense per 12 Shards generated this game.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/the-golden-standard.webp",
+    "sourcePath": "/items/the-golden-standard/"
+  },
+  {
+    "id": 141,
+    "name": "Thief's Dagger",
+    "addressBar": "thief-s-dagger",
+    "rarity": "Rare",
+    "effect": "+22 Crit , +10 Attack Speed On kill, gain 3 Shards .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/thief-s-dagger.webp",
+    "sourcePath": "/items/thief-s-dagger/"
+  },
+  {
+    "id": 142,
+    "name": "Tome",
+    "addressBar": "tome",
+    "rarity": "Common",
+    "effect": "+25 Magic",
+    "price": "5",
+    "imageUrl": "/images/wiki/items/tome.webp",
+    "sourcePath": "/items/tome/"
+  },
+  {
+    "id": 143,
+    "name": "Toxic Contract",
+    "addressBar": "toxic-contract",
+    "rarity": "Rare",
+    "effect": "+15 Crit , +4 Mana Regen Quest: Inflict 100 Poison . Reward: Whenever the holder inflicts Poison, inflict 33 % more.",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/toxic-contract.webp",
+    "sourcePath": "/items/toxic-contract/"
+  },
+  {
+    "id": 144,
+    "name": "Toxic Dart",
+    "addressBar": "toxic-dart",
+    "rarity": "Rare",
+    "effect": "+15 Crit , +20 Attack Speed On Crit, inflict 3 Poison .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/toxic-dart.webp",
+    "sourcePath": "/items/toxic-dart/"
+  },
+  {
+    "id": 145,
+    "name": "Toxic Gauntlet",
+    "addressBar": "toxic-gauntlet",
+    "rarity": "Unique",
+    "effect": "+30 Defense Every 3 times the holder is auto attacked, inflict 1 Poison on the attacker.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/toxic-gauntlet.webp",
+    "sourcePath": "/items/toxic-gauntlet/"
+  },
+  {
+    "id": 146,
+    "name": "Toxic Ring",
+    "addressBar": "toxic-ring",
+    "rarity": "Unique",
+    "effect": "+15 Defense , +7 Crit Quest: Inflict 25 Poison . Reward: Gain 10 Shards .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/toxic-ring.webp",
+    "sourcePath": "/items/toxic-ring/"
+  },
+  {
+    "id": 147,
+    "name": "Toxic Shiv",
+    "addressBar": "toxic-shiv",
+    "rarity": "Unique",
+    "effect": "+15 Crit On Crit, inflict 1 Poison .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/toxic-shiv.webp",
+    "sourcePath": "/items/toxic-shiv/"
+  },
+  {
+    "id": 148,
+    "name": "Tranquil Eye",
+    "addressBar": "tranquil-eye",
+    "rarity": "Epic",
+    "effect": "+25 Magic , +30 Defense After Stall ( 40 ), gain + 33 % basic stats .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/tranquil-eye.webp",
+    "sourcePath": "/items/tranquil-eye/"
+  },
+  {
+    "id": 149,
+    "name": "Vanguard's Bracelet",
+    "addressBar": "vanguard-s-bracelet",
+    "rarity": "Rare",
+    "effect": "+200 Max HP , +10 HP/s On Rush trigger, if held by a Vanguard this item gains 20 Max HP .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/vanguard-s-bracelet.webp",
+    "sourcePath": "/items/vanguard-s-bracelet/"
+  },
+  {
+    "id": 150,
+    "name": "Vanguard's Buckler",
+    "addressBar": "vanguard-s-buckler",
+    "rarity": "Unique",
+    "effect": "+200 Max HP , +30 Defense If this item is held by a Vanguard , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/vanguard-s-buckler.webp",
+    "sourcePath": "/items/vanguard-s-buckler/"
+  },
+  {
+    "id": 151,
+    "name": "Vanguard's Crest",
+    "addressBar": "vanguard-s-crest",
+    "rarity": "Unique",
+    "effect": "+400 Max HP The holder counts as a Vanguard during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/vanguard-s-crest.webp",
+    "sourcePath": "/items/vanguard-s-crest/"
+  },
+  {
+    "id": 152,
+    "name": "Vanguard's Glyph",
+    "addressBar": "vanguard-s-glyph",
+    "rarity": "Epic",
+    "effect": "+600 Max HP The holder counts as a Vanguard during combat. If they were already a Vanguard , they gain + 25 % Max HP .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/vanguard-s-glyph.webp",
+    "sourcePath": "/items/vanguard-s-glyph/"
+  },
+  {
+    "id": 153,
+    "name": "Vanguard's Sword",
+    "addressBar": "vanguard-s-sword",
+    "rarity": "Unique",
+    "effect": "+200 Max HP , +25 Attack If this item is held by a Vanguard , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/vanguard-s-sword.webp",
+    "sourcePath": "/items/vanguard-s-sword/"
+  },
+  {
+    "id": 154,
+    "name": "Venomous Gauntlets",
+    "addressBar": "venomous-gauntlets",
+    "rarity": "Epic",
+    "effect": "+200 Max HP , +30 Defense , +20 Attack Speed On auto attack, inflict 1 Poison on the target. When auto attacked, inflict 1 Poison on the attacker.",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/venomous-gauntlets.webp",
+    "sourcePath": "/items/venomous-gauntlets/"
+  },
+  {
+    "id": 155,
+    "name": "Viscera Collector",
+    "addressBar": "viscera-collector",
+    "rarity": "Rare",
+    "effect": "+25 Attack , +15 Omnivamp Quest: Trigger Rush 5 times from any source. Reward: For Rush ( 7 ), the holder's auto attacks gain 150 Crit .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/viscera-collector.webp",
+    "sourcePath": "/items/viscera-collector/"
+  },
+  {
+    "id": 156,
+    "name": "Warrior's Bow",
+    "addressBar": "warrior-s-bow",
+    "rarity": "Unique",
+    "effect": "+25 Attack , +20 Attack Speed If this item is held by a Warrior , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/warrior-s-bow.webp",
+    "sourcePath": "/items/warrior-s-bow/"
+  },
+  {
+    "id": 157,
+    "name": "Warrior's Crest",
+    "addressBar": "warrior-s-crest",
+    "rarity": "Unique",
+    "effect": "+50 Attack The holder counts as a Warrior during combat.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/warrior-s-crest.webp",
+    "sourcePath": "/items/warrior-s-crest/"
+  },
+  {
+    "id": 158,
+    "name": "Warrior's Glyph",
+    "addressBar": "warrior-s-glyph",
+    "rarity": "Epic",
+    "effect": "+75 Attack The holder counts as a Warrior during combat. If they were already a Warrior , they gain + 25 % Attack .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/warrior-s-glyph.webp",
+    "sourcePath": "/items/warrior-s-glyph/"
+  },
+  {
+    "id": 159,
+    "name": "Warrior's Greataxe",
+    "addressBar": "warrior-s-greataxe",
+    "rarity": "Rare",
+    "effect": "+25 Attack , +15 Crit On combat survival, if held by a Warrior this item gains 10 Attack .",
+    "price": "15",
+    "imageUrl": "/images/wiki/items/warrior-s-greataxe.webp",
+    "sourcePath": "/items/warrior-s-greataxe/"
+  },
+  {
+    "id": 160,
+    "name": "Warrior's Sword",
+    "addressBar": "warrior-s-sword",
+    "rarity": "Unique",
+    "effect": "+25 Attack , +15 Crit If this item is held by a Warrior , double its stats.",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/warrior-s-sword.webp",
+    "sourcePath": "/items/warrior-s-sword/"
+  },
+  {
+    "id": 161,
+    "name": "Wizard's Focus",
+    "addressBar": "wizard-s-focus",
+    "rarity": "Epic",
+    "effect": "+75 Magic At start of combat, if the holder is the only Hero in the back 2 rows they gain 50 Starting Mana and 50 Crit .",
+    "price": "25",
+    "imageUrl": "/images/wiki/items/wizard-s-focus.webp",
+    "sourcePath": "/items/wizard-s-focus/"
+  },
+  {
+    "id": 162,
+    "name": "Zeus's Thunder",
+    "addressBar": "zeus-s-thunder",
+    "rarity": "Unique",
+    "effect": "+22 Crit , +30 Attack Speed Quest: Attack 250 times. The holder must be Irini. Reward: On auto attack, deal bonus damage to all enemies equal to 66 % of the holder's Attack Speed .",
+    "price": "Not sold",
+    "imageUrl": "/images/wiki/items/zeus-s-thunder.webp",
+    "sourcePath": "/items/zeus-s-thunder/"
+  }
+]

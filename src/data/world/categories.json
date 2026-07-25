@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Stages",
+    "href": "/world/stages/",
+    "countKey": "stages",
+    "label": "Encounter formations",
+    "description": "Campaign, boss, event-fight, and Endless records with exact enemy lineups, stats, rewards, and scene data.",
+    "imageUrl": "/images/gameplay/formation-battle.webp"
+  },
+  {
+    "name": "Events",
+    "href": "/world/events/",
+    "countKey": "events",
+    "label": "Choices and outcomes",
+    "description": "Decision and fight events with prompts, outcomes, rewards, and the crossroads that reach them.",
+    "imageUrl": "/images/world/challenge-event.webp"
+  },
+  {
+    "name": "Crossroads",
+    "href": "/world/crossroads/",
+    "countKey": "crossroads",
+    "label": "Route structure",
+    "description": "Fixed and random path selectors showing every current destination and encounter type.",
+    "imageUrl": "/images/home/official-rift-backdrop.webp"
+  },
+  {
+    "name": "Fight Modes",
+    "href": "/world/fight-modes/",
+    "countKey": "fightModes",
+    "label": "Challenges and Endless",
+    "description": "Damage, survival, duel, campaign difficulty, and Endless rules with thresholds and rewards.",
+    "imageUrl": "/images/world/dragon-encounter.webp"
+  },
+  {
+    "name": "Stat Mods",
+    "href": "/world/stat-mods/",
+    "countKey": "statMods",
+    "label": "Event-driven growth",
+    "description": "Positive and negative stat changes grouped by attribute and linked to the events that grant them.",
+    "imageUrl": "/images/progression/specialization-choice.webp"
+  }
+]

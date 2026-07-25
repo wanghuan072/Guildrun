@@ -1,0 +1,252 @@
+/* Fight modes — banded ledger cards (not gold-triangle challenge tiles) */
+
+.fight-campaign-rail {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin: 20px 0;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.fight-campaign-rail > article {
+  display: grid;
+  gap: 8px;
+  min-height: 140px;
+  padding: 16px;
+  border-right: 1px solid var(--color-border);
+  background:
+    linear-gradient(160deg, oklch(16% 0.03 235 / 0.7), oklch(9% 0.02 235));
+}
+
+.fight-campaign-rail > article:last-child {
+  border-right: 0;
+}
+
+.fight-campaign-rail strong {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.fight-campaign-rail span {
+  color: var(--color-muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.fight-campaign-rail small {
+  color: var(--color-secondary);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+}
+
+.fight-set-stack {
+  display: grid;
+  gap: 28px;
+  margin-top: 22px;
+}
+
+.fight-set-band {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  background:
+    linear-gradient(90deg, oklch(18% 0.04 78 / 0.18), transparent 42%),
+    oklch(8% 0.02 235);
+}
+
+.fight-set-band__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.9fr);
+  gap: 18px;
+  align-items: end;
+  padding-bottom: 12px;
+  border-bottom: 1px solid color-mix(in oklch, var(--color-primary) 28%, var(--color-border));
+}
+
+.fight-set-band__head span {
+  color: var(--color-primary);
+  font-size: 0.62rem;
+  font-weight: 760;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.fight-set-band__head h3 {
+  margin-top: 4px;
+  font-size: 1.25rem;
+}
+
+.fight-set-band__head p {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.fight-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.fight-mode-card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 12px;
+  min-height: 250px;
+  padding: 14px 14px 12px 18px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background:
+    linear-gradient(165deg, oklch(14% 0.03 235 / 0.85), oklch(8% 0.02 235));
+}
+
+.fight-mode-card__stripe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  background: var(--color-primary);
+}
+
+.fight-mode-card--damage .fight-mode-card__stripe {
+  background: linear-gradient(180deg, oklch(68% 0.14 40), oklch(52% 0.12 30));
+}
+
+.fight-mode-card--survival .fight-mode-card__stripe {
+  background: linear-gradient(180deg, oklch(72% 0.09 195), oklch(50% 0.08 220));
+}
+
+.fight-mode-card--duel .fight-mode-card__stripe {
+  background: linear-gradient(180deg, oklch(78% 0.12 85), oklch(58% 0.1 70));
+}
+
+.fight-mode-card__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+}
+
+.fight-mode-card__head h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.fight-mode-card__head small {
+  display: block;
+  margin-top: 4px;
+  color: var(--color-muted);
+  font-size: 0.72rem;
+}
+
+.fight-mode-card__badge {
+  flex: none;
+  padding: 4px 8px;
+  border: 1px solid currentColor;
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+  font-size: 0.58rem;
+  font-weight: 760;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fight-mode-card--damage .fight-mode-card__badge {
+  color: oklch(78% 0.12 45);
+}
+
+.fight-mode-card--survival .fight-mode-card__badge {
+  color: oklch(78% 0.08 195);
+}
+
+.fight-mode-card--duel .fight-mode-card__badge {
+  color: oklch(82% 0.1 85);
+}
+
+.fight-mode-card__table {
+  display: grid;
+  border-top: 1px solid var(--color-border);
+}
+
+.fight-mode-card__cols,
+.fight-mode-card__row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid color-mix(in oklch, var(--color-border) 70%, transparent);
+  font-size: 0.72rem;
+}
+
+.fight-mode-card__cols {
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fight-mode-card__row {
+  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.fight-mode-card__row span:first-child {
+  color: var(--color-text);
+}
+
+.fight-mode-card--duel .fight-mode-card__cols,
+.fight-mode-card--duel .fight-mode-card__row {
+  grid-template-columns: 1.4fr 0.6fr;
+}
+
+.fight-mode-card__foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+  color: var(--color-muted);
+  font-size: 0.66rem;
+}
+
+.fight-mode-card__foot a {
+  color: var(--color-primary-bright);
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .fight-mode-grid,
+  .fight-campaign-rail {
+    grid-template-columns: 1fr;
+  }
+
+  .fight-campaign-rail > article {
+    border-right: 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .fight-campaign-rail > article:last-child {
+    border-bottom: 0;
+  }
+
+  .fight-set-band__head {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .fight-set-band {
+    padding: 12px;
+  }
+
+  .fight-mode-card {
+    min-height: 0;
+  }
+}

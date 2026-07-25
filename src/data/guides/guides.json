@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Guildrun Beginner Guide: First Run, Shop, and Positioning",
+    "shortTitle": "Beginner Guide",
+    "addressBar": "guildrun-beginner-guide",
+    "publishDate": "2026-07-24",
+    "updatedDate": "2026-07-25",
+    "imageUrl": "/images/progression/choose-hero.webp",
+    "imageAlt": "Guildrun beginner guide showing the opening hero selection",
+    "excerpt": "A complete first-run handbook for the Demo: run loop, role coverage, positioning, Shard spending, and how to learn from every loss.",
+    "category": "Core Guides",
+    "tags": [
+      "Beginner",
+      "Gameplay",
+      "Shop",
+      "Positioning"
+    ],
+    "isFeatured": true,
+    "gameVersion": "Demo 0.5.1",
+    "author": "Guildrun Guide Team",
+    "reviewedBy": "Gameplay Editor",
+    "quickSummary": [
+      "Stabilize a three-hero board before chasing synergy.",
+      "Spend Shards only on a named next-fight problem.",
+      "Use positioning and Rewind as learning tools, not restart buttons."
+    ],
+    "commonMistakes": [
+      "Forcing one class before the shop supports it",
+      "Rerolling without naming an acceptable outcome",
+      "Copying one formation into every fight",
+      "Buying Team Size before the fourth hero has a job",
+      "Treating every loss as a damage problem"
+    ],
+    "relatedHeroes": [
+      "Pimenta",
+      "Kai",
+      "Gustav",
+      "Aria"
+    ],
+    "relatedItems": [
+      "Aegis",
+      "Adaptive Sword",
+      "Bulwark"
+    ],
+    "relatedRelics": [
+      "Bossy Starting",
+      "Precision Nexus"
+    ],
+    "detailsHtml": "\n      <h2>What Guildrun is asking you to do</h2>\n      <p>Guildrun is a single-player PvE roguelike autobattler. You recruit heroes, choose items and relics, set formation and specializations, then let combat resolve automatically. The important skill is not clicking during the fight. It is reading what happened and spending the next reward on one specific weakness.</p>\n      <p>This guide is written for Demo <strong>0.5.1</strong>. Use it once in order, then return to the section that matches the problem that ended your last run.</p>\n\n      <h2>Your first complete run loop</h2>\n      <p>A run begins with one of three hero-and-relic bundles and 15 spendable Shards. The opening only needs to survive the first fights; it does not have to lock the final build.</p>\n      <ol>\n        <li><strong>Inspect the encounter.</strong> Check enemy range, abilities, formation, and any fight modifier before moving a hero.</li>\n        <li><strong>Choose the active board.</strong> Field three heroes at first, then expand toward five only when the new slot has a clear job.</li>\n        <li><strong>Predict first contact.</strong> Name the hero who should take the first attacks and the enemy your main damage dealer should reach.</li>\n        <li><strong>Watch the first failure.</strong> Record the first important death, interrupted cast, wasted walk, or target that survived too long.</li>\n        <li><strong>Spend for that failure.</strong> Buy durability, damage, mana, range, a duplicate, or a new role only when it changes the next fight.</li>\n      </ol>\n      <p>Before leaving a shop, you should be able to explain what the purchase fixes. “More power” is not enough. “Fiona now casts before Pimenta drops below half health” is a useful answer.</p>\n\n      <h2>Build a job-complete team first</h2>\n      <p>A useful first-run framework is one hero that absorbs opening pressure, one reliable damage dealer, and a third piece that supports or scales those two. Specializations can move heroes beyond their starting roles, so treat classes as starting points rather than permanent identities.</p>\n      <table>\n        <thead><tr><th>Job</th><th>What success looks like</th><th>Failure to watch</th></tr></thead>\n        <tbody>\n          <tr><td>Anchor</td><td>Lives until allied abilities begin resolving</td><td>The support or carry is targeted first</td></tr>\n          <tr><td>Damage</td><td>Reaches and finishes the priority target</td><td>Walks too long or attacks an irrelevant body</td></tr>\n          <tr><td>Support or control</td><td>Creates time before the formation collapses</td><td>Casts after the important death</td></tr>\n        </tbody>\n      </table>\n      <h3>Three early frameworks that stay readable</h3>\n      <ul>\n        <li><strong>Shield and Stall.</strong> A durable front line buys time for delayed payoffs.</li>\n        <li><strong>Direct damage.</strong> One carry with clean target access and enough protection to act twice.</li>\n        <li><strong>Status control.</strong> Poison, Frost, or Burn when several pieces reward the same trigger.</li>\n      </ul>\n      <p>Keep the fourth slot flexible until the engine is proven. The fifth slot should answer a matchup or multiply a trigger you already own.</p>\n\n      <h2>Positioning before combat</h2>\n      <p>Because combat resolves automatically, formation is how you influence the opening exchange. Positioning decides who receives pressure, which abilities reach their targets, and how long a carry has to scale.</p>\n      <h3>Predict the normal target order</h3>\n      <ol>\n        <li>Find the closest valid hero.</li>\n        <li>If distance ties, use class priority: Tank, Vanguard, Warrior, Duelist, Assassin, Mage, then Mystic.</li>\n        <li>If class also ties, compare targeting health: the lower value of log2(current HP) + Defense / 100 is preferred.</li>\n        <li>A hidden identity resolves a remaining exact tie, so avoid perfect ties when first contact matters.</li>\n      </ol>\n      <h3>Place heroes in job order</h3>\n      <table>\n        <thead><tr><th>Placement</th><th>Check</th><th>Common correction</th></tr></thead>\n        <tbody>\n          <tr><td>Anchor</td><td>Is it strictly closer to the opening threat?</td><td>Move one hex forward or into the threatened lane</td></tr>\n          <tr><td>Carry</td><td>Can it attack without wasting the opening?</td><td>Clear its route or use the correct row</td></tr>\n          <tr><td>Support</td><td>Does its range cover the intended allies?</td><td>Move closer without becoming second contact</td></tr>\n          <tr><td>Flex hero</td><td>Does it answer this exact formation?</td><td>Swap with reserve instead of rebuilding the core</td></tr>\n        </tbody>\n      </table>\n      <p>The front row is y=3 and the back row is y=0. Adjacent means a hex distance of 1. When a modifier depends on a row or nearby ally, confirm the board coordinate rather than how close the characters look. Pathing and attack locks are separate: a unit can prefer one target, fall back when blocked, and keep a locked attack once it starts.</p>\n\n      <h2>Shop and Shard economy</h2>\n      <p>Rerolls, heroes, items, and relics compete for the same economy. A rare-looking offer is not automatically correct. Buy the effect that fixes the next fight or deepens a trigger the team already produces.</p>\n      <h3>What a regular shop contains</h3>\n      <p>After a normal win, a regular shop offers three heroes, two items, and one relic. One random offer is discounted by 25%. The first reroll costs 1 Shard and each later reroll during the same visit costs 1 more. Freeze carries useful offers into the next regular shop.</p>\n      <table>\n        <thead><tr><th>Offer</th><th>Price</th><th>Before buying</th></tr></thead>\n        <tbody>\n          <tr><td>Hero</td><td>C 15 · B 25 · A 35 · S 45</td><td>Does the recruit fill a job or create the next rank?</td></tr>\n          <tr><td>Item</td><td>Common 5 · Rare 15 · Epic 25</td><td>Which holder and item slot are already available?</td></tr>\n          <tr><td>Relic</td><td>Common 10 · Rare 20 · Epic 30 · Legendary 40</td><td>How often does the active board trigger it?</td></tr>\n          <tr><td>Team Size</td><td>45</td><td>Is the next active hero ready to field now?</td></tr>\n        </tbody>\n      </table>\n      <h3>A practical stop rule</h3>\n      <ol>\n        <li>Name at least two acceptable reroll outcomes.</li>\n        <li>Reserve the cost of the next known breakpoint.</li>\n        <li>Stop after finding the planned role, rank, or trigger.</li>\n        <li>Freeze only when the exact offer remains useful after another floor.</li>\n      </ol>\n      <p>Heroes and items sell for 66% of their value. Relics cannot be sold. The post-boss Auction House offers three heroes, four items, and three relics, starts rerolls at 7 Shards, and cannot be frozen—enter with a priority order before browsing.</p>\n\n      <h2>Read a loss instead of restarting the plan</h2>\n      <p>Use Emergency Rewind as a learning attempt. Change one variable—formation, active roster, equipment holder, or purchase—then compare the new opening. If the carry still cannot reach its target, more Attack is unlikely to solve the real problem.</p>\n      <ul>\n        <li>Carry dies before the first cast → move the anchor closer or buy frontline protection.</li>\n        <li>Frontline lives but enemies do not fall → open a clean lane or rank the damage dealer.</li>\n        <li>Abilities arrive too late → protect the caster or buy Starting Mana / Attack Speed.</li>\n        <li>Fourth hero adds no value → return the specialist to reserve and finish the three-hero core.</li>\n      </ul>\n\n      <h2>Where to go next</h2>\n      <p>Continue with the <a href=\"/guides/guildrun-strategy-guide/\">strategy guide</a> for ranks, team engines, relics, Red Rift, and Endless. Use the <a href=\"/gameplay/\">player handbook</a> for combat rules, the <a href=\"/gameplay/growth-route/\">growth route</a> for board size and upgrades, and the <a href=\"/wiki/enemies/\">enemy database</a> when one exact formation stops the run.</p>\n    "
+  },
+  {
+    "id": 2,
+    "title": "Guildrun Strategy Guide: Builds, Ranks, Relics and Modes",
+    "shortTitle": "Strategy Guide",
+    "addressBar": "guildrun-strategy-guide",
+    "publishDate": "2026-07-24",
+    "updatedDate": "2026-07-25",
+    "imageUrl": "/images/gameplay/formation-battle.webp",
+    "imageAlt": "Guildrun party fighting in a coordinated formation",
+    "excerpt": "Advanced decision frameworks for team engines, Rank C–S paths, relic evaluation, Red Rift pressure, and Endless scaling in Demo 0.5.1.",
+    "category": "Core Guides",
+    "tags": [
+      "Builds",
+      "Ranks",
+      "Relics",
+      "Red Rift",
+      "Endless"
+    ],
+    "isFeatured": true,
+    "gameVersion": "Demo 0.5.1",
+    "author": "Guildrun Guide Team",
+    "reviewedBy": "Gameplay Editor",
+    "quickSummary": [
+      "Treat a composition as a repeatable engine, not a fixed roster.",
+      "Concentrate ranks until a hero’s next upgrade changes the next fight.",
+      "Judge relics by trigger frequency, then adapt the plan for Red Rift and Endless."
+    ],
+    "commonMistakes": [
+      "Collecting class tags without a payoff",
+      "Ranking every hero evenly",
+      "Taking delayed relics before the board is stable",
+      "Using an Endless-only plan in Red Rift",
+      "Entering Endless with only flat stats"
+    ],
+    "relatedHeroes": [
+      "Gustav",
+      "Nyx",
+      "Skorn",
+      "Aria",
+      "Rowan"
+    ],
+    "relatedItems": [
+      "Adaptive Sword",
+      "Aegis",
+      "Battlemage Robes",
+      "Catalyst of Patience"
+    ],
+    "relatedRelics": [
+      "Precision Nexus",
+      "Plague Transmission Engine",
+      "Deceleration Aegis",
+      "Critical Absorption Prism"
+    ],
+    "detailsHtml": "\n      <h2>How to use this guide</h2>\n      <p>Read the beginner guide first if the opening run still collapses before Act 2. This page assumes you already understand the run loop, then focuses on build identity, progression choices, relic evaluation, and mode-specific pressure for Demo <strong>0.5.1</strong>.</p>\n\n      <h2>Build engines, not fixed rosters</h2>\n      <p>The strongest teams are not collections of individually strong heroes. A coherent composition produces a trigger repeatedly, converts it into value, and survives long enough for that conversion to matter.</p>\n      <table>\n        <thead><tr><th>Part</th><th>Question</th><th>Warning sign</th></tr></thead>\n        <tbody>\n          <tr><td>Trigger</td><td>What happens several times each fight?</td><td>Only one hero can start it</td></tr>\n          <tr><td>Payoff</td><td>What value does each trigger create?</td><td>The build applies effects but does not win</td></tr>\n          <tr><td>Time</td><td>How does the team survive until the payoff scales?</td><td>The engine starts after the frontline dies</td></tr>\n          <tr><td>Access</td><td>Can the right hero reach the right target?</td><td>Damage is spent on a low-priority body</td></tr>\n        </tbody>\n      </table>\n      <h3>Practical frameworks</h3>\n      <ul>\n        <li><strong>Shield and Stall.</strong> Durable first contact, repeatable shielding, delayed payoffs.</li>\n        <li><strong>Crit sustain.</strong> Fast Duelist or Assassin attacks convert Crit into healing, mana, or durability when the right relics appear.</li>\n        <li><strong>Status control.</strong> Poison, Frost, and Burn become strong when several effects reward the same debuff.</li>\n        <li><strong>Rush pressure.</strong> Needs immediate target access; a unit that spends the opening walking contributes nothing.</li>\n      </ul>\n      <h3>When to pivot</h3>\n      <ul>\n        <li>Pivot when two or more owned pieces support a different repeatable trigger.</li>\n        <li>Hold the plan when only one shop offer suggests the new theme.</li>\n        <li>Drop a class tag that adds no payoff, protection, or target access.</li>\n        <li>Change positioning before replacing a hero that is failing only because of its lane.</li>\n      </ul>\n\n      <h2>Hero progression: Rank C to S</h2>\n      <p>Guildrun separates hero development inside a run, permanent unlocks across runs, and difficulty progression. Keep those layers distinct so you know what resets and what carries forward.</p>\n      <table>\n        <thead><tr><th>Rank</th><th>Decision</th><th>Pick test</th></tr></thead>\n        <tbody>\n          <tr><td>C</td><td>Place the base hero and confirm its job</td><td>Can this hero perform its job with the current formation?</td></tr>\n          <tr><td>B</td><td>Choose one of three fixed specializations; some add a second class</td><td>Does the path solve today’s fight or unlock an owned interaction?</td></tr>\n          <tr><td>A</td><td>Draft the first class modifier from active classes</td><td>Will this modifier trigger often enough to matter?</td></tr>\n          <tr><td>S</td><td>Take a second modifier and an extra item slot at Demo max</td><td>Is finishing this hero stronger than the next board-size breakpoint?</td></tr>\n        </tbody>\n      </table>\n      <p>Do not spread ranks evenly by default. A first Rank B on the main carry or anchor often changes more than giving a weak fourth hero a small bump. Dual-class paths expand later modifier pools, which increases flexibility but can make specific offers less consistent.</p>\n      <p>Grow the board from three to five active heroes only when the new slot has a job. The roster can hold six for a reserve specialist or Backup interaction. Team Size costs 45 Shards—compare that with the duplicate, item, or relic that would strengthen the current core immediately.</p>\n      <h3>Respec with evidence</h3>\n      <ol>\n        <li>Name the current hero’s job.</li>\n        <li>Identify which part of the specialization no longer activates.</li>\n        <li>Confirm the replacement path works with owned items and relics.</li>\n        <li>Reposition before spending on the rebuild.</li>\n      </ol>\n\n      <h2>How to evaluate every relic offer</h2>\n      <p>A relic should be judged by activation frequency, value per trigger, and the probability that the current roster can use it. Relics cannot be sold, so a narrow legendary can be more expensive than its Shard price suggests.</p>\n      <table>\n        <thead><tr><th>Question</th><th>Strong answer</th><th>Weak answer</th></tr></thead>\n        <tbody>\n          <tr><td>Who triggers it?</td><td>Two or more active heroes</td><td>A future recruit you do not own</td></tr>\n          <tr><td>When does it pay?</td><td>During the next important fight</td><td>After several unlikely conditions</td></tr>\n          <tr><td>What does it solve?</td><td>A named survival or damage failure</td><td>It is simply a higher rarity</td></tr>\n          <tr><td>What does it cost?</td><td>Fits the next Shard breakpoint</td><td>Consumes the budget for a needed rank</td></tr>\n        </tbody>\n      </table>\n      <p>Separate stability from ceiling. Defensive relics can protect a fragile run immediately. Economy and scaling relics may produce a higher ceiling only if the team survives the delay. Quest relics need a realistic completion route: count how often the current board creates the trigger in an ordinary fight before buying the quest.</p>\n      <p>Exact numbers can move between patches. Re-read the in-game text after a balance update, then filter the <a href=\"/wiki/relics/\">relic database</a> or start from a <a href=\"/wiki/status-effects/\">status page</a> to find matching pieces.</p>\n\n      <h2>Red Rift: mission pressure and safer pivots</h2>\n      <p>Red Rift combines stronger enemies with extra mission pressure. A team that eventually scales in normal play may fail because it loses too many heroes on the way to that ceiling.</p>\n      <ul>\n        <li>Value sustain earlier, but prefer sustain that also advances the engine.</li>\n        <li>Treat hero deaths as a resource: a clear can still be strategically poor if it burns the mission allowance.</li>\n        <li>Build the first reliable checkpoint before adding a second fragile carry.</li>\n        <li>Avoid liability units that inflate deaths without changing the fight.</li>\n      </ul>\n      <table>\n        <thead><tr><th>Need</th><th>Prefer</th><th>Avoid relying on</th></tr></thead>\n        <tbody>\n          <tr><td>Opening stability</td><td>Immediate shields, control, or durable first contact</td><td>A quest that completes after several risky fights</td></tr>\n          <tr><td>Damage</td><td>Repeatable triggers with target access</td><td>A carry that spends Rush walking</td></tr>\n          <tr><td>Recovery</td><td>A formation change with a measurable result</td><td>Repeating the same board through Rewind</td></tr>\n          <tr><td>Scaling</td><td>Growth that also helps the next checkpoint</td><td>Endless-only ceiling before stabilization</td></tr>\n        </tbody>\n      </table>\n\n      <h2>Endless mode: build for repeatable scaling</h2>\n      <p>The normal route asks whether a build can clear the next encounter. Endless asks whether the engine keeps producing more value as enemy health and damage continue to rise.</p>\n      <table>\n        <thead><tr><th>Layer</th><th>Endless question</th><th>Failure signal</th></tr></thead>\n        <tbody>\n          <tr><td>Growth</td><td>What increases again after another fight?</td><td>Every bonus is already fixed</td></tr>\n          <tr><td>Survival</td><td>How does the team handle larger hits and the anti-stall clock?</td><td>The frontline only delays defeat</td></tr>\n          <tr><td>Access</td><td>Can damage still reach priority enemies as formations change?</td><td>The carry is trapped walking or hitting summons</td></tr>\n          <tr><td>Redundancy</td><td>What happens when the main carry is controlled or blocked?</td><td>The entire engine stops with one hero</td></tr>\n        </tbody>\n      </table>\n      <p>Separate flat power from compounding power. One-time stats can bridge early waves; deep runs need repeatable triggers, permanent-in-run gains, or percent-based defenses. Storm begins at 50 seconds and escalates; Riftbreaker appears at 90 seconds—indefinite survival is not a win condition.</p>\n      <h3>Change one layer at a time</h3>\n      <ol>\n        <li>Open the exact stage formation and enemy variants.</li>\n        <li>Confirm first contact and target access.</li>\n        <li>Identify whether the loss is damage, survival, control, or scaling.</li>\n        <li>Replace the weakest engine link, not the highest-stat hero by default.</li>\n      </ol>\n\n      <h2>Connected tools</h2>\n      <p>Use the <a href=\"/guides/guildrun-beginner-guide/\">beginner guide</a> for first-run fundamentals, the <a href=\"/gameplay/growth-route/\">growth route</a> for board size and upgrade order, <a href=\"/heroes/\">hero dossiers</a> for Rank B paths, <a href=\"/world/fight-modes/\">fight modes</a> for challenge thresholds, and <a href=\"/world/stages/\">stage formations</a> when a specific lineup breaks the plan.</p>\n    "
+  }
+]

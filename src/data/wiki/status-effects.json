@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Poison",
+    "addressBar": "poison",
+    "type": "Damage over time",
+    "summary": "A permanent-for-the-fight stacking debuff that deals 1 damage per stack every 2 seconds.",
+    "values": [
+      [
+        "Tick interval",
+        "2 seconds"
+      ],
+      [
+        "Damage",
+        "1 per stack"
+      ],
+      [
+        "Decay",
+        "None"
+      ],
+      [
+        "Defense",
+        "Ignored"
+      ],
+      [
+        "Shields",
+        "Absorb damage"
+      ]
+    ],
+    "playNote": "Poison is a long-fight engine. Early application and effects that read total Poison matter more than a late one-time stack."
+  },
+  {
+    "name": "Burn",
+    "addressBar": "burn",
+    "type": "Damage over time",
+    "summary": "A stacking debuff that deals 1 damage per stack every second and loses one stack after each tick.",
+    "values": [
+      [
+        "Tick interval",
+        "1 second"
+      ],
+      [
+        "Damage",
+        "1 per stack"
+      ],
+      [
+        "Decay",
+        "-1 stack per tick"
+      ],
+      [
+        "Defense",
+        "Ignored"
+      ],
+      [
+        "Shields",
+        "Absorb damage"
+      ]
+    ],
+    "playNote": "Burn rewards repeated application. One large stack falls away, while frequent smaller applications keep the pressure active."
+  },
+  {
+    "name": "Frost",
+    "addressBar": "frost",
+    "type": "Control debuff",
+    "summary": "Each stack reduces Attack Speed and Defense by 0.5, then one stack dissipates every 2 seconds.",
+    "values": [
+      [
+        "Attack Speed",
+        "-0.5 per stack"
+      ],
+      [
+        "Defense",
+        "-0.5 per stack"
+      ],
+      [
+        "Dissipation",
+        "-1 every 2 seconds"
+      ],
+      [
+        "Stack cap",
+        "None in Demo"
+      ]
+    ],
+    "playNote": "Frost is both mitigation and damage support. Apply it before the enemy's main attack cycle and before your carry's burst."
+  },
+  {
+    "name": "Stun",
+    "addressBar": "stun",
+    "type": "Hard control",
+    "summary": "The affected enemy cannot act for a fixed duration. The default is 1.5 seconds, while named abilities may last longer.",
+    "values": [
+      [
+        "Default",
+        "1.5 seconds"
+      ],
+      [
+        "Longer duration wins",
+        "Yes"
+      ],
+      [
+        "Short re-stun",
+        "Does not replace longer stun"
+      ]
+    ],
+    "playNote": "Stun is most valuable when it interrupts an opening threat or buys enough time for a first cast, not merely when it adds raw duration."
+  },
+  {
+    "name": "Anti-Heal",
+    "addressBar": "anti-heal",
+    "type": "Healing reduction",
+    "summary": "Reduces all healing received by the affected unit to half value.",
+    "values": [
+      [
+        "Healing multiplier",
+        "×0.5"
+      ]
+    ],
+    "playNote": "Anti-Heal matters against sustain loops. It does not deal damage by itself, so pair it with enough pressure to exploit the reduced recovery."
+  },
+  {
+    "name": "Stealth",
+    "addressBar": "stealth",
+    "type": "Targeting state",
+    "summary": "A Stealthed hero cannot be selected by normal enemy targeting, although already launched projectiles and certain random abilities can still hit.",
+    "values": [
+      [
+        "Normal targeting",
+        "Cannot select"
+      ],
+      [
+        "Existing projectile",
+        "Can still hit"
+      ],
+      [
+        "Random Snipe",
+        "Can still select"
+      ]
+    ],
+    "playNote": "Stealth changes who receives pressure. Check which ally becomes the next valid target before treating it as pure defense."
+  },
+  {
+    "name": "Taunt",
+    "addressBar": "taunt",
+    "type": "Target override",
+    "summary": "Forces enemies to store the Taunting hero as their target until another effect replaces it or targeting is recalculated.",
+    "values": [
+      [
+        "Target effect",
+        "Immediate override"
+      ],
+      [
+        "Separate timer",
+        "No"
+      ],
+      [
+        "Started attack",
+        "Not redirected"
+      ]
+    ],
+    "playNote": "Taunt protects the formation only when the Taunter can absorb the redirected pressure. It will not pull back an attack whose windup already began."
+  },
+  {
+    "name": "Shields",
+    "addressBar": "shields",
+    "type": "Temporary durability",
+    "summary": "Temporary hit points that absorb normal, true, and damage-over-time damage before HP.",
+    "values": [
+      [
+        "Ordinary duration",
+        "10 seconds"
+      ],
+      [
+        "Relic lasting duration",
+        "99 seconds"
+      ],
+      [
+        "Hero/rank lasting duration",
+        "999 seconds"
+      ],
+      [
+        "Multiple shields",
+        "Shortest duration consumed first"
+      ]
+    ],
+    "playNote": "Shield timing is crucial. A large shield that expires before enemy burst may be weaker than a smaller shield applied at the right moment."
+  },
+  {
+    "name": "Rush",
+    "addressBar": "rush",
+    "type": "Battle clock",
+    "summary": "A Rush (N) effect is active during the first N seconds of combat, then turns off unless a hero-specific effect refreshes it.",
+    "values": [
+      [
+        "Starts",
+        "Combat start"
+      ],
+      [
+        "Ends",
+        "At listed second"
+      ],
+      [
+        "Refresh",
+        "Only explicit effects"
+      ]
+    ],
+    "playNote": "Rush builds must convert the opening window into a kill, control advantage, or permanent scaling before the timer closes."
+  },
+  {
+    "name": "Stall",
+    "addressBar": "stall",
+    "type": "Battle clock",
+    "summary": "A Stall (N) effect turns on once at N seconds into combat and remains active for the rest of that fight.",
+    "values": [
+      [
+        "Before threshold",
+        "Inactive"
+      ],
+      [
+        "At threshold",
+        "Triggers once"
+      ],
+      [
+        "After threshold",
+        "Remains active"
+      ]
+    ],
+    "playNote": "Stall is a durability check. Do not choose a powerful Stall payoff if the current board cannot reliably reach its trigger time."
+  },
+  {
+    "name": "Omnivamp",
+    "addressBar": "omnivamp",
+    "type": "Sustain stat",
+    "summary": "Heals the damage dealer for a percentage of all post-Defense damage dealt by attacks and abilities.",
+    "values": [
+      [
+        "Valid damage",
+        "Attacks and abilities"
+      ],
+      [
+        "Measured",
+        "Post-Defense damage"
+      ],
+      [
+        "Formula",
+        "Omnivamp % × damage dealt"
+      ]
+    ],
+    "playNote": "Omnivamp needs real damage uptime. It is not reliable protection for a hero that is controlled, out of range, or killed before acting."
+  },
+  {
+    "name": "Backup",
+    "addressBar": "backup",
+    "type": "Roster rule",
+    "summary": "A Backup effect remains active while its hero is in reserve rather than fielded on the combat board.",
+    "values": [
+      [
+        "Works from reserve",
+        "Yes"
+      ],
+      [
+        "Board slot required",
+        "No"
+      ],
+      [
+        "Hero ownership required",
+        "Yes"
+      ]
+    ],
+    "playNote": "Backup effects make the sixth roster slot valuable. Compare that passive contribution against fielding the hero directly."
+  }
+]

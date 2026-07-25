@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Turtle",
+    "addressBar": "turtle",
+    "attackType": "Melee",
+    "healthRange": "200-200",
+    "variantCount": "9",
+    "appearsIn": "Campaign / Event fights",
+    "imageUrl": "/images/wiki/enemies/turtle.webp",
+    "sourcePath": "/enemies/turtle/"
+  },
+  {
+    "id": 2,
+    "name": "Mushroom Archer",
+    "addressBar": "mushroom-archer",
+    "attackType": "Ranged",
+    "healthRange": "490-11300",
+    "variantCount": "115",
+    "appearsIn": "Campaign / Endless / Event fights",
+    "imageUrl": "/images/wiki/enemies/mushroom-archer.webp",
+    "sourcePath": "/enemies/mushroom-archer/"
+  },
+  {
+    "id": 3,
+    "name": "Mushroom Frost Mage",
+    "addressBar": "mushroom-frost-mage",
+    "attackType": "Ranged",
+    "healthRange": "560-4900",
+    "variantCount": "52",
+    "appearsIn": "Campaign / Endless",
+    "imageUrl": "/images/wiki/enemies/mushroom-frost-mage.webp",
+    "sourcePath": "/enemies/mushroom-frost-mage/"
+  },
+  {
+    "id": 4,
+    "name": "Lizard",
+    "addressBar": "lizard",
+    "attackType": "Melee",
+    "healthRange": "600-8880",
+    "variantCount": "48",
+    "appearsIn": "Campaign",
+    "imageUrl": "/images/wiki/enemies/lizard.webp",
+    "sourcePath": "/enemies/lizard/"
+  },
+  {
+    "id": 5,
+    "name": "Mushroom Fire Mage",
+    "addressBar": "mushroom-fire-mage",
+    "attackType": "Ranged",
+    "healthRange": "640-5900",
+    "variantCount": "73",
+    "appearsIn": "Campaign / Endless",
+    "imageUrl": "/images/wiki/enemies/mushroom-fire-mage.webp",
+    "sourcePath": "/enemies/mushroom-fire-mage/"
+  },
+  {
+    "id": 6,
+    "name": "Plant Monster",
+    "addressBar": "plant-monster",
+    "attackType": "Ranged",
+    "healthRange": "870-4870",
+    "variantCount": "36",
+    "appearsIn": "Campaign",
+    "imageUrl": "/images/wiki/enemies/plant-monster.webp",
+    "sourcePath": "/enemies/plant-monster/"
+  },
+  {
+    "id": 7,
+    "name": "Spider",
+    "addressBar": "spider",
+    "attackType": "Ranged",
+    "healthRange": "890-10840",
+    "variantCount": "46",
+    "appearsIn": "Campaign / Endless",
+    "imageUrl": "/images/wiki/enemies/spider.webp",
+    "sourcePath": "/enemies/spider/"
+  },
+  {
+    "id": 8,
+    "name": "Mushroom Tank",
+    "addressBar": "mushroom-tank",
+    "attackType": "Melee",
+    "healthRange": "1050-17530",
+    "variantCount": "97",
+    "appearsIn": "Campaign / Endless / Event fights",
+    "imageUrl": "/images/wiki/enemies/mushroom-tank.webp",
+    "sourcePath": "/enemies/mushroom-tank/"
+  },
+  {
+    "id": 9,
+    "name": "Slime",
+    "addressBar": "slime",
+    "attackType": "Melee",
+    "healthRange": "1140-12640",
+    "variantCount": "52",
+    "appearsIn": "Campaign / Endless",
+    "imageUrl": "/images/wiki/enemies/slime.webp",
+    "sourcePath": "/enemies/slime/"
+  },
+  {
+    "id": 10,
+    "name": "Snake",
+    "addressBar": "snake",
+    "attackType": "Melee",
+    "healthRange": "2590-14490",
+    "variantCount": "37",
+    "appearsIn": "Campaign / Endless",
+    "imageUrl": "/images/wiki/enemies/snake.webp",
+    "sourcePath": "/enemies/snake/"
+  },
+  {
+    "id": 11,
+    "name": "Forest Golem",
+    "addressBar": "forest-golem",
+    "attackType": "Melee",
+    "healthRange": "5120-12010",
+    "variantCount": "57",
+    "appearsIn": "Campaign / Event fights",
+    "imageUrl": "/images/wiki/enemies/forest-golem.webp",
+    "sourcePath": "/enemies/forest-golem/"
+  },
+  {
+    "id": 12,
+    "name": "Hydra",
+    "addressBar": "hydra",
+    "attackType": "Melee",
+    "healthRange": "12910-12910",
+    "variantCount": "6",
+    "appearsIn": "Campaign / Event fights",
+    "imageUrl": "/images/wiki/enemies/hydra.webp",
+    "sourcePath": "/enemies/hydra/"
+  },
+  {
+    "id": 13,
+    "name": "Demon",
+    "addressBar": "demon",
+    "attackType": "Melee",
+    "healthRange": "13560-13560",
+    "variantCount": "6",
+    "appearsIn": "Campaign / Event fights",
+    "imageUrl": "/images/wiki/enemies/demon.webp",
+    "sourcePath": "/enemies/demon/"
+  },
+  {
+    "id": 14,
+    "name": "Frost Dragon",
+    "addressBar": "frost-dragon",
+    "attackType": "Ranged",
+    "healthRange": "93330-93330",
+    "variantCount": "3",
+    "appearsIn": "Campaign",
+    "imageUrl": "/images/wiki/enemies/frost-dragon.webp",
+    "sourcePath": "/enemies/frost-dragon/"
+  },
+  {
+    "id": 15,
+    "name": "Fire Dragon",
+    "addressBar": "fire-dragon",
+    "attackType": "Ranged",
+    "healthRange": "100000-100000",
+    "variantCount": "3",
+    "appearsIn": "Campaign",
+    "imageUrl": "/images/wiki/enemies/fire-dragon.webp",
+    "sourcePath": "/enemies/fire-dragon/"
+  },
+  {
+    "id": 16,
+    "name": "Poison Dragon",
+    "addressBar": "poison-dragon",
+    "attackType": "Ranged",
+    "healthRange": "124000-124000",
+    "variantCount": "3",
+    "appearsIn": "Campaign",
+    "imageUrl": "/images/wiki/enemies/poison-dragon.webp",
+    "sourcePath": "/enemies/poison-dragon/"
+  }
+]

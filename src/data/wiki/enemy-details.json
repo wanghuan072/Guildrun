@@ -1,0 +1,7271 @@
+[
+  {
+    "addressBar": "turtle",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F0",
+            "Max HP": "200",
+            "Base Attack Damage": "5",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F0",
+            "Max HP": "200",
+            "Base Attack Damage": "5",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F0",
+            "Max HP": "200",
+            "Base Attack Damage": "5",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 6,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F5",
+            "Max HP": "2250",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F5",
+            "Max HP": "2750",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F5",
+            "Max HP": "2750",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "7500",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "9000",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "9000",
+            "Base Attack Damage": "1",
+            "Defense": "0",
+            "Attack": "0",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "mushroom-archer",
+    "bodyCount": 38,
+    "enemyDataVariantCount": 115,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Wild Shot",
+        "description": "Deal 250 (+ 125% Attack Speed , + 125% Attack ) damage to a random enemy.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Wild Shot",
+        "description": "Deal 125 (+ 125% Attack Speed , + 125% Attack ) damage to a random enemy.",
+        "variants": "some variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 36,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "490",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "600",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "660",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1360",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "67",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1490",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "78",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2870",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2970",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "40",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "3130",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3140",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "3320",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3990",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "50",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "4180",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "4210",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "64",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x5",
+            "Max HP": "4340",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "51",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4350",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4730",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "5020",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "5170",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "65",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "5390",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "94",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5420",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "69",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "6210",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "129",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "6220",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "120",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "6260",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "101",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "6390",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "97",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x6",
+            "Max HP": "6850",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "6890",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "111",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x5",
+            "Max HP": "7510",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "112",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "7560",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "135",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "7600",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "141",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "7660",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "135",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "7780",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "179",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "7930",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "153",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "8380",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "144",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8940",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "159",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "9250",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "164",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "11300",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "195",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 36,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "650",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "760",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "840",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1690",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "67",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1870",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "78",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "3720",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "3910",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "41",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4110",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4130",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "4270",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5150",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "50",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5570",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5600",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "64",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x5",
+            "Max HP": "5660",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "51",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "5770",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6020",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "6740",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "6890",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "57",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "7100",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "69",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7690",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "94",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "8250",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "120",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8410",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "101",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8480",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "129",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8650",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "97",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8940",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "111",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x6",
+            "Max HP": "9000",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x5",
+            "Max HP": "10080",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "112",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "10310",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "135",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10410",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "135",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "10430",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "141",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10680",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "153",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "10780",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "179",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "11570",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "144",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12150",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "159",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12660",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "164",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "15550",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "195",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 36,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "650",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "760",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "840",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1690",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1870",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "96",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "3520",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "3690",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "54",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3880",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "59",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "4040",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "43",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4130",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5150",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "79",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5260",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "87",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5570",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "94",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x5",
+            "Max HP": "5660",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5710",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "5770",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "109",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "6740",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "108",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "6890",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "89",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "7100",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "94",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7690",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "121",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "8250",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "150",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8410",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "129",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8480",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "161",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8650",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "126",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8940",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "139",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x6",
+            "Max HP": "9000",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "102",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x5",
+            "Max HP": "10080",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "142",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "10310",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "170",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10410",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "169",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "10430",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "178",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10680",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "189",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "10780",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "220",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "11570",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "181",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12150",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "195",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12660",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "202",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "15550",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "238",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0",
+            "Max HP": "12000",
+            "Base Attack Damage": "100",
+            "Defense": "30",
+            "Attack": "100",
+            "Magic": "0",
+            "Crit": "80"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 6,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F4 x3",
+            "Max HP": "1330",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4 x3",
+            "Max HP": "1650",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4 x3",
+            "Max HP": "1650",
+            "Base Attack Damage": "12",
+            "Defense": "0",
+            "Attack": "98",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x3",
+            "Max HP": "5460",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x3",
+            "Max HP": "7310",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x3",
+            "Max HP": "7310",
+            "Base Attack Damage": "40",
+            "Defense": "0",
+            "Attack": "108",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.75"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      }
+    ]
+  },
+  {
+    "addressBar": "mushroom-frost-mage",
+    "bodyCount": 18,
+    "enemyDataVariantCount": 52,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Frost Storm",
+        "description": "Call down a frost storm for 4 seconds. Each second, deal 30 (+ 100% Magic ) damage and inflict 6 (+ 2 per 33 Magic ) Frost to all enemies inside the frost storm.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Frost Storm",
+        "description": "Call down a frost storm for 3 seconds. Each second, deal 10 (+ 50% Magic ) damage and inflict 2 (+ 2 per 33 Magic ) Frost to all enemies inside the frost storm.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Frost Storm",
+        "description": "Call down a frost storm for 3 seconds. Each second, deal 20 (+ 75% Magic ) damage and inflict 4 (+ 2 per 33 Magic ) Frost to all enemies inside the frost storm.",
+        "variants": "some variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "560",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "27",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "710",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "45",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "740",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "36",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1540",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "6",
+            "Magic": "53",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1620",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "5",
+            "Magic": "52",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "1950",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "7",
+            "Magic": "58",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2030",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "69",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2530",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "68",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "2760",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "2860",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "99",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2870",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3160",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "3410",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "106",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "3760",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "136",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3950",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "115",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "4850",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "127",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4900",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "134",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "670",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "27",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "870",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "45",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "890",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "36",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1920",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "6",
+            "Magic": "54",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1980",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "5",
+            "Magic": "52",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2420",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "7",
+            "Magic": "58",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2590",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "69",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3210",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "68",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "3620",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3730",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3800",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "99",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4130",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4550",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "106",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4970",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "136",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5240",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "115",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "6560",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "127",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "6610",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "134",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "670",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "34",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "870",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "55",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "890",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "46",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1830",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "60",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1900",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "61",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2420",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2590",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "81",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3210",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "81",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "3620",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "107",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3730",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "99",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3800",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "27",
+            "Magic": "116",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4130",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "98",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4550",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "125",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4970",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "42",
+            "Magic": "161",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5240",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "134",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "6560",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "38",
+            "Magic": "149",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "6610",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "40",
+            "Magic": "156",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0",
+            "Max HP": "8000",
+            "Base Attack Damage": "50",
+            "Defense": "30",
+            "Attack": "40",
+            "Magic": "125",
+            "Crit": "40"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Magic",
+        "Type": "Percentage",
+        "Value": "x1.65"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      }
+    ]
+  },
+  {
+    "addressBar": "lizard",
+    "bodyCount": 16,
+    "enemyDataVariantCount": 48,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Bounce",
+        "description": "Jump to the lowest-health enemy then deal 50 (+ 150% Attack ) damage to it.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Bounce",
+        "description": "Jump to the lowest-health enemy then deal 175 (+ 150% Attack ) damage to it.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Lizard Leap",
+        "description": "At start of combat, jump to the enemy backline, landing on the hex directly opposite the Lizard's starting position. If occupied, land on the nearest available hex.",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "600",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "10",
+            "Magic": "0",
+            "Crit": "20"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "1440",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "29"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1460",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "26"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3370",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "33"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "3630",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "0",
+            "Crit": "37"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "3890",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "0",
+            "Crit": "29"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "4590",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "45"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "5520",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "51",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "5670",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "41",
+            "Magic": "0",
+            "Crit": "47"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "5920",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "0",
+            "Crit": "48"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "6710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "67"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "6890",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "61",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "7480",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "60",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "8060",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "8100",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "87",
+            "Magic": "0",
+            "Crit": "71"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "8880",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "89",
+            "Magic": "0",
+            "Crit": "72"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "780",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "10",
+            "Magic": "0",
+            "Crit": "20"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "1810",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "29"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1820",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "26"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4220",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "33"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4630",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "0",
+            "Crit": "37"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "4930",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "0",
+            "Crit": "29"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "5980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "45"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7240",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "51",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "7390",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "44"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "7600",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "0",
+            "Crit": "48"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "67"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "9150",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "61",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "9880",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "60",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10810",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "84",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "10930",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "87",
+            "Magic": "0",
+            "Crit": "71"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12070",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "89",
+            "Magic": "0",
+            "Crit": "72"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F2",
+            "Max HP": "780",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "0",
+            "Crit": "22"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "1810",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "35"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1820",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "30"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "38"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4630",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "43"
+          },
+          {
+            "Appears in": "Act 1 | F6 x4",
+            "Max HP": "4680",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "33"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "5980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "52",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7240",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "61"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "7390",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "56",
+            "Magic": "0",
+            "Crit": "55"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "7600",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "59",
+            "Magic": "0",
+            "Crit": "56"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "98",
+            "Magic": "0",
+            "Crit": "77"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "9150",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "78",
+            "Magic": "0",
+            "Crit": "66"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "9880",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "78",
+            "Magic": "0",
+            "Crit": "66"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10810",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "103",
+            "Magic": "0",
+            "Crit": "80"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "10930",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "108",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12070",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "109",
+            "Magic": "0",
+            "Crit": "83"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "mushroom-fire-mage",
+    "bodyCount": 25,
+    "enemyDataVariantCount": 73,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Fire Storm",
+        "description": "Call down a fire storm for 4 seconds. Each second, deal 30 (+ 100% Magic ) damage and inflict 9 (+ 3 per 33 Magic ) Burn to all enemies inside the fire storm.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Fire Storm",
+        "description": "Call down a fire storm for 3 seconds. Each second, deal 10 (+ 50% Magic ) damage and inflict 3 (+ 3 per 33 Magic ) Burn to all enemies inside the fire storm.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Fire Storm",
+        "description": "Call down a fire storm for 3 seconds. Each second, deal 20 (+ 75% Magic ) damage and inflict 6 (+ 3 per 33 Magic ) Burn to all enemies inside the fire storm.",
+        "variants": "some variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 24,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "640",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "10",
+            "Magic": "17",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "780",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "25",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1540",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "6",
+            "Magic": "45",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1730",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "49",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1830",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "48",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2130",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "55",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2240",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "53",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2340",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "61",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "2350",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "59",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2610",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2760",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "65",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2870",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "65",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2960",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "60",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3250",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "78",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "3370",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3380",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3460",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "34",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3740",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "71",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4080",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "87",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4330",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4720",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "97",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "5420",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "5840",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "42",
+            "Magic": "106",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "5900",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "111",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 24,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "780",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "10",
+            "Magic": "17",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "940",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "25",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1960",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "6",
+            "Magic": "45",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2200",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "49",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2280",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "48",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2770",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "55",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2820",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "11",
+            "Magic": "53",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3030",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "61",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "3050",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "59",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3370",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3620",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "65",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3670",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "17",
+            "Magic": "64",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3800",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "60",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4310",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "78",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4450",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "4530",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4590",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "34",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4940",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "71",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5450",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "87",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5810",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "6320",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "97",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "7380",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "7970",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "42",
+            "Magic": "106",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "8020",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "111",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 24,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "780",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "23",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "940",
+            "Base Attack Damage": "10",
+            "Defense": "0",
+            "Attack": "19",
+            "Magic": "31",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1860",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "49",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2090",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "55",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2170",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "55",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2770",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "62",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2820",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "17",
+            "Magic": "64",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "2880",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "19",
+            "Magic": "68",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3030",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "70",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3370",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "86",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3620",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "76",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3670",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "73",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3800",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "70",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4310",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4450",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "4530",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "98",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4590",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "43",
+            "Magic": "106",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4940",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "83",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5450",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "39",
+            "Magic": "101",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5810",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "6320",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "112",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "7380",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "108",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "7970",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "53",
+            "Magic": "123",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "8020",
+            "Base Attack Damage": "30",
+            "Defense": "0",
+            "Attack": "56",
+            "Magic": "129",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0",
+            "Max HP": "8000",
+            "Base Attack Damage": "50",
+            "Defense": "30",
+            "Attack": "40",
+            "Magic": "125",
+            "Crit": "40"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Magic",
+        "Type": "Percentage",
+        "Value": "x1.65"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      }
+    ]
+  },
+  {
+    "addressBar": "plant-monster",
+    "bodyCount": 12,
+    "enemyDataVariantCount": 36,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Vine Snag",
+        "description": "Pull the furthest enemy to the Plant Monster and deal 250 (+ 100% Attack ) damage to it. Plant Monsters start with full Mana .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "870",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "1310",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1510",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "1820",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "34",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "2420",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "64",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2760",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "2940",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "72",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3340",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "76",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "3440",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4080",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "103",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4140",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "137",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "4870",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "125",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1050",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "1600",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1830",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2300",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "34",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3130",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "64",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3620",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4090",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "72",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4410",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "76",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4570",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5450",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "103",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "5640",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "137",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "6580",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "125",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1050",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "42",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "1600",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1830",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "38",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "2190",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "3130",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "83",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "3620",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "82",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "4090",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "92",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4410",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "98",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "4570",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "96",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "5450",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "129",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "5640",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "169",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "6580",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "155",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "spider",
+    "bodyCount": 16,
+    "enemyDataVariantCount": 46,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Ensnare",
+        "description": "Inflict 25% Crit Poison on the farthest enemy and Stun them for 2 Seconds. Spiders start with 50 % Mana .",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Ensnare",
+        "description": "Inflict 25% Crit Poison on the farthest Hero and Stun them for 2 Seconds. Spiders start with 50 % Mana .",
+        "variants": "some variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Poisonous",
+        "description": "Every 3 Attacks: Inflict 1 per 33 Crit Poison .",
+        "variants": "some variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Poisonous",
+        "description": "Every 3 auto attacks, inflict 1 (+ 1 per 33 Crit ) Poison .",
+        "variants": "some variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 15,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "890",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "28"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1530",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "57",
+            "Magic": "0",
+            "Crit": "53"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1650",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "36"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2330",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "31"
+          },
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "2730",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "36"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3080",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "54"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3090",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "0",
+            "Crit": "48"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "4270",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "4760",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "54",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "4910",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "43",
+            "Magic": "0",
+            "Crit": "61"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "5750",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "0",
+            "Crit": "84"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "5890",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "0",
+            "Crit": "91"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "6680",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "92",
+            "Magic": "0",
+            "Crit": "94"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "8670",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "109",
+            "Magic": "0",
+            "Crit": "106"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "10840",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "130",
+            "Magic": "0",
+            "Crit": "119"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 15,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1120",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "28"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1920",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "57",
+            "Magic": "0",
+            "Crit": "53"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1980",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "36"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2900",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "31"
+          },
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "3370",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "36"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3810",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "23",
+            "Magic": "0",
+            "Crit": "48"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3930",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "54"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "5550",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "6130",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "54",
+            "Magic": "0",
+            "Crit": "69"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "6230",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "43",
+            "Magic": "0",
+            "Crit": "61"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "7350",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8190",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "0",
+            "Crit": "91"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "8820",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "92",
+            "Magic": "0",
+            "Crit": "94"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "11630",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "109",
+            "Magic": "0",
+            "Crit": "106"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "14770",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "130",
+            "Magic": "0",
+            "Crit": "119"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 15,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1120",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "28",
+            "Magic": "0",
+            "Crit": "33"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1920",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "60"
+          },
+          {
+            "Appears in": "Act 1 | F4",
+            "Max HP": "1980",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "45"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2900",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "0",
+            "Crit": "34"
+          },
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "3370",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "41",
+            "Magic": "0",
+            "Crit": "42"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3640",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "56"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "3730",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "42",
+            "Magic": "0",
+            "Crit": "61"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "5550",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "70",
+            "Magic": "0",
+            "Crit": "79"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "6130",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "73",
+            "Magic": "0",
+            "Crit": "81"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "6230",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "59",
+            "Magic": "0",
+            "Crit": "72"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "7350",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "92",
+            "Magic": "0",
+            "Crit": "94"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8190",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "107",
+            "Magic": "0",
+            "Crit": "104"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "8820",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "113",
+            "Magic": "0",
+            "Crit": "108"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "11630",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "130",
+            "Magic": "0",
+            "Crit": "119"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "14770",
+            "Base Attack Damage": "25",
+            "Defense": "0",
+            "Attack": "153",
+            "Magic": "0",
+            "Crit": "135"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0 x2",
+            "Max HP": "17500",
+            "Base Attack Damage": "125",
+            "Defense": "80",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "80"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      }
+    ]
+  },
+  {
+    "addressBar": "mushroom-tank",
+    "bodyCount": 32,
+    "enemyDataVariantCount": 97,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Bash",
+        "description": "Deal 100 (+ 150% Attack ) damage and Stun all adjacent enemies for 2 seconds.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Bash",
+        "description": "Deal 50 (+ 150% Attack ) damage and Stun all adjacent enemies for 2 seconds.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Shields Up!",
+        "description": "Every 10 Seconds: Gain 10% Max Health Shields .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 30,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1050",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1140",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1730",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "54",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1780",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2200",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "61",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2410",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "72",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4810",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5380",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "47",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5630",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "53",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5670",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5890",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "36",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5990",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "6550",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7150",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7190",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "7380",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "59",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7950",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "112",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "8700",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "91",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "9800",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "127",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "10100",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "142",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x3",
+            "Max HP": "10140",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "142",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "10180",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "113",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10420",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "160",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "12130",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "156",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12220",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "149",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "12960",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "137",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14090",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "174",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "16130",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "167",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "17360",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "197",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "17530",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "211",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 30,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1310",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1410",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2160",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "54",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2210",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2710",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "61",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2980",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "72",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6050",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6750",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "48",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "7040",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "53",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "7270",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "36",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "7510",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8420",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9170",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9210",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "9300",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "59",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10170",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "112",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11030",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "12890",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "127",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "13320",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "113",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "13410",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "142",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x3",
+            "Max HP": "13550",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "142",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "13730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "160",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "16230",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "149",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "16270",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "156",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "17280",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "137",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "18770",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "174",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "21860",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "167",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "23570",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "197",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "23730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "211",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 30,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1310",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1410",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "29",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2160",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "67",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2210",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "57",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2710",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2980",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5760",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "47",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6430",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6660",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "65",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6700",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6940",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "50",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "7150",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "30",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8420",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "82",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "99",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9170",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "106",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "9300",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10170",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "146",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11030",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "112",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "12890",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "159",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "13320",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "143",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "13410",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "176",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x3",
+            "Max HP": "13550",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "176",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "13730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "198",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "16230",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "185",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "16270",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "194",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "17280",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "168",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "18770",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "212",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "21860",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "203",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "23570",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "241",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "23730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "255",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0 x2",
+            "Max HP": "35000",
+            "Base Attack Damage": "200",
+            "Defense": "150",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "40"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 6,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F4 x2",
+            "Max HP": "2160",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4 x2",
+            "Max HP": "2640",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4 x2",
+            "Max HP": "2640",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "90",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x2",
+            "Max HP": "9010",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "96",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x2",
+            "Max HP": "11710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "96",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F8 x2",
+            "Max HP": "11710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "121",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.75"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.85"
+      }
+    ]
+  },
+  {
+    "addressBar": "slime",
+    "bodyCount": 18,
+    "enemyDataVariantCount": 52,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Rejuvenating Blow",
+        "description": "Remove 33 % of all Debuffs , then deal 50 (+ 5% Max Health , + 100% Attack ) damage.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Regeneration",
+        "description": "Gain 1% Max Health HP/S .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1140",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1160",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1590",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2430",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "2450",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2570",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5450",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "6740",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "48",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7100",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "70",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "8530",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "9660",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "111",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10720",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "11510",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "117",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "11650",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "117",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x3",
+            "Max HP": "11820",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "157",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12640",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "125",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1390",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1430",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "16",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1950",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "26",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2980",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "3010",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "3160",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6770",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8650",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "48",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9060",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "70",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10390",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11690",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "80",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12770",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "111",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "14020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "15290",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "117",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "15430",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "117",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x3",
+            "Max HP": "15940",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "157",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "17020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "125",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 17,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F1",
+            "Max HP": "1390",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "20",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F2 x2",
+            "Max HP": "1430",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "1950",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "36",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "2980",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F3",
+            "Max HP": "3010",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F4 x2",
+            "Max HP": "3160",
+            "Base Attack Damage": "15",
+            "Defense": "0",
+            "Attack": "100",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6450",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "49",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "8650",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "68",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9060",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "93",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10390",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "92",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11690",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "103",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12770",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "140",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "14020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "108",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "15290",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "149",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "15430",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "148",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x3",
+            "Max HP": "15940",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "196",
+            "Magic": "0",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "17020",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "159",
+            "Magic": "0",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0 x3",
+            "Max HP": "35000",
+            "Base Attack Damage": "150",
+            "Defense": "125",
+            "Attack": "100",
+            "Magic": "0",
+            "Crit": "40"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x2"
+      }
+    ]
+  },
+  {
+    "addressBar": "snake",
+    "bodyCount": 13,
+    "enemyDataVariantCount": 37,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Noxious Venom",
+        "description": "The Snake spits venom at its target, creating a trail of venom for 4 seconds. Each second, the venom trail deals 20 (+ 100% Attack ) damage and inflicts 1 (+ 10% Crit ) Poison .",
+        "variants": "some variants"
+      },
+      {
+        "type": "Active",
+        "name": "Noxious Venom",
+        "description": "Ceate a trail of venom for 4 seconds. Each second, deal 10 (+ 75% Attack ) damage and inflict 15% Crit Poison to all enemies in the trail of venom.",
+        "variants": "some variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Venomous",
+        "description": "At start of combat, gain 10 Omnivamp . Every 3 auto attacks, inflict 1 (+ 1 per 50 Crit ) Poison .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "2590",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "0",
+            "Crit": "32"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "2720",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "42"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "4260",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "4",
+            "Magic": "0",
+            "Crit": "42"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5280",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "0",
+            "Crit": "51"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "6710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "7180",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "0",
+            "Crit": "58"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7430",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "8000",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10520",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10940",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "36",
+            "Magic": "0",
+            "Crit": "105"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "12980",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "103"
+          },
+          {
+            "Appears in": "Act 1 | F10 x4",
+            "Max HP": "14490",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "49",
+            "Magic": "0",
+            "Crit": "131"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "3200",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "8",
+            "Magic": "0",
+            "Crit": "32"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "3360",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "42"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5520",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "4",
+            "Magic": "0",
+            "Crit": "42"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6840",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "0",
+            "Crit": "51"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "8720",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "0",
+            "Crit": "57"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "9550",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "0",
+            "Crit": "58"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "9",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "10640",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14240",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "0",
+            "Crit": "82"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14880",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "36",
+            "Magic": "0",
+            "Crit": "105"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "17910",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "35",
+            "Magic": "0",
+            "Crit": "103"
+          },
+          {
+            "Appears in": "Act 1 | F10 x4",
+            "Max HP": "19710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "49",
+            "Magic": "0",
+            "Crit": "131"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 12,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F4 x3",
+            "Max HP": "3200",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "41"
+          },
+          {
+            "Appears in": "Act 1 | F3 x2",
+            "Max HP": "3360",
+            "Base Attack Damage": "20",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "0",
+            "Crit": "52"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5220",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "7",
+            "Magic": "0",
+            "Crit": "48"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6460",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "13",
+            "Magic": "0",
+            "Crit": "60"
+          },
+          {
+            "Appears in": "Act 1 | F7 x3",
+            "Max HP": "8720",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "19",
+            "Magic": "0",
+            "Crit": "71"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "9550",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "18",
+            "Magic": "0",
+            "Crit": "70"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "9730",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "14",
+            "Magic": "0",
+            "Crit": "61"
+          },
+          {
+            "Appears in": "Act 1 | F8 x3",
+            "Max HP": "10640",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "98"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14240",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "31",
+            "Magic": "0",
+            "Crit": "96"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14880",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "45",
+            "Magic": "0",
+            "Crit": "123"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "17910",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "44",
+            "Magic": "0",
+            "Crit": "121"
+          },
+          {
+            "Appears in": "Act 1 | F10 x4",
+            "Max HP": "19710",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "60",
+            "Magic": "0",
+            "Crit": "154"
+          }
+        ]
+      },
+      {
+        "name": "Endless",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Endless | F0 x2",
+            "Max HP": "25000",
+            "Base Attack Damage": "175",
+            "Defense": "100",
+            "Attack": "100",
+            "Magic": "0",
+            "Crit": "60"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": [
+      {
+        "Stat": "Attack",
+        "Type": "Percentage",
+        "Value": "x1.75"
+      },
+      {
+        "Stat": "Attack Speed",
+        "Type": "Percentage",
+        "Value": "x1.5"
+      },
+      {
+        "Stat": "Crit",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Defense",
+        "Type": "Percentage",
+        "Value": "x1.6"
+      },
+      {
+        "Stat": "Max HP",
+        "Type": "Percentage",
+        "Value": "x1.75"
+      }
+    ]
+  },
+  {
+    "addressBar": "forest-golem",
+    "bodyCount": 17,
+    "enemyDataVariantCount": 57,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Slam",
+        "description": "Deal 150 (+ 150% Magic ) damage and Stun all adjacent enemies for 2.5 seconds.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Oak Skin",
+        "description": "Start of Combat: Gain 100% Magic Defense .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5120",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "19",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "5560",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "22",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "5810",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "32",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "7780",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "39",
+            "Magic": "59",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "7960",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "70",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "8540",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "37",
+            "Magic": "56",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "8770",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "107",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "8820",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "40",
+            "Magic": "60",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "8950",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "67",
+            "Magic": "100",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "9300",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "56",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "9650",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "10020",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "10380",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "116",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "10570",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "83",
+            "Magic": "125",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "10890",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "12010",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "133",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "6390",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "12",
+            "Magic": "19",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "7030",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "15",
+            "Magic": "22",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7480",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "21",
+            "Magic": "32",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "9770",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "39",
+            "Magic": "59",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10520",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "46",
+            "Magic": "70",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "11400",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "40",
+            "Magic": "60",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "11420",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "50",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11720",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "67",
+            "Magic": "100",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "11800",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "107",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "12360",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "56",
+            "Magic": "84",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "12880",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "12900",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "82",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "14080",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "83",
+            "Magic": "125",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "14090",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "77",
+            "Magic": "116",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "14460",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "94",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "16270",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "88",
+            "Magic": "133",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 16,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "5880",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "19",
+            "Magic": "29",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6 x2",
+            "Max HP": "6440",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "22",
+            "Magic": "33",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7 x2",
+            "Max HP": "7100",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "48",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F6",
+            "Max HP": "8940",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "48",
+            "Magic": "72",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "9900",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "61",
+            "Magic": "91",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8",
+            "Max HP": "10560",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "50",
+            "Magic": "76",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "10740",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "53",
+            "Magic": "80",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F8 x2",
+            "Max HP": "11030",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "82",
+            "Magic": "123",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "11090",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "87",
+            "Magic": "131",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "11600",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "71",
+            "Magic": "107",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "12100",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "70",
+            "Magic": "105",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F7",
+            "Max HP": "12200",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "76",
+            "Magic": "114",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10",
+            "Max HP": "13160",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "95",
+            "Magic": "143",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9 x2",
+            "Max HP": "13200",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "100",
+            "Magic": "151",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F9",
+            "Max HP": "13590",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "78",
+            "Magic": "117",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Act 1 | F10 x2",
+            "Max HP": "15240",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "107",
+            "Magic": "160",
+            "Crit": "0"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 9,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F4",
+            "Max HP": "4800",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "37",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4",
+            "Max HP": "4800",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "24",
+            "Magic": "37",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F4",
+            "Max HP": "5690",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "33",
+            "Magic": "49",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F7",
+            "Max HP": "14590",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "128",
+            "Magic": "192",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F7",
+            "Max HP": "17710",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "147",
+            "Magic": "221",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F7",
+            "Max HP": "18830",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "128",
+            "Magic": "192",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "20520",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "177",
+            "Magic": "266",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "25650",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "202",
+            "Magic": "303",
+            "Crit": "0"
+          },
+          {
+            "Appears in": "Event fight | F9",
+            "Max HP": "27430",
+            "Base Attack Damage": "75",
+            "Defense": "0",
+            "Attack": "177",
+            "Magic": "266",
+            "Crit": "0"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "hydra",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Venomous Bite",
+        "description": "Deal 150% Attack damage and inflict 2 (+ 1 per 20 Attack ) Poison per remaining head.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Three Heads",
+        "description": "When the Hydra goes below 66 % and 33 % Max HP it loses a head. The Hydra attacks an additional time for each head it has beyond the first. The bonus attacks deal 33 % damage. The Hydra gains 15 HP/S per head.",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "12910",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "58",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "15830",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "62",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "15830",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "74",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 3,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "26350",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "138",
+            "Magic": "0",
+            "Crit": "25"
+          },
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "33310",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "138",
+            "Magic": "0",
+            "Crit": "25"
+          },
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "33310",
+            "Base Attack Damage": "50",
+            "Defense": "0",
+            "Attack": "165",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "demon",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Anger",
+        "description": "Gain 10% Max Health Shields and inflict 33% Attack Burn on all enemies.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Fury",
+        "description": "When the Demon reaches 50 % remaining Max HP , it gains 25 Attack Speed , 25% Max Health Shields , and inflicts 100% Attack Burn on all Heroes.",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "13560",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "16620",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "25",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "MiniBoss Act 1 | F5",
+            "Max HP": "15170",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "32",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Event Fight",
+        "count": 3,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "24060",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "25"
+          },
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "30410",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "0",
+            "Crit": "25"
+          },
+          {
+            "Appears in": "Event fight | F6",
+            "Max HP": "30410",
+            "Base Attack Damage": "100",
+            "Defense": "0",
+            "Attack": "103",
+            "Magic": "0",
+            "Crit": "25"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "frost-dragon",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Frost Breath",
+        "description": "Deal 200 (+ 200% Magic ) damage and inflict 10 (+ 40% Magic ) Frost to all enemies.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Freezing Attacks",
+        "description": "The Dragon's auto attacks inflict 2 (+ 1 per 15 Magic ) Frost and hit all Heroes adjacent to its target for 66 % damage .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "93330",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "66",
+            "Magic": "88",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "119090",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "66",
+            "Magic": "88",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "137810",
+            "Base Attack Damage": "425",
+            "Defense": "0",
+            "Attack": "97",
+            "Magic": "129",
+            "Crit": "25"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "fire-dragon",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Flame Breath",
+        "description": "Deal 200 (+ 200% Magic ) damage and inflict 15 (+ 60% Magic ) Burn to all enemies.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Flaming Attacks",
+        "description": "The Dragon's auto attacks inflict 3 (+ 1 per 10 Magic ) Burn and hit all Heroes adjacent to its target for 66 % damage .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "100000",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "73",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "143320",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "55",
+            "Magic": "73",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "132300",
+            "Base Attack Damage": "425",
+            "Defense": "0",
+            "Attack": "81",
+            "Magic": "108",
+            "Crit": "25"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  },
+  {
+    "addressBar": "poison-dragon",
+    "bodyCount": null,
+    "enemyDataVariantCount": null,
+    "abilities": [
+      {
+        "type": "Active",
+        "name": "Poison Breath",
+        "description": "Deal 200 (+ 200% Magic ) damage and inflict 5 (+ 20% Magic ) Poison to all enemies.",
+        "variants": "all variants"
+      },
+      {
+        "type": "Passive",
+        "name": "Toxic Attacks",
+        "description": "The Dragon's auto attacks inflict 1 (+ 1 per 20 Magic ) Poison and hit all Heroes adjacent to its target for 66 % damage .",
+        "variants": "all variants"
+      }
+    ],
+    "variantGroups": [
+      {
+        "name": "Tier 1",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "124000",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "84",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 2",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "187420",
+            "Base Attack Damage": "300",
+            "Defense": "0",
+            "Attack": "63",
+            "Magic": "84",
+            "Crit": "25"
+          }
+        ]
+      },
+      {
+        "name": "Tier 3",
+        "count": 1,
+        "columns": [
+          "Appears in",
+          "Max HP",
+          "Base Attack Damage",
+          "Defense",
+          "Attack",
+          "Magic",
+          "Crit"
+        ],
+        "rows": [
+          {
+            "Appears in": "Boss Act 1 | F11",
+            "Max HP": "187420",
+            "Base Attack Damage": "425",
+            "Defense": "0",
+            "Attack": "104",
+            "Magic": "138",
+            "Crit": "25"
+          }
+        ]
+      }
+    ],
+    "endlessScaling": []
+  }
+]
