@@ -2,6 +2,7 @@ import Link from "next/link";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
 import "@/src/styles/growth-route.css";
 import { growthFacts, priceReference } from "@/app/gameplay/content";
+import dataset from "@/src/data/dataset.json";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
 
@@ -123,10 +124,10 @@ export default function GrowthRoutePage() {
         activeHref="/gameplay/growth-route/"
         pageLinks={pageLinks}
       >
-        <header className="reference-page-head growth-route-head">
+        <header className="reference-page-head">
           <div>
             <span className="archive-eyebrow">
-              Formation layout · rank-up decisions · Demo 0.5.1
+              Formation layout · rank-up decisions · {dataset.gameVersion}
             </span>
             <h1>{pageTdk.growthRoute.h1}</h1>
             <p>
@@ -141,7 +142,7 @@ export default function GrowthRoutePage() {
           </div>
         </header>
 
-        <article className="manual-article growth-route-manual">
+        <article className="growth-route-manual">
           <section className="growth-route-lede" id="route-overview">
             <div>
               <span className="archive-kicker">The rule for every upgrade</span>
@@ -205,7 +206,7 @@ export default function GrowthRoutePage() {
                   className="growth-board"
                   aria-label="Example Guildrun formation with an anchor in front and carry and support behind"
                 >
-                  <div className="growth-board__row is-front">
+                  <div className="growth-board__row">
                     <BoardCell />
                     <BoardCell tone="anchor">
                       <span>01</span>
@@ -235,7 +236,7 @@ export default function GrowthRoutePage() {
                     <BoardCell />
                     <BoardCell />
                   </div>
-                  <div className="growth-board__row is-back">
+                  <div className="growth-board__row">
                     <BoardCell />
                     <BoardCell />
                     <BoardCell />
@@ -387,7 +388,13 @@ export default function GrowthRoutePage() {
             <ol className="growth-rank-route">
               {rankSteps.map((item, index) => (
                 <li key={item.rank}>
-                  <div className={`growth-rank-badge rank-${item.rank.toLowerCase()}`}>
+                  <div
+                    className={
+                      item.rank === "C"
+                        ? "growth-rank-badge"
+                        : `growth-rank-badge rank-${item.rank.toLowerCase()}`
+                    }
+                  >
                     <small>Rank</small>
                     <b>{item.rank}</b>
                   </div>

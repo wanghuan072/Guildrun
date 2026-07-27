@@ -6,8 +6,7 @@
     "rarity": "Unique",
     "effect": "Quest: Trigger Rush 3 times. Reward: Rush abilities last 1 second longer.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/acceleration-accumulator.webp",
-    "sourcePath": "/relics/acceleration-accumulator/"
+    "imageUrl": "/images/wiki/relics/acceleration-accumulator.webp"
   },
   {
     "id": 2,
@@ -16,8 +15,7 @@
     "rarity": "Epic",
     "effect": "Quest: Trigger Rush 15 times. Reward: Rush abilities last 4 seconds longer.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/acceleration-ascendancy.webp",
-    "sourcePath": "/relics/acceleration-ascendancy/"
+    "imageUrl": "/images/wiki/relics/acceleration-ascendancy.webp"
   },
   {
     "id": 3,
@@ -26,8 +24,7 @@
     "rarity": "Rare",
     "effect": "Quest: Trigger Rush 6 times. Reward: Rush abilities last 3 seconds longer.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/acceleration-conduit.webp",
-    "sourcePath": "/relics/acceleration-conduit/"
+    "imageUrl": "/images/wiki/relics/acceleration-conduit.webp"
   },
   {
     "id": 4,
@@ -36,8 +33,7 @@
     "rarity": "Epic",
     "effect": "On kill for Rush ( 20 ), gain 12 Shards .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/acceleration-filigree.webp",
-    "sourcePath": "/relics/acceleration-filigree/"
+    "imageUrl": "/images/wiki/relics/acceleration-filigree.webp"
   },
   {
     "id": 5,
@@ -46,8 +42,7 @@
     "rarity": "Unique",
     "effect": "On Rush trigger, give Heroes 10 Attack Speed and 10 Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/acceleration-fluctuator.webp",
-    "sourcePath": "/relics/acceleration-fluctuator/"
+    "imageUrl": "/images/wiki/relics/acceleration-fluctuator.webp"
   },
   {
     "id": 6,
@@ -56,8 +51,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 2 ), Heroes are immune to damage.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/acceleration-immunizer.webp",
-    "sourcePath": "/relics/acceleration-immunizer/"
+    "imageUrl": "/images/wiki/relics/acceleration-immunizer.webp"
   },
   {
     "id": 7,
@@ -66,8 +60,7 @@
     "rarity": "Common",
     "effect": "For Rush ( 10 ), Heroes gain 25 HP/S .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/acceleration-lattice.webp",
-    "sourcePath": "/relics/acceleration-lattice/"
+    "imageUrl": "/images/wiki/relics/acceleration-lattice.webp"
   },
   {
     "id": 8,
@@ -76,8 +69,7 @@
     "rarity": "Legendary",
     "effect": "For Rush ( 6 ), Heroes gain + 1 % basic stats for every 2 times you've triggered Rush this game.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/acceleration-legacy-crystal.webp",
-    "sourcePath": "/relics/acceleration-legacy-crystal/"
+    "imageUrl": "/images/wiki/relics/acceleration-legacy-crystal.webp"
   },
   {
     "id": 9,
@@ -86,8 +78,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Trigger Rush 25 times. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/acceleration-mandate.webp",
-    "sourcePath": "/relics/acceleration-mandate/"
+    "imageUrl": "/images/wiki/relics/acceleration-mandate.webp"
   },
   {
     "id": 10,
@@ -96,8 +87,7 @@
     "rarity": "Rare",
     "effect": "Every 2 Rush triggers, gain 1 Shard .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/acceleration-nexus.webp",
-    "sourcePath": "/relics/acceleration-nexus/"
+    "imageUrl": "/images/wiki/relics/acceleration-nexus.webp"
   },
   {
     "id": 11,
@@ -106,8 +96,7 @@
     "rarity": "Epic",
     "effect": "On Rush trigger, give Heroes 15 Crit .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/acceleration-prism.webp",
-    "sourcePath": "/relics/acceleration-prism/"
+    "imageUrl": "/images/wiki/relics/acceleration-prism.webp"
   },
   {
     "id": 12,
@@ -116,8 +105,7 @@
     "rarity": "Rare",
     "effect": "On Rush trigger, give Heroes 5 Crit and 10 Attack Speed .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/acceleration-reactor.webp",
-    "sourcePath": "/relics/acceleration-reactor/"
+    "imageUrl": "/images/wiki/relics/acceleration-reactor.webp"
   },
   {
     "id": 13,
@@ -126,8 +114,7 @@
     "rarity": "Unique",
     "effect": "On Rush trigger, Heroes gain 250 Shields .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/acceleration-resonator.webp",
-    "sourcePath": "/relics/acceleration-resonator/"
+    "imageUrl": "/images/wiki/relics/acceleration-resonator.webp"
   },
   {
     "id": 14,
@@ -136,8 +123,7 @@
     "rarity": "Common",
     "effect": "Quest: Trigger Rush 4 times. Reward: Rush abilities last 2 seconds longer.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/acceleration-vessel.webp",
-    "sourcePath": "/relics/acceleration-vessel/"
+    "imageUrl": "/images/wiki/relics/acceleration-vessel.webp"
   },
   {
     "id": 15,
@@ -146,8 +132,7 @@
     "rarity": "Rare",
     "effect": "Shop rerolls cost 2 less.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/advanced-differentiator.webp",
-    "sourcePath": "/relics/advanced-differentiator/"
+    "imageUrl": "/images/wiki/relics/advanced-differentiator.webp"
   },
   {
     "id": 16,
@@ -156,8 +141,7 @@
     "rarity": "Epic",
     "effect": "Quest: Trigger Rush or Stall 25 times. Reward: On Rush or Stall trigger, Heroes gain 15 Attack Speed and 15 Defense .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/alignment-ascendancy.webp",
-    "sourcePath": "/relics/alignment-ascendancy/"
+    "imageUrl": "/images/wiki/relics/alignment-ascendancy.webp"
   },
   {
     "id": 17,
@@ -166,8 +150,7 @@
     "rarity": "Unique",
     "effect": "Gain 40 Shards . Start with Emergency Rewind unavailable.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/all-in.webp",
-    "sourcePath": "/relics/all-in/"
+    "imageUrl": "/images/wiki/relics/all-in.webp"
   },
   {
     "id": 18,
@@ -176,8 +159,7 @@
     "rarity": "Rare",
     "effect": "Mages and Mystics gain 50 Magic and 4 Mana Regen .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/arcane-amplifier.webp",
-    "sourcePath": "/relics/arcane-amplifier/"
+    "imageUrl": "/images/wiki/relics/arcane-amplifier.webp"
   },
   {
     "id": 19,
@@ -186,8 +168,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 20 Magic per rank of each Mage in the reserves and 2 Mana Regen per rank of each Mystic in the reserves .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/arcane-backup-prism.webp",
-    "sourcePath": "/relics/arcane-backup-prism/"
+    "imageUrl": "/images/wiki/relics/arcane-backup-prism.webp"
   },
   {
     "id": 20,
@@ -196,8 +177,7 @@
     "rarity": "Rare",
     "effect": "Quest: Cast 25 Active Abilities. Reward: Heroes gain 25 Starting Mana .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/arcane-conduit.webp",
-    "sourcePath": "/relics/arcane-conduit/"
+    "imageUrl": "/images/wiki/relics/arcane-conduit.webp"
   },
   {
     "id": 21,
@@ -206,8 +186,7 @@
     "rarity": "Legendary",
     "effect": "Whenever a Mage or Mystic casts , they deal damage equal to 100 % of their Magic to all enemies and apply Shields equal to 1000 % of their Mana Regen to all Heroes.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/arcane-energy-crystal.webp",
-    "sourcePath": "/relics/arcane-energy-crystal/"
+    "imageUrl": "/images/wiki/relics/arcane-energy-crystal.webp"
   },
   {
     "id": 22,
@@ -216,8 +195,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Deal 15000 damage with active abilities. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/arcane-mandate.webp",
-    "sourcePath": "/relics/arcane-mandate/"
+    "imageUrl": "/images/wiki/relics/arcane-mandate.webp"
   },
   {
     "id": 23,
@@ -226,8 +204,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win a combat with Heroes of 3 or more different ranks in combat. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/ascension-mandate.webp",
-    "sourcePath": "/relics/ascension-mandate/"
+    "imageUrl": "/images/wiki/relics/ascension-mandate.webp"
   },
   {
     "id": 24,
@@ -236,8 +213,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as an Assassin during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-crest.webp",
-    "sourcePath": "/relics/assassin-crest/"
+    "imageUrl": "/images/wiki/relics/assassin-crest.webp"
   },
   {
     "id": 25,
@@ -246,8 +222,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Assassins . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-equipment.webp",
-    "sourcePath": "/relics/assassin-equipment/"
+    "imageUrl": "/images/wiki/relics/assassin-equipment.webp"
   },
   {
     "id": 26,
@@ -256,8 +231,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 30 Crit . Whenever an Assassin auto attacks while Stealthed , they inflict Poison on their target equal to 75 % of their Crit . At start of combat, Assassins in the back 2 rows gain Stealth for 5 seconds and target the most threatening enemy.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/assassin-s-ambush-engine.webp",
-    "sourcePath": "/relics/assassin-s-ambush-engine/"
+    "imageUrl": "/images/wiki/relics/assassin-s-ambush-engine.webp"
   },
   {
     "id": 27,
@@ -266,8 +240,7 @@
     "rarity": "Unique",
     "effect": "Assassins gain 15 Crit and 25 Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-combative-reflection.webp",
-    "sourcePath": "/relics/assassin-s-combative-reflection/"
+    "imageUrl": "/images/wiki/relics/assassin-s-combative-reflection.webp"
   },
   {
     "id": 28,
@@ -276,8 +249,7 @@
     "rarity": "Epic",
     "effect": "Whenever an Assassin kills an enemy they permanently gain 7 Crit then you gain 1 Shard per 100 Crit they have (Max: 10 ).",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/assassin-s-elevation-prism.webp",
-    "sourcePath": "/relics/assassin-s-elevation-prism/"
+    "imageUrl": "/images/wiki/relics/assassin-s-elevation-prism.webp"
   },
   {
     "id": 29,
@@ -286,8 +258,7 @@
     "rarity": "Rare",
     "effect": "If there is an Assassin in combat, Heroes gain Stealth for 3 seconds the first time they go below 66 % Max HP each combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/assassin-s-emblem.webp",
-    "sourcePath": "/relics/assassin-s-emblem/"
+    "imageUrl": "/images/wiki/relics/assassin-s-emblem.webp"
   },
   {
     "id": 30,
@@ -296,8 +267,7 @@
     "rarity": "Unique",
     "effect": "Assassins gain 15 Crit and 25 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-enchanted-reflection.webp",
-    "sourcePath": "/relics/assassin-s-enchanted-reflection/"
+    "imageUrl": "/images/wiki/relics/assassin-s-enchanted-reflection.webp"
   },
   {
     "id": 31,
@@ -306,8 +276,7 @@
     "rarity": "Unique",
     "effect": "Assassin's Rush abilities last 3 seconds longer.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-endurance-banner.webp",
-    "sourcePath": "/relics/assassin-s-endurance-banner/"
+    "imageUrl": "/images/wiki/relics/assassin-s-endurance-banner.webp"
   },
   {
     "id": 32,
@@ -316,8 +285,7 @@
     "rarity": "Unique",
     "effect": "Assassins gain 1 Attack and 1 Magic per 5 Shards you've generated this game.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-greed-banner.webp",
-    "sourcePath": "/relics/assassin-s-greed-banner/"
+    "imageUrl": "/images/wiki/relics/assassin-s-greed-banner.webp"
   },
   {
     "id": 33,
@@ -326,8 +294,7 @@
     "rarity": "Common",
     "effect": "Assassins gain 15 Crit .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/assassin-s-medallion.webp",
-    "sourcePath": "/relics/assassin-s-medallion/"
+    "imageUrl": "/images/wiki/relics/assassin-s-medallion.webp"
   },
   {
     "id": 34,
@@ -336,8 +303,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, gain 4 Shards per Assassin in combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/assassin-s-memento.webp",
-    "sourcePath": "/relics/assassin-s-memento/"
+    "imageUrl": "/images/wiki/relics/assassin-s-memento.webp"
   },
   {
     "id": 35,
@@ -346,8 +312,7 @@
     "rarity": "Unique",
     "effect": "Whenever an Assassin Crits , they permanently gain 1 Attack and 1 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-patience-banner.webp",
-    "sourcePath": "/relics/assassin-s-patience-banner/"
+    "imageUrl": "/images/wiki/relics/assassin-s-patience-banner.webp"
   },
   {
     "id": 36,
@@ -356,8 +321,7 @@
     "rarity": "Unique",
     "effect": "Whenever an Assassin kills an enemy, gain 4 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-payday-banner.webp",
-    "sourcePath": "/relics/assassin-s-payday-banner/"
+    "imageUrl": "/images/wiki/relics/assassin-s-payday-banner.webp"
   },
   {
     "id": 37,
@@ -366,8 +330,7 @@
     "rarity": "Unique",
     "effect": "Assassins gain Stealth for 3 seconds the first time they go below 33 % Max HP each combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/assassin-s-smokescreen-banner.webp",
-    "sourcePath": "/relics/assassin-s-smokescreen-banner/"
+    "imageUrl": "/images/wiki/relics/assassin-s-smokescreen-banner.webp"
   },
   {
     "id": 38,
@@ -376,8 +339,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 4 ), Assassins gain Stealth and 200 Crit .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/assassin-s-supremacy-filigree.webp",
-    "sourcePath": "/relics/assassin-s-supremacy-filigree/"
+    "imageUrl": "/images/wiki/relics/assassin-s-supremacy-filigree.webp"
   },
   {
     "id": 39,
@@ -386,8 +348,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/attack-parcel.webp",
-    "sourcePath": "/relics/attack-parcel/"
+    "imageUrl": "/images/wiki/relics/attack-parcel.webp"
   },
   {
     "id": 40,
@@ -396,8 +357,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Attack Speed .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/attack-speed-parcel.webp",
-    "sourcePath": "/relics/attack-speed-parcel/"
+    "imageUrl": "/images/wiki/relics/attack-speed-parcel.webp"
   },
   {
     "id": 41,
@@ -406,8 +366,7 @@
     "rarity": "Common",
     "effect": "At start of combat, Heroes in the back row gain 10 Attack Speed and 15 Crit .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/backline-aggressor.webp",
-    "sourcePath": "/relics/backline-aggressor/"
+    "imageUrl": "/images/wiki/relics/backline-aggressor.webp"
   },
   {
     "id": 42,
@@ -416,8 +375,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, Heroes in the back row gain 40 Attack Speed and increased move speed.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/backline-quickener.webp",
-    "sourcePath": "/relics/backline-quickener/"
+    "imageUrl": "/images/wiki/relics/backline-quickener.webp"
   },
   {
     "id": 43,
@@ -426,8 +384,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, Heroes in the back row gain 25 Crit and increased move speed.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/backline-sharpener.webp",
-    "sourcePath": "/relics/backline-sharpener/"
+    "imageUrl": "/images/wiki/relics/backline-sharpener.webp"
   },
   {
     "id": 44,
@@ -436,8 +393,7 @@
     "rarity": "Common",
     "effect": "Shop rerolls cost 1 less.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/basic-differentiator.webp",
-    "sourcePath": "/relics/basic-differentiator/"
+    "imageUrl": "/images/wiki/relics/basic-differentiator.webp"
   },
   {
     "id": 45,
@@ -446,8 +402,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "Heroes have 50 % increased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/battle-stance.webp",
-    "sourcePath": "/relics/battle-stance/"
+    "imageUrl": "/images/wiki/relics/battle-stance.webp"
   },
   {
     "id": 46,
@@ -456,8 +411,7 @@
     "rarity": "Epic",
     "effect": "Whenever an enemy takes Poison or Burn damage, heal all adjacent Heroes to them for 50 % of that damage.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/blight-resonance-prism.webp",
-    "sourcePath": "/relics/blight-resonance-prism/"
+    "imageUrl": "/images/wiki/relics/blight-resonance-prism.webp"
   },
   {
     "id": 47,
@@ -466,8 +420,7 @@
     "rarity": "Unique",
     "effect": "Quest: Win 6 combats. Reward: Gain 40 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/bossy.webp",
-    "sourcePath": "/relics/bossy/"
+    "imageUrl": "/images/wiki/relics/bossy.webp"
   },
   {
     "id": 48,
@@ -476,8 +429,7 @@
     "rarity": "Unique",
     "effect": "Quest: Inflict 150 Burn . Reward: Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/burn-accumulator.webp",
-    "sourcePath": "/relics/burn-accumulator/"
+    "imageUrl": "/images/wiki/relics/burn-accumulator.webp"
   },
   {
     "id": 49,
@@ -486,8 +438,7 @@
     "rarity": "Rare",
     "effect": "Whenever a Hero inflicts Burn , inflict 33 % more.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/burn-amplifier.webp",
-    "sourcePath": "/relics/burn-amplifier/"
+    "imageUrl": "/images/wiki/relics/burn-amplifier.webp"
   },
   {
     "id": 50,
@@ -496,8 +447,7 @@
     "rarity": "Epic",
     "effect": "Quest: Inflict 1200 Burn . Reward: The first time each enemy reaches 100 Burn , inflict 50 Burn on their nearest ally.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/burn-ascendancy.webp",
-    "sourcePath": "/relics/burn-ascendancy/"
+    "imageUrl": "/images/wiki/relics/burn-ascendancy.webp"
   },
   {
     "id": 51,
@@ -506,8 +456,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, inflict 15 Burn on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/burn-bauble.webp",
-    "sourcePath": "/relics/burn-bauble/"
+    "imageUrl": "/images/wiki/relics/burn-bauble.webp"
   },
   {
     "id": 52,
@@ -516,8 +465,7 @@
     "rarity": "Rare",
     "effect": "For Rush ( 15 ), enemies receive 50 % more Burn damage.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/burn-catalyst.webp",
-    "sourcePath": "/relics/burn-catalyst/"
+    "imageUrl": "/images/wiki/relics/burn-catalyst.webp"
   },
   {
     "id": 53,
@@ -526,8 +474,7 @@
     "rarity": "Rare",
     "effect": "Quest: Inflict 600 Burn . Reward: Whenever a Hero inflicts Burn, they gain 1 Magic and 1 Attack per 6 Burn inflicted.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/burn-conduit.webp",
-    "sourcePath": "/relics/burn-conduit/"
+    "imageUrl": "/images/wiki/relics/burn-conduit.webp"
   },
   {
     "id": 54,
@@ -536,8 +483,7 @@
     "rarity": "Epic",
     "effect": "Whenever an enemy dies, transfer their Burn to the nearest enemy.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/burn-migrator.webp",
-    "sourcePath": "/relics/burn-migrator/"
+    "imageUrl": "/images/wiki/relics/burn-migrator.webp"
   },
   {
     "id": 55,
@@ -546,8 +492,7 @@
     "rarity": "Common",
     "effect": "Quest: Inflict 300 Burn . Reward: Heroes gain 200 Max HP and 25 Attack .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/burn-vessel.webp",
-    "sourcePath": "/relics/burn-vessel/"
+    "imageUrl": "/images/wiki/relics/burn-vessel.webp"
   },
   {
     "id": 56,
@@ -556,8 +501,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "At start of combat, inflict Burn on all Heroes equal to 3 % of their Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/burning.webp",
-    "sourcePath": "/relics/burning/"
+    "imageUrl": "/images/wiki/relics/burning.webp"
   },
   {
     "id": 57,
@@ -566,8 +510,7 @@
     "rarity": "Legendary",
     "effect": "Whenever an enemy with 100 or more Burn dies, damage all enemies in a large area around them equal to 50 % of their Max HP .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/burning-spiral-engine.webp",
-    "sourcePath": "/relics/burning-spiral-engine/"
+    "imageUrl": "/images/wiki/relics/burning-spiral-engine.webp"
   },
   {
     "id": 58,
@@ -576,8 +519,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 6 Attack . On combat victory, permanently increase the Attack gained by 6 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/combative-codex.webp",
-    "sourcePath": "/relics/combative-codex/"
+    "imageUrl": "/images/wiki/relics/combative-codex.webp"
   },
   {
     "id": 59,
@@ -586,8 +528,7 @@
     "rarity": "Unique",
     "effect": "Get two random items which make a Hero count as having an additional class. Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/crest-windfall.webp",
-    "sourcePath": "/relics/crest-windfall/"
+    "imageUrl": "/images/wiki/relics/crest-windfall.webp"
   },
   {
     "id": 60,
@@ -596,8 +537,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Crit .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/crit-parcel.webp",
-    "sourcePath": "/relics/crit-parcel/"
+    "imageUrl": "/images/wiki/relics/crit-parcel.webp"
   },
   {
     "id": 61,
@@ -606,8 +546,7 @@
     "rarity": "Epic",
     "effect": "On Crit, the Hero that Crit steals 50 Max HP from their target.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/critical-absorption-prism.webp",
-    "sourcePath": "/relics/critical-absorption-prism/"
+    "imageUrl": "/images/wiki/relics/critical-absorption-prism.webp"
   },
   {
     "id": 62,
@@ -616,8 +555,7 @@
     "rarity": "Epic",
     "effect": "Quest: Crit 100 times. Reward: Each Hero's first auto attack against each enemy gains 1500 Crit and Stuns them for 2.5 seconds.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/critical-ascendancy.webp",
-    "sourcePath": "/relics/critical-ascendancy/"
+    "imageUrl": "/images/wiki/relics/critical-ascendancy.webp"
   },
   {
     "id": 63,
@@ -626,8 +564,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Crit 200 times. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/critical-mandate.webp",
-    "sourcePath": "/relics/critical-mandate/"
+    "imageUrl": "/images/wiki/relics/critical-mandate.webp"
   },
   {
     "id": 64,
@@ -636,8 +573,7 @@
     "rarity": "Legendary",
     "effect": "At start of combat, each Hero with less than 150 Crit has their Crit set to 150 . Each Hero with 150 or more Crit has their Attack Speed , Attack , and Magic set to 150 if they had less than 150 of those stats.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/critical-singularity.webp",
-    "sourcePath": "/relics/critical-singularity/"
+    "imageUrl": "/images/wiki/relics/critical-singularity.webp"
   },
   {
     "id": 65,
@@ -646,8 +582,7 @@
     "rarity": "Common",
     "effect": "Quest: Crit 20 times. Reward: Heroes gain 25 Attack Speed and 5 Omnivamp .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/critical-vessel.webp",
-    "sourcePath": "/relics/critical-vessel/"
+    "imageUrl": "/images/wiki/relics/critical-vessel.webp"
   },
   {
     "id": 66,
@@ -656,8 +591,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "At start of combat, Heroes take damage equal to 25 % of their Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/damaged.webp",
-    "sourcePath": "/relics/damaged/"
+    "imageUrl": "/images/wiki/relics/damaged.webp"
   },
   {
     "id": 67,
@@ -666,8 +600,7 @@
     "rarity": "Enemy",
     "effect": "Heroes have 20 % decreased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/decay-5004.webp",
-    "sourcePath": "/relics/decay-5004/"
+    "imageUrl": "/images/wiki/relics/decay-5004.webp"
   },
   {
     "id": 68,
@@ -676,8 +609,7 @@
     "rarity": "Enemy",
     "effect": "Heroes have 15 % decreased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/decay-5015.webp",
-    "sourcePath": "/relics/decay-5015/"
+    "imageUrl": "/images/wiki/relics/decay-5015.webp"
   },
   {
     "id": 69,
@@ -686,8 +618,7 @@
     "rarity": "Unique",
     "effect": "Quest: Trigger Stall 3 times. Reward: Stall abilities trigger 2 seconds faster.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/deceleration-accumulator.webp",
-    "sourcePath": "/relics/deceleration-accumulator/"
+    "imageUrl": "/images/wiki/relics/deceleration-accumulator.webp"
   },
   {
     "id": 70,
@@ -696,8 +627,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 15 , Stall 30 , and Stall 45 ), Heroes gain 700 lasting Shields .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/deceleration-aegis.webp",
-    "sourcePath": "/relics/deceleration-aegis/"
+    "imageUrl": "/images/wiki/relics/deceleration-aegis.webp"
   },
   {
     "id": 71,
@@ -706,8 +636,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 25 , Stall 50 , and Stall 75 ), give Heroes + 15 % to all their basic stats .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/deceleration-apotheosis.webp",
-    "sourcePath": "/relics/deceleration-apotheosis/"
+    "imageUrl": "/images/wiki/relics/deceleration-apotheosis.webp"
   },
   {
     "id": 72,
@@ -716,8 +645,7 @@
     "rarity": "Epic",
     "effect": "Quest: Trigger Stall 15 times. Reward: Stall abilities trigger 9 seconds faster.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/deceleration-ascendancy.webp",
-    "sourcePath": "/relics/deceleration-ascendancy/"
+    "imageUrl": "/images/wiki/relics/deceleration-ascendancy.webp"
   },
   {
     "id": 73,
@@ -726,8 +654,7 @@
     "rarity": "Rare",
     "effect": "Quest: Trigger Stall 6 times. Reward: Stall abilities trigger 6 seconds faster.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/deceleration-conduit.webp",
-    "sourcePath": "/relics/deceleration-conduit/"
+    "imageUrl": "/images/wiki/relics/deceleration-conduit.webp"
   },
   {
     "id": 74,
@@ -736,8 +663,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 15 ) and Stall ( 30 ), double the amount of Poison on all enemies.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/deceleration-corruptor.webp",
-    "sourcePath": "/relics/deceleration-corruptor/"
+    "imageUrl": "/images/wiki/relics/deceleration-corruptor.webp"
   },
   {
     "id": 75,
@@ -746,8 +672,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 30 and Stall 60 ), gain 12 Shards .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/deceleration-filigree.webp",
-    "sourcePath": "/relics/deceleration-filigree/"
+    "imageUrl": "/images/wiki/relics/deceleration-filigree.webp"
   },
   {
     "id": 76,
@@ -756,8 +681,7 @@
     "rarity": "Unique",
     "effect": "On Stall Trigger: Heroes gain 10 Attack Speed and 10 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/deceleration-fluctuator.webp",
-    "sourcePath": "/relics/deceleration-fluctuator/"
+    "imageUrl": "/images/wiki/relics/deceleration-fluctuator.webp"
   },
   {
     "id": 77,
@@ -766,8 +690,7 @@
     "rarity": "Common",
     "effect": "After Stall ( 20 ), Heroes gain 15 HP/S .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/deceleration-lattice.webp",
-    "sourcePath": "/relics/deceleration-lattice/"
+    "imageUrl": "/images/wiki/relics/deceleration-lattice.webp"
   },
   {
     "id": 78,
@@ -776,8 +699,7 @@
     "rarity": "Legendary",
     "effect": "After Stall ( 45 ), Heroes gain + 1 % basic stats for every 2 times you've triggered Stall this game.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/deceleration-legacy-crystal.webp",
-    "sourcePath": "/relics/deceleration-legacy-crystal/"
+    "imageUrl": "/images/wiki/relics/deceleration-legacy-crystal.webp"
   },
   {
     "id": 79,
@@ -786,8 +708,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Trigger Stall 25 times. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/deceleration-mandate.webp",
-    "sourcePath": "/relics/deceleration-mandate/"
+    "imageUrl": "/images/wiki/relics/deceleration-mandate.webp"
   },
   {
     "id": 80,
@@ -796,8 +717,7 @@
     "rarity": "Rare",
     "effect": "Every 2 Stall triggers, gain 1 Shard .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/deceleration-nexus.webp",
-    "sourcePath": "/relics/deceleration-nexus/"
+    "imageUrl": "/images/wiki/relics/deceleration-nexus.webp"
   },
   {
     "id": 81,
@@ -806,8 +726,7 @@
     "rarity": "Rare",
     "effect": "On Stall trigger, give Heroes a 10 % Max HP Shield and 8 Mana .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/deceleration-reactor.webp",
-    "sourcePath": "/relics/deceleration-reactor/"
+    "imageUrl": "/images/wiki/relics/deceleration-reactor.webp"
   },
   {
     "id": 82,
@@ -816,8 +735,7 @@
     "rarity": "Unique",
     "effect": "On Stall trigger, Heroes heal 250 .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/deceleration-resonator.webp",
-    "sourcePath": "/relics/deceleration-resonator/"
+    "imageUrl": "/images/wiki/relics/deceleration-resonator.webp"
   },
   {
     "id": 83,
@@ -826,8 +744,7 @@
     "rarity": "Common",
     "effect": "Quest: Trigger Stall 4 times. Reward: Stall abilities trigger 3 seconds faster.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/deceleration-vessel.webp",
-    "sourcePath": "/relics/deceleration-vessel/"
+    "imageUrl": "/images/wiki/relics/deceleration-vessel.webp"
   },
   {
     "id": 84,
@@ -836,8 +753,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Defense .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/defense-parcel.webp",
-    "sourcePath": "/relics/defense-parcel/"
+    "imageUrl": "/images/wiki/relics/defense-parcel.webp"
   },
   {
     "id": 85,
@@ -846,8 +762,7 @@
     "rarity": "Rare",
     "effect": "Tanks and Vanguards gain 45 Defense and 300 Max HP .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/defensive-amplifier.webp",
-    "sourcePath": "/relics/defensive-amplifier/"
+    "imageUrl": "/images/wiki/relics/defensive-amplifier.webp"
   },
   {
     "id": 86,
@@ -856,8 +771,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 30 Defense per rank of each Tank in the reserves and 200 Max HP per rank of each Vanguard in the reserves .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/defensive-backup-prism.webp",
-    "sourcePath": "/relics/defensive-backup-prism/"
+    "imageUrl": "/images/wiki/relics/defensive-backup-prism.webp"
   },
   {
     "id": 87,
@@ -866,8 +780,7 @@
     "rarity": "Legendary",
     "effect": "At start of combat, Tanks and Vanguards gain Shields equal to 100 % of their Max HP . After Stall ( 20 and Stall 40 ), Tanks and Vanguards gain Shields equal to 1000 % of their Defense .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/defensive-energy-crystal.webp",
-    "sourcePath": "/relics/defensive-energy-crystal/"
+    "imageUrl": "/images/wiki/relics/defensive-energy-crystal.webp"
   },
   {
     "id": 88,
@@ -876,8 +789,7 @@
     "rarity": "Act Boss",
     "effect": "Whenever an enemy reaches 50 % remaining Max HP , it gains 20 Attack Speed and Shields equal to 10 % of its Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/demon-s-fury.webp",
-    "sourcePath": "/relics/demon-s-fury/"
+    "imageUrl": "/images/wiki/relics/demon-s-fury.webp"
   },
   {
     "id": 89,
@@ -886,8 +798,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win a combat with only 1 surviving Hero. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/desperation-mandate.webp",
-    "sourcePath": "/relics/desperation-mandate/"
+    "imageUrl": "/images/wiki/relics/desperation-mandate.webp"
   },
   {
     "id": 90,
@@ -896,8 +807,7 @@
     "rarity": "Common",
     "effect": "Quest: Win a combat with 3 or more Heroes that do not share a Class in play. Reward: Gain 25 Shards .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/divergence-vessel.webp",
-    "sourcePath": "/relics/divergence-vessel/"
+    "imageUrl": "/images/wiki/relics/divergence-vessel.webp"
   },
   {
     "id": 91,
@@ -906,8 +816,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Inflict 5000 Debuffs . Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/dominion-mandate.webp",
-    "sourcePath": "/relics/dominion-mandate/"
+    "imageUrl": "/images/wiki/relics/dominion-mandate.webp"
   },
   {
     "id": 92,
@@ -916,8 +825,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Duelist during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-crest.webp",
-    "sourcePath": "/relics/duelist-crest/"
+    "imageUrl": "/images/wiki/relics/duelist-crest.webp"
   },
   {
     "id": 93,
@@ -926,8 +834,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Duelists . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-equipment.webp",
-    "sourcePath": "/relics/duelist-equipment/"
+    "imageUrl": "/images/wiki/relics/duelist-equipment.webp"
   },
   {
     "id": 94,
@@ -936,8 +843,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Duelist auto attacks, they inflict 2 Frost on their target.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-chill-banner.webp",
-    "sourcePath": "/relics/duelist-s-chill-banner/"
+    "imageUrl": "/images/wiki/relics/duelist-s-chill-banner.webp"
   },
   {
     "id": 95,
@@ -946,8 +852,7 @@
     "rarity": "Unique",
     "effect": "Duelists gain 20 Attack Speed and 25 Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-combative-reflection.webp",
-    "sourcePath": "/relics/duelist-s-combative-reflection/"
+    "imageUrl": "/images/wiki/relics/duelist-s-combative-reflection.webp"
   },
   {
     "id": 96,
@@ -956,8 +861,7 @@
     "rarity": "Rare",
     "effect": "If there is a Duelist in combat, Heroes deal 30 bonus damage with each auto attack.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/duelist-s-emblem.webp",
-    "sourcePath": "/relics/duelist-s-emblem/"
+    "imageUrl": "/images/wiki/relics/duelist-s-emblem.webp"
   },
   {
     "id": 97,
@@ -966,8 +870,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Duelist auto attacks, they inflict 3 Burn on their target.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-flame-banner.webp",
-    "sourcePath": "/relics/duelist-s-flame-banner/"
+    "imageUrl": "/images/wiki/relics/duelist-s-flame-banner.webp"
   },
   {
     "id": 98,
@@ -976,8 +879,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 10 ), Duelists gain 150 Attack Speed .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/duelist-s-fury-filigree.webp",
-    "sourcePath": "/relics/duelist-s-fury-filigree/"
+    "imageUrl": "/images/wiki/relics/duelist-s-fury-filigree.webp"
   },
   {
     "id": 99,
@@ -986,8 +888,7 @@
     "rarity": "Common",
     "effect": "Duelists gain 20 Attack Speed .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/duelist-s-medallion.webp",
-    "sourcePath": "/relics/duelist-s-medallion/"
+    "imageUrl": "/images/wiki/relics/duelist-s-medallion.webp"
   },
   {
     "id": 100,
@@ -996,8 +897,7 @@
     "rarity": "Rare",
     "effect": "For each Duelist in combat, Stall abilities trigger 4 seconds earlier.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/duelist-s-memento.webp",
-    "sourcePath": "/relics/duelist-s-memento/"
+    "imageUrl": "/images/wiki/relics/duelist-s-memento.webp"
   },
   {
     "id": 101,
@@ -1006,8 +906,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 40 Attack Speed . Whenever a Duelist auto attacks , they deal 5 bonus damage for each time they have auto attacked this combat.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/duelist-s-momentum-engine.webp",
-    "sourcePath": "/relics/duelist-s-momentum-engine/"
+    "imageUrl": "/images/wiki/relics/duelist-s-momentum-engine.webp"
   },
   {
     "id": 102,
@@ -1016,8 +915,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Duelist auto attacks, they gain 1 Attack Speed and 1 Attack per type of Debuff on their target.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-outbreak-banner.webp",
-    "sourcePath": "/relics/duelist-s-outbreak-banner/"
+    "imageUrl": "/images/wiki/relics/duelist-s-outbreak-banner.webp"
   },
   {
     "id": 103,
@@ -1026,8 +924,7 @@
     "rarity": "Unique",
     "effect": "Duelists gain 20 Attack Speed and 15 Crit .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-precise-reflection.webp",
-    "sourcePath": "/relics/duelist-s-precise-reflection/"
+    "imageUrl": "/images/wiki/relics/duelist-s-precise-reflection.webp"
   },
   {
     "id": 104,
@@ -1036,8 +933,7 @@
     "rarity": "Unique",
     "effect": "Duelists gain 1 Crit per 5 Shards you've generated this game.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-precision-banner.webp",
-    "sourcePath": "/relics/duelist-s-precision-banner/"
+    "imageUrl": "/images/wiki/relics/duelist-s-precision-banner.webp"
   },
   {
     "id": 105,
@@ -1046,8 +942,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 12 ), whenever a Duelist auto attacks they also hit the nearest enemy to their target, dealing 25 % damage and applying on-hit effects.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/duelist-s-profusion-filigree.webp",
-    "sourcePath": "/relics/duelist-s-profusion-filigree/"
+    "imageUrl": "/images/wiki/relics/duelist-s-profusion-filigree.webp"
   },
   {
     "id": 106,
@@ -1056,8 +951,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Duelist auto attacks, they randomly inflict 2 Poison , 4 Frost , or 6 Burn on their target.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/duelist-s-rhythm-prism.webp",
-    "sourcePath": "/relics/duelist-s-rhythm-prism/"
+    "imageUrl": "/images/wiki/relics/duelist-s-rhythm-prism.webp"
   },
   {
     "id": 107,
@@ -1066,8 +960,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Duelist auto attacks, they inflict 1 Poison on their target.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/duelist-s-toxin-banner.webp",
-    "sourcePath": "/relics/duelist-s-toxin-banner/"
+    "imageUrl": "/images/wiki/relics/duelist-s-toxin-banner.webp"
   },
   {
     "id": 108,
@@ -1076,8 +969,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 6 Magic . On combat victory, permanently increase the Magic gained by 6 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/enchanted-codex.webp",
-    "sourcePath": "/relics/enchanted-codex/"
+    "imageUrl": "/images/wiki/relics/enchanted-codex.webp"
   },
   {
     "id": 109,
@@ -1086,8 +978,7 @@
     "rarity": "Unique",
     "effect": "Instantly rank up the above Hero. Start with 10 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/fast-track.webp",
-    "sourcePath": "/relics/fast-track/"
+    "imageUrl": "/images/wiki/relics/fast-track.webp"
   },
   {
     "id": 110,
@@ -1096,8 +987,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "Heroes have 25 % increased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/fighting-form.webp",
-    "sourcePath": "/relics/fighting-form/"
+    "imageUrl": "/images/wiki/relics/fighting-form.webp"
   },
   {
     "id": 111,
@@ -1106,8 +996,7 @@
     "rarity": "Act Boss",
     "effect": "At start of combat, inflict 18 Burn on all Heroes. On combat victory, permanently increase the amount of Burn this inflicts by 4 .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/fire-dragon-s-flame.webp",
-    "sourcePath": "/relics/fire-dragon-s-flame/"
+    "imageUrl": "/images/wiki/relics/fire-dragon-s-flame.webp"
   },
   {
     "id": 112,
@@ -1116,8 +1005,7 @@
     "rarity": "Common",
     "effect": "Each second for Rush ( 10 ), inflict 3 Burn on all enemies.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/fire-starter.webp",
-    "sourcePath": "/relics/fire-starter/"
+    "imageUrl": "/images/wiki/relics/fire-starter.webp"
   },
   {
     "id": 113,
@@ -1126,8 +1014,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, Heroes in the front row gain 60 Defense and grow in size.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/frontline-barricader.webp",
-    "sourcePath": "/relics/frontline-barricader/"
+    "imageUrl": "/images/wiki/relics/frontline-barricader.webp"
   },
   {
     "id": 114,
@@ -1136,8 +1023,7 @@
     "rarity": "Common",
     "effect": "At start of combat, Heroes in the front row gain 100 Max HP and 15 Defense .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/frontline-defender.webp",
-    "sourcePath": "/relics/frontline-defender/"
+    "imageUrl": "/images/wiki/relics/frontline-defender.webp"
   },
   {
     "id": 115,
@@ -1146,8 +1032,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, Heroes in the front row gain 400 Max HP and grow in size.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/frontline-embiggener.webp",
-    "sourcePath": "/relics/frontline-embiggener/"
+    "imageUrl": "/images/wiki/relics/frontline-embiggener.webp"
   },
   {
     "id": 116,
@@ -1156,8 +1041,7 @@
     "rarity": "Unique",
     "effect": "Quest: Inflict 100 Frost . Reward: Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/frost-accumulator.webp",
-    "sourcePath": "/relics/frost-accumulator/"
+    "imageUrl": "/images/wiki/relics/frost-accumulator.webp"
   },
   {
     "id": 117,
@@ -1166,8 +1050,7 @@
     "rarity": "Rare",
     "effect": "Whenever a Hero inflicts Frost , inflict 33 % more.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/frost-amplifier.webp",
-    "sourcePath": "/relics/frost-amplifier/"
+    "imageUrl": "/images/wiki/relics/frost-amplifier.webp"
   },
   {
     "id": 118,
@@ -1176,8 +1059,7 @@
     "rarity": "Epic",
     "effect": "Quest: Inflict 800 Frost . Reward: The first time each enemy reaches 75 Frost , Stun them for 2 seconds.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/frost-ascendancy.webp",
-    "sourcePath": "/relics/frost-ascendancy/"
+    "imageUrl": "/images/wiki/relics/frost-ascendancy.webp"
   },
   {
     "id": 119,
@@ -1186,8 +1068,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, inflict 10 Frost on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/frost-bauble.webp",
-    "sourcePath": "/relics/frost-bauble/"
+    "imageUrl": "/images/wiki/relics/frost-bauble.webp"
   },
   {
     "id": 120,
@@ -1196,8 +1077,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 15 , Stall 30 , and Stall 45 ), all enemies receive damage equal to 5 times the amount of Frost they have.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/frost-catalyst.webp",
-    "sourcePath": "/relics/frost-catalyst/"
+    "imageUrl": "/images/wiki/relics/frost-catalyst.webp"
   },
   {
     "id": 121,
@@ -1206,8 +1086,7 @@
     "rarity": "Rare",
     "effect": "Quest: Inflict 400 Frost . Reward: Whenever a Hero inflicts Frost, they gain 1 Magic and 1 Attack per 4 Frost inflicted.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/frost-conduit.webp",
-    "sourcePath": "/relics/frost-conduit/"
+    "imageUrl": "/images/wiki/relics/frost-conduit.webp"
   },
   {
     "id": 122,
@@ -1216,8 +1095,7 @@
     "rarity": "Act Boss",
     "effect": "At start of combat, inflict 8 Frost on all Heroes. On combat victory, permanently increase the amount of Frost this inflicts by 3 .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/frost-dragon-s-chill.webp",
-    "sourcePath": "/relics/frost-dragon-s-chill/"
+    "imageUrl": "/images/wiki/relics/frost-dragon-s-chill.webp"
   },
   {
     "id": 123,
@@ -1226,8 +1104,7 @@
     "rarity": "Epic",
     "effect": "Whenever an enemy dies, transfer their Frost to the nearest enemy.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/frost-migrator.webp",
-    "sourcePath": "/relics/frost-migrator/"
+    "imageUrl": "/images/wiki/relics/frost-migrator.webp"
   },
   {
     "id": 124,
@@ -1236,8 +1113,7 @@
     "rarity": "Common",
     "effect": "At start of combat, inflict 20 Frost on all enemies.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/frost-surge.webp",
-    "sourcePath": "/relics/frost-surge/"
+    "imageUrl": "/images/wiki/relics/frost-surge.webp"
   },
   {
     "id": 125,
@@ -1246,8 +1122,7 @@
     "rarity": "Common",
     "effect": "Quest: Inflict 200 Frost . Reward: Heroes gain 30 Defense and 3 Mana Regen .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/frost-vessel.webp",
-    "sourcePath": "/relics/frost-vessel/"
+    "imageUrl": "/images/wiki/relics/frost-vessel.webp"
   },
   {
     "id": 126,
@@ -1256,8 +1131,7 @@
     "rarity": "Rare",
     "effect": "Quest: Generate 25 Shards . Reward: On Shards generated, Heroes gain 15 Crit and 500 Shields .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/generation-conduit.webp",
-    "sourcePath": "/relics/generation-conduit/"
+    "imageUrl": "/images/wiki/relics/generation-conduit.webp"
   },
   {
     "id": 127,
@@ -1266,8 +1140,7 @@
     "rarity": "Legendary",
     "effect": "Frost now deals damage to enemies when it ticks down (like Burn does).",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/glacial-decay-engine.webp",
-    "sourcePath": "/relics/glacial-decay-engine/"
+    "imageUrl": "/images/wiki/relics/glacial-decay-engine.webp"
   },
   {
     "id": 128,
@@ -1276,8 +1149,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Hero inflicts Frost , they gain 6 Shields per Frost inflicted.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/glacial-guard-prism.webp",
-    "sourcePath": "/relics/glacial-guard-prism/"
+    "imageUrl": "/images/wiki/relics/glacial-guard-prism.webp"
   },
   {
     "id": 129,
@@ -1286,8 +1158,7 @@
     "rarity": "Legendary",
     "effect": "For Rush ( 1 ), Heroes gain + 150 % basic stats .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/godspeed-ascension-engine.webp",
-    "sourcePath": "/relics/godspeed-ascension-engine/"
+    "imageUrl": "/images/wiki/relics/godspeed-ascension-engine.webp"
   },
   {
     "id": 130,
@@ -1296,8 +1167,7 @@
     "rarity": "Epic",
     "effect": "Quest: Win a combat with 66 or more Shards in your bank. Reward: Get 4 random Crest items. Crest items make a Hero count as having an additional class.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/golden-ascendancy.webp",
-    "sourcePath": "/relics/golden-ascendancy/"
+    "imageUrl": "/images/wiki/relics/golden-ascendancy.webp"
   },
   {
     "id": 131,
@@ -1306,8 +1176,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win a combat with 100 or more Shards in your bank. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/greed-mandate.webp",
-    "sourcePath": "/relics/greed-mandate/"
+    "imageUrl": "/images/wiki/relics/greed-mandate.webp"
   },
   {
     "id": 132,
@@ -1316,8 +1185,7 @@
     "rarity": "Team Size",
     "effect": "Increase your team size by 1 (Max: 5 ).",
     "price": "45",
-    "imageUrl": "/images/wiki/relics/harmony-crystal.webp",
-    "sourcePath": "/relics/harmony-crystal/"
+    "imageUrl": "/images/wiki/relics/harmony-crystal.webp"
   },
   {
     "id": 133,
@@ -1326,8 +1194,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/health-parcel.webp",
-    "sourcePath": "/relics/health-parcel/"
+    "imageUrl": "/images/wiki/relics/health-parcel.webp"
   },
   {
     "id": 134,
@@ -1336,8 +1203,7 @@
     "rarity": "Legendary",
     "effect": "Heroes can equip an additional item (Max: 5 ).",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/heroic-capacity-expander.webp",
-    "sourcePath": "/relics/heroic-capacity-expander/"
+    "imageUrl": "/images/wiki/relics/heroic-capacity-expander.webp"
   },
   {
     "id": 135,
@@ -1346,8 +1212,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "Heroes have - 50 % Defense .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/hunted.webp",
-    "sourcePath": "/relics/hunted/"
+    "imageUrl": "/images/wiki/relics/hunted.webp"
   },
   {
     "id": 136,
@@ -1356,8 +1221,7 @@
     "rarity": "Act Boss",
     "effect": "At start of combat, enemies gain 1 HP/S per 150 Max HP they have.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/hydra-s-healing.webp",
-    "sourcePath": "/relics/hydra-s-healing/"
+    "imageUrl": "/images/wiki/relics/hydra-s-healing.webp"
   },
   {
     "id": 137,
@@ -1366,8 +1230,7 @@
     "rarity": "Epic",
     "effect": "On Rush trigger, inflict 20 Burn on all enemies.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/immolation-accelerator.webp",
-    "sourcePath": "/relics/immolation-accelerator/"
+    "imageUrl": "/images/wiki/relics/immolation-accelerator.webp"
   },
   {
     "id": 138,
@@ -1376,8 +1239,7 @@
     "rarity": "Enemy",
     "effect": "For Rush ( 18 ), enemies are immune to damage.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/immunity-5005.webp",
-    "sourcePath": "/relics/immunity-5005/"
+    "imageUrl": "/images/wiki/relics/immunity-5005.webp"
   },
   {
     "id": 139,
@@ -1386,8 +1248,7 @@
     "rarity": "Enemy",
     "effect": "For Rush ( 13 ), enemies are immune to damage.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/immunity-5016.webp",
-    "sourcePath": "/relics/immunity-5016/"
+    "imageUrl": "/images/wiki/relics/immunity-5016.webp"
   },
   {
     "id": 140,
@@ -1396,8 +1257,7 @@
     "rarity": "Enemy",
     "effect": "Each second, enemies heal 3 % Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/improvidence-5003.webp",
-    "sourcePath": "/relics/improvidence-5003/"
+    "imageUrl": "/images/wiki/relics/improvidence-5003.webp"
   },
   {
     "id": 141,
@@ -1406,8 +1266,7 @@
     "rarity": "Enemy",
     "effect": "Each second, enemies heal 5 % Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/improvidence-5014.webp",
-    "sourcePath": "/relics/improvidence-5014/"
+    "imageUrl": "/images/wiki/relics/improvidence-5014.webp"
   },
   {
     "id": 142,
@@ -1416,8 +1275,7 @@
     "rarity": "Unique",
     "effect": "Items cost 2 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/item-bazaar.webp",
-    "sourcePath": "/relics/item-bazaar/"
+    "imageUrl": "/images/wiki/relics/item-bazaar.webp"
   },
   {
     "id": 143,
@@ -1426,8 +1284,7 @@
     "rarity": "Unique",
     "effect": "Get 5 random common items. Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/item-windfall.webp",
-    "sourcePath": "/relics/item-windfall/"
+    "imageUrl": "/images/wiki/relics/item-windfall.webp"
   },
   {
     "id": 144,
@@ -1436,8 +1293,7 @@
     "rarity": "Unique",
     "effect": "Heroes gain 1 % basic stats . Every 2 combat victories, permanently increase the amount of basic stats by 1 %.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/legacy-charm.webp",
-    "sourcePath": "/relics/legacy-charm/"
+    "imageUrl": "/images/wiki/relics/legacy-charm.webp"
   },
   {
     "id": 145,
@@ -1446,8 +1302,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Mage during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-crest.webp",
-    "sourcePath": "/relics/mage-crest/"
+    "imageUrl": "/images/wiki/relics/mage-crest.webp"
   },
   {
     "id": 146,
@@ -1456,8 +1311,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Mages . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-equipment.webp",
-    "sourcePath": "/relics/mage-equipment/"
+    "imageUrl": "/images/wiki/relics/mage-equipment.webp"
   },
   {
     "id": 147,
@@ -1466,8 +1320,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Mage casts , they deal damage to the lowest-health enemy equal to 300 % of their Magic .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/mage-s-administration-filigree.webp",
-    "sourcePath": "/relics/mage-s-administration-filigree/"
+    "imageUrl": "/images/wiki/relics/mage-s-administration-filigree.webp"
   },
   {
     "id": 148,
@@ -1476,8 +1329,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 50 Magic . Whenever a Mage casts , they inflict Burn and Frost on all enemies in their range equal to 20 % of their Magic .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/mage-s-cataclysm-engine.webp",
-    "sourcePath": "/relics/mage-s-cataclysm-engine/"
+    "imageUrl": "/images/wiki/relics/mage-s-cataclysm-engine.webp"
   },
   {
     "id": 149,
@@ -1486,8 +1338,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mage casts , all enemies in their range take 4 damage per Frost and 2 damage per Burn they have.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-elemental-banner.webp",
-    "sourcePath": "/relics/mage-s-elemental-banner/"
+    "imageUrl": "/images/wiki/relics/mage-s-elemental-banner.webp"
   },
   {
     "id": 150,
@@ -1496,8 +1347,7 @@
     "rarity": "Rare",
     "effect": "If there is a Mage in combat, your Hero's active abilities gain 100 Crit .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/mage-s-emblem.webp",
-    "sourcePath": "/relics/mage-s-emblem/"
+    "imageUrl": "/images/wiki/relics/mage-s-emblem.webp"
   },
   {
     "id": 151,
@@ -1506,8 +1356,7 @@
     "rarity": "Unique",
     "effect": "After Stall ( 15 ), Mages permanently gain 6 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-enlightenment-banner.webp",
-    "sourcePath": "/relics/mage-s-enlightenment-banner/"
+    "imageUrl": "/images/wiki/relics/mage-s-enlightenment-banner.webp"
   },
   {
     "id": 152,
@@ -1516,8 +1365,7 @@
     "rarity": "Unique",
     "effect": "Mages gain 25 Magic and 4 Mana Regen .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-flowing-reflection.webp",
-    "sourcePath": "/relics/mage-s-flowing-reflection/"
+    "imageUrl": "/images/wiki/relics/mage-s-flowing-reflection.webp"
   },
   {
     "id": 153,
@@ -1526,8 +1374,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mage casts , they inflict Frost on their target equal to 66 % of the Mana spent.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-frostbite-banner.webp",
-    "sourcePath": "/relics/mage-s-frostbite-banner/"
+    "imageUrl": "/images/wiki/relics/mage-s-frostbite-banner.webp"
   },
   {
     "id": 154,
@@ -1536,8 +1383,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mage casts , they inflict Burn on their target equal to 100 % of the Mana spent.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-inferno-banner.webp",
-    "sourcePath": "/relics/mage-s-inferno-banner/"
+    "imageUrl": "/images/wiki/relics/mage-s-inferno-banner.webp"
   },
   {
     "id": 155,
@@ -1546,8 +1392,7 @@
     "rarity": "Common",
     "effect": "Mages gain 25 Magic .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/mage-s-medallion.webp",
-    "sourcePath": "/relics/mage-s-medallion/"
+    "imageUrl": "/images/wiki/relics/mage-s-medallion.webp"
   },
   {
     "id": 156,
@@ -1556,8 +1401,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, inflict 15 Frost on all enemies per Mage in combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/mage-s-memento.webp",
-    "sourcePath": "/relics/mage-s-memento/"
+    "imageUrl": "/images/wiki/relics/mage-s-memento.webp"
   },
   {
     "id": 157,
@@ -1566,8 +1410,7 @@
     "rarity": "Unique",
     "effect": "Mages gain 25 Magic and 15 Crit .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-precise-reflection.webp",
-    "sourcePath": "/relics/mage-s-precise-reflection/"
+    "imageUrl": "/images/wiki/relics/mage-s-precise-reflection.webp"
   },
   {
     "id": 158,
@@ -1576,8 +1419,7 @@
     "rarity": "Unique",
     "effect": "After Stall ( 15 and Stall 30 ), Mages gain 100 Mana .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mage-s-serenity-banner.webp",
-    "sourcePath": "/relics/mage-s-serenity-banner/"
+    "imageUrl": "/images/wiki/relics/mage-s-serenity-banner.webp"
   },
   {
     "id": 159,
@@ -1586,8 +1428,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Mage auto attacks , they deal bonus damage to their target equal to 100 % of their Magic .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/mage-s-transmutation-prism.webp",
-    "sourcePath": "/relics/mage-s-transmutation-prism/"
+    "imageUrl": "/images/wiki/relics/mage-s-transmutation-prism.webp"
   },
   {
     "id": 160,
@@ -1596,8 +1437,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/magic-parcel.webp",
-    "sourcePath": "/relics/magic-parcel/"
+    "imageUrl": "/images/wiki/relics/magic-parcel.webp"
   },
   {
     "id": 161,
@@ -1606,8 +1446,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare item that gives Mana Regen .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mana-regen-parcel.webp",
-    "sourcePath": "/relics/mana-regen-parcel/"
+    "imageUrl": "/images/wiki/relics/mana-regen-parcel.webp"
   },
   {
     "id": 162,
@@ -1616,8 +1455,7 @@
     "rarity": "Rare",
     "effect": "Assassins , Duelists , and Warriors gain 15 Crit , 20 Attack Speed , and 25 Attack .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/martial-amplifier.webp",
-    "sourcePath": "/relics/martial-amplifier/"
+    "imageUrl": "/images/wiki/relics/martial-amplifier.webp"
   },
   {
     "id": 163,
@@ -1626,8 +1464,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 10 Crit per rank of each Assassin in the reserves , 15 Attack Speed per rank of each Duelist in the reserves , and 20 Attack per rank of each Warrior in the reserves .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/martial-backup-prism.webp",
-    "sourcePath": "/relics/martial-backup-prism/"
+    "imageUrl": "/images/wiki/relics/martial-backup-prism.webp"
   },
   {
     "id": 164,
@@ -1636,8 +1473,7 @@
     "rarity": "Legendary",
     "effect": "Auto attacks by Assassins , Duelists , and Warriors gain 100 Crit .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/martial-energy-crystal.webp",
-    "sourcePath": "/relics/martial-energy-crystal/"
+    "imageUrl": "/images/wiki/relics/martial-energy-crystal.webp"
   },
   {
     "id": 165,
@@ -1646,8 +1482,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Reroll the shop 8 times, then complete a combat. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/merchant-mandate.webp",
-    "sourcePath": "/relics/merchant-mandate/"
+    "imageUrl": "/images/wiki/relics/merchant-mandate.webp"
   },
   {
     "id": 166,
@@ -1656,8 +1491,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 2 Attack Speed for each time you've rerolled the shop this game.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/momentous-differentiator.webp",
-    "sourcePath": "/relics/momentous-differentiator/"
+    "imageUrl": "/images/wiki/relics/momentous-differentiator.webp"
   },
   {
     "id": 167,
@@ -1666,8 +1500,7 @@
     "rarity": "Rare",
     "effect": "Quest: Win a combat with 4 or more combined classes in play. Reward: Get 3 random Crest items. Crest items make a Hero count as having an additional class.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/multiclass-conduit.webp",
-    "sourcePath": "/relics/multiclass-conduit/"
+    "imageUrl": "/images/wiki/relics/multiclass-conduit.webp"
   },
   {
     "id": 168,
@@ -1676,8 +1509,7 @@
     "rarity": "Unique",
     "effect": "Get a random rare relic.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystery-charm.webp",
-    "sourcePath": "/relics/mystery-charm/"
+    "imageUrl": "/images/wiki/relics/mystery-charm.webp"
   },
   {
     "id": 169,
@@ -1686,8 +1518,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Mystic during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-crest.webp",
-    "sourcePath": "/relics/mystic-crest/"
+    "imageUrl": "/images/wiki/relics/mystic-crest.webp"
   },
   {
     "id": 170,
@@ -1696,8 +1527,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Mystics . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-equipment.webp",
-    "sourcePath": "/relics/mystic-equipment/"
+    "imageUrl": "/images/wiki/relics/mystic-equipment.webp"
   },
   {
     "id": 171,
@@ -1706,8 +1536,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 8 Mana Regen . Whenever a Mystic Shields a Hero, give that Hero lasting Shields equal to 50 % of the Shield applied.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/mystic-s-abundance-engine.webp",
-    "sourcePath": "/relics/mystic-s-abundance-engine/"
+    "imageUrl": "/images/wiki/relics/mystic-s-abundance-engine.webp"
   },
   {
     "id": 172,
@@ -1716,8 +1545,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mystic casts , they Shield the lowest-health Hero equal to 500 % of their Mana Regen .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-barrier-banner.webp",
-    "sourcePath": "/relics/mystic-s-barrier-banner/"
+    "imageUrl": "/images/wiki/relics/mystic-s-barrier-banner.webp"
   },
   {
     "id": 173,
@@ -1726,8 +1554,7 @@
     "rarity": "Rare",
     "effect": "If there is a Mystic in combat, Heroes gain 4 Mana Regen and 10 HP/S .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/mystic-s-emblem.webp",
-    "sourcePath": "/relics/mystic-s-emblem/"
+    "imageUrl": "/images/wiki/relics/mystic-s-emblem.webp"
   },
   {
     "id": 174,
@@ -1736,8 +1563,7 @@
     "rarity": "Unique",
     "effect": "Mystics gain 4 Mana Regen and 25 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-enchanted-reflection.webp",
-    "sourcePath": "/relics/mystic-s-enchanted-reflection/"
+    "imageUrl": "/images/wiki/relics/mystic-s-enchanted-reflection.webp"
   },
   {
     "id": 175,
@@ -1746,8 +1572,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Mystic Shields a Hero, damage their nearest enemy for 50 % of the Shield applied.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/mystic-s-inundation-prism.webp",
-    "sourcePath": "/relics/mystic-s-inundation-prism/"
+    "imageUrl": "/images/wiki/relics/mystic-s-inundation-prism.webp"
   },
   {
     "id": 176,
@@ -1756,8 +1581,7 @@
     "rarity": "Common",
     "effect": "Mystics gain 4 Mana Regen .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/mystic-s-medallion.webp",
-    "sourcePath": "/relics/mystic-s-medallion/"
+    "imageUrl": "/images/wiki/relics/mystic-s-medallion.webp"
   },
   {
     "id": 177,
@@ -1766,8 +1590,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, Heroes gain a 15 % Max HP Shield per Mystic in combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/mystic-s-memento.webp",
-    "sourcePath": "/relics/mystic-s-memento/"
+    "imageUrl": "/images/wiki/relics/mystic-s-memento.webp"
   },
   {
     "id": 178,
@@ -1776,8 +1599,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mystic casts , they gain 2 Magic per type of Debuff on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-outbreak-banner.webp",
-    "sourcePath": "/relics/mystic-s-outbreak-banner/"
+    "imageUrl": "/images/wiki/relics/mystic-s-outbreak-banner.webp"
   },
   {
     "id": 179,
@@ -1786,8 +1608,7 @@
     "rarity": "Unique",
     "effect": "Every 5 times a Mystic casts , gain 1 Shard .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-payday-banner.webp",
-    "sourcePath": "/relics/mystic-s-payday-banner/"
+    "imageUrl": "/images/wiki/relics/mystic-s-payday-banner.webp"
   },
   {
     "id": 180,
@@ -1796,8 +1617,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mystic casts , they gain Magic equal to 50 % of their Mana Regen .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-prosperity-banner.webp",
-    "sourcePath": "/relics/mystic-s-prosperity-banner/"
+    "imageUrl": "/images/wiki/relics/mystic-s-prosperity-banner.webp"
   },
   {
     "id": 181,
@@ -1806,8 +1626,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Mystic casts after Stall ( 15 ), they give the nearest Hero Magic and Attack equal to 66 % of their Mana Regen .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/mystic-s-prosperity-filigree.webp",
-    "sourcePath": "/relics/mystic-s-prosperity-filigree/"
+    "imageUrl": "/images/wiki/relics/mystic-s-prosperity-filigree.webp"
   },
   {
     "id": 182,
@@ -1816,8 +1635,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Mystic casts , they Shield the nearest Hero equal to the total number of Debuff stacks on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-protection-banner.webp",
-    "sourcePath": "/relics/mystic-s-protection-banner/"
+    "imageUrl": "/images/wiki/relics/mystic-s-protection-banner.webp"
   },
   {
     "id": 183,
@@ -1826,8 +1644,7 @@
     "rarity": "Unique",
     "effect": "Mystics gain 4 Mana Regen and 200 Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/mystic-s-vital-reflection.webp",
-    "sourcePath": "/relics/mystic-s-vital-reflection/"
+    "imageUrl": "/images/wiki/relics/mystic-s-vital-reflection.webp"
   },
   {
     "id": 184,
@@ -1836,8 +1653,7 @@
     "rarity": "Legendary",
     "effect": "Get all 7 Crests. Crests are items which make a Hero count as having an additional class during combat.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/omnity-enforcer.webp",
-    "sourcePath": "/relics/omnity-enforcer/"
+    "imageUrl": "/images/wiki/relics/omnity-enforcer.webp"
   },
   {
     "id": 185,
@@ -1846,8 +1662,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win a combat with a Hero of all 7 classes in combat or in the reserves. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/omnity-mandate.webp",
-    "sourcePath": "/relics/omnity-mandate/"
+    "imageUrl": "/images/wiki/relics/omnity-mandate.webp"
   },
   {
     "id": 186,
@@ -1856,8 +1671,7 @@
     "rarity": "Enemy",
     "effect": "Each second, Heroes take damage equal to 2.5 % of their Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/pain-5002.webp",
-    "sourcePath": "/relics/pain-5002/"
+    "imageUrl": "/images/wiki/relics/pain-5002.webp"
   },
   {
     "id": 187,
@@ -1866,8 +1680,7 @@
     "rarity": "Enemy",
     "effect": "Each second, Heroes take damage equal to 7 % of their Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/pain-5013.webp",
-    "sourcePath": "/relics/pain-5013/"
+    "imageUrl": "/images/wiki/relics/pain-5013.webp"
   },
   {
     "id": 188,
@@ -1876,8 +1689,7 @@
     "rarity": "Epic",
     "effect": "At start of combat, if no Heroes in combat share a Class all Heroes gain + 33 % to all their basic stats .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/perfect-divergence-prism.webp",
-    "sourcePath": "/relics/perfect-divergence-prism/"
+    "imageUrl": "/images/wiki/relics/perfect-divergence-prism.webp"
   },
   {
     "id": 189,
@@ -1886,8 +1698,7 @@
     "rarity": "Epic",
     "effect": "At start of combat, if all Heroes in combat share a Class all Heroes gain + 20 % to all their basic stats .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/perfect-unity-prism.webp",
-    "sourcePath": "/relics/perfect-unity-prism/"
+    "imageUrl": "/images/wiki/relics/perfect-unity-prism.webp"
   },
   {
     "id": 190,
@@ -1896,8 +1707,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 12 ), if an enemy would gain a Debuff they gain 2 more.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/plague-accelerator.webp",
-    "sourcePath": "/relics/plague-accelerator/"
+    "imageUrl": "/images/wiki/relics/plague-accelerator.webp"
   },
   {
     "id": 191,
@@ -1906,8 +1716,7 @@
     "rarity": "Rare",
     "effect": "For Rush ( 12 ), if an enemy would gain a Debuff they gain 1 more.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/plague-amplifier.webp",
-    "sourcePath": "/relics/plague-amplifier/"
+    "imageUrl": "/images/wiki/relics/plague-amplifier.webp"
   },
   {
     "id": 192,
@@ -1916,8 +1725,7 @@
     "rarity": "Epic",
     "effect": "Quest: Inflict 25 Poison , 50 Frost , and 75 Burn on a single enemy. Reward: At start of Combat, inflict 25 Poison , 50 Frost , and 75 Burn on all enemies.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/plague-ascendancy.webp",
-    "sourcePath": "/relics/plague-ascendancy/"
+    "imageUrl": "/images/wiki/relics/plague-ascendancy.webp"
   },
   {
     "id": 193,
@@ -1926,8 +1734,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, inflict 3 Poison , 6 Frost , and 9 Burn on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/plague-bauble.webp",
-    "sourcePath": "/relics/plague-bauble/"
+    "imageUrl": "/images/wiki/relics/plague-bauble.webp"
   },
   {
     "id": 194,
@@ -1936,8 +1743,7 @@
     "rarity": "Unique",
     "effect": "Quest: Inflict 250 Debuffs . Reward: Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/plague-collector.webp",
-    "sourcePath": "/relics/plague-collector/"
+    "imageUrl": "/images/wiki/relics/plague-collector.webp"
   },
   {
     "id": 195,
@@ -1946,8 +1752,7 @@
     "rarity": "Rare",
     "effect": "Quest: Inflict 750 Debuffs . Reward: Gain 30 Shards .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/plague-conduit.webp",
-    "sourcePath": "/relics/plague-conduit/"
+    "imageUrl": "/images/wiki/relics/plague-conduit.webp"
   },
   {
     "id": 196,
@@ -1956,8 +1761,7 @@
     "rarity": "Common",
     "effect": "At start of combat, inflict 5 Poison , 10 Frost , and 15 Burn on all enemies.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/plague-generator.webp",
-    "sourcePath": "/relics/plague-generator/"
+    "imageUrl": "/images/wiki/relics/plague-generator.webp"
   },
   {
     "id": 197,
@@ -1966,8 +1770,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 15 ), Heroes gain 1 Defense and 1 Magic per 25 Debuffs on all enemies.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/plague-harvester.webp",
-    "sourcePath": "/relics/plague-harvester/"
+    "imageUrl": "/images/wiki/relics/plague-harvester.webp"
   },
   {
     "id": 198,
@@ -1976,8 +1779,7 @@
     "rarity": "Legendary",
     "effect": "At start of combat and every 10 seconds, inflict 10 Poison , 20 Frost , and 30 Burn on all enemies.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/plague-transmission-engine.webp",
-    "sourcePath": "/relics/plague-transmission-engine/"
+    "imageUrl": "/images/wiki/relics/plague-transmission-engine.webp"
   },
   {
     "id": 199,
@@ -1986,8 +1788,7 @@
     "rarity": "Epic",
     "effect": "Every 4 seconds, Heroes gain 1 Attack Speed and 2 Attack per type of Debuff on all enemies.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/plague-velocitizer.webp",
-    "sourcePath": "/relics/plague-velocitizer/"
+    "imageUrl": "/images/wiki/relics/plague-velocitizer.webp"
   },
   {
     "id": 200,
@@ -1996,8 +1797,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 10 Defense . On combat victory, permanently increase the Defense gained by 10 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/plated-codex.webp",
-    "sourcePath": "/relics/plated-codex/"
+    "imageUrl": "/images/wiki/relics/plated-codex.webp"
   },
   {
     "id": 201,
@@ -2006,8 +1806,7 @@
     "rarity": "Unique",
     "effect": "Quest: Inflict 50 Poison . Reward: Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/poison-accumulator.webp",
-    "sourcePath": "/relics/poison-accumulator/"
+    "imageUrl": "/images/wiki/relics/poison-accumulator.webp"
   },
   {
     "id": 202,
@@ -2016,8 +1815,7 @@
     "rarity": "Rare",
     "effect": "Whenever a Hero inflicts Poison , inflict 33 % more.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/poison-amplifier.webp",
-    "sourcePath": "/relics/poison-amplifier/"
+    "imageUrl": "/images/wiki/relics/poison-amplifier.webp"
   },
   {
     "id": 203,
@@ -2026,8 +1824,7 @@
     "rarity": "Epic",
     "effect": "Quest: Inflict 400 Poison . Reward: The first time each enemy reaches 50 Poison , they lose 33 % Max HP , 66 % Attack , and 66 % Attack Speed .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/poison-ascendancy.webp",
-    "sourcePath": "/relics/poison-ascendancy/"
+    "imageUrl": "/images/wiki/relics/poison-ascendancy.webp"
   },
   {
     "id": 204,
@@ -2036,8 +1833,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, inflict 5 Poison on all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/poison-bauble.webp",
-    "sourcePath": "/relics/poison-bauble/"
+    "imageUrl": "/images/wiki/relics/poison-bauble.webp"
   },
   {
     "id": 205,
@@ -2046,8 +1842,7 @@
     "rarity": "Common",
     "effect": "After Stall ( 10 and Stall 20 ), inflict 10 Poison on all enemies.",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/poison-bloom.webp",
-    "sourcePath": "/relics/poison-bloom/"
+    "imageUrl": "/images/wiki/relics/poison-bloom.webp"
   },
   {
     "id": 206,
@@ -2056,8 +1851,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 15 ), whenever an enemy with Poison is auto attacked, they take damage equal to their Poison .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/poison-catalyst.webp",
-    "sourcePath": "/relics/poison-catalyst/"
+    "imageUrl": "/images/wiki/relics/poison-catalyst.webp"
   },
   {
     "id": 207,
@@ -2066,8 +1860,7 @@
     "rarity": "Rare",
     "effect": "Quest: Inflict 200 Poison . Reward: Whenever a Hero inflicts Poison, they gain 1 Magic and 1 Attack per 2 Poison inflicted.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/poison-conduit.webp",
-    "sourcePath": "/relics/poison-conduit/"
+    "imageUrl": "/images/wiki/relics/poison-conduit.webp"
   },
   {
     "id": 208,
@@ -2076,8 +1869,7 @@
     "rarity": "Act Boss",
     "effect": "At start of combat, inflict 12 Poison on all Heroes. On combat victory, permanently increase the amount of Poison this inflicts by 2 .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/poison-dragon-s-venom.webp",
-    "sourcePath": "/relics/poison-dragon-s-venom/"
+    "imageUrl": "/images/wiki/relics/poison-dragon-s-venom.webp"
   },
   {
     "id": 209,
@@ -2086,8 +1878,7 @@
     "rarity": "Epic",
     "effect": "Whenever an enemy dies, transfer their Poison to the nearest enemy.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/poison-migrator.webp",
-    "sourcePath": "/relics/poison-migrator/"
+    "imageUrl": "/images/wiki/relics/poison-migrator.webp"
   },
   {
     "id": 210,
@@ -2096,8 +1887,7 @@
     "rarity": "Common",
     "effect": "Quest: Inflict 100 Poison . Reward: Heroes gain 20 Attack Speed and 15 Crit .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/poison-vessel.webp",
-    "sourcePath": "/relics/poison-vessel/"
+    "imageUrl": "/images/wiki/relics/poison-vessel.webp"
   },
   {
     "id": 211,
@@ -2106,8 +1896,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 4 Crit . On combat victory, permanently increase the Crit gained by 4 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/precise-codex.webp",
-    "sourcePath": "/relics/precise-codex/"
+    "imageUrl": "/images/wiki/relics/precise-codex.webp"
   },
   {
     "id": 212,
@@ -2116,8 +1905,7 @@
     "rarity": "Rare",
     "effect": "Quest: Crit 40 times. Reward: On Crit, reduce the target's Defense by 4 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/precision-conduit.webp",
-    "sourcePath": "/relics/precision-conduit/"
+    "imageUrl": "/images/wiki/relics/precision-conduit.webp"
   },
   {
     "id": 213,
@@ -2126,8 +1914,7 @@
     "rarity": "Common",
     "effect": "Each Hero's first attack against each enemy gains 250 Crit .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/precision-lattice.webp",
-    "sourcePath": "/relics/precision-lattice/"
+    "imageUrl": "/images/wiki/relics/precision-lattice.webp"
   },
   {
     "id": 214,
@@ -2136,8 +1923,7 @@
     "rarity": "Rare",
     "effect": "On Crit, the Hero that Crit heals 30 and gains 3 Mana .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/precision-nexus.webp",
-    "sourcePath": "/relics/precision-nexus/"
+    "imageUrl": "/images/wiki/relics/precision-nexus.webp"
   },
   {
     "id": 215,
@@ -2146,8 +1932,7 @@
     "rarity": "Rare",
     "effect": "For Rush ( 10 ), Heroes gain 60 Crit .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/precision-reactor.webp",
-    "sourcePath": "/relics/precision-reactor/"
+    "imageUrl": "/images/wiki/relics/precision-reactor.webp"
   },
   {
     "id": 216,
@@ -2156,8 +1941,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 15 and Stall 30 ), give Heroes a lasting 1 % Max HP Shield for each time you've rerolled the shop this game.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/protective-differentiator.webp",
-    "sourcePath": "/relics/protective-differentiator/"
+    "imageUrl": "/images/wiki/relics/protective-differentiator.webp"
   },
   {
     "id": 217,
@@ -2166,8 +1950,7 @@
     "rarity": "Unique",
     "effect": "Heroes can equip two additional items (Max: 6 ). Max team size is decreased by 1 .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/quality-over-quantity.webp",
-    "sourcePath": "/relics/quality-over-quantity/"
+    "imageUrl": "/images/wiki/relics/quality-over-quantity.webp"
   },
   {
     "id": 218,
@@ -2176,8 +1959,7 @@
     "rarity": "Unique",
     "effect": "Increase max team size by 1 (Max: 5 ). Heroes have 1 fewer item slot (Min: 1 ).",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/quantity-over-quality.webp",
-    "sourcePath": "/relics/quantity-over-quality/"
+    "imageUrl": "/images/wiki/relics/quantity-over-quality.webp"
   },
   {
     "id": 219,
@@ -2186,8 +1968,7 @@
     "rarity": "Enemy",
     "effect": "For Rush ( 9 ), enemies have 150 % increased stats.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/rapid-growth-5000.webp",
-    "sourcePath": "/relics/rapid-growth-5000/"
+    "imageUrl": "/images/wiki/relics/rapid-growth-5000.webp"
   },
   {
     "id": 220,
@@ -2196,8 +1977,7 @@
     "rarity": "Enemy",
     "effect": "For Rush ( 10 ), enemies have 66 % increased stats.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/rapid-growth-5011.webp",
-    "sourcePath": "/relics/rapid-growth-5011/"
+    "imageUrl": "/images/wiki/relics/rapid-growth-5011.webp"
   },
   {
     "id": 221,
@@ -2206,8 +1986,7 @@
     "rarity": "Unique",
     "effect": "The shop shows an additional relic.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/relic-bazaar.webp",
-    "sourcePath": "/relics/relic-bazaar/"
+    "imageUrl": "/images/wiki/relics/relic-bazaar.webp"
   },
   {
     "id": 222,
@@ -2216,8 +1995,7 @@
     "rarity": "Epic",
     "effect": "Quest: Win a combat with 2 Heroes in your reserves . Reward: At start of combat, Heroes in the Reserves permanently gain a small amount of every stat.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/reserve-ascendancy.webp",
-    "sourcePath": "/relics/reserve-ascendancy/"
+    "imageUrl": "/images/wiki/relics/reserve-ascendancy.webp"
   },
   {
     "id": 223,
@@ -2226,8 +2004,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "Heroes have 10 % increased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/rested.webp",
-    "sourcePath": "/relics/rested/"
+    "imageUrl": "/images/wiki/relics/rested.webp"
   },
   {
     "id": 224,
@@ -2236,8 +2013,7 @@
     "rarity": "Legendary",
     "effect": "The Rift Storm starts 30 seconds sooner. Heroes take 100 % reduced damage from The Rift Storm .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/rift-storm-invoker.webp",
-    "sourcePath": "/relics/rift-storm-invoker/"
+    "imageUrl": "/images/wiki/relics/rift-storm-invoker.webp"
   },
   {
     "id": 225,
@@ -2246,8 +2022,7 @@
     "rarity": "Unique",
     "effect": "Quest: Generate 20 Shards . Reward: At start of combat, gain 2 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shard-accumulator.webp",
-    "sourcePath": "/relics/shard-accumulator/"
+    "imageUrl": "/images/wiki/relics/shard-accumulator.webp"
   },
   {
     "id": 226,
@@ -2256,8 +2031,7 @@
     "rarity": "Epic",
     "effect": "Quest: Generate 25 Shards . Reward: On Shards generated, generate 1 more Shard .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shard-ascendancy.webp",
-    "sourcePath": "/relics/shard-ascendancy/"
+    "imageUrl": "/images/wiki/relics/shard-ascendancy.webp"
   },
   {
     "id": 227,
@@ -2266,8 +2040,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 30 ), gain 9 Shards .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/shard-constructor.webp",
-    "sourcePath": "/relics/shard-constructor/"
+    "imageUrl": "/images/wiki/relics/shard-constructor.webp"
   },
   {
     "id": 228,
@@ -2276,8 +2049,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 1 Attack Speed per 5 Shards you've generated this game.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shard-energy-velocitizer.webp",
-    "sourcePath": "/relics/shard-energy-velocitizer/"
+    "imageUrl": "/images/wiki/relics/shard-energy-velocitizer.webp"
   },
   {
     "id": 229,
@@ -2286,8 +2058,7 @@
     "rarity": "Rare",
     "effect": "On combat victory, gain 6 Shards .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/shard-extractor.webp",
-    "sourcePath": "/relics/shard-extractor/"
+    "imageUrl": "/images/wiki/relics/shard-extractor.webp"
   },
   {
     "id": 230,
@@ -2296,8 +2067,7 @@
     "rarity": "Unique",
     "effect": "On Shards generated, deal 500 damage to all enemies.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shard-fluctuator.webp",
-    "sourcePath": "/relics/shard-fluctuator/"
+    "imageUrl": "/images/wiki/relics/shard-fluctuator.webp"
   },
   {
     "id": 231,
@@ -2306,8 +2076,7 @@
     "rarity": "Common",
     "effect": "On combat victory, gain 3 Shards .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/shard-lattice.webp",
-    "sourcePath": "/relics/shard-lattice/"
+    "imageUrl": "/images/wiki/relics/shard-lattice.webp"
   },
   {
     "id": 232,
@@ -2316,8 +2085,7 @@
     "rarity": "Unique",
     "effect": "Gain interest on saved Shards . At the end each combat, gain 1 additional Shard per 5 Shards in your bank (Max: 20 . Does not count towards generation ).",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shard-maximizer.webp",
-    "sourcePath": "/relics/shard-maximizer/"
+    "imageUrl": "/images/wiki/relics/shard-maximizer.webp"
   },
   {
     "id": 233,
@@ -2326,8 +2094,7 @@
     "rarity": "Unique",
     "effect": "Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shard-pouch.webp",
-    "sourcePath": "/relics/shard-pouch/"
+    "imageUrl": "/images/wiki/relics/shard-pouch.webp"
   },
   {
     "id": 234,
@@ -2336,8 +2103,7 @@
     "rarity": "Legendary",
     "effect": "On Shards generated, deal damage to all enemies equal to 10 % of their Max HP (Minimum: 2500 damage).",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/shard-power-extractor.webp",
-    "sourcePath": "/relics/shard-power-extractor/"
+    "imageUrl": "/images/wiki/relics/shard-power-extractor.webp"
   },
   {
     "id": 235,
@@ -2346,8 +2112,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain Crit equal to the number of Shards in bank (Max: 1000 ).",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shard-precision-prism.webp",
-    "sourcePath": "/relics/shard-precision-prism/"
+    "imageUrl": "/images/wiki/relics/shard-precision-prism.webp"
   },
   {
     "id": 236,
@@ -2356,8 +2121,7 @@
     "rarity": "Unique",
     "effect": "On Shards generated, Heroes gain 1000 Shields .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shard-resonator.webp",
-    "sourcePath": "/relics/shard-resonator/"
+    "imageUrl": "/images/wiki/relics/shard-resonator.webp"
   },
   {
     "id": 237,
@@ -2366,8 +2130,7 @@
     "rarity": "Common",
     "effect": "Quest: Generate 15 Shards . Reward: Heroes gain 20 Crit and 5 Omnivamp .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/shard-vessel.webp",
-    "sourcePath": "/relics/shard-vessel/"
+    "imageUrl": "/images/wiki/relics/shard-vessel.webp"
   },
   {
     "id": 238,
@@ -2376,8 +2139,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Apply 30000 Shields . Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/shelter-mandate.webp",
-    "sourcePath": "/relics/shelter-mandate/"
+    "imageUrl": "/images/wiki/relics/shelter-mandate.webp"
   },
   {
     "id": 239,
@@ -2386,8 +2148,7 @@
     "rarity": "Unique",
     "effect": "Quest: Apply 1250 Shields . Reward: Gain 15 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shield-accumulator.webp",
-    "sourcePath": "/relics/shield-accumulator/"
+    "imageUrl": "/images/wiki/relics/shield-accumulator.webp"
   },
   {
     "id": 240,
@@ -2396,8 +2157,7 @@
     "rarity": "Epic",
     "effect": "Quest: Apply 15000 Shields . Reward: Heroes gain + 50 % Defense and + 50 % Crit while Shielded .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shield-ascendancy.webp",
-    "sourcePath": "/relics/shield-ascendancy/"
+    "imageUrl": "/images/wiki/relics/shield-ascendancy.webp"
   },
   {
     "id": 241,
@@ -2406,8 +2166,7 @@
     "rarity": "Rare",
     "effect": "After Stall ( 15 ), Heroes gain a lasting 33 % Max HP Shield .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/shield-bastion.webp",
-    "sourcePath": "/relics/shield-bastion/"
+    "imageUrl": "/images/wiki/relics/shield-bastion.webp"
   },
   {
     "id": 242,
@@ -2416,8 +2175,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, heroes gain 250 lasting Shields .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shield-bauble.webp",
-    "sourcePath": "/relics/shield-bauble/"
+    "imageUrl": "/images/wiki/relics/shield-bauble.webp"
   },
   {
     "id": 243,
@@ -2426,8 +2184,7 @@
     "rarity": "Rare",
     "effect": "Quest: Apply 7500 Shields . Reward: Heroes gain 100 Attack and 100 Magic while Shielded .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/shield-conduit.webp",
-    "sourcePath": "/relics/shield-conduit/"
+    "imageUrl": "/images/wiki/relics/shield-conduit.webp"
   },
   {
     "id": 244,
@@ -2436,8 +2193,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Hero gains Shields from any source but itself, damage the nearest enemy to them for 33 % of the Shield applied.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shield-converter.webp",
-    "sourcePath": "/relics/shield-converter/"
+    "imageUrl": "/images/wiki/relics/shield-converter.webp"
   },
   {
     "id": 245,
@@ -2446,8 +2202,7 @@
     "rarity": "Unique",
     "effect": "Heroes gain 15 Crit and 4 Mana Regen while Shielded .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/shield-fluctuator.webp",
-    "sourcePath": "/relics/shield-fluctuator/"
+    "imageUrl": "/images/wiki/relics/shield-fluctuator.webp"
   },
   {
     "id": 246,
@@ -2456,8 +2211,7 @@
     "rarity": "Legendary",
     "effect": "Whenever an enemy damages a Hero's Shields , deal 250 % of the damage back to the source.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/shield-fragmentation-engine.webp",
-    "sourcePath": "/relics/shield-fragmentation-engine/"
+    "imageUrl": "/images/wiki/relics/shield-fragmentation-engine.webp"
   },
   {
     "id": 247,
@@ -2466,8 +2220,7 @@
     "rarity": "Common",
     "effect": "At start of combat, Heroes gain 400 lasting Shields .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/shield-generator.webp",
-    "sourcePath": "/relics/shield-generator/"
+    "imageUrl": "/images/wiki/relics/shield-generator.webp"
   },
   {
     "id": 248,
@@ -2476,8 +2229,7 @@
     "rarity": "Epic",
     "effect": "At start of combat and after Stall ( 20 ), spend 1 Shard to apply lasting Shields to all Heroes, then permanently increase the amount of Shields this applies by 50 .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/shield-investment-filigree.webp",
-    "sourcePath": "/relics/shield-investment-filigree/"
+    "imageUrl": "/images/wiki/relics/shield-investment-filigree.webp"
   },
   {
     "id": 249,
@@ -2486,8 +2238,7 @@
     "rarity": "Rare",
     "effect": "Whenever an enemy damages a Hero's Shields , deal 75 % of the damage back to the source.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/shield-repriser.webp",
-    "sourcePath": "/relics/shield-repriser/"
+    "imageUrl": "/images/wiki/relics/shield-repriser.webp"
   },
   {
     "id": 250,
@@ -2496,8 +2247,7 @@
     "rarity": "Common",
     "effect": "Quest: Apply 2500 Shields . Reward: Heroes gain 30 Magic and 30 Attack .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/shield-vessel.webp",
-    "sourcePath": "/relics/shield-vessel/"
+    "imageUrl": "/images/wiki/relics/shield-vessel.webp"
   },
   {
     "id": 251,
@@ -2506,8 +2256,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Deal 15000 damage with auto attacks. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/slaughter-mandate.webp",
-    "sourcePath": "/relics/slaughter-mandate/"
+    "imageUrl": "/images/wiki/relics/slaughter-mandate.webp"
   },
   {
     "id": 252,
@@ -2516,8 +2265,7 @@
     "rarity": "Unique",
     "effect": "Emergency Rewind starts with 30 more Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/stability-system.webp",
-    "sourcePath": "/relics/stability-system/"
+    "imageUrl": "/images/wiki/relics/stability-system.webp"
   },
   {
     "id": 253,
@@ -2526,8 +2274,7 @@
     "rarity": "Epic",
     "effect": "Heroes gain 3 Defense for each time you've rerolled the shop this game.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/stalwart-differentiator.webp",
-    "sourcePath": "/relics/stalwart-differentiator/"
+    "imageUrl": "/images/wiki/relics/stalwart-differentiator.webp"
   },
   {
     "id": 254,
@@ -2536,8 +2283,7 @@
     "rarity": "Unique",
     "effect": "Gain a random common item, a random common relic, and 5 Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/starter-bundle.webp",
-    "sourcePath": "/relics/starter-bundle/"
+    "imageUrl": "/images/wiki/relics/starter-bundle.webp"
   },
   {
     "id": 255,
@@ -2546,8 +2292,7 @@
     "rarity": "Enemy",
     "effect": "After Stall ( 15 ), enemies have 40 % increased stats.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/steady-growth-5001.webp",
-    "sourcePath": "/relics/steady-growth-5001/"
+    "imageUrl": "/images/wiki/relics/steady-growth-5001.webp"
   },
   {
     "id": 256,
@@ -2556,8 +2301,7 @@
     "rarity": "Enemy",
     "effect": "After Stall ( 15 ), enemies have 55 % increased stats.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/steady-growth-5012.webp",
-    "sourcePath": "/relics/steady-growth-5012/"
+    "imageUrl": "/images/wiki/relics/steady-growth-5012.webp"
   },
   {
     "id": 257,
@@ -2566,8 +2310,7 @@
     "rarity": "Single-Battle Boost",
     "effect": "At start of combat, Heroes are Stunned for 6 seconds .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/stunned.webp",
-    "sourcePath": "/relics/stunned/"
+    "imageUrl": "/images/wiki/relics/stunned.webp"
   },
   {
     "id": 258,
@@ -2576,8 +2319,7 @@
     "rarity": "Unique",
     "effect": "Gain 1 extra Shard per surviving Hero at end of combat. Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/survivor-charm.webp",
-    "sourcePath": "/relics/survivor-charm/"
+    "imageUrl": "/images/wiki/relics/survivor-charm.webp"
   },
   {
     "id": 259,
@@ -2586,8 +2328,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 5 Attack Speed . On combat victory, permanently increase the Attack Speed gained by 5 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/swift-codex.webp",
-    "sourcePath": "/relics/swift-codex/"
+    "imageUrl": "/images/wiki/relics/swift-codex.webp"
   },
   {
     "id": 260,
@@ -2596,8 +2337,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Tank during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-crest.webp",
-    "sourcePath": "/relics/tank-crest/"
+    "imageUrl": "/images/wiki/relics/tank-crest.webp"
   },
   {
     "id": 261,
@@ -2606,8 +2346,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Tanks . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-equipment.webp",
-    "sourcePath": "/relics/tank-equipment/"
+    "imageUrl": "/images/wiki/relics/tank-equipment.webp"
   },
   {
     "id": 262,
@@ -2616,8 +2355,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 60 Defense . Every 8 times a Tank is auto attacked , Stun that attacking enemy for 1.5 seconds.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/tank-s-absolution-engine.webp",
-    "sourcePath": "/relics/tank-s-absolution-engine/"
+    "imageUrl": "/images/wiki/relics/tank-s-absolution-engine.webp"
   },
   {
     "id": 263,
@@ -2626,8 +2364,7 @@
     "rarity": "Rare",
     "effect": "Each second if there is a Tank in combat, Heroes gain 1 Defense .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/tank-s-emblem.webp",
-    "sourcePath": "/relics/tank-s-emblem/"
+    "imageUrl": "/images/wiki/relics/tank-s-emblem.webp"
   },
   {
     "id": 264,
@@ -2636,8 +2373,7 @@
     "rarity": "Unique",
     "effect": "Tanks gain 30 Defense and 25 Magic .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-enchanted-reflection.webp",
-    "sourcePath": "/relics/tank-s-enchanted-reflection/"
+    "imageUrl": "/images/wiki/relics/tank-s-enchanted-reflection.webp"
   },
   {
     "id": 265,
@@ -2646,8 +2382,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Tank is auto attacked, they apply 2 Frost to the attacker.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-frostplate-banner.webp",
-    "sourcePath": "/relics/tank-s-frostplate-banner/"
+    "imageUrl": "/images/wiki/relics/tank-s-frostplate-banner.webp"
   },
   {
     "id": 266,
@@ -2656,8 +2391,7 @@
     "rarity": "Epic",
     "effect": "Tanks gain 50 Defense per enemy targeting them. Every 10 Seconds, the Tank with the highest current HP Taunts all enemies.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/tank-s-intercession-prism.webp",
-    "sourcePath": "/relics/tank-s-intercession-prism/"
+    "imageUrl": "/images/wiki/relics/tank-s-intercession-prism.webp"
   },
   {
     "id": 267,
@@ -2666,8 +2400,7 @@
     "rarity": "Epic",
     "effect": "After Stall ( 20 ), Tanks gain 1 HP/S per 8 Defense they have.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/tank-s-invigoration-filigree.webp",
-    "sourcePath": "/relics/tank-s-invigoration-filigree/"
+    "imageUrl": "/images/wiki/relics/tank-s-invigoration-filigree.webp"
   },
   {
     "id": 268,
@@ -2676,8 +2409,7 @@
     "rarity": "Common",
     "effect": "Tanks gain 30 Defense .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/tank-s-medallion.webp",
-    "sourcePath": "/relics/tank-s-medallion/"
+    "imageUrl": "/images/wiki/relics/tank-s-medallion.webp"
   },
   {
     "id": 269,
@@ -2686,8 +2418,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, inflict 20 Poison on all enemies per Tank in combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/tank-s-memento.webp",
-    "sourcePath": "/relics/tank-s-memento/"
+    "imageUrl": "/images/wiki/relics/tank-s-memento.webp"
   },
   {
     "id": 270,
@@ -2696,8 +2427,7 @@
     "rarity": "Unique",
     "effect": "After Stall ( 15 ), Tanks permanently gain 5 Defense .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-patience-banner.webp",
-    "sourcePath": "/relics/tank-s-patience-banner/"
+    "imageUrl": "/images/wiki/relics/tank-s-patience-banner.webp"
   },
   {
     "id": 271,
@@ -2706,8 +2436,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Tank is auto attacked, they apply 1 Poison to the attacker.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-poisonplate-banner.webp",
-    "sourcePath": "/relics/tank-s-poisonplate-banner/"
+    "imageUrl": "/images/wiki/relics/tank-s-poisonplate-banner.webp"
   },
   {
     "id": 272,
@@ -2716,8 +2445,7 @@
     "rarity": "Unique",
     "effect": "Tank's Stall abilities trigger 6 seconds faster.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-readiness-banner.webp",
-    "sourcePath": "/relics/tank-s-readiness-banner/"
+    "imageUrl": "/images/wiki/relics/tank-s-readiness-banner.webp"
   },
   {
     "id": 273,
@@ -2726,8 +2454,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Tank is auto attacked, they gain 2 Defense .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-resilience-banner.webp",
-    "sourcePath": "/relics/tank-s-resilience-banner/"
+    "imageUrl": "/images/wiki/relics/tank-s-resilience-banner.webp"
   },
   {
     "id": 274,
@@ -2736,8 +2463,7 @@
     "rarity": "Unique",
     "effect": "Tanks gain 30 Defense and 200 Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/tank-s-vital-reflection.webp",
-    "sourcePath": "/relics/tank-s-vital-reflection/"
+    "imageUrl": "/images/wiki/relics/tank-s-vital-reflection.webp"
   },
   {
     "id": 275,
@@ -2746,8 +2472,7 @@
     "rarity": "Legendary",
     "effect": "On Stall trigger, deal 8 damage to all enemies for each Rush you've triggered this game. On Rush trigger, give 8 lasting Shields to all Heroes for each Stall you've triggered this game.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/temporal-alignment-crystal.webp",
-    "sourcePath": "/relics/temporal-alignment-crystal/"
+    "imageUrl": "/images/wiki/relics/temporal-alignment-crystal.webp"
   },
   {
     "id": 276,
@@ -2756,8 +2481,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Trigger Rush or Stall 40 times. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/temporal-mandate.webp",
-    "sourcePath": "/relics/temporal-mandate/"
+    "imageUrl": "/images/wiki/relics/temporal-mandate.webp"
   },
   {
     "id": 277,
@@ -2766,8 +2490,7 @@
     "rarity": "Legendary",
     "effect": "After Stall ( 90 ), break the rift.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/the-riftbreaker.webp",
-    "sourcePath": "/relics/the-riftbreaker/"
+    "imageUrl": "/images/wiki/relics/the-riftbreaker.webp"
   },
   {
     "id": 278,
@@ -2776,8 +2499,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Hero inflicts Burn , also inflict 50 % of the Burn applied as Frost . Whenever a Hero inflicts Frost , also inflict 50 % of the Frost applied as Burn .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/thermal-inverter.webp",
-    "sourcePath": "/relics/thermal-inverter/"
+    "imageUrl": "/images/wiki/relics/thermal-inverter.webp"
   },
   {
     "id": 279,
@@ -2786,8 +2508,7 @@
     "rarity": "Epic",
     "effect": "Every other Stall trigger, gain 1 Shard . Every other Rush trigger, gain 1 Shard .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/trigger-bounty-activator.webp",
-    "sourcePath": "/relics/trigger-bounty-activator/"
+    "imageUrl": "/images/wiki/relics/trigger-bounty-activator.webp"
   },
   {
     "id": 280,
@@ -2796,8 +2517,7 @@
     "rarity": "Epic",
     "effect": "On Stall or Rush trigger, give Heroes a lasting 10 % Max HP Shield and 2 Mana Regen .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/trigger-safeguard-activator.webp",
-    "sourcePath": "/relics/trigger-safeguard-activator/"
+    "imageUrl": "/images/wiki/relics/trigger-safeguard-activator.webp"
   },
   {
     "id": 281,
@@ -2806,8 +2526,7 @@
     "rarity": "Epic",
     "effect": "Every 3 Stall triggers, Stun all enemies for 2 seconds. Every 3 Rush triggers, Stun all enemies for 2 seconds.",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/trigger-synchrony-activator.webp",
-    "sourcePath": "/relics/trigger-synchrony-activator/"
+    "imageUrl": "/images/wiki/relics/trigger-synchrony-activator.webp"
   },
   {
     "id": 282,
@@ -2816,8 +2535,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win a combat with 4 or more heroes of the same class in combat or in the reserves. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/unity-mandate.webp",
-    "sourcePath": "/relics/unity-mandate/"
+    "imageUrl": "/images/wiki/relics/unity-mandate.webp"
   },
   {
     "id": 283,
@@ -2826,8 +2544,7 @@
     "rarity": "Common",
     "effect": "Quest: Win a combat with 3 or more Heroes of the same Class in play. Reward: Gain 30 Shards .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/unity-vessel.webp",
-    "sourcePath": "/relics/unity-vessel/"
+    "imageUrl": "/images/wiki/relics/unity-vessel.webp"
   },
   {
     "id": 284,
@@ -2836,8 +2553,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 2 Omnivamp . On combat victory, permanently increase the Omnivamp gained by 2 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/vampiric-codex.webp",
-    "sourcePath": "/relics/vampiric-codex/"
+    "imageUrl": "/images/wiki/relics/vampiric-codex.webp"
   },
   {
     "id": 285,
@@ -2846,8 +2562,7 @@
     "rarity": "Unique",
     "effect": "Heroes gain 10 Omnivamp .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vampirism.webp",
-    "sourcePath": "/relics/vampirism/"
+    "imageUrl": "/images/wiki/relics/vampirism.webp"
   },
   {
     "id": 286,
@@ -2856,8 +2571,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Vanguard during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-crest.webp",
-    "sourcePath": "/relics/vanguard-crest/"
+    "imageUrl": "/images/wiki/relics/vanguard-crest.webp"
   },
   {
     "id": 287,
@@ -2866,8 +2580,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Vanguards . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-equipment.webp",
-    "sourcePath": "/relics/vanguard-equipment/"
+    "imageUrl": "/images/wiki/relics/vanguard-equipment.webp"
   },
   {
     "id": 288,
@@ -2876,8 +2589,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, Vanguards gain Shields equal to 25 % of their Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-aegis-banner.webp",
-    "sourcePath": "/relics/vanguard-s-aegis-banner/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-aegis-banner.webp"
   },
   {
     "id": 289,
@@ -2886,8 +2598,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 8 ), Vanguards gain + 100 % Max HP .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/vanguard-s-amplification-filigree.webp",
-    "sourcePath": "/relics/vanguard-s-amplification-filigree/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-amplification-filigree.webp"
   },
   {
     "id": 290,
@@ -2896,8 +2607,7 @@
     "rarity": "Unique",
     "effect": "Vanguards gain 200 Max HP and 25 Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-combative-reflection.webp",
-    "sourcePath": "/relics/vanguard-s-combative-reflection/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-combative-reflection.webp"
   },
   {
     "id": 291,
@@ -2906,8 +2616,7 @@
     "rarity": "Rare",
     "effect": "Every 5 seconds if there is a Vanguard in combat, Heroes gain 150 Shields .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/vanguard-s-emblem.webp",
-    "sourcePath": "/relics/vanguard-s-emblem/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-emblem.webp"
   },
   {
     "id": 292,
@@ -2916,8 +2625,7 @@
     "rarity": "Unique",
     "effect": "Vanguard's Rush abilities last 3 seconds longer.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-endurance-banner.webp",
-    "sourcePath": "/relics/vanguard-s-endurance-banner/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-endurance-banner.webp"
   },
   {
     "id": 293,
@@ -2926,8 +2634,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Vanguard auto attacks, they inflict 3 Burn on their target.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-flamefists-banner.webp",
-    "sourcePath": "/relics/vanguard-s-flamefists-banner/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-flamefists-banner.webp"
   },
   {
     "id": 294,
@@ -2936,8 +2643,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Vanguard is auto attacked, they inflict 3 Burn on the attacker.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-flameplate-banner.webp",
-    "sourcePath": "/relics/vanguard-s-flameplate-banner/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-flameplate-banner.webp"
   },
   {
     "id": 295,
@@ -2946,8 +2652,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Vanguard goes below 50 % Max HP for the first time each combat they gain + 33 % Attack Speed , + 33 % Attack , and + 33 % Defense .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/vanguard-s-frenzy-prism.webp",
-    "sourcePath": "/relics/vanguard-s-frenzy-prism/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-frenzy-prism.webp"
   },
   {
     "id": 296,
@@ -2956,8 +2661,7 @@
     "rarity": "Common",
     "effect": "Vanguards gain 200 Max HP .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/vanguard-s-medallion.webp",
-    "sourcePath": "/relics/vanguard-s-medallion/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-medallion.webp"
   },
   {
     "id": 297,
@@ -2966,8 +2670,7 @@
     "rarity": "Rare",
     "effect": "At start of combat, inflict 45 Burn on all enemies per Vanguard in combat.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/vanguard-s-memento.webp",
-    "sourcePath": "/relics/vanguard-s-memento/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-memento.webp"
   },
   {
     "id": 298,
@@ -2976,8 +2679,7 @@
     "rarity": "Unique",
     "effect": "Vanguards gain 200 Max HP and 30 Defense .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-plated-reflection.webp",
-    "sourcePath": "/relics/vanguard-s-plated-reflection/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-plated-reflection.webp"
   },
   {
     "id": 299,
@@ -2986,8 +2688,7 @@
     "rarity": "Unique",
     "effect": "For Rush ( 10 ), Vanguards gain 1 Attack and 1 Defense per 25 Max HP .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/vanguard-s-rally-banner.webp",
-    "sourcePath": "/relics/vanguard-s-rally-banner/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-rally-banner.webp"
   },
   {
     "id": 300,
@@ -2996,8 +2697,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 400 Max HP . Whenever a Vanguard auto attacks or is auto attacked , they gain 10 Max HP . Every 200 Max HP gained this way, give them 25 Attack and increase their size.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/vanguard-s-titanic-engine.webp",
-    "sourcePath": "/relics/vanguard-s-titanic-engine/"
+    "imageUrl": "/images/wiki/relics/vanguard-s-titanic-engine.webp"
   },
   {
     "id": 301,
@@ -3006,8 +2706,7 @@
     "rarity": "Legendary",
     "effect": "Whenever an enemy takes 50 or more damage from Poison , they also take damage equal to 4 % of their Max HP .",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/venom-amplification-engine.webp",
-    "sourcePath": "/relics/venom-amplification-engine/"
+    "imageUrl": "/images/wiki/relics/venom-amplification-engine.webp"
   },
   {
     "id": 302,
@@ -3016,8 +2715,7 @@
     "rarity": "Epic",
     "effect": "Whenever an enemy takes Poison damage, Heroes gain 2 Crit .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/venom-precision-prism.webp",
-    "sourcePath": "/relics/venom-precision-prism/"
+    "imageUrl": "/images/wiki/relics/venom-precision-prism.webp"
   },
   {
     "id": 303,
@@ -3026,8 +2724,7 @@
     "rarity": "Legendary (Quest)",
     "effect": "Quest: Win 4 combats. Reward: Increase your team size by 1 (Max: 5 ).",
     "price": "25",
-    "imageUrl": "/images/wiki/relics/victory-mandate.webp",
-    "sourcePath": "/relics/victory-mandate/"
+    "imageUrl": "/images/wiki/relics/victory-mandate.webp"
   },
   {
     "id": 304,
@@ -3036,8 +2733,7 @@
     "rarity": "Common",
     "effect": "Quest: Win 3 combats. Reward: Gain 25 Shards .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/victory-vessel.webp",
-    "sourcePath": "/relics/victory-vessel/"
+    "imageUrl": "/images/wiki/relics/victory-vessel.webp"
   },
   {
     "id": 305,
@@ -3046,8 +2742,7 @@
     "rarity": "Rare",
     "effect": "Quest: Auto attack 200 times. Reward: Each Hero's first auto attack against each enemy gains 750 Crit .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/violence-conduit.webp",
-    "sourcePath": "/relics/violence-conduit/"
+    "imageUrl": "/images/wiki/relics/violence-conduit.webp"
   },
   {
     "id": 306,
@@ -3056,8 +2751,7 @@
     "rarity": "Rare",
     "effect": "Heroes gain 50 Max HP . On combat victory, permanently increase the Max HP gained by 50 .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/vital-codex.webp",
-    "sourcePath": "/relics/vital-codex/"
+    "imageUrl": "/images/wiki/relics/vital-codex.webp"
   },
   {
     "id": 307,
@@ -3066,8 +2760,7 @@
     "rarity": "Unique",
     "effect": "Get an item which makes a Hero count as a Warrior during combat.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-crest.webp",
-    "sourcePath": "/relics/warrior-crest/"
+    "imageUrl": "/images/wiki/relics/warrior-crest.webp"
   },
   {
     "id": 308,
@@ -3076,8 +2769,7 @@
     "rarity": "Unique",
     "effect": "Get an item which benefits Warriors . Start with 5 fewer Shards .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-equipment.webp",
-    "sourcePath": "/relics/warrior-equipment/"
+    "imageUrl": "/images/wiki/relics/warrior-equipment.webp"
   },
   {
     "id": 309,
@@ -3086,8 +2778,7 @@
     "rarity": "Unique",
     "effect": "At start of combat, Warriors gain a lasting Shield equal to 500 % of their Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-aegis-banner.webp",
-    "sourcePath": "/relics/warrior-s-aegis-banner/"
+    "imageUrl": "/images/wiki/relics/warrior-s-aegis-banner.webp"
   },
   {
     "id": 310,
@@ -3096,8 +2787,7 @@
     "rarity": "Legendary",
     "effect": "Heroes gain 50 Attack . Whenever a Warrior deals damage, they gain lasting Shields equal to 15 % of the damage dealt.",
     "price": "40",
-    "imageUrl": "/images/wiki/relics/warrior-s-bloodshield-engine.webp",
-    "sourcePath": "/relics/warrior-s-bloodshield-engine/"
+    "imageUrl": "/images/wiki/relics/warrior-s-bloodshield-engine.webp"
   },
   {
     "id": 311,
@@ -3106,8 +2796,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Warrior Crits , they deal bonus damage equal to 100 % of their Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-bravery-banner.webp",
-    "sourcePath": "/relics/warrior-s-bravery-banner/"
+    "imageUrl": "/images/wiki/relics/warrior-s-bravery-banner.webp"
   },
   {
     "id": 312,
@@ -3116,8 +2805,7 @@
     "rarity": "Rare",
     "effect": "If there is a Warrior in combat, your Hero's auto attacks gain 50 Crit .",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/warrior-s-emblem.webp",
-    "sourcePath": "/relics/warrior-s-emblem/"
+    "imageUrl": "/images/wiki/relics/warrior-s-emblem.webp"
   },
   {
     "id": 313,
@@ -3126,8 +2814,7 @@
     "rarity": "Unique",
     "effect": "Warrior's Rush abilities last 3 seconds longer.",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-endurance-banner.webp",
-    "sourcePath": "/relics/warrior-s-endurance-banner/"
+    "imageUrl": "/images/wiki/relics/warrior-s-endurance-banner.webp"
   },
   {
     "id": 314,
@@ -3136,8 +2823,7 @@
     "rarity": "Epic",
     "effect": "Whenever a Warrior kills , they gain + 50 % Attack , heal 100 % of their Max HP and gain 100 Mana .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/warrior-s-exaltation-prism.webp",
-    "sourcePath": "/relics/warrior-s-exaltation-prism/"
+    "imageUrl": "/images/wiki/relics/warrior-s-exaltation-prism.webp"
   },
   {
     "id": 315,
@@ -3146,8 +2832,7 @@
     "rarity": "Common",
     "effect": "Warriors gain 25 Attack .",
     "price": "10",
-    "imageUrl": "/images/wiki/relics/warrior-s-medallion.webp",
-    "sourcePath": "/relics/warrior-s-medallion/"
+    "imageUrl": "/images/wiki/relics/warrior-s-medallion.webp"
   },
   {
     "id": 316,
@@ -3156,8 +2841,7 @@
     "rarity": "Rare",
     "effect": "For each Warrior in combat, Rush abilities last 2 seconds longer.",
     "price": "20",
-    "imageUrl": "/images/wiki/relics/warrior-s-memento.webp",
-    "sourcePath": "/relics/warrior-s-memento/"
+    "imageUrl": "/images/wiki/relics/warrior-s-memento.webp"
   },
   {
     "id": 317,
@@ -3166,8 +2850,7 @@
     "rarity": "Unique",
     "effect": "Whenever a Warrior Crits , they heal equal to 50 % of their Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-mending-banner.webp",
-    "sourcePath": "/relics/warrior-s-mending-banner/"
+    "imageUrl": "/images/wiki/relics/warrior-s-mending-banner.webp"
   },
   {
     "id": 318,
@@ -3176,8 +2859,7 @@
     "rarity": "Unique",
     "effect": "Warriors gain 25 Attack and 15 Crit .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-precise-reflection.webp",
-    "sourcePath": "/relics/warrior-s-precise-reflection/"
+    "imageUrl": "/images/wiki/relics/warrior-s-precise-reflection.webp"
   },
   {
     "id": 319,
@@ -3186,8 +2868,7 @@
     "rarity": "Unique",
     "effect": "Rush ( 10 ): Warriors gain + 50 % Attack .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-rally-banner.webp",
-    "sourcePath": "/relics/warrior-s-rally-banner/"
+    "imageUrl": "/images/wiki/relics/warrior-s-rally-banner.webp"
   },
   {
     "id": 320,
@@ -3196,8 +2877,7 @@
     "rarity": "Epic",
     "effect": "For Rush ( 8 ), whenever a Warrior Crits an enemy reduce the enemy's Defense by 20 .",
     "price": "30",
-    "imageUrl": "/images/wiki/relics/warrior-s-sundering-filigree.webp",
-    "sourcePath": "/relics/warrior-s-sundering-filigree/"
+    "imageUrl": "/images/wiki/relics/warrior-s-sundering-filigree.webp"
   },
   {
     "id": 321,
@@ -3206,8 +2886,7 @@
     "rarity": "Unique",
     "effect": "Warriors gain 25 Attack and 20 Attack Speed .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/warrior-s-swift-reflection.webp",
-    "sourcePath": "/relics/warrior-s-swift-reflection/"
+    "imageUrl": "/images/wiki/relics/warrior-s-swift-reflection.webp"
   },
   {
     "id": 322,
@@ -3216,7 +2895,6 @@
     "rarity": "Single-Battle Boost",
     "effect": "Heroes have 25 % decreased basic stats .",
     "price": "Not sold",
-    "imageUrl": "/images/wiki/relics/weakness.webp",
-    "sourcePath": "/relics/weakness/"
+    "imageUrl": "/images/wiki/relics/weakness.webp"
   }
 ]

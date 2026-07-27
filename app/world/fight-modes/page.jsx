@@ -11,9 +11,9 @@ export const metadata = createMetadata({
 });
 
 const setLabels = [
-  { label: "Set Alpha", note: "Lower thresholds — early-route challenge window" },
-  { label: "Set Bravo", note: "Mid-route thresholds with higher gold" },
-  { label: "Set Charlie", note: "Late-route / high-pressure thresholds" },
+  { label: "Threshold Set 1", note: "First recorded damage, survival, and duel reward group" },
+  { label: "Threshold Set 2", note: "Second recorded damage, survival, and duel reward group" },
+  { label: "Threshold Set 3", note: "Third recorded damage, survival, and duel reward group" },
 ];
 
 function modeKind(name) {
@@ -86,7 +86,7 @@ export default function FightModesPage() {
           </div>
         </header>
 
-        <article className="record-sections fight-modes-page">
+        <article className="record-sections">
           <section className="record-section" id="campaign">
             <span className="archive-kicker">Primary route mode</span>
             <h2>Campaign fights</h2>

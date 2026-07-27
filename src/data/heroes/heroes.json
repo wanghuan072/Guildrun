@@ -325,8 +325,9 @@
         "effect": "On cast, give the lowest percent health Hero 1 Shield per 2 Debuffs on all enemies."
       }
     ],
-    "sourcePath": "/heroes/aria/",
-    "splashUrl": "/images/heroes/aria/splash.webp"
+    "splashUrl": "/images/heroes/aria/splash.webp",
+    "role": "Back-line magic carry and dual-debuff engine",
+    "fieldNote": "Protect the channel and decide early whether the run needs damage scaling, stronger debuffs, or team shielding."
   },
   {
     "name": "Dragomir",
@@ -766,8 +767,9 @@
         "effect": "At start of combat, give all Heroes in the front 2 rows 66% Max Health Shields ."
       }
     ],
-    "sourcePath": "/heroes/dragomir/",
-    "splashUrl": "/images/heroes/dragomir/splash.webp"
+    "splashUrl": "/images/heroes/dragomir/splash.webp",
+    "role": "Melee executioner with economy scaling",
+    "fieldNote": "He needs a safe first takedown; once Devour starts converting kills into Shards, the run can compound quickly."
   },
   {
     "name": "Fiona",
@@ -1097,8 +1099,9 @@
         "effect": "At start of combat, give all Heroes in the front 2 rows 66% Max Health Shields ."
       }
     ],
-    "sourcePath": "/heroes/fiona/",
-    "splashUrl": "/images/heroes/fiona/splash.webp"
+    "splashUrl": "/images/heroes/fiona/splash.webp",
+    "role": "Shield support with economy and scaling branches",
+    "fieldNote": "Mana Regen is both uptime and coverage. Use her path to solve economy, retaliation, or long-fight durability."
   },
   {
     "name": "Funke",
@@ -1319,8 +1322,9 @@
         "effect": "Gain 8 Mana Regen and 40 Starting Mana ."
       }
     ],
-    "sourcePath": "/heroes/funke/",
-    "splashUrl": "/images/heroes/funke/splash.webp"
+    "splashUrl": "/images/heroes/funke/splash.webp",
+    "role": "Area Burn mage",
+    "fieldNote": "Range is the constraint: position him so Wildfire sees the full enemy group instead of over-investing in damage that cannot connect."
   },
   {
     "name": "Grace",
@@ -1543,8 +1547,9 @@
         "effect": "On cast, give the lowest percent health Hero 1 Shield per 2 Debuffs on all enemies."
       }
     ],
-    "sourcePath": "/heroes/grace/",
-    "splashUrl": "/images/heroes/grace/splash.webp"
+    "splashUrl": "/images/heroes/grace/splash.webp",
+    "role": "Late-fight shield, healing, and resurrection support",
+    "fieldNote": "Grace is strongest when the formation can survive to her Stall breakpoints; she cannot rescue a board that collapses immediately."
   },
   {
     "name": "Gustav",
@@ -1874,8 +1879,9 @@
         "effect": "At start of combat, if this Hero is in the back row all Heroes gain + 75 % Defense ."
       }
     ],
-    "sourcePath": "/heroes/gustav/",
-    "splashUrl": "/images/heroes/gustav/splash.webp"
+    "splashUrl": "/images/heroes/gustav/splash.webp",
+    "role": "Zone-control Mystic and shield engine",
+    "fieldNote": "Choose whether Gustav stays protected in the rear or becomes the center of a defensive Blizzard formation."
   },
   {
     "name": "Hoyoung",
@@ -2316,8 +2322,9 @@
         "effect": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 25 Attack ."
       }
     ],
-    "sourcePath": "/heroes/hoyoung/",
-    "splashUrl": "/images/heroes/hoyoung/splash.webp"
+    "splashUrl": "/images/heroes/hoyoung/splash.webp",
+    "role": "Long-range back-line executioner",
+    "fieldNote": "His farthest-target logic is a formation tool. Check which enemy will actually be selected before committing the lane."
   },
   {
     "name": "Irini",
@@ -2541,8 +2548,9 @@
         "effect": "Duelists gain 1 Attack Speed per Stall trigger this game. Backup ."
       }
     ],
-    "sourcePath": "/heroes/irini/",
-    "splashUrl": "/images/heroes/irini/splash.webp"
+    "splashUrl": "/images/heroes/irini/splash.webp",
+    "role": "Attack-speed Duelist with late-fight payoff",
+    "fieldNote": "She needs uninterrupted attack time. A durable front line is more valuable than another fragile damage piece."
   },
   {
     "name": "Kai",
@@ -2875,8 +2883,9 @@
         "effect": "At start of combat, if this Hero is in the back row all Heroes gain + 75 % Defense ."
       }
     ],
-    "sourcePath": "/heroes/kai/",
-    "splashUrl": "/images/heroes/kai/splash.webp"
+    "splashUrl": "/images/heroes/kai/splash.webp",
+    "role": "Shield-powered melee Warrior",
+    "fieldNote": "Shield timing matters more than raw armor: preserve enough of Resolute Strike's shield to make the delayed hit meaningful."
   },
   {
     "name": "Karsu",
@@ -3210,8 +3219,9 @@
         "effect": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 25 Attack ."
       }
     ],
-    "sourcePath": "/heroes/karsu/",
-    "splashUrl": "/images/heroes/karsu/splash.webp"
+    "splashUrl": "/images/heroes/karsu/splash.webp",
+    "role": "Ranged Duelist and Frost applicator",
+    "fieldNote": "Karsu can either blanket the board with Frost or become a conventional attack-speed carry; do not split items between both plans."
   },
   {
     "name": "Logan",
@@ -3435,8 +3445,9 @@
         "effect": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 25 Attack ."
       }
     ],
-    "sourcePath": "/heroes/logan/",
-    "splashUrl": "/images/heroes/logan/splash.webp"
+    "splashUrl": "/images/heroes/logan/splash.webp",
+    "role": "Physical finisher with permanent growth",
+    "fieldNote": "Logan wants repeated executions, not only one large hit. Mana access and safe target selection determine whether he scales."
   },
   {
     "name": "Ming",
@@ -3661,8 +3672,9 @@
         "effect": "At start of combat, give all Heroes in the front 2 rows 66% Max Health Shields ."
       }
     ],
-    "sourcePath": "/heroes/ming/",
-    "splashUrl": "/images/heroes/ming/splash.webp"
+    "splashUrl": "/images/heroes/ming/splash.webp",
+    "role": "High-health Rush Vanguard and Burn aura",
+    "fieldNote": "Ming must remain adjacent to valuable targets. Build enough durability to keep the aura active through the Rush window."
   },
   {
     "name": "Niklas",
@@ -3995,8 +4007,9 @@
         "effect": "At start of combat, if this Hero is in the back row all Heroes gain + 75 % Defense ."
       }
     ],
-    "sourcePath": "/heroes/niklas/",
-    "splashUrl": "/images/heroes/niklas/splash.webp"
+    "splashUrl": "/images/heroes/niklas/splash.webp",
+    "role": "Item-consuming Vanguard economy engine",
+    "fieldNote": "Item order is part of the build. Put only a deliberately expendable item in the left-most slot before combat."
   },
   {
     "name": "Nyx",
@@ -4329,8 +4342,9 @@
         "effect": "Gain 60 Crit and 20 Omnivamp ."
       }
     ],
-    "sourcePath": "/heroes/nyx/",
-    "splashUrl": "/images/heroes/nyx/splash.webp"
+    "splashUrl": "/images/heroes/nyx/splash.webp",
+    "role": "Rush-refresh melee Duelist",
+    "fieldNote": "Nyx needs enough survival to reach the first refresh loop; early Attack Speed matters only if she can stay on target."
   },
   {
     "name": "Pimenta",
@@ -4767,8 +4781,9 @@
         "effect": "Gain 8 Mana Regen and 40 Starting Mana ."
       }
     ],
-    "sourcePath": "/heroes/pimenta/",
-    "splashUrl": "/images/heroes/pimenta/splash.webp"
+    "splashUrl": "/images/heroes/pimenta/splash.webp",
+    "role": "Front-line Poison Tank and formation anchor",
+    "fieldNote": "The unit behind Pimenta matters as much as her own items. Align the formation so her fixed positional bonus reaches the carry."
   },
   {
     "name": "Pollen",
@@ -5097,8 +5112,9 @@
         "effect": "Gain 8 Mana Regen and 40 Starting Mana ."
       }
     ],
-    "sourcePath": "/heroes/pollen/",
-    "splashUrl": "/images/heroes/pollen/splash.webp"
+    "splashUrl": "/images/heroes/pollen/splash.webp",
+    "role": "Sustain field Mystic and status hub",
+    "fieldNote": "Pollen rewards clustered formations. Place the team so both allies and priority enemies remain inside the field."
   },
   {
     "name": "Ratna",
@@ -5534,8 +5550,9 @@
         "effect": "Gain 60 Crit and 20 Omnivamp ."
       }
     ],
-    "sourcePath": "/heroes/ratna/",
-    "splashUrl": "/images/heroes/ratna/splash.webp"
+    "splashUrl": "/images/heroes/ratna/splash.webp",
+    "role": "Crit-control Mage with kill scaling",
+    "fieldNote": "Ratna must either secure kills or Crit reliably. Build toward one trigger first, then let the permanent growth support the other."
   },
   {
     "name": "Reyna",
@@ -5977,8 +5994,9 @@
         "effect": "Duelists gain 1 Attack Speed per Stall trigger this game. Backup ."
       }
     ],
-    "sourcePath": "/heroes/reyna/",
-    "splashUrl": "/images/heroes/reyna/splash.webp"
+    "splashUrl": "/images/heroes/reyna/splash.webp",
+    "role": "Combo Warrior with self-shielding",
+    "fieldNote": "She scales by staying engaged. Give her enough sustain to complete repeated three-hit cycles instead of chasing only peak Attack."
   },
   {
     "name": "Rip",
@@ -6311,8 +6329,9 @@
         "effect": "Gain 60 Crit and 20 Omnivamp ."
       }
     ],
-    "sourcePath": "/heroes/rip/",
-    "splashUrl": "/images/heroes/rip/splash.webp"
+    "splashUrl": "/images/heroes/rip/splash.webp",
+    "role": "High-health Rush bruiser",
+    "fieldNote": "Rip wants controlled health loss, not immediate collapse. Sustain should keep him near trigger ranges without removing the payoff."
   },
   {
     "name": "Rowan",
@@ -6644,8 +6663,9 @@
         "effect": "At start of combat, if this Hero is in the back row all Heroes gain + 75 % Defense ."
       }
     ],
-    "sourcePath": "/heroes/rowan/",
-    "splashUrl": "/images/heroes/rowan/splash.webp"
+    "splashUrl": "/images/heroes/rowan/splash.webp",
+    "role": "Dual-class defensive anchor",
+    "fieldNote": "Rowan can occupy the board or become a backup scaling engine. Decide before class modifiers split across both pools."
   },
   {
     "name": "Sal",
@@ -7084,8 +7104,9 @@
         "effect": "At start of combat, if this Hero is adjacent to exactly one other Hero they both permanently gain 25 Attack ."
       }
     ],
-    "sourcePath": "/heroes/sal/",
-    "splashUrl": "/images/heroes/sal/splash.webp"
+    "splashUrl": "/images/heroes/sal/splash.webp",
+    "role": "Short-range Frost Mage and formation support",
+    "fieldNote": "Sal's two-hex range and front-facing bonus make placement unusually strict. Pair her with a deliberate front partner."
   },
   {
     "name": "Skorn",
@@ -7309,8 +7330,9 @@
         "effect": "At start of combat, if this Hero is in the back row all Heroes gain + 75 % Defense ."
       }
     ],
-    "sourcePath": "/heroes/skorn/",
-    "splashUrl": "/images/heroes/skorn/splash.webp"
+    "splashUrl": "/images/heroes/skorn/splash.webp",
+    "role": "Retaliation Tank and status front line",
+    "fieldNote": "Skorn needs to be targeted. Place him where enemy attacks land, then use Stall and shielding to turn pressure into output."
   },
   {
     "name": "Tilly",
@@ -7645,8 +7667,9 @@
         "effect": "Duelists gain 1 Attack Speed per Stall trigger this game. Backup ."
       }
     ],
-    "sourcePath": "/heroes/tilly/",
-    "splashUrl": "/images/heroes/tilly/splash.webp"
+    "splashUrl": "/images/heroes/tilly/splash.webp",
+    "role": "Dual-class tempo carry and Shard engine",
+    "fieldNote": "Her two class pools create flexibility but dilute later offers. Commit to Warrior power or Duelist speed before Rank A."
   },
   {
     "name": "Yuuna",
@@ -7871,8 +7894,9 @@
         "effect": "Gain 60 Crit and 20 Omnivamp ."
       }
     ],
-    "sourcePath": "/heroes/yuuna/",
-    "splashUrl": "/images/heroes/yuuna/splash.webp"
+    "splashUrl": "/images/heroes/yuuna/splash.webp",
+    "role": "Crit Assassin and low-health finisher",
+    "fieldNote": "Yuuna's lowest-health targeting works best when the team can soften several enemies without accidentally pulling her into opening focus."
   },
   {
     "name": "Zuri",
@@ -8205,7 +8229,8 @@
         "effect": "Gain 60 Crit and 20 Omnivamp ."
       }
     ],
-    "sourcePath": "/heroes/zuri/",
-    "splashUrl": "/images/heroes/zuri/splash.webp"
+    "splashUrl": "/images/heroes/zuri/splash.webp",
+    "role": "Crit-scaling hybrid Tank and Assassin",
+    "fieldNote": "Zuri needs both incoming pressure and reliable Crit. Build one defensive item first so the permanent stat engine has time to work."
   }
 ]

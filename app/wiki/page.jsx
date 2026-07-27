@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
-import { snapshotMeta, wikiCategories } from "@/src/lib/content/wiki";
+import dataset from "@/src/data/dataset.json";
+import { wikiCategories } from "@/src/lib/content/wiki";
 import { pageTdk } from "@/src/seo/tdk";
 import { createMetadata } from "@/src/seo/siteConfig";
 
@@ -13,7 +14,9 @@ export default function WikiPage() {
       <ReferenceLayout section="wiki" activeHref="/wiki/">
         <header className="reference-page-head">
           <div>
-            <span className="archive-eyebrow">Database directory · Demo 0.5.1</span>
+            <span className="archive-eyebrow">
+              Database directory · {dataset.gameVersion}
+            </span>
             <h1>{pageTdk.wiki.h1}</h1>
             <p>
               Choose one collection and filter the complete Demo list. Items and
@@ -22,7 +25,11 @@ export default function WikiPage() {
             </p>
           </div>
           <div className="reference-page-head__count">
-            <strong>{snapshotMeta.counts.items + snapshotMeta.counts.relics}</strong>
+            <strong>
+              {wikiCategories
+                .filter(({ countKey }) => ["items", "relics"].includes(countKey))
+                .reduce((total, category) => total + category.count, 0)}
+            </strong>
             <span>items + relics</span>
           </div>
         </header>

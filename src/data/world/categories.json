@@ -4,7 +4,7 @@
     "href": "/world/stages/",
     "countKey": "stages",
     "label": "Encounter formations",
-    "description": "Campaign, boss, event-fight, and Endless records with exact enemy lineups, stats, rewards, and scene data.",
+    "description": "Campaign, event-fight, and Endless records with exact enemy lineups, stats, rewards, and scene data.",
     "imageUrl": "/images/gameplay/formation-battle.webp"
   },
   {

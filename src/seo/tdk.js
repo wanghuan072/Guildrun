@@ -30,15 +30,6 @@ export function defineTdk({ h1, title, description, keywords = [] }) {
   });
 }
 
-export function createDetailTdk({
-  h1,
-  title,
-  description,
-  keywords = [],
-}) {
-  return defineTdk({ h1, title, description, keywords });
-}
-
 export const pageTdk = {
   home: defineTdk({
     h1: "Guildrun - Heroes, Builds, Wiki and Strategy Guide",
@@ -65,8 +56,13 @@ export const pageTdk = {
     h1: "Guildrun Wiki - Items, Relics, Enemies and Effects",
     title: "Guildrun Wiki - Items, Relics, Enemies and Effects",
     description:
-      "Browse the Guildrun Wiki by database, then open detailed item, relic, enemy, and status-effect records with stats, mechanics, related entries, and gameplay links.",
-    keywords: ["Guildrun Wiki", "Guildrun items", "Guildrun relics", "Guildrun enemies"],
+      "Browse Guildrun items, relics, enemies, and status effects, then open detailed records with stats, mechanics, related entries, and practical gameplay links.",
+    keywords: [
+      "Guildrun Wiki",
+      "Guildrun items",
+      "Guildrun relics",
+      "Guildrun enemies",
+    ],
   }),
   heroes: defineTdk({
     h1: "Guildrun Heroes - Stats, Classes, Ranks and Builds",
@@ -93,7 +89,7 @@ export const pageTdk = {
     h1: "Search Guildrun - Heroes, Wiki, Guides and Updates",
     title: "Search Guildrun - Heroes, Wiki, Guides and Updates",
     description:
-      "Search the Guildrun guide for heroes, items, relics, enemies, status effects, stages, events, strategy guides, and patch notes from one indexed page.",
+      "Search the Guildrun guide for heroes, specializations, items, relics, enemies, status effects, stages, events, strategy guides, and patch notes from one indexed page.",
     keywords: ["Guildrun search", "Guildrun wiki search", "Guildrun heroes search"],
   }),
   updates: defineTdk({

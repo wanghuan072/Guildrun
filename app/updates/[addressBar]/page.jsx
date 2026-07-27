@@ -1,32 +1,34 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import JsonLd from "@/src/components/JsonLd";
-import { getUpdate, updatesData } from "@/src/lib/content/updates";
-import { createMetadata } from "@/src/seo/siteConfig";
+import ChangeLedger from "@/src/components/ChangeLedger";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
+import { slugify } from "@/src/lib/content/collection";
+import { updateCollection } from "@/src/lib/content/updates";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return updatesData.map(({ addressBar }) => ({ addressBar }));
+  return updateCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const update = getUpdate(addressBar);
+  const update = updateCollection.get((await params).addressBar);
   if (!update) return {};
-  return createMetadata({
-    ...update.seo,
-    path: `/updates/${addressBar}/`,
-    image: update.imageUrl,
-    type: "article",
-  });
+  return updateCollection.metadata(update);
 }
 
 export default async function UpdateDetailPage({ params }) {
   const { addressBar } = await params;
-  const update = getUpdate(addressBar);
+  const update = updateCollection.get(addressBar);
   if (!update) notFound();
-  const path = `/updates/${update.addressBar}/`;
+
+  const path = updateCollection.href(update);
+  const sections = update.sections.map((section) => ({
+    ...section,
+    anchor: slugify(section.name),
+  }));
   const jsonLd = [
     articleSchema({
       headline: update.seo.h1,
@@ -43,23 +45,79 @@ export default async function UpdateDetailPage({ params }) {
     ]),
   ];
   return (
-    <main className="archive-main">
-      <JsonLd data={jsonLd} />
-      <article className="container reading-layout update-detail">
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb"><ol><li><Link href="/">Home</Link></li><li><Link href="/updates/">Updates</Link></li><li>{update.title}</li></ol></nav>
+    <DetailPageLayout
+      section="updates"
+      activeHref="/updates/"
+      pageLinks={[
+        ["Impact", "#impact"],
+        ...sections.map((section) => [section.name, `#${section.anchor}`]),
+        ...(update.ledger.length ? [["Change ledger", "#change-ledger"]] : []),
+      ]}
+      breadcrumbs={[
+        { label: "Updates", href: "/updates/" },
+        { label: update.title },
+      ]}
+      jsonLd={jsonLd}
+    >
+      <article className="reading-layout">
         <header className="update-detail-hero">
-          <div><span className="archive-eyebrow">{update.publishDate} · {update.updateType}</span><h1>{update.seo.h1}</h1><p>{update.excerpt}</p><Link href="/updates/">Return to update timeline →</Link></div>
-          <span><Image src={update.imageUrl} alt={update.imageAlt} fill priority sizes="420px" /></span>
+          <div>
+            <span className="archive-eyebrow">
+              {update.publishDate} · {update.updateType}
+            </span>
+            <h1>{update.seo.h1}</h1>
+            <p>{update.excerpt}</p>
+            <Link href="/updates/">Return to update timeline →</Link>
+          </div>
+          <span>
+            <Image
+              src={update.imageUrl}
+              alt={update.imageAlt}
+              fill
+              priority
+              sizes="420px"
+            />
+          </span>
         </header>
         <div className="reading-columns">
           <div className="reading-article">
-            <section><span className="archive-kicker">Practical impact</span><h2>What this update means</h2><p>{update.summary}</p><ul className="reading-list">{update.editorialImpact.map((item) => <li key={item}>{item}</li>)}</ul></section>
-            {update.sections.map((section) => <section key={section.name}><span className="archive-kicker">{update.version}</span><h2>{section.name}</h2><p>{section.intro}</p><ul className="reading-list">{section.changes.map((change) => <li key={change}>{change}</li>)}</ul></section>)}
-            {update.ledger.map((section) => <section className="change-group compact-change-group" key={section.name}><h2>{section.name}</h2><div>{section.records.map((record,index) => <article key={`${record.entity}-${index}`}><strong>{record.entity}</strong><ul>{record.changes.map((change,changeIndex) => <li key={`${change.label}-${changeIndex}`}><span>{change.label}</span>{change.oldValue || change.newValue ? <b><del>{change.oldValue || "—"}</del><i>→</i><ins>{change.newValue || "—"}</ins></b> : <em>{change.note || "Text updated"}</em>}</li>)}</ul></article>)}</div></section>)}
+            <section id="impact">
+              <span className="archive-kicker">Practical impact</span>
+              <h2>What this update means</h2>
+              <p>{update.summary}</p>
+              <ul className="reading-list">
+                {update.editorialImpact.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </section>
+            {sections.map((section) => (
+              <section id={section.anchor} key={section.name}>
+                <span className="archive-kicker">{update.version}</span>
+                <h2>{section.name}</h2>
+                <p>{section.intro}</p>
+                <ul className="reading-list">
+                  {section.changes.map((change) => (
+                    <li key={change}>{change}</li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+            <ChangeLedger
+              sections={update.ledger}
+              compact
+              anchorId="change-ledger"
+            />
           </div>
-          <aside className="reading-aside"><div><small>Version</small><strong>{update.version}</strong></div><div><small>Published</small><strong>{update.publishDate}</strong></div><div><small>State</small><strong>{update.updateType}</strong></div><Link href="/updates/">All updates →</Link><Link href="/release-date/">Release status →</Link></aside>
+          <aside className="reading-aside">
+            <div><small>Version</small><strong>{update.version}</strong></div>
+            <div><small>Published</small><strong>{update.publishDate}</strong></div>
+            <div><small>State</small><strong>{update.updateType}</strong></div>
+            <Link href="/updates/">All updates →</Link>
+            <Link href="/release-date/">Release status →</Link>
+          </aside>
         </div>
       </article>
-    </main>
+    </DetailPageLayout>
   );
 }

@@ -29,7 +29,7 @@
 
 .footer-navigation {
   display: grid;
-  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
   gap: clamp(28px, 5vw, 64px);
 }
 
@@ -91,10 +91,6 @@
 
   .footer-navigation {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .footer-navigation > div:last-child {
-    grid-column: 1 / -1;
   }
 
   .footer-legal {

@@ -1,25 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReferenceLayout from "@/src/components/ReferenceLayout";
-import JsonLd from "@/src/components/JsonLd";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
 import { getStatusRelations } from "@/src/lib/content/relations";
-import { getStatusEffect, statusEffectsData } from "@/src/lib/content/wiki";
-import { createMetadata } from "@/src/seo/siteConfig";
+import { statusEffectCollection } from "@/src/lib/content/wiki";
 import { breadcrumbSchema, definedTermSchema } from "@/src/seo/schema";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return statusEffectsData.map(({ addressBar }) => ({ addressBar }));
+  return statusEffectCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const effect = getStatusEffect(addressBar);
+  const effect = statusEffectCollection.get((await params).addressBar);
   if (!effect) return {};
-  return createMetadata({
-    ...effect.seo,
-    path: `/wiki/status-effects/${addressBar}/`,
-  });
+  return statusEffectCollection.metadata(effect);
 }
 
 function RelatedTable({ records, type }) {
@@ -35,7 +31,7 @@ function RelatedTable({ records, type }) {
     : type === "Enemies"
       ? "/wiki/enemies"
       : `/wiki/${type.toLowerCase()}`;
-  const isSinglePageDatabase = type === "Items" || type === "Relics";
+  const detailPages = type === "Heroes" || type === "Enemies";
   return (
     <div className="table-scroll">
       <table className="reference-table">
@@ -46,9 +42,11 @@ function RelatedTable({ records, type }) {
               <td>
                 <Link
                   className="database-name"
-                  href={isSinglePageDatabase
-                    ? `${basePath}/?search=${encodeURIComponent(record.addressBar)}`
-                    : `${basePath}/${record.addressBar}/`}
+                  href={
+                    detailPages
+                      ? `${basePath}/${record.addressBar}/`
+                      : `${basePath}/?search=${encodeURIComponent(record.addressBar)}`
+                  }
                 >
                   {record.imageUrl && <span><Image src={record.imageUrl} alt="" fill sizes="40px" /></span>}
                   <strong>{record.name}</strong>
@@ -74,7 +72,7 @@ function RelatedTable({ records, type }) {
 
 export default async function StatusEffectDetailPage({ params }) {
   const { addressBar } = await params;
-  const effect = getStatusEffect(addressBar);
+  const effect = statusEffectCollection.get(addressBar);
   if (!effect) notFound();
   const relations = getStatusRelations(addressBar);
   const pageLinks = [
@@ -102,16 +100,17 @@ export default async function StatusEffectDetailPage({ params }) {
   ];
 
   return (
-    <main className="archive-main">
-      <JsonLd data={jsonLd} />
-      <ReferenceLayout section="wiki" activeHref="/wiki/status-effects/" pageLinks={pageLinks}>
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            <li><Link href="/wiki/">Wiki</Link></li>
-            <li><Link href="/wiki/status-effects/">Status Effects</Link></li>
-            <li>{effect.name}</li>
-          </ol>
-        </nav>
+    <DetailPageLayout
+      section="wiki"
+      activeHref="/wiki/status-effects/"
+      pageLinks={pageLinks}
+      breadcrumbs={[
+        { label: "Wiki", href: "/wiki/" },
+        { label: "Status Effects", href: "/wiki/status-effects/" },
+        { label: effect.name },
+      ]}
+      jsonLd={jsonLd}
+    >
 
         <header className="reference-page-head">
           <div>
@@ -176,7 +175,6 @@ export default async function StatusEffectDetailPage({ params }) {
             </div>
           </section>
         </article>
-      </ReferenceLayout>
-    </main>
+    </DetailPageLayout>
   );
 }

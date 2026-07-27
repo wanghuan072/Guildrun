@@ -1,6 +1,15 @@
 [
   {
     "id": "101",
+    "name": "EndlessMushroom",
+    "stageType": "Endless",
+    "act": "0",
+    "floor": "0",
+    "difficulty": "0",
+    "enemyCount": "5",
+    "effectiveHealth": "138124.59375",
+    "effectiveOffense": "0",
+    "gold": "0",
     "title": "Endless Mushroom",
     "formation": [
       {
@@ -55,6 +64,15 @@
   },
   {
     "id": "102",
+    "name": "EndlessSnake",
+    "stageType": "Endless",
+    "act": "0",
+    "floor": "0",
+    "difficulty": "0",
+    "enemyCount": "4",
+    "effectiveHealth": "90136.515625",
+    "effectiveOffense": "0",
+    "gold": "0",
     "title": "Endless Snake",
     "formation": [
       {
@@ -101,6 +119,15 @@
   },
   {
     "id": "103",
+    "name": "EndlessSlime",
+    "stageType": "Endless",
+    "act": "0",
+    "floor": "0",
+    "difficulty": "0",
+    "enemyCount": "3",
+    "effectiveHealth": "143602.9375",
+    "effectiveOffense": "0",
+    "gold": "0",
     "title": "Endless Slime",
     "formation": [
       {
@@ -139,6 +166,15 @@
   },
   {
     "id": "10000",
+    "name": "Turtle",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "0",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "200",
+    "effectiveOffense": "3",
+    "gold": "15",
     "title": "Turtle",
     "formation": [
       {
@@ -161,6 +197,15 @@
   },
   {
     "id": "20000",
+    "name": "Turtle",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "0",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "200",
+    "effectiveOffense": "3",
+    "gold": "15",
     "title": "Turtle",
     "formation": [
       {
@@ -183,6 +228,15 @@
   },
   {
     "id": "30000",
+    "name": "Turtle",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "0",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "200",
+    "effectiveOffense": "3",
+    "gold": "15",
     "title": "Turtle",
     "formation": [
       {
@@ -205,6 +259,15 @@
   },
   {
     "id": "10101",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "1",
+    "enemyCount": "2",
+    "effectiveHealth": "1986.768310546875",
+    "effectiveOffense": "19.759767532348633",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -235,6 +298,15 @@
   },
   {
     "id": "10102",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "1",
+    "enemyCount": "2",
+    "effectiveHealth": "1995.6341552734375",
+    "effectiveOffense": "19.787906646728516",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -265,6 +337,15 @@
   },
   {
     "id": "20101",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "2",
+    "enemyCount": "2",
+    "effectiveHealth": "2490.158447265625",
+    "effectiveOffense": "19.759767532348633",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -295,6 +376,15 @@
   },
   {
     "id": "20102",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "2",
+    "enemyCount": "2",
+    "effectiveHealth": "2485.817138671875",
+    "effectiveOffense": "19.787906646728516",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -325,6 +415,15 @@
   },
   {
     "id": "30101",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "3",
+    "enemyCount": "2",
+    "effectiveHealth": "2490.158447265625",
+    "effectiveOffense": "19.759767532348633",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -355,6 +454,15 @@
   },
   {
     "id": "30102",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "1",
+    "difficulty": "3",
+    "enemyCount": "2",
+    "effectiveHealth": "2485.817138671875",
+    "effectiveOffense": "19.787906646728516",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -385,6 +493,15 @@
   },
   {
     "id": "10201",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "3671.268310546875",
+    "effectiveOffense": "33.967124938964844",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -423,6 +540,15 @@
   },
   {
     "id": "10202",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "3664.09765625",
+    "effectiveOffense": "34.998748779296875",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -461,6 +587,15 @@
   },
   {
     "id": "20201",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "4564.46337890625",
+    "effectiveOffense": "33.967124938964844",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -499,6 +634,15 @@
   },
   {
     "id": "20202",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "4557.29248046875",
+    "effectiveOffense": "34.998748779296875",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -537,6 +681,15 @@
   },
   {
     "id": "30201",
+    "name": "MushroomFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "4564.46337890625",
+    "effectiveOffense": "37.70939254760742",
+    "gold": "20",
     "title": "Mushroom First Two",
     "formation": [
       {
@@ -575,6 +728,15 @@
   },
   {
     "id": "30202",
+    "name": "SlimeFirstTwo",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "2",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "4557.29248046875",
+    "effectiveOffense": "38.29931640625",
+    "gold": "20",
     "title": "Slime First Two",
     "formation": [
       {
@@ -613,6 +775,15 @@
   },
   {
     "id": "10301",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "5981.8046875",
+    "effectiveOffense": "48.71826171875",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -659,6 +830,15 @@
   },
   {
     "id": "10302",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "5959.611328125",
+    "effectiveOffense": "54.39672088623047",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -705,6 +885,15 @@
   },
   {
     "id": "10303",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "6155.79248046875",
+    "effectiveOffense": "55.96480941772461",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -743,6 +932,15 @@
   },
   {
     "id": "10304",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "5979.9267578125",
+    "effectiveOffense": "54.12194061279297",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -789,6 +987,15 @@
   },
   {
     "id": "10305",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "2",
+    "effectiveHealth": "5984",
+    "effectiveOffense": "53.82313537597656",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -819,6 +1026,15 @@
   },
   {
     "id": "10306",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "5970",
+    "effectiveOffense": "54.4493522644043",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -857,6 +1073,15 @@
   },
   {
     "id": "20301",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "7397.63427734375",
+    "effectiveOffense": "48.71826171875",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -903,6 +1128,15 @@
   },
   {
     "id": "20302",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "7368.45263671875",
+    "effectiveOffense": "54.39672088623047",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -949,6 +1183,15 @@
   },
   {
     "id": "20303",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "7615.40234375",
+    "effectiveOffense": "55.96480941772461",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -987,6 +1230,15 @@
   },
   {
     "id": "20304",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "7390.853515625",
+    "effectiveOffense": "54.12194061279297",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -1033,6 +1285,15 @@
   },
   {
     "id": "20305",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "2",
+    "effectiveHealth": "7392",
+    "effectiveOffense": "53.82313537597656",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -1063,6 +1324,15 @@
   },
   {
     "id": "20306",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "7400",
+    "effectiveOffense": "54.4493522644043",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -1101,6 +1371,15 @@
   },
   {
     "id": "30301",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "7397.63427734375",
+    "effectiveOffense": "56.83575439453125",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -1147,6 +1426,15 @@
   },
   {
     "id": "30302",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "7368.45263671875",
+    "effectiveOffense": "62.92844772338867",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -1193,6 +1481,15 @@
   },
   {
     "id": "30303",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "7615.40234375",
+    "effectiveOffense": "64.90733337402344",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -1231,6 +1528,15 @@
   },
   {
     "id": "30304",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "7390.853515625",
+    "effectiveOffense": "63.0401725769043",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -1277,6 +1583,15 @@
   },
   {
     "id": "30305",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "2",
+    "effectiveHealth": "7392",
+    "effectiveOffense": "62.82483673095703",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -1307,6 +1622,15 @@
   },
   {
     "id": "30306",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "3",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "7400",
+    "effectiveOffense": "59.25054168701172",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -1345,6 +1669,15 @@
   },
   {
     "id": "10401",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "8731.2197265625",
+    "effectiveOffense": "76.67623138427734",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -1399,6 +1732,15 @@
   },
   {
     "id": "10402",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "9692.5537109375",
+    "effectiveOffense": "85.37872314453125",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -1453,6 +1795,15 @@
   },
   {
     "id": "10403",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "10168.755859375",
+    "effectiveOffense": "89.13324737548828",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -1507,6 +1858,15 @@
   },
   {
     "id": "10404",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "9199.6455078125",
+    "effectiveOffense": "81.0111312866211",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -1553,6 +1913,15 @@
   },
   {
     "id": "10405",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "10197",
+    "effectiveOffense": "88.63521575927734",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -1599,6 +1968,15 @@
   },
   {
     "id": "10406",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "9700",
+    "effectiveOffense": "84.84260559082031",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -1645,6 +2023,15 @@
   },
   {
     "id": "20401",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "10728.3662109375",
+    "effectiveOffense": "76.67623138427734",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -1699,6 +2086,15 @@
   },
   {
     "id": "20402",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "11950.4765625",
+    "effectiveOffense": "85.37872314453125",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -1753,6 +2149,15 @@
   },
   {
     "id": "20403",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "12541.560546875",
+    "effectiveOffense": "88.8975601196289",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -1807,6 +2212,15 @@
   },
   {
     "id": "20404",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "11346.6630859375",
+    "effectiveOffense": "81.0111312866211",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -1853,6 +2267,15 @@
   },
   {
     "id": "20405",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "12540",
+    "effectiveOffense": "88.63521575927734",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -1899,6 +2322,15 @@
   },
   {
     "id": "20406",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "11940",
+    "effectiveOffense": "84.84260559082031",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -1945,6 +2377,15 @@
   },
   {
     "id": "30401",
+    "name": "MushroomFireAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "10728.3662109375",
+    "effectiveOffense": "90.79473876953125",
+    "gold": "20",
     "title": "Mushroom Fire Act 1",
     "formation": [
       {
@@ -1999,6 +2440,15 @@
   },
   {
     "id": "30402",
+    "name": "MushroomFrostAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "11950.4765625",
+    "effectiveOffense": "101.13459777832031",
+    "gold": "20",
     "title": "Mushroom Frost Act 1",
     "formation": [
       {
@@ -2053,6 +2503,15 @@
   },
   {
     "id": "30403",
+    "name": "LizardAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "12541.560546875",
+    "effectiveOffense": "106.01639556884766",
+    "gold": "20",
     "title": "Lizard Act 1",
     "formation": [
       {
@@ -2107,6 +2566,15 @@
   },
   {
     "id": "30404",
+    "name": "SpiderAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "11346.6630859375",
+    "effectiveOffense": "96.03089904785156",
+    "gold": "20",
     "title": "Spider Act 1",
     "formation": [
       {
@@ -2153,6 +2621,15 @@
   },
   {
     "id": "30405",
+    "name": "SnakeAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "12540",
+    "effectiveOffense": "106.796142578125",
+    "gold": "20",
     "title": "Snake Act 1",
     "formation": [
       {
@@ -2199,6 +2676,15 @@
   },
   {
     "id": "30406",
+    "name": "SpiderNestAct1",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "4",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "11940",
+    "effectiveOffense": "100.65036010742188",
+    "gold": "20",
     "title": "Spider Nest Act 1",
     "formation": [
       {
@@ -2245,6 +2731,15 @@
   },
   {
     "id": "50101",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "7276.03759765625",
+    "effectiveOffense": "63.67193603515625",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -2267,6 +2762,15 @@
   },
   {
     "id": "50201",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "91",
+    "enemyCount": "5",
+    "effectiveHealth": "9695.560546875",
+    "effectiveOffense": "106.389404296875",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -2321,6 +2825,15 @@
   },
   {
     "id": "50104",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "7276.03759765625",
+    "effectiveOffense": "63.67193603515625",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -2343,6 +2856,15 @@
   },
   {
     "id": "50203",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "92",
+    "enemyCount": "5",
+    "effectiveHealth": "11923.4638671875",
+    "effectiveOffense": "106.389404296875",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -2397,6 +2919,15 @@
   },
   {
     "id": "50107",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "8966.5361328125",
+    "effectiveOffense": "75.7154312133789",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -2419,6 +2950,15 @@
   },
   {
     "id": "50205",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "4",
+    "difficulty": "93",
+    "enemyCount": "5",
+    "effectiveHealth": "11923.4638671875",
+    "effectiveOffense": "126.49042510986328",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -2473,6 +3013,15 @@
   },
   {
     "id": "10601",
+    "name": "DemonElite",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "17821.71484375",
+    "effectiveOffense": "150.13392639160156",
+    "gold": "75",
     "title": "Demon Elite",
     "formation": [
       {
@@ -2495,6 +3044,15 @@
   },
   {
     "id": "10602",
+    "name": "Hydra",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "15492",
+    "effectiveOffense": "130.94955444335938",
+    "gold": "75",
     "title": "Hydra",
     "formation": [
       {
@@ -2517,6 +3075,15 @@
   },
   {
     "id": "20601",
+    "name": "DemonElite",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "21843.427734375",
+    "effectiveOffense": "150.13392639160156",
+    "gold": "75",
     "title": "Demon Elite",
     "formation": [
       {
@@ -2539,6 +3106,15 @@
   },
   {
     "id": "20602",
+    "name": "Hydra",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "18996",
+    "effectiveOffense": "137.66383361816406",
+    "gold": "75",
     "title": "Hydra",
     "formation": [
       {
@@ -2561,6 +3137,15 @@
   },
   {
     "id": "30601",
+    "name": "DemonElite",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "19937.71484375",
+    "effectiveOffense": "166.6028594970703",
+    "gold": "75",
     "title": "Demon Elite",
     "formation": [
       {
@@ -2583,6 +3168,15 @@
   },
   {
     "id": "30602",
+    "name": "Hydra",
+    "stageType": "MiniBoss",
+    "act": "1",
+    "floor": "5",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "18996",
+    "effectiveOffense": "158.8138427734375",
+    "gold": "75",
     "title": "Hydra",
     "formation": [
       {
@@ -2605,6 +3199,15 @@
   },
   {
     "id": "50301",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "5",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "2250",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -2627,6 +3230,15 @@
   },
   {
     "id": "50303",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "5",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "2750",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -2649,6 +3261,15 @@
   },
   {
     "id": "50305",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "5",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "2750",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -2671,6 +3292,15 @@
   },
   {
     "id": "10701",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "21360.158203125",
+    "effectiveOffense": "199.47059631347656",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -2725,6 +3355,15 @@
   },
   {
     "id": "10702",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "23756.41015625",
+    "effectiveOffense": "222.604248046875",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -2779,6 +3418,15 @@
   },
   {
     "id": "10703",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "20886.439453125",
+    "effectiveOffense": "194.32847595214844",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -2833,6 +3481,15 @@
   },
   {
     "id": "10704",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "23770.68359375",
+    "effectiveOffense": "219.96173095703125",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -2887,6 +3544,15 @@
   },
   {
     "id": "10705",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "23752.951171875",
+    "effectiveOffense": "222.46475219726562",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -2941,6 +3607,15 @@
   },
   {
     "id": "10706",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "22109.04296875",
+    "effectiveOffense": "205.77554321289062",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -2979,6 +3654,15 @@
   },
   {
     "id": "10707",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "21353.609375",
+    "effectiveOffense": "200.42916870117188",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -3033,6 +3717,15 @@
   },
   {
     "id": "10708",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "25632.15234375",
+    "effectiveOffense": "239.2139434814453",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -3087,6 +3780,15 @@
   },
   {
     "id": "10709",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "23278.306640625",
+    "effectiveOffense": "215.5860137939453",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -3141,6 +3843,15 @@
   },
   {
     "id": "20701",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "26997.529296875",
+    "effectiveOffense": "201.2858123779297",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -3195,6 +3906,15 @@
   },
   {
     "id": "20702",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "30036.81640625",
+    "effectiveOffense": "222.604248046875",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -3249,6 +3969,15 @@
   },
   {
     "id": "20703",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "26405.853515625",
+    "effectiveOffense": "194.32847595214844",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -3303,6 +4032,15 @@
   },
   {
     "id": "20704",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "30014.1953125",
+    "effectiveOffense": "219.96173095703125",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -3357,6 +4095,15 @@
   },
   {
     "id": "20705",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "30027.732421875",
+    "effectiveOffense": "222.46475219726562",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -3411,6 +4158,15 @@
   },
   {
     "id": "20706",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "27924.466796875",
+    "effectiveOffense": "205.77554321289062",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -3449,6 +4205,15 @@
   },
   {
     "id": "20707",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "27045.21875",
+    "effectiveOffense": "200.42916870117188",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -3503,6 +4268,15 @@
   },
   {
     "id": "20708",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "32418.2265625",
+    "effectiveOffense": "239.2139434814453",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -3557,6 +4331,15 @@
   },
   {
     "id": "20709",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "29427.125",
+    "effectiveOffense": "215.5860137939453",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -3611,6 +4394,15 @@
   },
   {
     "id": "30701",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "25678.57421875",
+    "effectiveOffense": "235.33621215820312",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -3665,6 +4457,15 @@
   },
   {
     "id": "30702",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "28514.904296875",
+    "effectiveOffense": "260.0196838378906",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -3719,6 +4520,15 @@
   },
   {
     "id": "30703",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "25110.830078125",
+    "effectiveOffense": "228.93402099609375",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -3773,6 +4583,15 @@
   },
   {
     "id": "30704",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "28520.732421875",
+    "effectiveOffense": "259.8057861328125",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -3827,6 +4646,15 @@
   },
   {
     "id": "30705",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "28525.732421875",
+    "effectiveOffense": "261.3403015136719",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -3881,6 +4709,15 @@
   },
   {
     "id": "30706",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "26536.119140625",
+    "effectiveOffense": "242.9510040283203",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -3919,6 +4756,15 @@
   },
   {
     "id": "30707",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "25672.87890625",
+    "effectiveOffense": "235.35633850097656",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -3973,6 +4819,15 @@
   },
   {
     "id": "30708",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "30826.43359375",
+    "effectiveOffense": "281.3554992675781",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -4027,6 +4882,15 @@
   },
   {
     "id": "30709",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "6",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "27963.9453125",
+    "effectiveOffense": "252.63644409179688",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -4081,6 +4945,15 @@
   },
   {
     "id": "50401",
+    "name": "HydraFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "31620",
+    "effectiveOffense": "297.12811279296875",
+    "gold": "0",
     "title": "Hydra Fight",
     "formation": [
       {
@@ -4103,6 +4976,15 @@
   },
   {
     "id": "50402",
+    "name": "DemonFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "31621.71484375",
+    "effectiveOffense": "296.6137390136719",
+    "gold": "0",
     "title": "Demon Fight",
     "formation": [
       {
@@ -4125,6 +5007,15 @@
   },
   {
     "id": "50403",
+    "name": "HydraFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "39972",
+    "effectiveOffense": "297.12811279296875",
+    "gold": "0",
     "title": "Hydra Fight",
     "formation": [
       {
@@ -4147,6 +5038,15 @@
   },
   {
     "id": "50404",
+    "name": "DemonFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "39967.4296875",
+    "effectiveOffense": "296.6137390136719",
+    "gold": "0",
     "title": "Demon Fight",
     "formation": [
       {
@@ -4169,6 +5069,15 @@
   },
   {
     "id": "50405",
+    "name": "HydraFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "39972",
+    "effectiveOffense": "368.36773681640625",
+    "gold": "0",
     "title": "Hydra Fight",
     "formation": [
       {
@@ -4191,6 +5100,15 @@
   },
   {
     "id": "50406",
+    "name": "DemonFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "6",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "39967.4296875",
+    "effectiveOffense": "365.72625732421875",
+    "gold": "0",
     "title": "Demon Fight",
     "formation": [
       {
@@ -4213,6 +5131,15 @@
   },
   {
     "id": "10801",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "28640.619140625",
+    "effectiveOffense": "280.0368957519531",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -4267,6 +5194,15 @@
   },
   {
     "id": "10802",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "31799.37890625",
+    "effectiveOffense": "309.5643615722656",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -4329,6 +5265,15 @@
   },
   {
     "id": "10803",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "28626.5859375",
+    "effectiveOffense": "280.32080078125",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -4383,6 +5328,15 @@
   },
   {
     "id": "10804",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "33398.1953125",
+    "effectiveOffense": "326.6013488769531",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -4437,6 +5391,15 @@
   },
   {
     "id": "10805",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "31796.5859375",
+    "effectiveOffense": "311.4802551269531",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -4491,6 +5454,15 @@
   },
   {
     "id": "10806",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "3",
+    "effectiveHealth": "31824.427734375",
+    "effectiveOffense": "310.86151123046875",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -4529,6 +5501,15 @@
   },
   {
     "id": "10807",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "31816",
+    "effectiveOffense": "311.46490478515625",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -4591,6 +5572,15 @@
   },
   {
     "id": "10808",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "30843.57421875",
+    "effectiveOffense": "315.561279296875",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -4653,6 +5643,15 @@
   },
   {
     "id": "10809",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "31819",
+    "effectiveOffense": "278.89251708984375",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -4707,6 +5706,15 @@
   },
   {
     "id": "10810",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "28621.12109375",
+    "effectiveOffense": "263.78497314453125",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -4761,6 +5769,15 @@
   },
   {
     "id": "10811",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "31823.658203125",
+    "effectiveOffense": "310.9507141113281",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -4815,6 +5832,15 @@
   },
   {
     "id": "20801",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "36953.31640625",
+    "effectiveOffense": "280.0368957519531",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -4869,6 +5895,15 @@
   },
   {
     "id": "20802",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "41057.1328125",
+    "effectiveOffense": "309.5643615722656",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -4931,6 +5966,15 @@
   },
   {
     "id": "20803",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "36953.12109375",
+    "effectiveOffense": "280.32080078125",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -4985,6 +6029,15 @@
   },
   {
     "id": "20804",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "43130.48828125",
+    "effectiveOffense": "326.6013488769531",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -5039,6 +6092,15 @@
   },
   {
     "id": "20805",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "41054.48828125",
+    "effectiveOffense": "311.4802551269531",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -5093,6 +6155,15 @@
   },
   {
     "id": "20806",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "3",
+    "effectiveHealth": "41074.83203125",
+    "effectiveOffense": "310.86151123046875",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -5131,6 +6202,15 @@
   },
   {
     "id": "20807",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "41047.8046875",
+    "effectiveOffense": "311.46490478515625",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -5193,6 +6273,15 @@
   },
   {
     "id": "20808",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "39822.984375",
+    "effectiveOffense": "315.561279296875",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -5255,6 +6344,15 @@
   },
   {
     "id": "20809",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "41069",
+    "effectiveOffense": "278.89251708984375",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -5309,6 +6407,15 @@
   },
   {
     "id": "20810",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "36948.87890625",
+    "effectiveOffense": "263.78497314453125",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -5363,6 +6470,15 @@
   },
   {
     "id": "20811",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "41075.08203125",
+    "effectiveOffense": "310.9507141113281",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -5417,6 +6533,15 @@
   },
   {
     "id": "30801",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "36953.31640625",
+    "effectiveOffense": "349.8739013671875",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -5471,6 +6596,15 @@
   },
   {
     "id": "30802",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "41057.1328125",
+    "effectiveOffense": "386.208740234375",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -5533,6 +6667,15 @@
   },
   {
     "id": "30803",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "36953.12109375",
+    "effectiveOffense": "348.4928894042969",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -5587,6 +6730,15 @@
   },
   {
     "id": "30804",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "43130.48828125",
+    "effectiveOffense": "405.619140625",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -5641,6 +6793,15 @@
   },
   {
     "id": "30805",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "41054.48828125",
+    "effectiveOffense": "388.27789306640625",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -5695,6 +6856,15 @@
   },
   {
     "id": "30806",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "3",
+    "effectiveHealth": "41070.26171875",
+    "effectiveOffense": "387.9798889160156",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -5733,6 +6903,15 @@
   },
   {
     "id": "30807",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "41047.8046875",
+    "effectiveOffense": "389.7140808105469",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -5795,6 +6974,15 @@
   },
   {
     "id": "30808",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "39825.9453125",
+    "effectiveOffense": "394.1590881347656",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -5857,6 +7045,15 @@
   },
   {
     "id": "30809",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "41069",
+    "effectiveOffense": "349.4880065917969",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -5911,6 +7108,15 @@
   },
   {
     "id": "30810",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "34898.14453125",
+    "effectiveOffense": "330.7572937011719",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -5965,6 +7171,15 @@
   },
   {
     "id": "30811",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "7",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "41072.7265625",
+    "effectiveOffense": "386.2240295410156",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -6019,6 +7234,15 @@
   },
   {
     "id": "50102",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "7",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "33423.37109375",
+    "effectiveOffense": "327.4281005859375",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -6041,6 +7265,15 @@
   },
   {
     "id": "50105",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "7",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "43136.5390625",
+    "effectiveOffense": "327.4281005859375",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -6063,6 +7296,15 @@
   },
   {
     "id": "50108",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "7",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "43138.74609375",
+    "effectiveOffense": "407.533935546875",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -6085,6 +7327,15 @@
   },
   {
     "id": "10901",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "41109.6640625",
+    "effectiveOffense": "371.6147766113281",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -6139,6 +7390,15 @@
   },
   {
     "id": "10902",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "41107.31640625",
+    "effectiveOffense": "412.5029296875",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -6193,6 +7453,15 @@
   },
   {
     "id": "10903",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "38220.73046875",
+    "effectiveOffense": "384.4033203125",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -6247,6 +7516,15 @@
   },
   {
     "id": "10904",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "38230.8125",
+    "effectiveOffense": "382.74639892578125",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -6301,6 +7579,15 @@
   },
   {
     "id": "10905",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "39061.0234375",
+    "effectiveOffense": "372.8198547363281",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -6355,6 +7642,15 @@
   },
   {
     "id": "10906",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "45212.0546875",
+    "effectiveOffense": "453.9444885253906",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -6401,6 +7697,15 @@
   },
   {
     "id": "10907",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "41100",
+    "effectiveOffense": "411.5957946777344",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -6463,6 +7768,15 @@
   },
   {
     "id": "10908",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "41106.58203125",
+    "effectiveOffense": "451.1242370605469",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -6525,6 +7839,15 @@
   },
   {
     "id": "10909",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "39051",
+    "effectiveOffense": "387.1710510253906",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -6587,6 +7910,15 @@
   },
   {
     "id": "10910",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "36966.4609375",
+    "effectiveOffense": "370.3551940917969",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -6641,6 +7973,15 @@
   },
   {
     "id": "10911",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "41117.3984375",
+    "effectiveOffense": "411.30706787109375",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -6703,6 +8044,15 @@
   },
   {
     "id": "20901",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "54005.0859375",
+    "effectiveOffense": "371.6147766113281",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -6757,6 +8107,15 @@
   },
   {
     "id": "20902",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "54018.33984375",
+    "effectiveOffense": "412.5029296875",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -6811,6 +8170,15 @@
   },
   {
     "id": "20903",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "48608.33984375",
+    "effectiveOffense": "370.2000732421875",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -6865,6 +8233,15 @@
   },
   {
     "id": "20904",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "50239.66796875",
+    "effectiveOffense": "382.74639892578125",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -6919,6 +8296,15 @@
   },
   {
     "id": "20905",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "54013.5625",
+    "effectiveOffense": "372.8198547363281",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -6973,6 +8359,15 @@
   },
   {
     "id": "20906",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "59414.9140625",
+    "effectiveOffense": "453.9444885253906",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -7019,6 +8414,15 @@
   },
   {
     "id": "20907",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "54000",
+    "effectiveOffense": "411.5957946777344",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -7081,6 +8485,15 @@
   },
   {
     "id": "20908",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "54003.20703125",
+    "effectiveOffense": "417.53826904296875",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -7143,6 +8556,15 @@
   },
   {
     "id": "20909",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "51337.5",
+    "effectiveOffense": "387.1710510253906",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -7205,6 +8627,15 @@
   },
   {
     "id": "20910",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "48632.04296875",
+    "effectiveOffense": "370.3551940917969",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -7259,6 +8690,15 @@
   },
   {
     "id": "20911",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "54031.30078125",
+    "effectiveOffense": "411.30706787109375",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -7321,6 +8761,15 @@
   },
   {
     "id": "30901",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "54005.0859375",
+    "effectiveOffense": "469.6750793457031",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -7375,6 +8824,15 @@
   },
   {
     "id": "30902",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "54018.33984375",
+    "effectiveOffense": "518.34033203125",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -7429,6 +8887,15 @@
   },
   {
     "id": "30903",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "48608.33984375",
+    "effectiveOffense": "470.7887268066406",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -7483,6 +8950,15 @@
   },
   {
     "id": "30904",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "50239.66796875",
+    "effectiveOffense": "482.7381591796875",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -7537,6 +9013,15 @@
   },
   {
     "id": "30905",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "54013.5625",
+    "effectiveOffense": "467.8953857421875",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -7591,6 +9076,15 @@
   },
   {
     "id": "30906",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "59425.25390625",
+    "effectiveOffense": "574.8170776367188",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -7637,6 +9131,15 @@
   },
   {
     "id": "30907",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "54000",
+    "effectiveOffense": "522.6143798828125",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -7699,6 +9202,15 @@
   },
   {
     "id": "30908",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "54016.48046875",
+    "effectiveOffense": "571.2527465820312",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -7761,6 +9273,15 @@
   },
   {
     "id": "30909",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "51337.5",
+    "effectiveOffense": "493.4376220703125",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -7823,6 +9344,15 @@
   },
   {
     "id": "30910",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "48632.04296875",
+    "effectiveOffense": "468.2397155761719",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -7877,6 +9407,15 @@
   },
   {
     "id": "30911",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "8",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "54028.6796875",
+    "effectiveOffense": "520.1490478515625",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -7939,6 +9478,15 @@
   },
   {
     "id": "50202",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "8",
+    "difficulty": "91",
+    "enemyCount": "5",
+    "effectiveHealth": "41080.5859375",
+    "effectiveOffense": "380.60894775390625",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -7993,6 +9541,15 @@
   },
   {
     "id": "50204",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "8",
+    "difficulty": "92",
+    "enemyCount": "5",
+    "effectiveHealth": "54032.53515625",
+    "effectiveOffense": "380.60894775390625",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -8047,6 +9604,15 @@
   },
   {
     "id": "50206",
+    "name": "SurvivalFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "8",
+    "difficulty": "93",
+    "enemyCount": "5",
+    "effectiveHealth": "54032.53515625",
+    "effectiveOffense": "478.3512878417969",
+    "gold": "0",
     "title": "Survival Fight",
     "formation": [
       {
@@ -8101,6 +9667,15 @@
   },
   {
     "id": "101001",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "57189.02734375",
+    "effectiveOffense": "586.6439819335938",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -8155,6 +9730,15 @@
   },
   {
     "id": "101002",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "57188.046875",
+    "effectiveOffense": "588.306884765625",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -8209,6 +9793,15 @@
   },
   {
     "id": "101003",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "57199.3671875",
+    "effectiveOffense": "585.9505004882812",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -8263,6 +9856,15 @@
   },
   {
     "id": "101004",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "57199.3671875",
+    "effectiveOffense": "587.18896484375",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -8317,6 +9919,15 @@
   },
   {
     "id": "101005",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "57193.87890625",
+    "effectiveOffense": "586.8408203125",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -8379,6 +9990,15 @@
   },
   {
     "id": "101006",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "4",
+    "effectiveHealth": "57206.48046875",
+    "effectiveOffense": "584.752197265625",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -8425,6 +10045,15 @@
   },
   {
     "id": "101007",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "57161.16015625",
+    "effectiveOffense": "587.1063232421875",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -8487,6 +10116,15 @@
   },
   {
     "id": "101008",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "57208.234375",
+    "effectiveOffense": "584.99462890625",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -8549,6 +10187,15 @@
   },
   {
     "id": "101009",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "57178.82421875",
+    "effectiveOffense": "586.4346313476562",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -8611,6 +10258,15 @@
   },
   {
     "id": "101010",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "51986.81640625",
+    "effectiveOffense": "533.46337890625",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -8673,6 +10329,15 @@
   },
   {
     "id": "101011",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "57193.71875",
+    "effectiveOffense": "586.2244262695312",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -8727,6 +10392,15 @@
   },
   {
     "id": "201001",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "76429.921875",
+    "effectiveOffense": "586.6439819335938",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -8781,6 +10455,15 @@
   },
   {
     "id": "201002",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "76454.2890625",
+    "effectiveOffense": "588.306884765625",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -8835,6 +10518,15 @@
   },
   {
     "id": "201003",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "76442.484375",
+    "effectiveOffense": "585.9505004882812",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -8889,6 +10581,15 @@
   },
   {
     "id": "201004",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "76457.4609375",
+    "effectiveOffense": "587.18896484375",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -8943,6 +10644,15 @@
   },
   {
     "id": "201005",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "76434.5625",
+    "effectiveOffense": "586.8408203125",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -9005,6 +10715,15 @@
   },
   {
     "id": "201006",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "4",
+    "effectiveHealth": "76436.484375",
+    "effectiveOffense": "584.752197265625",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -9051,6 +10770,15 @@
   },
   {
     "id": "201007",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "76440.1640625",
+    "effectiveOffense": "587.1063232421875",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -9113,6 +10841,15 @@
   },
   {
     "id": "201008",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "76433.703125",
+    "effectiveOffense": "584.99462890625",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -9175,6 +10912,15 @@
   },
   {
     "id": "201009",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "76442.3984375",
+    "effectiveOffense": "586.4346313476562",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -9237,6 +10983,15 @@
   },
   {
     "id": "201010",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "69495.90625",
+    "effectiveOffense": "533.46337890625",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -9299,6 +11054,15 @@
   },
   {
     "id": "201011",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "76452.8046875",
+    "effectiveOffense": "586.2244262695312",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -9353,6 +11117,15 @@
   },
   {
     "id": "301001",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "76429.921875",
+    "effectiveOffense": "747.7037353515625",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -9407,6 +11180,15 @@
   },
   {
     "id": "301002",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "76454.2890625",
+    "effectiveOffense": "748.5635375976562",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -9461,6 +11243,15 @@
   },
   {
     "id": "301003",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "76442.484375",
+    "effectiveOffense": "746.4298095703125",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -9515,6 +11306,15 @@
   },
   {
     "id": "301004",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "76457.4609375",
+    "effectiveOffense": "747.8370971679688",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -9569,6 +11369,15 @@
   },
   {
     "id": "301005",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "76434.5625",
+    "effectiveOffense": "747.7161254882812",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -9631,6 +11440,15 @@
   },
   {
     "id": "301006",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "4",
+    "effectiveHealth": "76426.203125",
+    "effectiveOffense": "747.8521728515625",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -9677,6 +11495,15 @@
   },
   {
     "id": "301007",
+    "name": "TrainingGroundAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "76436.28125",
+    "effectiveOffense": "748.49365234375",
+    "gold": "25",
     "title": "Training Ground Act 2",
     "formation": [
       {
@@ -9739,6 +11566,15 @@
   },
   {
     "id": "301008",
+    "name": "LizardGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "76431.3515625",
+    "effectiveOffense": "745.40087890625",
+    "gold": "25",
     "title": "Lizard Golem Act 2",
     "formation": [
       {
@@ -9801,6 +11637,15 @@
   },
   {
     "id": "301009",
+    "name": "PoisonFrontAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "76445.7578125",
+    "effectiveOffense": "744.9554443359375",
+    "gold": "25",
     "title": "Poison Front Act 2",
     "formation": [
       {
@@ -9863,6 +11708,15 @@
   },
   {
     "id": "301010",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "69495.90625",
+    "effectiveOffense": "680.0031127929688",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -9925,6 +11779,15 @@
   },
   {
     "id": "301011",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "9",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "76458.859375",
+    "effectiveOffense": "745.052001953125",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -9979,6 +11842,15 @@
   },
   {
     "id": "50103",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "54600.4609375",
+    "effectiveOffense": "559.7342529296875",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -10001,6 +11873,15 @@
   },
   {
     "id": "50302",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "91",
+    "enemyCount": "1",
+    "effectiveHealth": "7500",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -10023,6 +11904,15 @@
   },
   {
     "id": "50106",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "72986.875",
+    "effectiveOffense": "559.7342529296875",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -10045,6 +11935,15 @@
   },
   {
     "id": "50304",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "92",
+    "enemyCount": "1",
+    "effectiveHealth": "9000",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -10067,6 +11966,15 @@
   },
   {
     "id": "50109",
+    "name": "1v1Fight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "72995.828125",
+    "effectiveOffense": "712.9024658203125",
+    "gold": "0",
     "title": "1v 1 Fight",
     "formation": [
       {
@@ -10089,6 +11997,15 @@
   },
   {
     "id": "50306",
+    "name": "DealDamageFight",
+    "stageType": "EventFight",
+    "act": "99",
+    "floor": "9",
+    "difficulty": "93",
+    "enemyCount": "1",
+    "effectiveHealth": "9000",
+    "effectiveOffense": "1",
+    "gold": "0",
     "title": "Deal Damage Fight",
     "formation": [
       {
@@ -10111,6 +12028,15 @@
   },
   {
     "id": "101101",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "71338.578125",
+    "effectiveOffense": "744.6287841796875",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -10165,6 +12091,15 @@
   },
   {
     "id": "101102",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "71320.0234375",
+    "effectiveOffense": "745.8954467773438",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -10219,6 +12154,15 @@
   },
   {
     "id": "101103",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "71319.8046875",
+    "effectiveOffense": "744.2332153320312",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -10273,6 +12217,15 @@
   },
   {
     "id": "101104",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "71330.1484375",
+    "effectiveOffense": "744.7899780273438",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -10335,6 +12288,15 @@
   },
   {
     "id": "101105",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "71333.21875",
+    "effectiveOffense": "743.9505615234375",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -10397,6 +12359,15 @@
   },
   {
     "id": "101106",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "5",
+    "effectiveHealth": "71310.1015625",
+    "effectiveOffense": "742.7007446289062",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -10451,6 +12422,15 @@
   },
   {
     "id": "101107",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "71309.15625",
+    "effectiveOffense": "673.9120483398438",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -10513,6 +12493,15 @@
   },
   {
     "id": "101108",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "1",
+    "enemyCount": "6",
+    "effectiveHealth": "71320.1953125",
+    "effectiveOffense": "743.375244140625",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -10575,6 +12564,15 @@
   },
   {
     "id": "201101",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "96827.6953125",
+    "effectiveOffense": "744.6287841796875",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -10629,6 +12627,15 @@
   },
   {
     "id": "201102",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "96833.59375",
+    "effectiveOffense": "745.8954467773438",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -10683,6 +12690,15 @@
   },
   {
     "id": "201103",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "96848.390625",
+    "effectiveOffense": "744.2332153320312",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -10737,6 +12753,15 @@
   },
   {
     "id": "201104",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "96845.5625",
+    "effectiveOffense": "744.7899780273438",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -10799,6 +12824,15 @@
   },
   {
     "id": "201105",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "96830.5859375",
+    "effectiveOffense": "743.9505615234375",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -10861,6 +12895,15 @@
   },
   {
     "id": "201106",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "5",
+    "effectiveHealth": "96844.671875",
+    "effectiveOffense": "742.7007446289062",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -10915,6 +12958,15 @@
   },
   {
     "id": "201107",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "96837.7421875",
+    "effectiveOffense": "673.9120483398438",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -10977,6 +13029,15 @@
   },
   {
     "id": "201108",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "2",
+    "enemyCount": "6",
+    "effectiveHealth": "96828.4453125",
+    "effectiveOffense": "743.375244140625",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -11039,6 +13100,15 @@
   },
   {
     "id": "301101",
+    "name": "MushroomArmyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "96827.6953125",
+    "effectiveOffense": "956.08251953125",
+    "gold": "25",
     "title": "Mushroom Army Act 2",
     "formation": [
       {
@@ -11093,6 +13163,15 @@
   },
   {
     "id": "301102",
+    "name": "SnakeAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "96833.59375",
+    "effectiveOffense": "946.7589111328125",
+    "gold": "25",
     "title": "Snake Act 2",
     "formation": [
       {
@@ -11147,6 +13226,15 @@
   },
   {
     "id": "301103",
+    "name": "SpiderAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "96848.390625",
+    "effectiveOffense": "957.968505859375",
+    "gold": "25",
     "title": "Spider Act 2",
     "formation": [
       {
@@ -11201,6 +13289,15 @@
   },
   {
     "id": "301104",
+    "name": "LizardAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "96845.5625",
+    "effectiveOffense": "955.2091674804688",
+    "gold": "25",
     "title": "Lizard Act 2",
     "formation": [
       {
@@ -11263,6 +13360,15 @@
   },
   {
     "id": "301105",
+    "name": "PlantMonsterAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "96830.5859375",
+    "effectiveOffense": "957.9850463867188",
+    "gold": "25",
     "title": "Plant Monster Act 2",
     "formation": [
       {
@@ -11325,6 +13431,15 @@
   },
   {
     "id": "301106",
+    "name": "ForestGolemAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "5",
+    "effectiveHealth": "96848.0390625",
+    "effectiveOffense": "955.8610229492188",
+    "gold": "25",
     "title": "Forest Golem Act 2",
     "formation": [
       {
@@ -11379,6 +13494,15 @@
   },
   {
     "id": "301107",
+    "name": "MageAcademyAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "96837.7421875",
+    "effectiveOffense": "868.2745971679688",
+    "gold": "25",
     "title": "Mage Academy Act 2",
     "formation": [
       {
@@ -11441,6 +13565,15 @@
   },
   {
     "id": "301108",
+    "name": "WeirdFriendsAct2",
+    "stageType": "Normal",
+    "act": "1",
+    "floor": "10",
+    "difficulty": "3",
+    "enemyCount": "6",
+    "effectiveHealth": "96827.9609375",
+    "effectiveOffense": "955.9192504882812",
+    "gold": "25",
     "title": "Weird Friends Act 2",
     "formation": [
       {
@@ -11503,6 +13636,15 @@
   },
   {
     "id": "101301",
+    "name": "DragonBossFire",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "100000",
+    "effectiveOffense": "1006.1370849609375",
+    "gold": "75",
     "title": "Dragon Boss Fire",
     "formation": [
       {
@@ -11525,6 +13667,15 @@
   },
   {
     "id": "101302",
+    "name": "DragonBossPoison",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "124000",
+    "effectiveOffense": "1049.5057373046875",
+    "gold": "75",
     "title": "Dragon Boss Poison",
     "formation": [
       {
@@ -11547,6 +13698,15 @@
   },
   {
     "id": "101303",
+    "name": "DragonBossFrost",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "1",
+    "enemyCount": "1",
+    "effectiveHealth": "107996.140625",
+    "effectiveOffense": "975.027099609375",
+    "gold": "75",
     "title": "Dragon Boss Frost",
     "formation": [
       {
@@ -11569,6 +13729,15 @@
   },
   {
     "id": "201301",
+    "name": "DragonBossFire",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "143320",
+    "effectiveOffense": "1006.1370849609375",
+    "gold": "75",
     "title": "Dragon Boss Fire",
     "formation": [
       {
@@ -11591,6 +13760,15 @@
   },
   {
     "id": "201302",
+    "name": "DragonBossPoison",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "187420",
+    "effectiveOffense": "1049.5057373046875",
+    "gold": "75",
     "title": "Dragon Boss Poison",
     "formation": [
       {
@@ -11613,6 +13791,15 @@
   },
   {
     "id": "201303",
+    "name": "DragonBossFrost",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "2",
+    "enemyCount": "1",
+    "effectiveHealth": "137804.140625",
+    "effectiveOffense": "975.027099609375",
+    "gold": "75",
     "title": "Dragon Boss Frost",
     "formation": [
       {
@@ -11635,6 +13822,15 @@
   },
   {
     "id": "301301",
+    "name": "DragonBossFire",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "132300",
+    "effectiveOffense": "1319.3983154296875",
+    "gold": "75",
     "title": "Dragon Boss Fire",
     "formation": [
       {
@@ -11657,6 +13853,15 @@
   },
   {
     "id": "301302",
+    "name": "DragonBossPoison",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "187420",
+    "effectiveOffense": "1425.26318359375",
+    "gold": "75",
     "title": "Dragon Boss Poison",
     "formation": [
       {
@@ -11679,6 +13884,15 @@
   },
   {
     "id": "301303",
+    "name": "DragonBossFrost",
+    "stageType": "Boss",
+    "act": "1",
+    "floor": "11",
+    "difficulty": "3",
+    "enemyCount": "1",
+    "effectiveHealth": "137810",
+    "effectiveOffense": "1313.293212890625",
+    "gold": "75",
     "title": "Dragon Boss Frost",
     "formation": [
       {

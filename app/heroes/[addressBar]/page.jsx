@@ -1,10 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReferenceLayout from "@/src/components/ReferenceLayout";
-import { getHero, heroesData } from "@/src/lib/content/heroes";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
+import dataset from "@/src/data/dataset.json";
+import { heroCollection } from "@/src/lib/content/heroes";
 import { getStatusRelations, statusSlugForTerm } from "@/src/lib/content/relations";
-import { createMetadata, siteConfig } from "@/src/seo/siteConfig";
+import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
+
+export const dynamicParams = false;
 
 const statIcons = {
   Magic: "●",
@@ -21,23 +24,18 @@ function statClass(name) {
 }
 
 export function generateStaticParams() {
-  return heroesData.map((hero) => ({ addressBar: hero.addressBar }));
+  return heroCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const hero = getHero(addressBar);
+  const hero = heroCollection.get((await params).addressBar);
   if (!hero) return {};
-  return createMetadata({
-    ...hero.seo,
-    path: `/heroes/${hero.addressBar}/`,
-    image: hero.splashUrl,
-  });
+  return heroCollection.metadata(hero);
 }
 
 export default async function HeroDetailPage({ params }) {
   const { addressBar } = await params;
-  const hero = getHero(addressBar);
+  const hero = heroCollection.get(addressBar);
   if (!hero) notFound();
 
   const statusLinks = hero.keywords
@@ -57,27 +55,38 @@ export default async function HeroDetailPage({ params }) {
     ["Overview", "#overview"],
     ["Stats", "#stats"],
     ["Ranks C–S", "#ranks"],
+    ["Specializations", "#specializations"],
     ["Modifiers", "#modifiers"],
     ["Build guide", "#strategy"],
     ...(hero.lore.length ? [["Lore", "#lore"]] : []),
   ];
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: `${hero.name} Guildrun hero guide`,
-    description: hero.overview,
-    image: new URL(hero.splashUrl, siteConfig.siteUrl).toString(),
-    dateModified: "2026-07-24",
-    author: { "@type": "Organization", name: "Guildrun Guide Team" },
-  };
+  const path = heroCollection.href(hero);
+  const jsonLd = [
+    articleSchema({
+      headline: hero.seo.h1,
+      description: hero.overview,
+      path,
+      image: hero.splashUrl,
+      dateModified: dataset.updatedDate,
+    }),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Heroes", path: "/heroes/" },
+      { name: hero.name, path },
+    ]),
+  ];
 
   return (
-    <main className="archive-main">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <ReferenceLayout section="heroes" activeHref="/heroes/" pageLinks={pageLinks}>
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
-          <ol><li><Link href="/heroes/">Heroes</Link></li><li>{hero.name}</li></ol>
-        </nav>
+    <DetailPageLayout
+      section="heroes"
+      activeHref="/heroes/"
+      pageLinks={pageLinks}
+      breadcrumbs={[
+        { label: "Heroes", href: "/heroes/" },
+        { label: hero.name },
+      ]}
+      jsonLd={jsonLd}
+    >
 
         <header className="record-head hero-record-head" id="overview">
           <div className="record-head__image">
@@ -113,7 +122,7 @@ export default async function HeroDetailPage({ params }) {
             <span className="archive-kicker">Field role</span>
             <h2>How {hero.name} fits a formation</h2>
             <p>{hero.overview}</p>
-            <div className="mechanic-pill-row hero-mechanic-links">
+            <div className="mechanic-pill-row">
               {hero.classes.map((className) => (
                 <Link className="mechanic-pill is-class" href="/heroes/" key={className}>{className}</Link>
               ))}
@@ -209,9 +218,9 @@ export default async function HeroDetailPage({ params }) {
                     specializations. A path can add a class and change later offers.
                   </p>
                 </header>
-                <div className="hero-specialization-grid">
+                <div className="hero-specialization-grid" id="specializations">
                   {hero.specializations.map((specialization) => (
-                    <article key={specialization.name}>
+                    <article id={specialization.addressBar} key={specialization.addressBar}>
                       <header>
                         <span><Image src={specialization.iconUrl} alt="" fill sizes="42px" /></span>
                         <div>
@@ -301,8 +310,22 @@ export default async function HeroDetailPage({ params }) {
               <>
                 <h3>Related equipment</h3>
                 <div className="tag-links">
-                  {relatedItems.map((item) => <Link href={`/wiki/items/?search=${encodeURIComponent(item.addressBar)}`} key={`item-${item.id}`}>{item.name}</Link>)}
-                  {relatedRelics.map((relic) => <Link href={`/wiki/relics/?search=${encodeURIComponent(relic.addressBar)}`} key={`relic-${relic.id}`}>{relic.name}</Link>)}
+                  {relatedItems.map((item) => (
+                    <Link
+                      href={`/wiki/items/?search=${encodeURIComponent(item.addressBar)}`}
+                      key={`item-${item.id}`}
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                  {relatedRelics.map((relic) => (
+                    <Link
+                      href={`/wiki/relics/?search=${encodeURIComponent(relic.addressBar)}`}
+                      key={`relic-${relic.id}`}
+                    >
+                      {relic.name}
+                    </Link>
+                  ))}
                 </div>
               </>
             )}
@@ -322,7 +345,6 @@ export default async function HeroDetailPage({ params }) {
             </section>
           )}
         </article>
-      </ReferenceLayout>
-    </main>
+    </DetailPageLayout>
   );
 }

@@ -1,4 +1,3 @@
-import { Cinzel, Instrument_Sans } from "next/font/google";
 import Script from "next/script";
 import AppHeader from "@/src/components/AppHeader";
 import AppFooter from "@/src/components/AppFooter";
@@ -10,18 +9,6 @@ import "@/src/styles/footer.css";
 import "@/src/styles/directory.css";
 import "@/src/styles/detail.css";
 import "@/src/styles/archive.css";
-
-const displayFont = Cinzel({
-  subsets: ["latin"],
-  variable: "--font-display",
-  display: "swap",
-});
-
-const bodyFont = Instrument_Sans({
-  subsets: ["latin"],
-  variable: "--font-body",
-  display: "swap",
-});
 
 export const metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -89,13 +76,11 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html
-      lang="en"
-      data-scroll-behavior="smooth"
-      className={`${displayFont.variable} ${bodyFont.variable}`}
-    >
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
+        {/* Google tag (gtag.js) */}
         <Script
+          async
           src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaMeasurementId}`}
           strategy="afterInteractive"
         />

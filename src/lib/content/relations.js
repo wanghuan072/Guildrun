@@ -2,31 +2,22 @@ import { heroesData } from "@/src/lib/content/heroes";
 import { itemsData } from "@/src/lib/content/items";
 import { relicsData } from "@/src/lib/content/relics";
 import { enemiesData, statusEffectsData } from "@/src/lib/content/wiki";
+import statusSlugs from "@/src/data/wiki/status-slugs.json";
 
-const aliases = {
-  shield: "shields",
-  shields: "shields",
-  poison: "poison",
-  burn: "burn",
-  frost: "frost",
-  stun: "stun",
-  stealth: "stealth",
-  taunt: "taunt",
-  rush: "rush",
-  stall: "stall",
-  omnivamp: "omnivamp",
-  backup: "backup",
-  "anti-heal": "anti-heal",
-};
+const statusAliases = Object.fromEntries(
+  Object.entries(statusSlugs).flatMap(([label, slug]) => [
+    [label.toLowerCase(), slug],
+    [slug, slug],
+  ]),
+);
 
 export function statusSlugForTerm(term) {
-  return aliases[String(term).toLowerCase()] || null;
+  return statusAliases[String(term).toLowerCase()] || null;
 }
 
 function mentions(record, effect) {
   const source = [
     record.effect,
-    record.specialEffect,
     record.baseAbility?.effect,
     ...(record.specializations || []).map((entry) => entry.effect),
     ...(record.modifiers || []).map((entry) => entry.effect),

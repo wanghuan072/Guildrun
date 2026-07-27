@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { searchCategories, searchSite } from "@/src/lib/searchIndex";
+import dataset from "@/src/data/dataset.json";
 
 export default function SiteSearch() {
   const searchParams = useSearchParams();
@@ -86,7 +87,10 @@ export default function SiteSearch() {
 
       {!query.trim() ? (
         <div className="site-search-empty">
-          <p>Type a keyword to search the Demo 0.5.1 guide and databases.</p>
+          <p>
+            Type a keyword to search the {dataset.gameVersion} guide and
+            databases.
+          </p>
           <div className="site-search-suggestions">
             {["Pimenta", "Poison", "Mandate", "Hydra", "Beginner", "Rank"].map((term) => (
               <button

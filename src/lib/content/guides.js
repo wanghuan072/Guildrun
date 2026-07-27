@@ -1,9 +1,10 @@
 import guideSeeds from "@/src/data/guides/guides.json";
-import { createDetailTdk } from "@/src/seo/tdk";
+import { defineDetailCollection } from "@/src/lib/content/collection";
+import { defineTdk } from "@/src/seo/tdk";
 
 export const guidesData = guideSeeds.map((guide) => ({
   ...guide,
-  seo: createDetailTdk({
+  seo: defineTdk({
     h1: guide.title.replace(":", " -"),
     title: guide.title,
     description: `${guide.excerpt} Follow the step-by-step decisions, common mistakes, connected hero records, and practical build links for the current Guildrun Demo.`,
@@ -14,6 +15,22 @@ export const guidesData = guideSeeds.map((guide) => ({
   }),
 }));
 
-export function getGuide(addressBar) {
-  return guidesData.find((guide) => guide.addressBar === addressBar);
-}
+export const guideCollection = defineDetailCollection({
+  key: "guides",
+  label: "Guides",
+  basePath: "/guides",
+  records: guidesData,
+  priority: 0.9,
+  changeFrequency: "monthly",
+  metadataType: "article",
+  image: (guide) => guide.imageUrl,
+  search: (guide, href) => ({
+    id: `guide-${guide.addressBar}`,
+    category: "Guides",
+    title: guide.shortTitle,
+    href,
+    excerpt: guide.excerpt,
+    keywords: [guide.category, guide.gameVersion, ...(guide.tags || [])],
+    imageUrl: guide.imageUrl,
+  }),
+});

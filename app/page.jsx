@@ -5,7 +5,9 @@ import "@/src/styles/home.css";
 import { guidesData } from "@/src/lib/content/guides";
 import { heroesData } from "@/src/lib/content/heroes";
 import { updatesData } from "@/src/lib/content/updates";
-import { snapshotMeta, wikiCategories } from "@/src/lib/content/wiki";
+import dataset from "@/src/data/dataset.json";
+import { detailCounts } from "@/src/lib/content/detailRegistry";
+import { wikiCategories } from "@/src/lib/content/wiki";
 import { worldCategories } from "@/src/lib/content/world";
 import { faqPageSchema } from "@/src/seo/schema";
 import { pageTdk } from "@/src/seo/tdk";
@@ -109,7 +111,7 @@ const homeFaqs = [
   ],
   [
     "Which game version do these guides cover?",
-    "Gameplay advice, databases, and featured guides on this homepage are maintained against Guildrun Demo 0.5.1. Balance-sensitive numbers should be rechecked after later patches.",
+    `Gameplay advice, databases, and featured guides on this homepage are maintained against Guildrun ${dataset.gameVersion}. Balance-sensitive numbers should be rechecked after later patches.`,
   ],
   [
     "How should a new player start?",
@@ -117,7 +119,7 @@ const homeFaqs = [
   ],
   [
     "Where can I find hero, item, and relic data?",
-    "Open the Heroes roster for class, range, ranks, and specializations. Browse the Wiki for items, relics, enemies, and status effects. World pages cover stages, events, crossroads, fight modes, and stat mods.",
+    "Open the Heroes roster for class, range, ranks, and specializations. Browse the Wiki for items, relics, enemies, status effects, and Rank B hero paths. World pages cover stages, events, crossroads, fight modes, and stat mods.",
   ],
   [
     "When is the full Guildrun release date?",
@@ -131,7 +133,14 @@ export default function HomePage() {
     .filter(Boolean);
   const featuredGuides = guidesData.filter((guide) => guide.isFeatured);
   const latestUpdates = updatesData.slice(0, 3);
-  const { heroes, items, relics, stages, enemies, events } = snapshotMeta.counts;
+  const {
+    heroes,
+    items,
+    relics,
+    stages,
+    enemies,
+    events,
+  } = detailCounts;
 
   const gameJsonLd = {
     "@context": "https://schema.org",
@@ -163,7 +172,7 @@ export default function HomePage() {
           <div className="home-hero-copy">
             <span className="home-eyebrow">
               <span aria-hidden="true">✥</span>
-              Demo 0.5.1 · Guide &amp; Wiki
+              {dataset.gameVersion} · Guide &amp; Wiki
             </span>
             <h1 id="home-title">
               Guildrun - Heroes,<br />
@@ -220,7 +229,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="home-archive-panel progression-panel" aria-labelledby="progression-heading">
+        <section className="home-archive-panel" aria-labelledby="progression-heading">
           <div className="home-panel-label">
             <span aria-hidden="true">✥</span>
             <h2 id="progression-heading">Growth Route</h2>
@@ -269,7 +278,7 @@ export default function HomePage() {
             </div>
             <p className="home-panel-meta">
               {heroes} heroes · {items} items · {relics} relics · {stages} formations
-              <span> · Demo 0.5.1</span>
+              <span> · {dataset.gameVersion}</span>
             </p>
           </div>
           <div className="home-reference-hub">
@@ -374,7 +383,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="home-archive-panel updates-panel" aria-labelledby="updates-heading">
+        <section className="home-archive-panel" aria-labelledby="updates-heading">
           <div className="home-panel-label">
             <span aria-hidden="true">♘</span>
             <h2 id="updates-heading">Latest Updates</h2>

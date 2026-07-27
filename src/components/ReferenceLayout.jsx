@@ -1,4 +1,6 @@
 import Link from "next/link";
+import dataset from "@/src/data/dataset.json";
+import { guideCollection } from "@/src/lib/content/guides";
 
 const sectionLinks = {
   gameplay: [
@@ -15,6 +17,13 @@ const sectionLinks = {
     ["All Heroes", "/heroes/"],
     ["Gameplay Guide", "/gameplay/#heroes"],
     ["Growth Route", "/gameplay/growth-route/"],
+  ],
+  guides: [
+    ["All Guides", "/guides/"],
+    ...guideCollection.records.map((guide) => [
+      guide.shortTitle,
+      guideCollection.href(guide),
+    ]),
   ],
   world: [
     ["World Overview", "/world/"],
@@ -33,6 +42,7 @@ const sectionTitles = {
   gameplay: "Gameplay",
   wiki: "Wiki Database",
   heroes: "Heroes",
+  guides: "Guides",
   world: "World",
   updates: "Updates",
 };
@@ -75,8 +85,8 @@ export default function ReferenceLayout({
 
         <div className="reference-sidebar__version">
           <span>Dataset</span>
-          <strong>Demo 0.5.1</strong>
-          <small>Updated July 24, 2026</small>
+          <strong>{dataset.gameVersion}</strong>
+          <small>Updated {dataset.updatedDate}</small>
         </div>
       </aside>
       <div className="reference-content">{children}</div>

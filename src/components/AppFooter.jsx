@@ -23,8 +23,8 @@ export default function AppFooter() {
                 className="brand-mark"
                 src="/images/logo.png"
                 alt=""
-                width={40}
-                height={40}
+                width={44}
+                height={44}
               />
               <span>Guildrun</span>
             </Link>

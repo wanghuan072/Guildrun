@@ -18,7 +18,7 @@ export default function StagesPage() {
             <span className="archive-eyebrow">Encounter database</span>
             <h1>{pageTdk.stages.h1}</h1>
             <p>
-              Filter campaign, boss, event-fight, and Endless records. Open a
+              Filter campaign, event-fight, and Endless records. Open a
               stage for its exact enemy lineup, per-unit stats, rewards,
               environment, and preparation links.
             </p>

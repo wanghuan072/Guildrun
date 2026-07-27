@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "@/src/components/JsonLd";
+import dataset from "@/src/data/dataset.json";
 import { faqPageSchema } from "@/src/seo/schema";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -46,15 +47,15 @@ export default function ReleaseDatePage() {
         </div>
         <div className="container page-hero-content">
           <div className="page-hero-copy">
-            <span className="eyebrow">Release information</span>
+            <span className="archive-eyebrow">Release information</span>
             <h1>{pageTdk.releaseDate.h1}</h1>
             <p>
               The free Demo is available now. The premium full game is planned
               for 2027, with no exact date or price announced.
             </p>
-            <div className="hero-actions">
-              <Link className="button-primary" href="/guides/guildrun-beginner-guide/">Start with the beginner guide</Link>
-              <Link className="button-secondary" href="/updates/">Follow updates</Link>
+            <div className="manual-link-row">
+              <Link href="/guides/guildrun-beginner-guide/">Start with the beginner guide</Link>
+              <Link href="/updates/">Follow updates</Link>
             </div>
           </div>
           <aside className="page-hero-meta">
@@ -62,7 +63,7 @@ export default function ReleaseDatePage() {
             <strong>Demo live · Full release planned for 2027</strong>
             <p>
               Plans are labeled separately from features already available in
-              Demo 0.5.1.
+              {dataset.gameVersion}.
             </p>
           </aside>
         </div>
@@ -70,7 +71,7 @@ export default function ReleaseDatePage() {
       <section className="page-section">
         <div className="container page-content">
           <div className="page-heading">
-            <span className="eyebrow">Release timeline</span>
+            <span className="archive-eyebrow">Release timeline</span>
             <h2>What is available and what remains planned</h2>
           </div>
           <ol className="system-flow">

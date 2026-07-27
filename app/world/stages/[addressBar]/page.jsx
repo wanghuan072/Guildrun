@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReferenceLayout from "@/src/components/ReferenceLayout";
-import JsonLd from "@/src/components/JsonLd";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
 import { getEnemy } from "@/src/lib/content/wiki";
-import { getReferenceStage, stagesReferenceData } from "@/src/lib/content/world";
-import { createMetadata } from "@/src/seo/siteConfig";
+import { stageCollection } from "@/src/lib/content/world";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
 
 const boardCellCount = 30;
@@ -56,23 +54,21 @@ function groupFormation(formation) {
   return [...groups.values()];
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return stagesReferenceData.map(({ addressBar }) => ({ addressBar }));
+  return stageCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const stage = getReferenceStage(addressBar);
+  const stage = stageCollection.get((await params).addressBar);
   if (!stage) return {};
-  return createMetadata({
-    ...stage.seo,
-    path: `/world/stages/${addressBar}/`,
-  });
+  return stageCollection.metadata(stage);
 }
 
 export default async function StageDetailPage({ params }) {
   const { addressBar } = await params;
-  const stage = getReferenceStage(addressBar);
+  const stage = stageCollection.get(addressBar);
   if (!stage) notFound();
 
   const title = stage.title || stage.name;
@@ -101,16 +97,17 @@ export default async function StageDetailPage({ params }) {
   ];
 
   return (
-    <main className="archive-main">
-      <JsonLd data={jsonLd} />
-      <ReferenceLayout section="world" activeHref="/world/stages/" pageLinks={pageLinks}>
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            <li><Link href="/world/">World</Link></li>
-            <li><Link href="/world/stages/">Stages</Link></li>
-            <li>{title}</li>
-          </ol>
-        </nav>
+    <DetailPageLayout
+      section="world"
+      activeHref="/world/stages/"
+      pageLinks={pageLinks}
+      breadcrumbs={[
+        { label: "World", href: "/world/" },
+        { label: "Stages", href: "/world/stages/" },
+        { label: title },
+      ]}
+      jsonLd={jsonLd}
+    >
 
         <header className="reference-page-head stage-record-head">
           <div>
@@ -132,7 +129,7 @@ export default async function StageDetailPage({ params }) {
           </dl>
         </header>
 
-        <article className="record-sections stage-dossier">
+        <article className="record-sections">
           <section className="record-section" id="telemetry">
             <div className="stage-section-heading">
               <div>
@@ -325,7 +322,6 @@ export default async function StageDetailPage({ params }) {
             </div>
           </section>
         </article>
-      </ReferenceLayout>
-    </main>
+    </DetailPageLayout>
   );
 }

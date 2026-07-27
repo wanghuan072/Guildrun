@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
-import RelicExplorer from "@/src/components/RelicExplorer";
+import CollectibleExplorer from "@/src/components/CollectibleExplorer";
 import { relicsData } from "@/src/lib/content/relics";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -20,8 +20,8 @@ export default function RelicsPage() {
             <h1>{pageTdk.relics.h1}</h1>
             <p>
               Compare the full relic pool by rarity, category, trigger, and
-              reward. Every relic effect, quest condition, and price remains
-              visible in this one searchable database.
+              reward. Open any relic for its complete effect, quest condition,
+              indexed mechanics, and related local records.
             </p>
           </div>
           <div className="reference-page-head__count">
@@ -30,7 +30,7 @@ export default function RelicsPage() {
           </div>
         </header>
         <Suspense fallback={<p className="directory-status">Loading relic filters…</p>}>
-          <RelicExplorer relics={relicsData} />
+          <CollectibleExplorer records={relicsData} variant="relics" />
         </Suspense>
       </ReferenceLayout>
     </main>

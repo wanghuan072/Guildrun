@@ -105,7 +105,750 @@
         ]
       }
     ],
-    "ledger": []
+    "ledger": [
+      {
+        "name": "Heroes",
+        "records": [
+          {
+            "entity": "Yuuna",
+            "changes": [
+              {
+                "label": "Mana Lock Time",
+                "oldValue": "0.75",
+                "newValue": "0.5",
+                "note": ""
+              },
+              {
+                "label": "Defense",
+                "oldValue": "37",
+                "newValue": "39",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Zuri",
+            "changes": [
+              {
+                "label": "Max Mana",
+                "oldValue": "110",
+                "newValue": "100",
+                "note": ""
+              },
+              {
+                "label": "Base Attack Damage",
+                "oldValue": "30",
+                "newValue": "33",
+                "note": ""
+              },
+              {
+                "label": "Base Attack Speed",
+                "oldValue": "0.37",
+                "newValue": "0.38",
+                "note": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Abilities",
+        "records": [
+          {
+            "entity": "Killshot",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModifyStatAction → ModifyStatPerRankAction"
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "25",
+                "newValue": "0",
+                "note": ""
+              },
+              {
+                "label": "Text updated",
+                "oldValue": "",
+                "newValue": "",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Shuriken Shadow Strike",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModifyStatFromStatAction → ModifyStatPercentAction"
+              }
+            ]
+          },
+          {
+            "entity": "Blizzard",
+            "changes": [
+              {
+                "label": "Damage Scaling: Rank1 Factor",
+                "oldValue": "1",
+                "newValue": "0.75",
+                "note": ""
+              },
+              {
+                "label": "Damage Scaling: Rank2 Factor",
+                "oldValue": "1",
+                "newValue": "0.75",
+                "note": ""
+              },
+              {
+                "label": "Damage Scaling: Rank3 Factor",
+                "oldValue": "1",
+                "newValue": "0.75",
+                "note": ""
+              },
+              {
+                "label": "Damage Scaling: Rank4 Factor",
+                "oldValue": "1",
+                "newValue": "0.75",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "100",
+                "newValue": "75",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Devour",
+            "changes": [
+              {
+                "label": "Stalker Gain Vamp: Base Vamp",
+                "oldValue": "4",
+                "newValue": "0",
+                "note": ""
+              },
+              {
+                "label": "Stalker Gain Vamp: Vamp Per Rank",
+                "oldValue": "4",
+                "newValue": "5",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Resolute Strike",
+            "changes": [
+              {
+                "label": "Protector Base Shield",
+                "oldValue": "250",
+                "newValue": "100",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Spark",
+            "changes": [
+              {
+                "label": "Apply Status From Owner Stat (Attack Speed): Base",
+                "oldValue": "2",
+                "newValue": "1",
+                "note": ""
+              },
+              {
+                "label": "Apply Status From Owner Stat (Attack Speed): Base",
+                "oldValue": "0",
+                "newValue": "1",
+                "note": ""
+              },
+              {
+                "label": "Apply Status From Owner Stat (Attack Speed): Increment",
+                "oldValue": "30",
+                "newValue": "50",
+                "note": ""
+              },
+              {
+                "label": "Apply Status From Owner Stat (Attack Speed): Increment",
+                "oldValue": "40",
+                "newValue": "75",
+                "note": ""
+              },
+              {
+                "label": "Apply Status From Owner Stat (Attack Speed): Increment",
+                "oldValue": "50",
+                "newValue": "100",
+                "note": ""
+              },
+              {
+                "label": "Text updated",
+                "oldValue": "",
+                "newValue": "",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Right Hand",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "1",
+                "newValue": "2",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Inferno",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "25",
+                "newValue": "15",
+                "note": ""
+              },
+              {
+                "label": "Stall Duration",
+                "oldValue": "20",
+                "newValue": "15",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Glacier",
+            "changes": [
+              {
+                "label": "Modify Stat (Defense)",
+                "oldValue": "50",
+                "newValue": "40",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Sanguine",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "4",
+                "newValue": "0",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "4",
+                "newValue": "5",
+                "note": ""
+              },
+              {
+                "label": "Give Mana",
+                "oldValue": "70",
+                "newValue": "60",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Bold",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "250",
+                "newValue": "100",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "The Intrepid",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModifyStatFromStatAction → ModifyStatPercentAction"
+              }
+            ]
+          },
+          {
+            "entity": "The Selfless",
+            "changes": [
+              {
+                "label": "Generous Shield And Heal: Shield Per Rank",
+                "oldValue": "333",
+                "newValue": "250",
+                "note": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rank Modifiers",
+        "records": [
+          {
+            "entity": "Poisonous Attacks",
+            "changes": [
+              {
+                "label": "Apply Status From Owner Stat With Max (Attack Speed): Increment",
+                "oldValue": "120",
+                "newValue": "100",
+                "note": ""
+              },
+              {
+                "label": "Text updated",
+                "oldValue": "",
+                "newValue": "",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Golden Eye",
+            "changes": [
+              {
+                "label": "Trigger Increment",
+                "oldValue": "10",
+                "newValue": "9",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Hit Hard, Hit Fast",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModifyStatFromStatAction → ModifyStatPercentAction"
+              }
+            ]
+          },
+          {
+            "entity": "Sideline Empowerment",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "25",
+                "newValue": "50",
+                "note": ""
+              },
+              {
+                "label": "Text updated",
+                "oldValue": "",
+                "newValue": "",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Poisonous Burst",
+            "changes": [
+              {
+                "label": "Apply Status From Owner Stat (Crit): Increment",
+                "oldValue": "15",
+                "newValue": "10",
+                "note": ""
+              },
+              {
+                "label": "Text updated",
+                "oldValue": "",
+                "newValue": "",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Poisonous Edge",
+            "changes": [
+              {
+                "label": "Modify Stat Percent (Crit)",
+                "oldValue": "0.5",
+                "newValue": "0.66",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "50",
+                "newValue": "66",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Poisonous Eye",
+            "changes": [
+              {
+                "label": "Apply Status From Owner Stat (Crit): Base",
+                "oldValue": "10",
+                "newValue": "15",
+                "note": ""
+              },
+              {
+                "label": "Apply Status From Owner Stat (Crit): Increment",
+                "oldValue": "4",
+                "newValue": "3",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "25",
+                "newValue": "33",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Hermit",
+            "changes": [
+              {
+                "label": "Modify Stat Percent (Magic)",
+                "oldValue": "0.25",
+                "newValue": "0.33",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "25",
+                "newValue": "33",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Burning Absorption",
+            "changes": [
+              {
+                "label": "Modify Stat From Specific Debuff In Range Of Owner: Increment",
+                "oldValue": "8",
+                "newValue": "6",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Stalled Heat",
+            "changes": [
+              {
+                "label": "Apply Status From Owner Stat (Magic): Multiplier",
+                "oldValue": "0.5",
+                "newValue": "0.66",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "50",
+                "newValue": "66",
+                "note": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Relics",
+        "records": [
+          {
+            "entity": "Deceleration Lattice",
+            "changes": [
+              {
+                "label": "Modify Stat (HP Per Second)",
+                "oldValue": "10",
+                "newValue": "15",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Acceleration Lattice",
+            "changes": [
+              {
+                "label": "Modify Stat (HP Per Second)",
+                "oldValue": "20",
+                "newValue": "25",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Precision Nexus",
+            "changes": [
+              {
+                "label": "Heal",
+                "oldValue": "40",
+                "newValue": "30",
+                "note": ""
+              },
+              {
+                "label": "Give Mana",
+                "oldValue": "4",
+                "newValue": "3",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Deceleration Apotheosis",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "20",
+                "newValue": "15",
+                "note": ""
+              },
+              {
+                "label": "Modify All Target Basic Stat Percent",
+                "oldValue": "0.2",
+                "newValue": "0.15",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Deceleration Aegis",
+            "changes": [
+              {
+                "label": "Apply Shield",
+                "oldValue": "800",
+                "newValue": "700",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Critical Absorption Prism",
+            "changes": [
+              {
+                "label": "Source Steal Flat Max HP From Target",
+                "oldValue": "60",
+                "newValue": "50",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Poison Ascendancy",
+            "changes": [
+              {
+                "label": "Quest reward: Modify Stat Percent (Attack Speed)",
+                "oldValue": "0.5",
+                "newValue": "0.66",
+                "note": ""
+              },
+              {
+                "label": "Quest reward: Modify Stat Percent (Attack)",
+                "oldValue": "0.5",
+                "newValue": "0.66",
+                "note": ""
+              },
+              {
+                "label": "Displayed value",
+                "oldValue": "50",
+                "newValue": "66",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Alignment Ascendancy",
+            "changes": [
+              {
+                "label": "Quest reward: Modify Stat (Attack Speed)",
+                "oldValue": "10",
+                "newValue": "15",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Merchant Mandate",
+            "changes": [
+              {
+                "label": "Quest: Required Progress",
+                "oldValue": "9",
+                "newValue": "8",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Shield Fragmentation Engine",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "200",
+                "newValue": "250",
+                "note": ""
+              },
+              {
+                "label": "Reflect Damage From Shield Removed: Percent Reflect",
+                "oldValue": "2",
+                "newValue": "2.5",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Plague Transmission Engine",
+            "changes": [
+              {
+                "label": "Effect Interval",
+                "oldValue": "15",
+                "newValue": "10",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Pain",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "2.75",
+                "newValue": "2.5",
+                "note": ""
+              },
+              {
+                "label": "Deal Damage From Effect Target Stat (Max Health): Percent Damage",
+                "oldValue": "0.03",
+                "newValue": "0.02",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Pain",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "8",
+                "newValue": "7",
+                "note": ""
+              },
+              {
+                "label": "Deal Damage From Effect Target Stat (Max Health): Percent Damage",
+                "oldValue": "0.08",
+                "newValue": "0.07",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Decay",
+            "changes": [
+              {
+                "label": "Displayed value",
+                "oldValue": "17.5",
+                "newValue": "15",
+                "note": ""
+              },
+              {
+                "label": "Modify All Basic Stats Percent",
+                "oldValue": "-0.18",
+                "newValue": "-0.15",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Bossy",
+            "changes": [
+              {
+                "label": "Quest reward: Gain Shards",
+                "oldValue": "50",
+                "newValue": "40",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "Hydra's Healing",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModularEffect → PriorityModularEffect"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "records": [
+          {
+            "entity": "Adaptive Sword",
+            "changes": [
+              {
+                "label": "Effect reworked",
+                "oldValue": "",
+                "newValue": "",
+                "note": "ModularEffect → PriorityModularEffect"
+              },
+              {
+                "label": "Modify Stat (Attack Speed)",
+                "oldValue": "20",
+                "newValue": "30",
+                "note": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Enemies",
+        "records": [
+          {
+            "entity": "Lizard",
+            "changes": [
+              {
+                "label": "Attack",
+                "oldValue": "27",
+                "newValue": "28",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "entity": "",
+            "changes": []
+          }
+        ]
+      },
+      {
+        "name": "Stages",
+        "records": [
+          {
+            "entity": "",
+            "changes": []
+          }
+        ]
+      },
+      {
+        "name": "Game Constants",
+        "records": [
+          {
+            "entity": "Shop",
+            "changes": [
+              {
+                "label": "Relic shop cost: Legendary quest relics",
+                "oldValue": "30",
+                "newValue": "25",
+                "note": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,

@@ -1,28 +1,24 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReferenceLayout from "@/src/components/ReferenceLayout";
-import JsonLd from "@/src/components/JsonLd";
-import { eventsReferenceData, getReferenceEvent } from "@/src/lib/content/world";
-import { createMetadata } from "@/src/seo/siteConfig";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
+import { eventCollection } from "@/src/lib/content/world";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return eventsReferenceData.map(({ addressBar }) => ({ addressBar }));
+  return eventCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const event = getReferenceEvent(addressBar);
+  const event = eventCollection.get((await params).addressBar);
   if (!event) return {};
-  return createMetadata({
-    ...event.seo,
-    path: `/world/events/${addressBar}/`,
-  });
+  return eventCollection.metadata(event);
 }
 
 export default async function EventDetailPage({ params }) {
   const { addressBar } = await params;
-  const event = getReferenceEvent(addressBar);
+  const event = eventCollection.get(addressBar);
   if (!event) notFound();
   const title = event.title || event.name;
   const pageLinks = [["Overview", "#overview"], ["Choices", "#choices"], ["Route links", "#route"], ["Decision guide", "#strategy"]];
@@ -42,12 +38,17 @@ export default async function EventDetailPage({ params }) {
   ];
 
   return (
-    <main className="archive-main">
-      <JsonLd data={jsonLd} />
-      <ReferenceLayout section="world" activeHref="/world/events/" pageLinks={pageLinks}>
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
-          <ol><li><Link href="/world/">World</Link></li><li><Link href="/world/events/">Events</Link></li><li>{title}</li></ol>
-        </nav>
+    <DetailPageLayout
+      section="world"
+      activeHref="/world/events/"
+      pageLinks={pageLinks}
+      breadcrumbs={[
+        { label: "World", href: "/world/" },
+        { label: "Events", href: "/world/events/" },
+        { label: title },
+      ]}
+      jsonLd={jsonLd}
+    >
         <header className="reference-page-head">
           <div>
             <span className="archive-eyebrow">{event.kind} · Record #{event.id}</span>
@@ -133,7 +134,6 @@ export default async function EventDetailPage({ params }) {
             </div>
           </section>
         </article>
-      </ReferenceLayout>
-    </main>
+    </DetailPageLayout>
   );
 }

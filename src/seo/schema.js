@@ -1,6 +1,6 @@
 import { siteConfig } from "@/src/seo/siteConfig";
 
-export function absoluteUrl(path) {
+function absoluteUrl(path) {
   return new URL(path, siteConfig.siteUrl).toString();
 }
 

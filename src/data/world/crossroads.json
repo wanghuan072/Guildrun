@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Starter Kit",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Starter Kit"
+      }
+    ],
+    "id": 23
+  },
+  {
+    "name": "Random Event #1",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 30
+  },
+  {
+    "name": "Random Event #2",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 31
+  },
+  {
+    "name": "Random Event #3",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 32
+  },
+  {
+    "name": "First Curated Random Event",
+    "description": "2 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 33
+  },
+  {
+    "name": "Fight Crossroads #1",
+    "description": "2 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 34
+  },
+  {
+    "name": "Fight Crossroads #2",
+    "description": "2 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 35
+  },
+  {
+    "name": "Fight Crossroads #3",
+    "description": "2 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 36
+  },
+  {
+    "name": "First Campfire",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "The Campfire"
+      }
+    ],
+    "id": 50
+  },
+  {
+    "name": "Second Campfire",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "The Campfire"
+      }
+    ],
+    "id": 53
+  },
+  {
+    "name": "The Guild Banner",
+    "description": "1 path",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "The Guild Banner"
+      }
+    ],
+    "id": 113
+  },
+  {
+    "name": "A Spork in the Road",
+    "description": "3 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Mine Shards"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 120
+  },
+  {
+    "name": "Endless Mode",
+    "description": "3 paths",
+    "paths": [
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      },
+      {
+        "type": "Event",
+        "destination": "Random event"
+      }
+    ],
+    "id": 123
+  }
+]

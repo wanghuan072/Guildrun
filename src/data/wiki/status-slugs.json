@@ -7,5 +7,9 @@
   "Rush": "rush",
   "Stall": "stall",
   "Omnivamp": "omnivamp",
-  "Backup": "backup"
+  "Backup": "backup",
+  "Anti-Heal": "anti-heal",
+  "Stun": "stun",
+  "Stealth": "stealth",
+  "Taunt": "taunt"
 }

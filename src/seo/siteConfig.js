@@ -5,7 +5,7 @@ export const siteConfig = {
   defaultTitle: "Guildrun - Heroes, Builds, Wiki and Strategy Guide",
   defaultDescription:
     "Master Guildrun with complete hero stats, rank paths, items, relics, enemy records, world encounters, team-building advice, and practical run strategies.",
-  defaultImage: "/images/og-image-social.png",
+  defaultImage: "/images/og-image.png",
   steamUrl: "https://store.steampowered.com/app/3669200/Guildrun/",
   demoUrl: "https://store.steampowered.com/app/4425970/Guildrun_Demo/",
   officialUrl: "https://www.playguildrun.com/",

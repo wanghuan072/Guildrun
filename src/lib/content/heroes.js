@@ -1,77 +1,31 @@
 import heroesJson from "@/src/data/heroes/heroes.json";
-import editorialJson from "@/src/data/heroes/editorial.json";
-import classRankGains from "@/src/data/heroes/class-rank-gains.json";
-import heroClassesJson from "@/src/data/heroes/classes.json";
-import { createDetailTdk } from "@/src/seo/tdk";
+import {
+  defineDetailCollection,
+  slugify,
+} from "@/src/lib/content/collection";
+import { defineTdk } from "@/src/seo/tdk";
 
-const statKeys = [
-  "Max HP",
-  "Base Attack Damage",
-  "Base Attack Speed",
-  "Attack Range",
-  "Crit",
-  "Attack",
-  "Magic",
-  "Defense",
-  "Attack Speed",
-  "Max Mana",
-  "Mana Regen",
-  "Starting Mana",
-  "Mana Lock (s)",
-  "Move Speed",
-  "Projectile Speed",
-];
+export const heroClasses = [
+  ...new Set(heroesJson.flatMap((hero) => hero.classes)),
+].sort((left, right) => left.localeCompare(right));
 
-export const heroClasses = heroClassesJson;
-
-export const heroesData = editorialJson.map((hero, index) => {
+export const heroesData = heroesJson.map((hero, index) => {
   const classLabel = hero.classes.join(" / ");
-  const reference = heroesJson.find((entry) => entry.addressBar === hero.addressBar);
   return {
     id: index + 1,
     ...hero,
-    startingClass: reference?.classes?.join(" / ") || classLabel,
-    rankGains:
-      reference?.rankGains ||
-      Object.entries(classRankGains[classLabel] || {}).map(([name, value]) => ({
-        name,
-        value,
-        priority: "base",
-      })),
-    stats:
-      reference?.stats ||
-      Object.fromEntries(statKeys.map((key, statIndex) => [key, hero.stats[statIndex]])),
-    derived: reference?.derived || {},
-    baseAbility:
-      reference?.baseAbility || {
-        name: hero.ability[0],
-        type: "Ability",
-        effect: hero.ability[1],
-      },
-    startingAbility: reference?.baseAbility?.name || hero.ability[0],
-    specializations:
-      reference?.specializations ||
-      hero.paths.map(([name, effect]) => ({
-        name,
-        addedClass: "",
-        type: "Passive Ability",
-        effect,
-        iconUrl: `/images/heroes/${hero.addressBar}.webp`,
-      })),
-    specializationPaths:
-      reference?.specializations?.map(({ name }) => name) ||
-      hero.paths.map(([name]) => name),
-    modifiers: reference?.modifiers || [],
-    rankImages: reference?.rankImages || {},
-    splashUrl: reference?.splashUrl || `/images/heroes/${hero.addressBar}.webp`,
-    quote: reference?.quote || "",
-    lore: reference?.lore || [],
-    sourcePath: reference?.sourcePath || `/heroes/${hero.addressBar}/`,
+    startingClass: classLabel,
+    startingAbility: hero.baseAbility.name,
+    specializations: hero.specializations.map((specialization, specializationIndex) => ({
+      ...specialization,
+      addressBar: `${hero.addressBar}-${slugify(specialization.name)}-${specializationIndex + 1}`,
+    })),
+    specializationPaths: hero.specializations.map(({ name }) => name),
     imageUrl: `/images/heroes/${hero.addressBar}.webp`,
     imageAlt: `${hero.name}, ${hero.title}, in Guildrun`,
     overview: `${hero.name} is ${/^[aeiou]/i.test(classLabel) ? "an" : "a"} ${classLabel} built around ${hero.role.toLowerCase()}. ${hero.fieldNote}`,
     difficulty: hero.classes.length > 1 ? "Advanced" : "Intermediate",
-    seo: createDetailTdk({
+    seo: defineTdk({
       h1: `Guildrun ${hero.name} - Hero Stats, Ranks and Build`,
       title: `${hero.name} Guildrun Hero - Stats, Ranks and Build`,
       description: `Explore ${hero.name} in Guildrun with complete base stats, rank gains, ${classLabel} class details, active ability, specialization paths, modifiers, role, positioning, and build connections.`,
@@ -85,6 +39,40 @@ export const heroesData = editorialJson.map((hero, index) => {
   };
 });
 
-export function getHero(addressBar) {
-  return heroesData.find((hero) => hero.addressBar === addressBar);
-}
+export const specializationsData = heroesData.flatMap((hero) =>
+  hero.specializations.map((specialization) => ({
+    ...specialization,
+    heroName: hero.name,
+    heroAddressBar: hero.addressBar,
+    heroClass: hero.startingClass,
+    heroImageUrl: hero.imageUrl,
+    href: `/heroes/${hero.addressBar}/#${specialization.addressBar}`,
+  })),
+);
+
+export const heroCollection = defineDetailCollection({
+  key: "heroes",
+  label: "Heroes",
+  basePath: "/heroes",
+  records: heroesData,
+  priority: 0.75,
+  changeFrequency: "monthly",
+  metadataType: "article",
+  image: (hero) => hero.splashUrl,
+  search: (hero, href) => ({
+    id: `hero-${hero.addressBar}`,
+    category: "Heroes",
+    title: hero.name,
+    href,
+    excerpt: `${hero.startingClass} · ${hero.attackType}. ${hero.role}`,
+    keywords: [
+      hero.title,
+      hero.guild,
+      hero.startingClass,
+      hero.attackType,
+      ...(hero.keywords || []),
+      ...(hero.classes || []),
+    ],
+    imageUrl: hero.imageUrl,
+  }),
+});

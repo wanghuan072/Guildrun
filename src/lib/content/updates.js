@@ -1,13 +1,10 @@
 import updateSeeds from "@/src/data/updates/updates.json";
-import patchSnapshot from "@/src/data/updates/patches.json";
-import { createDetailTdk } from "@/src/seo/tdk";
+import { defineDetailCollection } from "@/src/lib/content/collection";
+import { defineTdk } from "@/src/seo/tdk";
 
-export const updatesData = updateSeeds.map((update, index) => ({
+export const updatesData = updateSeeds.map((update) => ({
   ...update,
-  ledger: index === 0 && (!update.ledger || update.ledger.length === 0)
-    ? patchSnapshot.sections
-    : update.ledger,
-  seo: createDetailTdk({
+  seo: defineTdk({
     h1: `Guildrun Update - ${update.title}`,
     title: `Guildrun Update - ${update.title}`,
     description: `${update.excerpt} Read the dated changes, affected systems, practical strategy impact, and linked Guildrun pages that may need a different plan.`,
@@ -19,6 +16,22 @@ export const updatesData = updateSeeds.map((update, index) => ({
   }),
 }));
 
-export function getUpdate(addressBar) {
-  return updatesData.find((update) => update.addressBar === addressBar);
-}
+export const updateCollection = defineDetailCollection({
+  key: "updates",
+  label: "Updates",
+  basePath: "/updates",
+  records: updatesData,
+  priority: 0.8,
+  changeFrequency: "weekly",
+  metadataType: "article",
+  image: (update) => update.imageUrl,
+  search: (update, href) => ({
+    id: `update-${update.addressBar}`,
+    category: "Updates",
+    title: update.title,
+    href,
+    excerpt: update.excerpt,
+    keywords: [update.version, update.updateType],
+    imageUrl: update.imageUrl,
+  }),
+});

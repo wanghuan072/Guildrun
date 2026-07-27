@@ -7,6 +7,19 @@ import { createMetadata } from "@/src/seo/siteConfig";
 export const metadata = createMetadata({ ...pageTdk.guides, path: "/guides/" });
 
 export default function GuidesPage() {
+  const latestUpdatedDate = guidesData
+    .map((guide) => guide.updatedDate)
+    .sort()
+    .at(-1);
+  const latestUpdatedLabel = new Date(
+    `${latestUpdatedDate}T00:00:00Z`,
+  ).toLocaleDateString("en-US", {
+    day: "numeric",
+    month: "long",
+    timeZone: "UTC",
+    year: "numeric",
+  });
+
   return (
     <main className="page-main">
       <section className="page-hero-section">
@@ -15,12 +28,12 @@ export default function GuidesPage() {
         </div>
         <div className="container page-hero-content">
           <div className="page-hero-copy">
-            <span className="eyebrow">Core strategy pillars</span>
+            <span className="archive-eyebrow">Core strategy pillars</span>
             <h1>{pageTdk.guides.h1}</h1>
             <p>
-              Two deep Demo 0.5.1 foundations for now: a beginner handbook for
-              first clears, and a strategy guide for builds, ranks, relics, Red
-              Rift, and Endless. Topic pages will expand from these pillars.
+              Current Demo guides cover first clears, team construction, ranks,
+              relic decisions, Red Rift, and Endless. New records join this
+              library automatically when they are added to the local guide data.
             </p>
           </div>
           <aside className="page-hero-meta">
@@ -55,8 +68,8 @@ export default function GuidesPage() {
           <div className="verification-panel">
             <div><span>Start here</span><strong>Beginner Guide</strong></div>
             <div><span>Next read</span><strong>Strategy Guide</strong></div>
-            <div><span>Version</span><strong>Demo 0.5.1</strong></div>
-            <div><span>Updated</span><strong>July 25, 2026</strong></div>
+            <div><span>Version</span><strong>{guidesData[0].gameVersion}</strong></div>
+            <div><span>Updated</span><strong>{latestUpdatedLabel}</strong></div>
           </div>
         </div>
       </section>

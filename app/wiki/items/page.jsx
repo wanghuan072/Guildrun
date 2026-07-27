@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
-import ItemExplorer from "@/src/components/ItemExplorer";
+import CollectibleExplorer from "@/src/components/CollectibleExplorer";
 import { itemsData } from "@/src/lib/content/items";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -20,9 +20,8 @@ export default function ItemsPage() {
             <h1>{pageTdk.items.h1}</h1>
             <p>
               Filter the complete Demo item pool by rarity, role, stat, or
-              mechanic. Every item&apos;s stats, effect, price, and quest text
-              are kept together in this table so comparisons do not require
-              opening separate records.
+              mechanic. Compare the table, then open any item for its complete
+              stats, effect, quest, mechanics, and related local records.
             </p>
           </div>
           <div className="reference-page-head__count">
@@ -31,7 +30,7 @@ export default function ItemsPage() {
           </div>
         </header>
         <Suspense fallback={<p className="directory-status">Loading item filters…</p>}>
-          <ItemExplorer items={itemsData} />
+          <CollectibleExplorer records={itemsData} variant="items" />
         </Suspense>
       </ReferenceLayout>
     </main>

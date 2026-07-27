@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import dataset from "@/src/data/dataset.json";
 import {
   auctionHouseRules,
   combatRules,
@@ -58,7 +59,9 @@ export default function GameplayPage() {
       >
         <header className="reference-page-head">
           <div>
-            <span className="archive-eyebrow">Player handbook · Demo 0.5.1</span>
+            <span className="archive-eyebrow">
+              Player handbook · {dataset.gameVersion}
+            </span>
             <h1>{pageTdk.gameplay.h1}</h1>
             <p>
               A practical route from the opening draft to a stable five-hero
@@ -72,7 +75,7 @@ export default function GameplayPage() {
           </div>
         </header>
 
-        <article className="manual-article">
+        <article>
           <section className="manual-intro">
             <p>
               Guildrun is a single-player PvE roguelike autobattler. You choose

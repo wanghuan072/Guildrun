@@ -1,6 +1,9 @@
 [
   {
     "id": "2007",
+    "name": "Attack Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Attack Boost",
     "choices": [
       {
@@ -24,6 +27,9 @@
   },
   {
     "id": "2010",
+    "name": "Attack Speed Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Attack Speed Boost",
     "choices": [
       {
@@ -47,6 +53,9 @@
   },
   {
     "id": "2002",
+    "name": "Choose a Rare Relic",
+    "paths": "3",
+    "isFight": "No",
     "title": "Choose a Rare Relic",
     "choices": [
       {
@@ -92,6 +101,9 @@
   },
   {
     "id": "2001",
+    "name": "Choose an Epic Item",
+    "paths": "3",
+    "isFight": "No",
     "title": "Choose an Epic Item",
     "choices": [
       {
@@ -137,6 +149,9 @@
   },
   {
     "id": "2011",
+    "name": "Crit Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Crit Boost",
     "choices": [
       {
@@ -160,6 +175,9 @@
   },
   {
     "id": "1014",
+    "name": "Crystalline Prison",
+    "paths": "3",
+    "isFight": "No",
     "title": "Crystalline Prison",
     "choices": [
       {
@@ -213,6 +231,9 @@
   },
   {
     "id": "2009",
+    "name": "Defense Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Defense Boost",
     "choices": [
       {
@@ -236,6 +257,9 @@
   },
   {
     "id": "1023",
+    "name": "Express Delivery",
+    "paths": "0",
+    "isFight": "No",
     "title": "Express Delivery",
     "choices": [],
     "reachedVia": [
@@ -255,6 +279,9 @@
   },
   {
     "id": "800",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -278,6 +305,9 @@
   },
   {
     "id": "801",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -301,6 +331,9 @@
   },
   {
     "id": "802",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -324,6 +357,9 @@
   },
   {
     "id": "803",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -347,6 +383,9 @@
   },
   {
     "id": "804",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -370,6 +409,9 @@
   },
   {
     "id": "805",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -393,6 +435,9 @@
   },
   {
     "id": "806",
+    "name": "Find an Item",
+    "paths": "1",
+    "isFight": "No",
     "title": "Find an Item",
     "choices": [
       {
@@ -416,6 +461,9 @@
   },
   {
     "id": "2014",
+    "name": "HP/S Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "HP/S Boost",
     "choices": [
       {
@@ -439,6 +487,9 @@
   },
   {
     "id": "2008",
+    "name": "Magic Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Magic Boost",
     "choices": [
       {
@@ -462,6 +513,9 @@
   },
   {
     "id": "2006",
+    "name": "Mana Regen Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Mana Regen Boost",
     "choices": [
       {
@@ -485,6 +539,9 @@
   },
   {
     "id": "2005",
+    "name": "Max HP Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Max HP Boost",
     "choices": [
       {
@@ -508,6 +565,9 @@
   },
   {
     "id": "809",
+    "name": "Mine Shards",
+    "paths": "1",
+    "isFight": "No",
     "title": "Mine Shards",
     "choices": [
       {
@@ -531,6 +591,9 @@
   },
   {
     "id": "2013",
+    "name": "Omnivamp Boost",
+    "paths": "1",
+    "isFight": "No",
     "title": "Omnivamp Boost",
     "choices": [
       {
@@ -554,6 +617,9 @@
   },
   {
     "id": "2003",
+    "name": "Random Epic Relic",
+    "paths": "1",
+    "isFight": "No",
     "title": "Random Epic Relic",
     "choices": [
       {
@@ -577,6 +643,9 @@
   },
   {
     "id": "2004",
+    "name": "Retrain",
+    "paths": "1",
+    "isFight": "No",
     "title": "Retrain",
     "choices": [
       {
@@ -600,6 +669,9 @@
   },
   {
     "id": "2012",
+    "name": "S-Rank Hero",
+    "paths": "2",
+    "isFight": "No",
     "title": "S-Rank Hero",
     "choices": [
       {
@@ -629,6 +701,9 @@
   },
   {
     "id": "506",
+    "name": "Starter Kit",
+    "paths": "0",
+    "isFight": "No",
     "title": "Starter Kit",
     "choices": [],
     "reachedVia": [
@@ -640,6 +715,9 @@
   },
   {
     "id": "1019",
+    "name": "Strange Fruits",
+    "paths": "3",
+    "isFight": "No",
     "title": "Strange Fruits",
     "choices": [
       {
@@ -701,6 +779,9 @@
   },
   {
     "id": "505",
+    "name": "The Abandoned Camp",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Abandoned Camp",
     "choices": [],
     "reachedVia": [
@@ -712,6 +793,9 @@
   },
   {
     "id": "503",
+    "name": "The Altar",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Altar",
     "choices": [],
     "reachedVia": [
@@ -723,6 +807,9 @@
   },
   {
     "id": "600",
+    "name": "The Campfire",
+    "paths": "5",
+    "isFight": "Yes",
     "title": "The Campfire",
     "choices": [
       {
@@ -790,6 +877,9 @@
   },
   {
     "id": "601",
+    "name": "The Campfire",
+    "paths": "4",
+    "isFight": "Yes",
     "title": "The Campfire",
     "choices": [
       {
@@ -846,6 +936,9 @@
   },
   {
     "id": "1006",
+    "name": "The Curse of the Kiss",
+    "paths": "3",
+    "isFight": "No",
     "title": "The Curse of the Kiss",
     "choices": [
       {
@@ -903,6 +996,9 @@
   },
   {
     "id": "1030",
+    "name": "The Debtor",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Debtor",
     "choices": [],
     "reachedVia": [
@@ -918,6 +1014,9 @@
   },
   {
     "id": "1025",
+    "name": "The Etched Path",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Etched Path",
     "choices": [],
     "reachedVia": [
@@ -937,6 +1036,9 @@
   },
   {
     "id": "1028",
+    "name": "The Fairy Ring",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Fairy Ring",
     "choices": [],
     "reachedVia": [
@@ -956,6 +1058,9 @@
   },
   {
     "id": "504",
+    "name": "The Fallen Beast",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Fallen Beast",
     "choices": [],
     "reachedVia": [
@@ -967,6 +1072,9 @@
   },
   {
     "id": "1013",
+    "name": "The Guild Banner",
+    "paths": "2",
+    "isFight": "No",
     "title": "The Guild Banner",
     "choices": [
       {
@@ -1001,6 +1109,9 @@
   },
   {
     "id": "1018",
+    "name": "The Nest",
+    "paths": "2",
+    "isFight": "No",
     "title": "The Nest",
     "choices": [
       {
@@ -1047,6 +1158,9 @@
   },
   {
     "id": "1022",
+    "name": "The Reflecting Pool",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Reflecting Pool",
     "choices": [],
     "reachedVia": [
@@ -1062,6 +1176,9 @@
   },
   {
     "id": "1026",
+    "name": "The Rift Puppy",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Rift Puppy",
     "choices": [],
     "reachedVia": [
@@ -1077,6 +1194,9 @@
   },
   {
     "id": "1024",
+    "name": "The Ringing Fall",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Ringing Fall",
     "choices": [],
     "reachedVia": [
@@ -1096,6 +1216,9 @@
   },
   {
     "id": "1017",
+    "name": "The Slumbering Monster",
+    "paths": "2",
+    "isFight": "No",
     "title": "The Slumbering Monster",
     "choices": [
       {
@@ -1138,6 +1261,9 @@
   },
   {
     "id": "1001",
+    "name": "The Void Beast",
+    "paths": "2",
+    "isFight": "No",
     "title": "The Void Beast",
     "choices": [
       {
@@ -1184,6 +1310,9 @@
   },
   {
     "id": "1029",
+    "name": "The Well of Temptations",
+    "paths": "0",
+    "isFight": "No",
     "title": "The Well of Temptations",
     "choices": [],
     "reachedVia": [
@@ -1199,6 +1328,9 @@
   },
   {
     "id": "1027",
+    "name": "Three Paths",
+    "paths": "0",
+    "isFight": "No",
     "title": "Three Paths",
     "choices": [],
     "reachedVia": [
@@ -1218,6 +1350,9 @@
   },
   {
     "id": "902",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1241,6 +1376,9 @@
   },
   {
     "id": "903",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1264,6 +1402,9 @@
   },
   {
     "id": "904",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1287,6 +1428,9 @@
   },
   {
     "id": "905",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1310,6 +1454,9 @@
   },
   {
     "id": "906",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1333,6 +1480,9 @@
   },
   {
     "id": "907",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1356,6 +1506,9 @@
   },
   {
     "id": "908",
+    "name": "Train a Hero",
+    "paths": "1",
+    "isFight": "No",
     "title": "Train a Hero",
     "choices": [
       {
@@ -1379,6 +1532,9 @@
   },
   {
     "id": "1034",
+    "name": "Trial: Demolition",
+    "paths": "0",
+    "isFight": "No",
     "title": "Trial: Demolition",
     "choices": [],
     "reachedVia": [
@@ -1394,6 +1550,9 @@
   },
   {
     "id": "1033",
+    "name": "Trial: Endurance",
+    "paths": "0",
+    "isFight": "No",
     "title": "Trial: Endurance",
     "choices": [],
     "reachedVia": [
@@ -1409,6 +1568,9 @@
   },
   {
     "id": "1035",
+    "name": "Trial: Rematch",
+    "paths": "0",
+    "isFight": "No",
     "title": "Trial: Rematch",
     "choices": [],
     "reachedVia": [
@@ -1420,6 +1582,9 @@
   },
   {
     "id": "1032",
+    "name": "Trial: Single Combat",
+    "paths": "0",
+    "isFight": "No",
     "title": "Trial: Single Combat",
     "choices": [],
     "reachedVia": [

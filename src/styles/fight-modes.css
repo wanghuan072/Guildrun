@@ -222,7 +222,10 @@
 }
 
 @media (max-width: 1024px) {
-  .fight-mode-grid,
+  .fight-mode-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .fight-campaign-rail {
     grid-template-columns: 1fr;
   }
@@ -242,6 +245,10 @@
 }
 
 @media (max-width: 768px) {
+  .fight-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
   .fight-set-band {
     padding: 12px;
   }

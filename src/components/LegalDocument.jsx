@@ -14,7 +14,7 @@ export default function LegalDocument({ document, path, tdk }) {
       <section className="page-section">
         <div className="container page-content">
           <header className="page-heading">
-            <span className="eyebrow">{document.eyebrow}</span>
+            <span className="archive-eyebrow">{document.eyebrow}</span>
             <h1>{tdk.h1}</h1>
             <p>{document.intro}</p>
           </header>

@@ -1,26 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReferenceLayout from "@/src/components/ReferenceLayout";
-import JsonLd from "@/src/components/JsonLd";
-import { statusEffectsData, enemiesData, getEnemy } from "@/src/lib/content/wiki";
+import DetailPageLayout from "@/src/components/DetailPageLayout";
+import {
+  enemyCollection,
+  statusEffectsData,
+} from "@/src/lib/content/wiki";
 import { stagesReferenceData } from "@/src/lib/content/world";
-import { createMetadata } from "@/src/seo/siteConfig";
 import { breadcrumbSchema, definedTermSchema } from "@/src/seo/schema";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
-  return enemiesData.map(({ addressBar }) => ({ addressBar }));
+  return enemyCollection.staticParams();
 }
 
 export async function generateMetadata({ params }) {
-  const { addressBar } = await params;
-  const enemy = getEnemy(addressBar);
+  const enemy = enemyCollection.get((await params).addressBar);
   if (!enemy) return {};
-  return createMetadata({
-    ...enemy.seo,
-    path: `/wiki/enemies/${addressBar}/`,
-    image: enemy.imageUrl,
-  });
+  return enemyCollection.metadata(enemy);
 }
 
 function groupAnchor(name) {
@@ -29,7 +27,7 @@ function groupAnchor(name) {
 
 export default async function EnemyDetailPage({ params }) {
   const { addressBar } = await params;
-  const enemy = getEnemy(addressBar);
+  const enemy = enemyCollection.get(addressBar);
   if (!enemy) notFound();
 
   const abilityText = (enemy.abilities || []).map((ability) => ability.description).join(" ");
@@ -65,16 +63,17 @@ export default async function EnemyDetailPage({ params }) {
   ];
 
   return (
-    <main className="archive-main">
-      <JsonLd data={jsonLd} />
-      <ReferenceLayout section="wiki" activeHref="/wiki/enemies/" pageLinks={pageLinks}>
-        <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            <li><Link href="/wiki/">Wiki</Link></li>
-            <li><Link href="/wiki/enemies/">Enemies</Link></li>
-            <li>{enemy.name}</li>
-          </ol>
-        </nav>
+    <DetailPageLayout
+      section="wiki"
+      activeHref="/wiki/enemies/"
+      pageLinks={pageLinks}
+      breadcrumbs={[
+        { label: "Wiki", href: "/wiki/" },
+        { label: "Enemies", href: "/wiki/enemies/" },
+        { label: enemy.name },
+      ]}
+      jsonLd={jsonLd}
+    >
 
         <header className="record-head">
           <div className="record-head__image">
@@ -225,7 +224,6 @@ export default async function EnemyDetailPage({ params }) {
             </div>
           </section>
         </article>
-      </ReferenceLayout>
-    </main>
+    </DetailPageLayout>
   );
 }
