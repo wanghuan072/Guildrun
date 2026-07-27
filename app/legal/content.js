@@ -9,15 +9,15 @@ export const legalData = {
       {
         title: "Information handled during a visit",
         paragraphs: [
-          "The website may process standard technical details such as browser type, device type, requested page, approximate region, referring page, and visit time. This information is generally produced by web servers, hosting services, security tools, or privacy-conscious analytics and is used to keep pages available and understandable.",
+          "The website uses Google Analytics to understand aggregate visits and page usage. It may process details such as the requested page, visit time, browser and device type, approximate region, and referring page. This information is used to understand which local guides and databases are useful and to identify technical problems.",
           "We do not ask visitors to create an account, submit a gameplay profile, or complete a contact form. If you send an email voluntarily, the address and message content are used only to understand and respond to that communication.",
         ],
       },
       {
-        title: "Cookies and local storage",
+        title: "Google Analytics and browser controls",
         paragraphs: [
-          "Essential browser storage may be used when it is necessary for security, accessibility, or interface preferences. If analytics or advertising services are added, they may use cookies or similar technologies according to their own policies and the choices available in your browser.",
-          "You can remove stored website data, restrict cookies, or use browser privacy controls at any time. Some technical preferences may reset after storage is cleared.",
+          "Google Analytics may use cookies or similar browser identifiers to distinguish visits and produce aggregate reports. Google handles that information under its own privacy terms; this website does not receive a visitor's Google account password or private gameplay data.",
+          "You can restrict or remove cookies, use browser privacy controls, or block analytics scripts at any time. The guides and local databases remain readable without creating an account.",
         ],
       },
       {

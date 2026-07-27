@@ -74,14 +74,14 @@ export const statusEffectCollection = defineDetailCollection({
   }),
 });
 
-const countMap = {
+export const wikiCounts = Object.freeze({
   items: itemsJson.length,
   relics: relicsJson.length,
   enemies: enemiesData.length,
   statusEffects: statusEffectsData.length,
-};
+});
 
 export const wikiCategories = categoriesJson.map((category) => ({
   ...category,
-  count: countMap[category.countKey] ?? 0,
+  count: wikiCounts[category.countKey] ?? 0,
 }));

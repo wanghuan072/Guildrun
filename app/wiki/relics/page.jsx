@@ -20,8 +20,9 @@ export default function RelicsPage() {
             <h1>{pageTdk.relics.h1}</h1>
             <p>
               Compare the full relic pool by rarity, category, trigger, and
-              reward. Open any relic for its complete effect, quest condition,
-              indexed mechanics, and related local records.
+              reward. Complete effects and quest conditions stay in the
+              searchable table, with links only for mechanics that have their
+              own local records.
             </p>
           </div>
           <div className="reference-page-head__count">

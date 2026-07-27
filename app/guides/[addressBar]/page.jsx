@@ -68,29 +68,29 @@ export default async function GuidePage({ params }) {
       ]}
       jsonLd={jsonLd}
     >
-      <header className="record-head">
-        <div className="record-head__copy">
+      <header className="guide-record-head">
+        <div className="guide-record-head__copy">
           <span className="archive-eyebrow">{guide.category} · {guide.gameVersion}</span>
           <h1>{guide.seo.h1}</h1>
           <p>{guide.excerpt}</p>
-          <div className="record-head__meta">
-            <span><strong>Author</strong> {guide.author}</span>
-            <span><strong>Maintainer</strong> {guide.reviewedBy}</span>
-            <span><strong>Updated</strong> {guide.updatedDate}</span>
+          <div className="guide-record-head__meta">
+            <span><small>Author</small><strong>{guide.author}</strong></span>
+            <span><small>Maintainer</small><strong>{guide.reviewedBy}</strong></span>
+            <span><small>Updated</small><strong>{guide.updatedDate}</strong></span>
           </div>
         </div>
-        <div className="record-head__image">
+        <figure className="guide-record-head__image">
           <Image
             src={guide.imageUrl}
             alt={guide.imageAlt}
             fill
             priority
-            sizes="(max-width: 768px) calc(100vw - 48px), 420px"
+            sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1200px) 38vw, 460px"
           />
-        </div>
+        </figure>
       </header>
-      <div className="detail-body-content">
-        <article className="detail-article">
+      <div className="detail-body-content guide-detail-layout">
+        <article className="detail-article guide-detail-article">
           <section className="detail-section-block" id="opening-plan">
             <span className="archive-eyebrow">Opening plan</span>
             <h2>The plan in three moves</h2>

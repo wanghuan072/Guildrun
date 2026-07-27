@@ -56,6 +56,11 @@ export default function AppFooter() {
         </div>
         <div className="footer-legal">
           <p>Copyright © {year} {siteConfig.siteName}. All rights reserved.</p>
+          <p className="footer-disclaimer">
+            Guildrun is an unofficial fan website and is not affiliated with,
+            endorsed by, or connected to Leyline. Guildrun names, artwork,
+            characters, and trademarks belong to their respective rights holders.
+          </p>
         </div>
       </div>
     </footer>

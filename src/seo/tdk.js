@@ -56,7 +56,7 @@ export const pageTdk = {
     h1: "Guildrun Wiki - Items, Relics, Enemies and Effects",
     title: "Guildrun Wiki - Items, Relics, Enemies and Effects",
     description:
-      "Browse Guildrun items, relics, enemies, and status effects, then open detailed records with stats, mechanics, related entries, and practical gameplay links.",
+      "Browse Guildrun items and relics in searchable local tables, then use dedicated enemy and status-effect records for mechanics, variants, counters, and related entries.",
     keywords: [
       "Guildrun Wiki",
       "Guildrun items",
@@ -110,14 +110,14 @@ export const pageTdk = {
     h1: "Guildrun Items - Stats, Effects, Prices and Builds",
     title: "Guildrun Items - Stats, Effects, Prices and Builds",
     description:
-      "Search Guildrun items by rarity, price, type, stat bonus, quest effect, and combat keyword, then open each record for mechanics and related build links.",
+      "Search the local Guildrun item table by rarity, price, type, stat bonus, effect, and combat keyword, with complete rows and linked status mechanics.",
     keywords: ["Guildrun items", "Guildrun item list", "Guildrun item stats"],
   }),
   relics: defineTdk({
     h1: "Guildrun Relics - Effects, Quests and Build Uses",
     title: "Guildrun Relics - Effects, Quests and Build Uses",
     description:
-      "Compare Guildrun relics by rarity, category, price, quest, trigger, and combat keyword, then inspect complete effects and useful item or status connections.",
+      "Compare the local Guildrun relic table by rarity, category, price, quest, trigger, and combat keyword, with complete effects shown directly in each row.",
     keywords: ["Guildrun relics", "Guildrun relic list", "Guildrun relic effects"],
   }),
   enemies: defineTdk({

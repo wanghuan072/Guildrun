@@ -4,7 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { searchCategories, searchSite } from "@/src/lib/searchIndex";
+import {
+  searchCategories,
+  searchSite,
+  unpackSearchIndex,
+} from "@/src/lib/searchCore";
 import dataset from "@/src/data/dataset.json";
 
 export default function SiteSearch() {
@@ -17,6 +21,11 @@ export default function SiteSearch() {
   const [category, setCategory] = useState(
     searchCategories.includes(initialCategory) ? initialCategory : "All",
   );
+  const [records, setRecords] = useState(null);
+  const [indexStatus, setIndexStatus] = useState("idle");
+  const [loadAttempt, setLoadAttempt] = useState(0);
+  const shouldLoadIndex =
+    Boolean(query.trim()) && !records && indexStatus !== "error";
 
   useEffect(() => {
     function restoreSearch() {
@@ -29,9 +38,37 @@ export default function SiteSearch() {
     return () => window.removeEventListener("popstate", restoreSearch);
   }, []);
 
+  useEffect(() => {
+    if (!shouldLoadIndex) return;
+
+    let active = true;
+
+    async function loadLocalIndex() {
+      try {
+        const response = await fetch("/search-index.json", {
+          cache: "force-cache",
+        });
+        if (!response.ok) {
+          throw new Error(`Search index returned ${response.status}`);
+        }
+        const rows = await response.json();
+        if (!active) return;
+        setRecords(unpackSearchIndex(rows));
+        setIndexStatus("ready");
+      } catch {
+        if (active) setIndexStatus("error");
+      }
+    }
+
+    loadLocalIndex();
+    return () => {
+      active = false;
+    };
+  }, [loadAttempt, shouldLoadIndex]);
+
   const results = useMemo(
-    () => searchSite(query, category),
-    [query, category],
+    () => searchSite(records || [], query, category),
+    [records, query, category],
   );
 
   function syncUrl(nextQuery, nextCategory) {
@@ -55,7 +92,6 @@ export default function SiteSearch() {
         <label className="site-search-field">
           <span>Search Guildrun</span>
           <input
-            autoFocus
             aria-label="Search Guildrun guides and databases"
             onChange={(event) => {
               const value = event.target.value;
@@ -105,6 +141,24 @@ export default function SiteSearch() {
               </button>
             ))}
           </div>
+        </div>
+      ) : indexStatus === "idle" ? (
+        <div className="site-search-empty site-search-loading" role="status">
+          <p>Loading the local {dataset.gameVersion} search index…</p>
+        </div>
+      ) : indexStatus === "error" ? (
+        <div className="site-search-empty">
+          <p>The local search index could not be loaded.</p>
+          <button
+            className="site-search-retry"
+            type="button"
+            onClick={() => {
+              setIndexStatus("idle");
+              setLoadAttempt((current) => current + 1);
+            }}
+          >
+            Retry local search
+          </button>
         </div>
       ) : (
         <>

@@ -1281,6 +1281,8 @@
 
 .table-scroll {
   overflow-x: auto;
+  scrollbar-color: var(--color-primary) var(--color-background-deep);
+  scrollbar-width: thin;
 }
 
 .directory-table {
@@ -1480,7 +1482,7 @@
 .directory-toolbar select {
   border: 1px solid var(--color-border);
   background: var(--color-background-deep);
-  min-height: 40px;
+  min-height: 44px;
   color: var(--color-text);
   font: inherit;
   border-radius: 0;
@@ -1562,12 +1564,38 @@
     gap: 20px;
     padding-top: 20px;
   }
+  .reference-sidebar {
+    display: block;
+    overflow: visible;
+  }
+  .reference-sidebar__group {
+    width: 100%;
+    min-width: 0;
+  }
+  .reference-sidebar__group nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .reference-sidebar nav a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
   .reference-page-head {
     grid-template-columns: 1fr;
   }
   .reference-page-head__count {
     border-left: 0;
     padding-left: 0;
+  }
+  .directory-table {
+    min-width: 760px;
+  }
+  .directory-toolbar input,
+  .directory-toolbar select {
+    flex: 1 1 100%;
+    width: 100%;
   }
   .entity-strip {
     grid-template-columns: 1fr;

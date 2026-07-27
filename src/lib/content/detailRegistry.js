@@ -4,6 +4,7 @@ import { updateCollection } from "@/src/lib/content/updates";
 import {
   enemyCollection,
   statusEffectCollection,
+  wikiCounts,
 } from "@/src/lib/content/wiki";
 import {
   eventCollection,
@@ -28,3 +29,9 @@ export const detailCounts = Object.freeze(
     ]),
   ),
 );
+
+export const contentCounts = Object.freeze({
+  ...detailCounts,
+  items: wikiCounts.items,
+  relics: wikiCounts.relics,
+});

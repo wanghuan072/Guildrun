@@ -19,9 +19,9 @@ export default function ItemsPage() {
             <span className="archive-eyebrow">Equipment database</span>
             <h1>{pageTdk.items.h1}</h1>
             <p>
-              Filter the complete Demo item pool by rarity, role, stat, or
-              mechanic. Compare the table, then open any item for its complete
-              stats, effect, quest, mechanics, and related local records.
+              Filter the complete local Demo item pool by rarity, type, stat,
+              or mechanic. Every effect is shown directly in the table, with
+              linked status mechanics where a matching local record exists.
             </p>
           </div>
           <div className="reference-page-head__count">

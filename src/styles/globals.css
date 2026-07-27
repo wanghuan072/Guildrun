@@ -76,6 +76,7 @@ h3 {
 
 p {
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 ul {
@@ -100,4 +101,23 @@ img {
 .container {
   width: min(100% - 48px, 1400px);
   margin: 0 auto;
+}
+
+.table-scroll::-webkit-scrollbar,
+.formation-board::-webkit-scrollbar,
+.guide-article-content::-webkit-scrollbar {
+  height: 8px;
+}
+
+.table-scroll::-webkit-scrollbar-track,
+.formation-board::-webkit-scrollbar-track,
+.guide-article-content::-webkit-scrollbar-track {
+  background: var(--color-background-deep);
+}
+
+.table-scroll::-webkit-scrollbar-thumb,
+.formation-board::-webkit-scrollbar-thumb,
+.guide-article-content::-webkit-scrollbar-thumb {
+  border: 2px solid var(--color-background-deep);
+  background: var(--color-primary);
 }

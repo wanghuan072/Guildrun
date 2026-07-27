@@ -82,6 +82,18 @@ export default function AppHeader() {
               );
             })}
           </ul>
+          <div className="mobile-navigation-actions">
+            <Link href="/search/" onClick={() => setMenuOpen(false)}>
+              Search guide
+            </Link>
+            <a
+              href={siteConfig.demoUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              Play Demo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </nav>
 
         <div className="header-actions">

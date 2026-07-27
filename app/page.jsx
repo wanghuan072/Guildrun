@@ -6,7 +6,7 @@ import { guidesData } from "@/src/lib/content/guides";
 import { heroesData } from "@/src/lib/content/heroes";
 import { updatesData } from "@/src/lib/content/updates";
 import dataset from "@/src/data/dataset.json";
-import { detailCounts } from "@/src/lib/content/detailRegistry";
+import { contentCounts } from "@/src/lib/content/detailRegistry";
 import { wikiCategories } from "@/src/lib/content/wiki";
 import { worldCategories } from "@/src/lib/content/world";
 import { faqPageSchema } from "@/src/seo/schema";
@@ -140,7 +140,7 @@ export default function HomePage() {
     stages,
     enemies,
     events,
-  } = detailCounts;
+  } = contentCounts;
 
   const gameJsonLd = {
     "@context": "https://schema.org",
@@ -174,15 +174,11 @@ export default function HomePage() {
               <span aria-hidden="true">✥</span>
               {dataset.gameVersion} · Guide &amp; Wiki
             </span>
-            <h1 id="home-title">
-              Guildrun - Heroes,<br />
-              Builds, Wiki and<br />
-              Strategy Guide
-            </h1>
+            <h1 id="home-title">{pageTdk.home.h1}</h1>
             <p>
-              A PvE roguelike autobattler handbook: recruit, equip, and position
-              before combat resolves—then spend the next reward on a specific
-              weakness.
+              Plan Guildrun runs with the local {dataset.gameVersion} archive:
+              compare heroes, inspect item and relic effects, read stage
+              formations, and turn each loss into a clearer next decision.
             </p>
             <div className="home-hero-actions">
               <Link className="home-primary-button" href="/guides/guildrun-beginner-guide/">
@@ -191,6 +187,12 @@ export default function HomePage() {
               <Link className="home-secondary-button" href="/gameplay/">
                 Open Handbook <span aria-hidden="true">♙</span>
               </Link>
+            </div>
+            <div className="home-hero-status" aria-label="Current local database coverage">
+              <span><strong>{heroes}</strong> heroes</span>
+              <span><strong>{items}</strong> items</span>
+              <span><strong>{relics}</strong> relics</span>
+              <span><strong>{stages}</strong> formations</span>
             </div>
           </div>
         </section>
