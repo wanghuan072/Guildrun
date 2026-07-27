@@ -30,5 +30,13 @@
     "label": "Combat language",
     "description": "Understand Poison, Burn, Frost, Stun, Stealth, Taunt, Shields, Rush, Stall, and other live combat rules.",
     "imageUrl": "/images/gameplay/combat-system.webp"
+  },
+  {
+    "name": "Rank Modifiers",
+    "href": "/wiki/rank-modifiers/",
+    "countKey": "rankModifiers",
+    "label": "Rank A and S offers",
+    "description": "Search the unique class modifier pool by effect, trigger, class, or every Hero that can receive the offer.",
+    "imageUrl": "/images/progression/specialization-choice.webp"
   }
 ]

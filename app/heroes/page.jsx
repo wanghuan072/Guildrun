@@ -1,7 +1,9 @@
+import Link from "next/link";
 import HeroExplorer from "@/src/components/HeroExplorer";
 import { heroClasses, heroesData } from "@/src/lib/content/heroes";
 import { pageTdk } from "@/src/seo/tdk";
 import { createMetadata } from "@/src/seo/siteConfig";
+import "@/src/styles/systems.css";
 
 export const metadata = createMetadata({ ...pageTdk.heroes, path: "/heroes/" });
 
@@ -27,6 +29,23 @@ export default function HeroesPage() {
             <span>{rangedCount} ranged · {heroesData.length - rangedCount} melee</span>
           </div>
         </header>
+        <nav className="hero-taxonomy-rail" aria-label="Explore Hero systems">
+          <Link href="/heroes/classes/">
+            <span>07 classes</span>
+            <strong>Class mechanics</strong>
+            <small>Primary stats, dual-class paths, and related Heroes</small>
+          </Link>
+          <Link href="/heroes/guilds/">
+            <span>06 guilds</span>
+            <strong>Guild banners and lore</strong>
+            <small>Official profiles and connected roster members</small>
+          </Link>
+          <Link href="/wiki/rank-modifiers/">
+            <span>Rank A / S</span>
+            <strong>Modifier pool</strong>
+            <small>Search effects by class, trigger, or Hero</small>
+          </Link>
+        </nav>
         <HeroExplorer heroes={heroesData} classes={heroClasses} />
       </div>
     </main>

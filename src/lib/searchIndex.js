@@ -21,8 +21,13 @@ function entry({
 const staticPages = [
   ["gameplay", "Player Handbook", "/gameplay/", "Run loop, team building, enemies, and positioning.", ["gameplay", "how to play", "handbook"]],
   ["growth", "Growth Route", "/gameplay/growth-route/", "Board size, Rank C to S, and upgrade order.", ["ranks", "progression", "economy", "specializations"]],
+  ["mastery", "Mastery & Unlocks", "/gameplay/mastery-unlocks/", "Mastery trophies, unlock levels, bundles, and Boss Tokens.", ["mastery", "boss tokens", "unlocks", "starting bundles"]],
+  ["stats", "Stats & Formulas", "/gameplay/stats/", "Defense, Crit, Mana Regen, Omnivamp, range, and timing rules.", ["stats", "defense", "crit", "mana regen", "omnivamp"]],
   ["wiki", "Wiki Databases", "/wiki/", "Items, relics, enemies, and status effects.", ["wiki", "database"]],
+  ["rank-modifiers", "Rank Modifiers", "/wiki/rank-modifiers/", "Unique Rank A and S modifier effects by class and Hero.", ["rank modifiers", "rank a", "rank s", "modifier pool"]],
   ["heroes", "Heroes Roster", "/heroes/", "Compare every hero by class, range, ranks, and paths.", ["heroes", "roster", "classes"]],
+  ["classes", "Hero Classes", "/heroes/classes/", "Seven classes, primary stats, mechanics, and related Heroes.", ["warrior", "tank", "vanguard", "assassin", "duelist", "mystic", "mage"]],
+  ["guilds", "Guilds", "/heroes/guilds/", "Six guild banners, official lore, and connected Heroes.", ["guilds", "the hunt", "frontline", "gaia project", "a temple", "lheritage", "aegis global"]],
   ["world", "World Databases", "/world/", "Stages, events, crossroads, fight modes, and stat mods.", ["world", "stages", "events"]],
   ["release", "Release Date", "/release-date/", "Demo availability and full-game launch status.", ["release", "launch", "demo"]],
   ["fight-modes", "Fight Modes", "/world/fight-modes/", "Endless, Red Rift, and challenge mode thresholds.", ["endless", "red rift", "challenge"]],

@@ -45,6 +45,10 @@ export default function StatModsPage() {
               same stat, so open the linked event before planning around the
               value alone.
             </p>
+            <div className="manual-link-row">
+              <Link href="/wiki/rank-modifiers/">Open class-based Rank Modifiers</Link>
+              <Link href="/gameplay/stats/">Review stat formulas</Link>
+            </div>
           </section>
 
           {statModsReferenceData.map((group) => {
@@ -91,6 +95,7 @@ export default function StatModsPage() {
               <Link href="/heroes/">Compare hero base stats</Link>
               <Link href="/world/events/">Open event outcomes</Link>
               <Link href="/gameplay/growth-route/">Growth Route guide</Link>
+              <Link href="/gameplay/stats/">Stats and formulas</Link>
             </div>
           </section>
         </article>

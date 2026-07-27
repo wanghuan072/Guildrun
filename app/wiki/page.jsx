@@ -35,7 +35,7 @@ export default function WikiPage() {
         </header>
 
         <section className="manual-section">
-          <span className="archive-kicker">Four focused databases</span>
+          <span className="archive-kicker">Five focused databases</span>
           <h2>Find the entity first, then follow its connections</h2>
           <div className="wiki-category-list">
             {wikiCategories.map((category, index) => (
@@ -61,10 +61,9 @@ export default function WikiPage() {
           <h2>Mechanics are linked in both directions</h2>
           <p>
             Item and relic records link to the statuses they create or amplify.
-            Status pages return the complete set of related equipment, heroes,
-            and enemies. Enemy records connect their variants to stage data, so
-            a player can move from a failed fight to the exact threat rather
-            than search through unrelated prose.
+            Status pages return the related equipment, Heroes, and enemies.
+            Rank Modifiers connect class-based Rank A and S offers back to every
+            eligible Hero, while enemy records connect variants to stage data.
           </p>
         </section>
       </ReferenceLayout>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
 import dataset from "@/src/data/dataset.json";
+import referenceData from "@/src/data/gameplay/reference.json";
 import {
   auctionHouseRules,
   combatRules,
@@ -16,6 +17,7 @@ import { heroesData } from "@/src/lib/content/heroes";
 import { enemiesData } from "@/src/lib/content/wiki";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
+import "@/src/styles/systems.css";
 
 export const metadata = createMetadata({
   ...pageTdk.gameplay,
@@ -360,6 +362,8 @@ export default function GameplayPage() {
             </p>
             <div className="manual-link-row">
               <Link href="/heroes/">Browse and filter the full hero roster</Link>
+              <Link href="/heroes/classes/">Compare the seven classes</Link>
+              <Link href="/heroes/guilds/">Meet the six guilds</Link>
               <Link href="/gameplay/growth-route/">Continue to the Guildrun Growth Route</Link>
             </div>
           </section>
@@ -396,6 +400,16 @@ export default function GameplayPage() {
                 </tbody>
               </table>
             </div>
+            <h3>Shop interface systems</h3>
+            <div className="shop-systems-strip">
+              {referenceData.shopSystems.map((system, index) => (
+                <article key={system.name}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <h4>{system.name}</h4>
+                  <p>{system.description}</p>
+                </article>
+              ))}
+            </div>
             <h3>Price reference</h3>
             <div className="table-scroll">
               <table className="reference-table">
@@ -420,6 +434,7 @@ export default function GameplayPage() {
               <Link href="/guides/guildrun-beginner-guide/">Open the beginner shop and positioning guide</Link>
               <Link href="/guides/guildrun-strategy-guide/">Continue with the strategy guide</Link>
               <Link href="/gameplay/growth-route/">Plan the next roster and rank breakpoint</Link>
+              <Link href="/gameplay/mastery-unlocks/">Review Mastery and Boss Tokens</Link>
             </div>
           </section>
         </article>

@@ -52,6 +52,20 @@ export const pageTdk = {
       "Plan a Guildrun growth route through roster slots, duplicate ranks, specialization choices, items, relics, Auction House upgrades, and late-run build pivots.",
     keywords: ["Guildrun growth route", "Guildrun ranks", "Guildrun upgrades"],
   }),
+  masteryUnlocks: defineTdk({
+    h1: "Guildrun Mastery Unlocks and Boss Tokens",
+    title: "Guildrun Mastery Unlocks and Boss Tokens Guide",
+    description:
+      "Track all nine Guildrun Mastery levels, specialization trophies, Hero and build bundles, Boss Token slots, token rewards, and starting-bundle rerolls.",
+    keywords: ["Guildrun Mastery", "Guildrun Boss Tokens", "Guildrun unlocks"],
+  }),
+  stats: defineTdk({
+    h1: "Guildrun Stats - Defense, Crit and Mana Formulas",
+    title: "Guildrun Stats - Defense, Crit and Mana Formulas",
+    description:
+      "Learn every Guildrun combat stat with exact rules for Defense scaling, Crit overflow, Mana Regen pulses, Omnivamp healing, Attack Range, and cast timing.",
+    keywords: ["Guildrun stats", "Guildrun Defense", "Guildrun Crit", "Guildrun Mana Regen"],
+  }),
   wiki: defineTdk({
     h1: "Guildrun Wiki - Items, Relics, Enemies and Effects",
     title: "Guildrun Wiki - Items, Relics, Enemies and Effects",
@@ -70,6 +84,20 @@ export const pageTdk = {
     description:
       "Compare every Guildrun hero by class, attack type, keywords, base stats, rank gains, abilities, specialization paths, modifiers, and practical team role.",
     keywords: ["Guildrun heroes", "Guildrun hero list", "Guildrun hero stats"],
+  }),
+  heroClasses: defineTdk({
+    h1: "Guildrun Classes - Stats, Mechanics and Heroes",
+    title: "Guildrun Classes - Stats, Mechanics and Heroes",
+    description:
+      "Compare all seven Guildrun classes by primary stat, combat mechanics, related Heroes, dual-class specialization paths, status links, and team role.",
+    keywords: ["Guildrun classes", "Guildrun Warrior", "Guildrun Tank", "Guildrun Mage"],
+  }),
+  guilds: defineTdk({
+    h1: "Guildrun Guilds - Banners, Lore and Heroes",
+    title: "Guildrun Guilds - Banners, Lore and Heroes",
+    description:
+      "Meet all six Guildrun guilds through their official banners, taglines, backgrounds, values, and connected Heroes from The Hunt to Aegis Global.",
+    keywords: ["Guildrun guilds", "Guildrun lore", "The Hunt", "Aegis Global"],
   }),
   world: defineTdk({
     h1: "Guildrun World - Stages, Events and Fight Modes",
@@ -133,6 +161,13 @@ export const pageTdk = {
     description:
       "Learn how Guildrun status effects work, including Burn, Poison, Frost, Stun, Shields, Rush, Stall, Stealth, and links to items and relics that apply them.",
     keywords: ["Guildrun status effects", "Guildrun Burn", "Guildrun Poison"],
+  }),
+  rankModifiers: defineTdk({
+    h1: "Guildrun Rank Modifiers - Effects, Classes and Heroes",
+    title: "Guildrun Rank Modifiers - Effects and Classes",
+    description:
+      "Search unique Guildrun Rank Modifiers by name, effect, trigger, class, or Hero and compare the Rank A and S offer pool without duplicate records.",
+    keywords: ["Guildrun Rank Modifiers", "Guildrun modifiers", "Guildrun Rank A", "Guildrun Rank S"],
   }),
   stages: defineTdk({
     h1: "Guildrun Stages - Floors, Formations and Rewards",

@@ -1,8 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
 import { eventCollection } from "@/src/lib/content/world";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
+import "@/src/styles/systems.css";
 
 export const dynamicParams = false;
 
@@ -49,20 +51,32 @@ export default async function EventDetailPage({ params }) {
       ]}
       jsonLd={jsonLd}
     >
-        <header className="reference-page-head">
+        <header className={`reference-page-head ${event.imageUrl ? "event-record-head" : ""}`}>
           <div>
             <span className="archive-eyebrow">{event.kind} · Record #{event.id}</span>
             <h1>{event.seo.h1}</h1>
             <p>
-              Complete current dataset record for this event&apos;s prompts,
-              outcomes, rewards, and route connections. The best option still depends
-              on the next fight and the active build.
+              {event.officialDescription ||
+                "Review this event's recorded prompts, outcomes, rewards, and route connections. The best option still depends on the next fight and the active build."}
             </p>
           </div>
-          <div className="reference-page-head__count">
-            <strong>{event.choices?.length || event.paths}</strong>
-            <span>recorded choices</span>
-          </div>
+          {event.imageUrl ? (
+            <div className="event-record-head__art">
+              <Image
+                src={event.imageUrl}
+                alt={`${title} event illustration`}
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 380px"
+              />
+              <span>In-game event art</span>
+            </div>
+          ) : (
+            <div className="reference-page-head__count">
+              <strong>{event.choices?.length || event.paths}</strong>
+              <span>recorded choices</span>
+            </div>
+          )}
         </header>
 
         <article className="record-sections">
@@ -77,6 +91,12 @@ export default async function EventDetailPage({ params }) {
               <div><span>Parsed choices</span><strong>{event.choices?.length || 0}</strong></div>
               <div><span>Route connections</span><strong>{event.reachedVia?.length || 0}</strong></div>
             </div>
+            {event.crossroadsDescription ? (
+              <div className="event-route-brief">
+                <span>Route preview</span>
+                <p>{event.crossroadsDescription}</p>
+              </div>
+            ) : null}
           </section>
 
           <section className="record-section" id="choices">

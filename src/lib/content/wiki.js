@@ -3,6 +3,7 @@ import itemsJson from "@/src/data/wiki/items.json";
 import relicsJson from "@/src/data/wiki/relics.json";
 import statusEffectsJson from "@/src/data/wiki/status-effects.json";
 import categoriesJson from "@/src/data/wiki/categories.json";
+import { rankModifiersData } from "@/src/lib/content/modifiers";
 import { defineDetailCollection } from "@/src/lib/content/collection";
 import { defineTdk } from "@/src/seo/tdk";
 
@@ -79,6 +80,7 @@ export const wikiCounts = Object.freeze({
   relics: relicsJson.length,
   enemies: enemiesData.length,
   statusEffects: statusEffectsData.length,
+  rankModifiers: rankModifiersData.length,
 });
 
 export const wikiCategories = categoriesJson.map((category) => ({

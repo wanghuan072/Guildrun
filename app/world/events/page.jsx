@@ -19,7 +19,8 @@ export default function EventsPage() {
             <h1>{pageTdk.events.h1}</h1>
             <p>
               Search current decision and fight events, then open an exact record
-              for prompts, outcomes, rewards, and the crossroads that reach it.
+              for prompts, outcomes, rewards, route connections, and the
+              extracted in-game description and art available for named events.
             </p>
           </div>
           <div className="reference-page-head__count">

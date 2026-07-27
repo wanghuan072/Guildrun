@@ -1,0 +1,298 @@
+{
+  "difficultyLevels": [
+    {
+      "rank": "Base",
+      "title": "Open contract",
+      "description": "Play without difficulty modifiers."
+    },
+    {
+      "rank": "C",
+      "title": "Opening wounds",
+      "description": "Heroes take 10% Max HP damage at the start of each combat."
+    },
+    {
+      "rank": "B",
+      "title": "Durable enemies",
+      "description": "Enemies are more durable."
+    },
+    {
+      "rank": "A",
+      "title": "Reduced income",
+      "description": "Earn 1 fewer Shard per surviving Hero at the end of each combat."
+    },
+    {
+      "rank": "S",
+      "title": "Restricted equipment",
+      "description": "Heroes can only equip 1 item per rank."
+    },
+    {
+      "rank": "SS",
+      "title": "Deadlier enemies",
+      "description": "Enemies are deadlier."
+    },
+    {
+      "rank": "SSS",
+      "title": "Boss influence",
+      "description": "Act Bosses influence combats in their act, making them more difficult."
+    },
+    {
+      "rank": "Red Rift",
+      "title": "Six-challenge contract",
+      "description": "Complete all 6 challenges and defeat the final boss. A failed challenge ends the run and resets the win streak; enemies have increased stats and the run cannot continue into Endless Mode."
+    }
+  ],
+  "masteryLevels": [
+    {
+      "level": 1,
+      "title": "Tilly Bundle",
+      "description": "Unlock Tilly, a Duelist / Warrior who generates Shards through rapid attacks.",
+      "type": "Hero bundle"
+    },
+    {
+      "level": 2,
+      "title": "Rush / Stall Bundle",
+      "description": "Unlock a starting bundle of items and relics built for Rush and Stall teams.",
+      "type": "Build bundle"
+    },
+    {
+      "level": 3,
+      "title": "Boss Token",
+      "description": "Unlock the first Boss Token slot and starting-bundle rerolls.",
+      "type": "Token slot"
+    },
+    {
+      "level": 4,
+      "title": "Zuri Bundle",
+      "description": "Unlock Zuri, an Assassin / Tank who permanently gains stats by landing Crits.",
+      "type": "Hero bundle"
+    },
+    {
+      "level": 5,
+      "title": "Shield Bundle",
+      "description": "Unlock a starting bundle of items and relics built around Shields.",
+      "type": "Build bundle"
+    },
+    {
+      "level": 6,
+      "title": "Second Boss Token",
+      "description": "Unlock a second Boss Token slot.",
+      "type": "Token slot"
+    },
+    {
+      "level": 7,
+      "title": "Niklas Bundle",
+      "description": "Unlock Niklas, a Vanguard who consumes items to permanently gain their stats.",
+      "type": "Hero bundle"
+    },
+    {
+      "level": 8,
+      "title": "Debuff Bundle",
+      "description": "Unlock a starting bundle of items and relics built around Debuffs.",
+      "type": "Build bundle"
+    },
+    {
+      "level": 9,
+      "title": "Two Boss Tokens",
+      "description": "Unlock the third and fourth Boss Token slots.",
+      "type": "Token slots"
+    }
+  ],
+  "stats": [
+    {
+      "name": "Max HP",
+      "group": "Survival",
+      "description": "A character dies when their Health reaches 0.",
+      "practical": "Compare effective durability with Defense and Shields, not Max HP alone."
+    },
+    {
+      "name": "Max Mana",
+      "group": "Ability",
+      "description": "Characters cast their active ability whenever their Max Mana becomes full.",
+      "practical": "Starting Mana and Mana Regen determine time to the first and later casts."
+    },
+    {
+      "name": "Mana Regen",
+      "group": "Ability",
+      "description": "The amount of Mana a character gains every 2 seconds.",
+      "practical": "Treat it as a two-second pulse rather than a continuous per-second gain."
+    },
+    {
+      "name": "Defense",
+      "group": "Survival",
+      "description": "Reduces incoming damage. 100 Defense means 1/2 damage received, 200 means 1/3, and 300 means 1/4.",
+      "practical": "Each additional 100 Defense adds another part to the divisor: damage received is scaled by 100 / (100 + Defense)."
+    },
+    {
+      "name": "Move Speed",
+      "group": "Positioning",
+      "description": "The speed a character moves from hex to hex during combat.",
+      "practical": "Movement time can delay first contact even when the target is technically in reach."
+    },
+    {
+      "name": "Base Attack Damage",
+      "group": "Offense",
+      "description": "The amount of damage a character deals with auto attacks. Increased by Attack.",
+      "practical": "Use it as the starting value before Attack scaling and other effects."
+    },
+    {
+      "name": "Attack",
+      "group": "Offense",
+      "description": "Increases the damage of auto attacks.",
+      "practical": "Warriors also use Attack to scale many active abilities."
+    },
+    {
+      "name": "Magic",
+      "group": "Ability",
+      "description": "Increases the effectiveness of abilities.",
+      "practical": "Read each ability to see whether Magic increases damage, Shields, healing, or another effect."
+    },
+    {
+      "name": "Attack Range",
+      "group": "Positioning",
+      "description": "The distance in hexes that a character can auto attack from.",
+      "practical": "Range is measured on the hex board; visual distance alone can be misleading."
+    },
+    {
+      "name": "Base Attack Speed",
+      "group": "Offense",
+      "description": "The number of times a character auto attacks per second. Increased by Attack Speed.",
+      "practical": "Trigger-heavy Duelist and Crit builds care about attack frequency as much as hit size."
+    },
+    {
+      "name": "Attack Speed",
+      "group": "Offense",
+      "description": "Increases how often a character auto attacks.",
+      "practical": "Evaluate it through attacks per second and the triggers each extra attack creates."
+    },
+    {
+      "name": "Crit",
+      "group": "Offense",
+      "description": "The percent chance that an auto attack or active ability deals double damage. Each Crit above 100 increases Crit Damage by 1%.",
+      "practical": "Crit above 100 is not wasted; it moves from chance into higher critical damage."
+    },
+    {
+      "name": "Omnivamp",
+      "group": "Survival",
+      "description": "Restores Health based on damage dealt. 1 Omnivamp equals 1% healing from damage dealt.",
+      "practical": "It is strongest on heroes that deal reliable damage and survive long enough to convert it into healing."
+    },
+    {
+      "name": "HP Per Second",
+      "group": "Survival",
+      "description": "Characters restore Health equal to their HP/S each second.",
+      "practical": "Sustained recovery needs time; it does not replace protection from opening burst damage."
+    },
+    {
+      "name": "Starting Mana",
+      "group": "Ability",
+      "description": "The amount of Mana a character begins combat with.",
+      "practical": "Use it to move a decisive first cast ahead of an enemy ability or frontline collapse."
+    }
+  ],
+  "classes": [
+    {
+      "name": "Warrior",
+      "primaryStat": "Attack",
+      "summary": "Uses Attack to deal damage with auto attacks and active abilities.",
+      "mechanics": ["Crit", "Rush", "Shields"]
+    },
+    {
+      "name": "Tank",
+      "primaryStat": "Defense",
+      "summary": "Uses Defense to protect allies and disrupt enemies.",
+      "mechanics": ["Stall", "Poison", "Frost"]
+    },
+    {
+      "name": "Vanguard",
+      "primaryStat": "Max HP",
+      "summary": "Uses Max HP to absorb and deal damage.",
+      "mechanics": ["Rush", "Shields", "Burn"]
+    },
+    {
+      "name": "Assassin",
+      "primaryStat": "Crit",
+      "summary": "Uses Crit for bursts of damage from auto attacks and active abilities.",
+      "mechanics": ["Crit", "Shards", "Poison", "Rush", "Stealth"]
+    },
+    {
+      "name": "Duelist",
+      "primaryStat": "Attack Speed",
+      "summary": "Uses Attack Speed to rapidly auto attack.",
+      "mechanics": ["Stall", "Rush", "Debuffs", "Crit", "Shards"]
+    },
+    {
+      "name": "Mystic",
+      "primaryStat": "Mana Regen",
+      "summary": "Uses Mana Regen to repeatedly cast, aid allies, and disrupt enemies.",
+      "mechanics": ["Shields", "Shards", "Debuffs", "Stall"]
+    },
+    {
+      "name": "Mage",
+      "primaryStat": "Magic",
+      "summary": "Uses Magic to deal damage and disrupt enemies with active abilities.",
+      "mechanics": ["Stall", "Burn", "Frost"]
+    }
+  ],
+  "guilds": [
+    {
+      "name": "The Hunt",
+      "slug": "the-hunt",
+      "tagline": "When the call comes, we hunt.",
+      "description": "A guild of Awakened professionals built for the chase: first through the door and closing in before a rift can breach and do real damage. They hunt for the monster, the trophy, and the reputation that follows.",
+      "bannerUrl": "/images/heroes/guilds/the-hunt.webp"
+    },
+    {
+      "name": "Frontline",
+      "slug": "frontline",
+      "tagline": "Stronger every break.",
+      "description": "Frontline believes the only way to close the rifts is to overpower them. Its teams train and compete like athletes, chasing a personal best with every break.",
+      "bannerUrl": "/images/heroes/guilds/frontline.webp"
+    },
+    {
+      "name": "Gaia Project",
+      "slug": "gaia-project",
+      "tagline": "Fight for tomorrow, not just today.",
+      "description": "A community-driven guild that treats rifts as living phenomena to be understood. Its Breakers study each one and work to restore the natural balance around it.",
+      "bannerUrl": "/images/heroes/guilds/gaia-project.webp"
+    },
+    {
+      "name": "A Temple",
+      "slug": "a-temple",
+      "tagline": "No gods. No masters.",
+      "description": "A Temple believes the Shards and relics inside rifts belong to everyone, not only whoever can buy the extraction rights. They fight to put those treasures in ordinary hands.",
+      "bannerUrl": "/images/heroes/guilds/a-temple.webp"
+    },
+    {
+      "name": "L'Héritage",
+      "slug": "lheritage",
+      "tagline": "Excellence is a legacy.",
+      "description": "A prestige guild for old-money heirs and rising stars. It trains elite, media-ready Breakers and moves easily through circles where wealth, fame, and power overlap.",
+      "bannerUrl": "/images/heroes/guilds/lheritage.webp"
+    },
+    {
+      "name": "Aegis Global",
+      "slug": "aegis-global",
+      "tagline": "Certainty in an uncertain world.",
+      "description": "A corporate guild with a global network spanning crystal refinement, relic acquisition, and rift forecasting. Its contracts keep supply chains moving and rift activity contained.",
+      "bannerUrl": "/images/heroes/guilds/aegis-global.webp"
+    }
+  ],
+  "shopSystems": [
+    {
+      "name": "Freeze",
+      "description": "Keep a regular Shop's offers until the next visit."
+    },
+    {
+      "name": "Auction House",
+      "description": "After a Boss, browse more and higher-rarity offers. It cannot be frozen."
+    },
+    {
+      "name": "Rift Key",
+      "description": "Assemble the Rift Key from Shop fragments; the fragment cost increases at each Shop."
+    },
+    {
+      "name": "Scaling Indicator",
+      "description": "Shows which abilities scale with the stats on an item before you commit the purchase."
+    }
+  ]
+}

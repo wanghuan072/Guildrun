@@ -6,6 +6,7 @@ import dataset from "@/src/data/dataset.json";
 import { heroCollection } from "@/src/lib/content/heroes";
 import { getStatusRelations, statusSlugForTerm } from "@/src/lib/content/relations";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
+import "@/src/styles/systems.css";
 
 export const dynamicParams = false;
 
@@ -21,6 +22,25 @@ const statIcons = {
 
 function statClass(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+}
+
+function parseLoreEntry(paragraph) {
+  if (paragraph.startsWith("Currently works at ")) {
+    return {
+      label: "Background",
+      text: paragraph.replace(/^Currently works at\s+/, ""),
+    };
+  }
+  if (paragraph.startsWith("Motivation ")) {
+    return {
+      label: "Motivation",
+      text: paragraph.replace(/^Motivation\s+/, ""),
+    };
+  }
+  return {
+    label: "Guild profile",
+    text: paragraph,
+  };
 }
 
 export function generateStaticParams() {
@@ -341,7 +361,17 @@ export default async function HeroDetailPage({ params }) {
               <span className="archive-kicker">Character record</span>
               <h2>{hero.name} lore</h2>
               {hero.quote && <blockquote>{hero.quote}</blockquote>}
-              {hero.lore.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+              <div className="hero-lore-ledger">
+                {hero.lore.map((paragraph, index) => {
+                  const entry = parseLoreEntry(paragraph);
+                  return (
+                    <article key={`${entry.label}-${index}`}>
+                      <h3>{entry.label}</h3>
+                      <p>{entry.text}</p>
+                    </article>
+                  );
+                })}
+              </div>
             </section>
           )}
         </article>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "503",
+    "imageUrl": "/images/world/events/503.webp",
+    "crossroadsDescription": "Get a special item or relic with offensive properties.",
+    "officialDescription": "A stone altar, mostly reclaimed by moss. Something gleams at its base."
+  },
+  {
+    "id": "505",
+    "imageUrl": "/images/world/events/505.webp",
+    "crossroadsDescription": "Get a special item or relic which pays off in the future.",
+    "officialDescription": "A camp left behind by an unsuccessful guild, abandoned in a hurry. They did not die here, but they did leave something useful behind."
+  },
+  {
+    "id": "506",
+    "imageUrl": "/images/world/events/506.webp",
+    "crossroadsDescription": "A gift for your newly formed guild.",
+    "officialDescription": "A clerk from the Department of Guild Affairs leans through the rift's threshold, parcel in hand. She waves your guild over and hands them the parcel before vanishing back to the other side."
+  },
+  {
+    "id": "600",
+    "imageUrl": "/images/world/events/600.webp",
+    "crossroadsDescription": "A moment of peace.",
+    "officialDescription": "Your guild gathers around the campfire, and your Heroes enjoy a rare moment of calm."
+  },
+  {
+    "id": "601",
+    "imageUrl": "/images/world/events/600.webp",
+    "crossroadsDescription": "A moment of peace.",
+    "officialDescription": "Your guild gathers around the campfire, and your Heroes enjoy a rare moment of calm."
+  },
+  {
+    "id": "809",
+    "imageUrl": "/images/world/events/809.webp",
+    "crossroadsDescription": "Collect Shards from a natural deposit.",
+    "officialDescription": "Your guild finds a large node of glowing Shards."
+  },
+  {
+    "id": "1001",
+    "imageUrl": "/images/world/events/1001.webp",
+    "crossroadsDescription": "Gain a rare relic for a price.",
+    "officialDescription": "An ancient being materializes in front of your guild. It hungers not for flesh or Shards, but memories, and offers long-lost relics in exchange for a bite of remembrance."
+  },
+  {
+    "id": "1006",
+    "imageUrl": "/images/world/events/1006.webp",
+    "crossroadsDescription": "Gain relics or items for a price.",
+    "officialDescription": "Your guild finds an ornate stone temple blocked by a weathered statue. The statue whispers one intention into the Heroes' minds: kiss me, free me."
+  },
+  {
+    "id": "1013",
+    "imageUrl": "/images/world/events/1013.webp",
+    "crossroadsDescription": "Craft a banner for your guild.",
+    "officialDescription": "Your guild catches a break between fights. The banner design is due at the Department of Guild Affairs tomorrow, and every Hero has an opinion."
+  },
+  {
+    "id": "1017",
+    "imageUrl": "/images/world/events/1017.webp",
+    "crossroadsDescription": "Gain an item. Rarer items Burn your Heroes next combat.",
+    "officialDescription": "A giant beast snores atop a hoard of precious items collected over the eons. Its nostrils bellow smoke with each exhale."
+  },
+  {
+    "id": "1018",
+    "imageUrl": "/images/world/events/1018.webp",
+    "crossroadsDescription": "Wait for a common relic, or take a rarer one at a cost.",
+    "officialDescription": "A barrel-sized egg rests in a nest of bones. An artifact glints inside the shell, and the mother cannot be far away."
+  },
+  {
+    "id": "1019",
+    "imageUrl": "/images/world/events/1019.webp",
+    "crossroadsDescription": "Gain immediate or future power, for a price.",
+    "officialDescription": "Your guild wanders into a grove of colorful alien fruits. They are warm to the touch and radiate magical energy."
+  },
+  {
+    "id": "1022",
+    "imageUrl": "/images/world/events/1022.webp",
+    "crossroadsDescription": "Gain special relics and items for your most-played classes.",
+    "officialDescription": "Your Heroes find a whisper-still pool of bright blue water. Its mirrored surface ripples with reflections of the past as an object shimmers at the surface."
+  },
+  {
+    "id": "1023",
+    "imageUrl": "/images/world/events/1023.webp",
+    "crossroadsDescription": "Gain an item.",
+    "officialDescription": "A courier in a dark uniform skids out of a portal with a parcel under one arm and a clipboard already in hand."
+  },
+  {
+    "id": "1024",
+    "imageUrl": "/images/world/events/1024.webp",
+    "crossroadsDescription": "Rank up a Hero at a price, or strengthen one later.",
+    "officialDescription": "A majestic waterfall appears before your guild. Every 15 seconds, a high-pitched ringing cuts through the crashing water from somewhere behind the fall."
+  },
+  {
+    "id": "1025",
+    "imageUrl": "/images/world/events/1025.webp",
+    "crossroadsDescription": "Get relics or items in the future.",
+    "officialDescription": "Inside a crumbling ruin, your guild finds an ancient map carved into the walls. It points to treasures in four directions."
+  },
+  {
+    "id": "1026",
+    "imageUrl": "/images/world/events/1026.webp",
+    "crossroadsDescription": "Gain Shards in the future, or gain an item for a cost.",
+    "officialDescription": "An adorable rift puppy is surrounded by hungry beasts. It pleads for help with beady, sad eyes."
+  },
+  {
+    "id": "1027",
+    "imageUrl": "/images/world/events/1027.webp",
+    "crossroadsDescription": "Gain stats, or fight stronger enemies for future rewards.",
+    "officialDescription": "A three-way fork offers a quiet meadow, a chasm split with jagged pillars, and a dark forest of bone-white trees."
+  },
+  {
+    "id": "1028",
+    "imageUrl": "/images/world/events/1028.webp",
+    "crossroadsDescription": "Gain an item, or gain an epic item or relic at a cost.",
+    "officialDescription": "Pulsing mushrooms as large as bears surround a slim rift and a pile of treasure while green spores roll across the clearing."
+  },
+  {
+    "id": "1030",
+    "imageUrl": "/images/world/events/1030.webp",
+    "crossroadsDescription": "Choose from relics of increasing rarity for a price.",
+    "officialDescription": "A faceless creature offers relics through a scroll of shifting runes. The message resolves into a simple trade: relic for Shards."
+  },
+  {
+    "id": "1032",
+    "imageUrl": "/images/world/events/1032.webp",
+    "crossroadsDescription": "Choose one Hero to battle for rewards. Trial defeat carries no death penalty.",
+    "officialDescription": "An energy field holds a single monster in the valley below, standing triumphantly over a pile of treasure."
+  }
+]

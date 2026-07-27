@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
 import "@/src/styles/fight-modes.css";
+import referenceData from "@/src/data/gameplay/reference.json";
 import { fightModesReferenceData } from "@/src/lib/content/world";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -59,6 +60,7 @@ export default function FightModesPage() {
     ["Campaign", "#campaign"],
     ["Challenges", "#challenges"],
     ["Difficulty", "#difficulty"],
+    ["Red Rift", "#red-rift"],
     ["Endless", "#endless"],
   ];
   const modes = enrichModes(fightModesReferenceData);
@@ -110,11 +112,13 @@ export default function FightModesPage() {
               ))}
             </div>
             <div className="manual-callout">
-              <strong>Emergency Rewind is a retry budget.</strong>
+              <strong>Emergency Rewind stores Shards while it protects the run.</strong>
               <p>
-                The run begins with 10 Rewind and gains 5 after each win. When a
-                normal fight loss consumes it, use the retry to test one
-                deliberate change in formation, roster, or equipment.
+                While available, it gathers 5 Shards after each combat victory.
+                The first combat defeat activates Rewind, releases every stored
+                Shard, and lets the run continue. A later defeat while Rewind is
+                unavailable ends the run. Rewind is automatically deactivated at
+                the final boss and releases its stored Shards there.
               </p>
             </div>
             <div className="manual-link-row">
@@ -195,25 +199,48 @@ export default function FightModesPage() {
             <span className="archive-kicker">Run-level pressure</span>
             <h2>Difficulty progression</h2>
             <p>
-              Difficulty changes encounter variants and pressure across the
-              route. Stage records keep the difficulty index visible so two
-              formations are not compared as if their values came from the same
-              ruleset. The Demo provides eight difficulty levels.
+              Each contract adds one explicit source of pressure. Beat the
+              previous difficulty to unlock the next, and compare stage records
+              at the same difficulty index before judging a formation or build.
             </p>
-            <ol className="instruction-list">
-              <li>
-                <strong>Filter the stage database.</strong>
-                <span>Compare the same act and floor at the active difficulty index.</span>
-              </li>
-              <li>
-                <strong>Open each enemy variant.</strong>
-                <span>Check exact health, offense, ability, and event or Endless rows.</span>
-              </li>
-              <li>
-                <strong>Change one layer.</strong>
-                <span>Adjust position, economy, role coverage, or specialization so the result remains readable.</span>
-              </li>
-            </ol>
+            <div className="difficulty-ladder">
+              {referenceData.difficultyLevels.map((level, index) => (
+                <article className={level.rank === "Red Rift" ? "is-rift" : ""} key={level.rank}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <strong>{level.rank}</strong>
+                  <div>
+                    <h3>{level.title}</h3>
+                    <p>{level.description}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="record-section" id="red-rift">
+            <span className="archive-kicker">High-danger contract</span>
+            <h2>Red Rift ends at the final boss</h2>
+            <div className="red-rift-contract">
+              <div>
+                <strong>6</strong>
+                <span>challenges to complete</span>
+              </div>
+              <ul>
+                <li>Complete every challenge and defeat the final boss to seal the Red Rift.</li>
+                <li>Failing a challenge ends the run and resets the current win streak.</li>
+                <li>Enemies receive increased stats throughout the contract.</li>
+                <li>A Red Rift victory does not continue into Endless Mode.</li>
+              </ul>
+            </div>
+            <div className="manual-callout">
+              <strong>Build for immediate stability, not an Endless-only ceiling.</strong>
+              <p>
+                A delayed engine that eventually scales can still lose the
+                contract at one failed challenge. Favor protection, target
+                access, and repeatable damage that already function at the next
+                checkpoint.
+              </p>
+            </div>
           </section>
 
           <section className="record-section" id="endless">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function EventExplorer({ events }) {
@@ -29,7 +30,16 @@ export default function EventExplorer({ events }) {
           <tbody>
             {filtered.map((event) => (
               <tr key={event.id}>
-                <td><Link href={`/world/events/${event.addressBar}/`}><strong>{event.name}</strong><small> #{event.id}</small></Link></td>
+                <td>
+                  <Link className="event-table-link" href={`/world/events/${event.addressBar}/`}>
+                    {event.imageUrl ? (
+                      <span className="event-table-link__art">
+                        <Image src={event.imageUrl} alt="" fill sizes="58px" />
+                      </span>
+                    ) : null}
+                    <span><strong>{event.name}</strong><small> #{event.id}</small></span>
+                  </Link>
+                </td>
                 <td>{event.kind}</td>
                 <td>{event.paths}</td>
                 <td>{event.choices?.length || 0}</td>

@@ -1,5 +1,6 @@
 import stagesJson from "@/src/data/world/stages.json";
 import eventsJson from "@/src/data/world/events.json";
+import eventEditorialJson from "@/src/data/world/event-editorial.json";
 import crossroadsJson from "@/src/data/world/crossroads.json";
 import generatedFightModes from "@/src/data/world/fight-modes.json";
 import generatedStatMods from "@/src/data/world/stat-mods.json";
@@ -24,21 +25,31 @@ export const stagesReferenceData = stagesJson.map((stage) => ({
   }),
 }));
 
-export const eventsReferenceData = eventsJson.map((event) => ({
-  ...event,
-  addressBar: event.id,
-  kind: event.isFight === "Yes" ? "Fight event" : "Decision event",
-  seo: defineTdk({
-    h1: `Guildrun ${event.title || event.name} - Event ${event.id} Choices`,
-    title: `Guildrun ${event.title || event.name} Event ${event.id} - Choices`,
-    description: `Explore Guildrun event ${event.id}, ${event.title || event.name}, with its prompts, available choices, outcomes, rewards, route connections, fight state, and practical decision framework.`,
-    keywords: [
-      `Guildrun ${event.title || event.name}`,
-      `${event.title || event.name} event`,
-      "Guildrun events",
-    ],
-  }),
-}));
+const eventEditorialById = new Map(
+  eventEditorialJson.map((record) => [record.id, record]),
+);
+
+export const eventsReferenceData = eventsJson.map((event) => {
+  const editorial = eventEditorialById.get(event.id) || {};
+  return {
+    ...event,
+    ...editorial,
+    addressBar: event.id,
+    kind: event.isFight === "Yes" ? "Fight event" : "Decision event",
+    seo: defineTdk({
+      h1: `Guildrun ${event.title || event.name} - Event ${event.id} Choices`,
+      title: `Guildrun ${event.title || event.name} Event ${event.id} - Choices`,
+      description: editorial.officialDescription
+        ? `${editorial.officialDescription} Compare the recorded choices, outcomes, rewards, and route connections for Guildrun event ${event.id}.`
+        : `Explore Guildrun event ${event.id}, ${event.title || event.name}, with its prompts, available choices, outcomes, rewards, route connections, fight state, and practical decision framework.`,
+      keywords: [
+        `Guildrun ${event.title || event.name}`,
+        `${event.title || event.name} event`,
+        "Guildrun events",
+      ],
+    }),
+  };
+});
 
 export const fightModesReferenceData = generatedFightModes;
 export const statModsReferenceData = generatedStatMods;
@@ -78,9 +89,9 @@ export const eventCollection = defineDetailCollection({
     category: "Events",
     title: event.title || event.name,
     href,
-    excerpt: event.kind || "World event",
+    excerpt: event.officialDescription || event.kind || "World event",
     keywords: [event.id, event.kind],
-    imageUrl: "",
+    imageUrl: event.imageUrl || "",
   }),
 });
 

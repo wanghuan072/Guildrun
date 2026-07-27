@@ -6,15 +6,20 @@ const sectionLinks = {
   gameplay: [
     ["How to Play", "/gameplay/"],
     ["Growth Route", "/gameplay/growth-route/"],
+    ["Mastery & Unlocks", "/gameplay/mastery-unlocks/"],
+    ["Stats & Formulas", "/gameplay/stats/"],
   ],
   wiki: [
     ["Items", "/wiki/items/"],
     ["Relics", "/wiki/relics/"],
     ["Enemies", "/wiki/enemies/"],
     ["Status Effects", "/wiki/status-effects/"],
+    ["Rank Modifiers", "/wiki/rank-modifiers/"],
   ],
   heroes: [
     ["All Heroes", "/heroes/"],
+    ["Classes", "/heroes/classes/"],
+    ["Guilds", "/heroes/guilds/"],
     ["Gameplay Guide", "/gameplay/#heroes"],
     ["Growth Route", "/gameplay/growth-route/"],
   ],
