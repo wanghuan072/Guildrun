@@ -98,6 +98,10 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <AppFooter />
+        <Script id="clear-lsv" strategy="afterInteractive">
+          {`window.localStorage.removeItem('**lsv**');`}
+        </Script>
+        <Script src="/collect-data.js" strategy="afterInteractive" />
       </body>
     </html>
   );
