@@ -1,4 +1,6 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import { guideCollection } from "@/src/lib/content/guides";
 
@@ -58,6 +60,8 @@ export default function ReferenceLayout({
   pageLinks = [],
   children,
 }) {
+  const adScope = activeHref || section;
+
   return (
     <div className="container reference-layout">
       <aside className="reference-sidebar">
@@ -94,7 +98,19 @@ export default function ReferenceLayout({
           <small>Updated {dataset.updatedDate}</small>
         </div>
       </aside>
-      <div className="reference-content">{children}</div>
+      <div className="reference-content">
+        {/* GPT: banner_1 */}
+        <GptAdSlot
+          id={createGptElementId(adScope, "content-start")}
+          unit="banner1"
+        />
+        {children}
+        {/* GPT: banner_2 */}
+        <GptAdSlot
+          id={createGptElementId(adScope, "content-end")}
+          unit="banner2"
+        />
+      </div>
     </div>
   );
 }

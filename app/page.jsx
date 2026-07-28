@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import JsonLd from "@/src/components/JsonLd";
 import "@/src/styles/home.css";
+import { createGptElementId } from "@/src/config/gpt";
 import { guidesData } from "@/src/lib/content/guides";
 import { heroesData } from "@/src/lib/content/heroes";
 import { updatesData } from "@/src/lib/content/updates";
@@ -210,6 +212,9 @@ export default function HomePage() {
           ))}
         </section>
 
+        {/* GPT: banner_1 */}
+        <GptAdSlot id={createGptElementId("home", 1)} unit="banner1" />
+
         <section className="home-archive-panel" aria-labelledby="gameplay-heading">
           <div className="home-panel-label">
             <span aria-hidden="true">♙</span>
@@ -230,6 +235,9 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {/* GPT: banner_2 */}
+        <GptAdSlot id={createGptElementId("home", 2)} unit="banner2" />
 
         <section className="home-archive-panel" aria-labelledby="progression-heading">
           <div className="home-panel-label">
@@ -335,6 +343,9 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* GPT: banner_3 */}
+        <GptAdSlot id={createGptElementId("home", 3)} unit="banner3" />
+
         <section className="home-archive-panel" aria-labelledby="heroes-heading">
           <div className="home-panel-label home-panel-label--split">
             <div>
@@ -385,6 +396,9 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* GPT: banner_1 · placed below the recommended guide section */}
+        <GptAdSlot id={createGptElementId("home", 4)} unit="banner1" />
+
         <section className="home-archive-panel" aria-labelledby="updates-heading">
           <div className="home-panel-label">
             <span aria-hidden="true">♘</span>
@@ -411,6 +425,9 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {/* GPT: banner_2 */}
+        <GptAdSlot id={createGptElementId("home", 5)} unit="banner2" />
 
         <section className="home-archive-panel home-prose-panel" aria-labelledby="about-heading" id="about">
           <div className="home-panel-label">

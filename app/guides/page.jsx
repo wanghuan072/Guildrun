@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import { guidesData } from "@/src/lib/content/guides";
 import { pageTdk } from "@/src/seo/tdk";
 import { createMetadata } from "@/src/seo/siteConfig";
@@ -46,6 +48,8 @@ export default function GuidesPage() {
           </aside>
         </div>
       </section>
+      {/* GPT: banner_1 */}
+      <GptAdSlot id={createGptElementId("guides", 1)} unit="banner1" />
       <section id="library" className="page-section">
         <div className="container page-content">
           <div className="article-grid article-grid--two">
@@ -73,6 +77,8 @@ export default function GuidesPage() {
           </div>
         </div>
       </section>
+      {/* GPT: banner_2 · below the guide recommendations */}
+      <GptAdSlot id={createGptElementId("guides", 2)} unit="banner2" />
     </main>
   );
 }

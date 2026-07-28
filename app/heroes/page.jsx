@@ -1,5 +1,7 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import HeroExplorer from "@/src/components/HeroExplorer";
+import { createGptElementId } from "@/src/config/gpt";
 import { heroClasses, heroesData } from "@/src/lib/content/heroes";
 import { pageTdk } from "@/src/seo/tdk";
 import { createMetadata } from "@/src/seo/siteConfig";
@@ -46,7 +48,17 @@ export default function HeroesPage() {
             <small>Search effects by class, trigger, or Hero</small>
           </Link>
         </nav>
+        {/* GPT: banner_1 · below the recommended Hero system links */}
+        <GptAdSlot
+          id={createGptElementId("heroes-directory", 1)}
+          unit="banner1"
+        />
         <HeroExplorer heroes={heroesData} classes={heroClasses} />
+        {/* GPT: banner_2 */}
+        <GptAdSlot
+          id={createGptElementId("heroes-directory", 2)}
+          unit="banner2"
+        />
       </div>
     </main>
   );

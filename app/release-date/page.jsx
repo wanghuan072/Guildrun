@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import JsonLd from "@/src/components/JsonLd";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import { faqPageSchema } from "@/src/seo/schema";
 import { createMetadata } from "@/src/seo/siteConfig";
@@ -68,6 +70,8 @@ export default function ReleaseDatePage() {
           </aside>
         </div>
       </section>
+      {/* GPT: banner_1 */}
+      <GptAdSlot id={createGptElementId("release-date", 1)} unit="banner1" />
       <section className="page-section">
         <div className="container page-content">
           <div className="page-heading">
@@ -90,6 +94,8 @@ export default function ReleaseDatePage() {
           </div>
         </div>
       </section>
+      {/* GPT: banner_2 */}
+      <GptAdSlot id={createGptElementId("release-date", 2)} unit="banner2" />
     </main>
   );
 }

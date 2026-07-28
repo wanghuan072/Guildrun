@@ -1,6 +1,8 @@
 import { Suspense } from "react";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import SiteSearch from "@/src/components/SiteSearch";
 import "@/src/styles/search.css";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import { searchIndex } from "@/src/lib/searchIndex";
 import { createMetadata } from "@/src/seo/siteConfig";
@@ -15,6 +17,8 @@ export default function SearchPage() {
   return (
     <main className="archive-main">
       <div className="container search-page">
+        {/* GPT: banner_1 */}
+        <GptAdSlot id={createGptElementId("search", 1)} unit="banner1" />
         <header className="reference-page-head">
           <div>
             <span className="archive-eyebrow">
@@ -35,6 +39,8 @@ export default function SearchPage() {
         <Suspense fallback={<p className="directory-status">Loading search…</p>}>
           <SiteSearch />
         </Suspense>
+        {/* GPT: banner_2 */}
+        <GptAdSlot id={createGptElementId("search", 2)} unit="banner2" />
       </div>
     </main>
   );

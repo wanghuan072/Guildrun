@@ -2,6 +2,7 @@ import Script from "next/script";
 import AppHeader from "@/src/components/AppHeader";
 import AppFooter from "@/src/components/AppFooter";
 import JsonLd from "@/src/components/JsonLd";
+import { GPT_UNITS } from "@/src/config/gpt";
 import { siteConfig } from "@/src/seo/siteConfig";
 import "@/src/styles/globals.css";
 import "@/src/styles/header.css";
@@ -9,6 +10,7 @@ import "@/src/styles/footer.css";
 import "@/src/styles/directory.css";
 import "@/src/styles/detail.css";
 import "@/src/styles/archive.css";
+import "@/src/styles/ads.css";
 
 export const metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -78,6 +80,59 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body>
+        <Script id="google-publisher-tag-bootstrap" strategy="beforeInteractive">
+          {`
+            window.googletag = window.googletag || { cmd: [] };
+            googletag.cmd.push(function () {
+              if (window.__guildrunGptInitialized) return;
+              window.__guildrunGptInitialized = true;
+
+              var anchorSlot = googletag.defineOutOfPageSlot(
+                '${GPT_UNITS.anchor}',
+                googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR
+              );
+              if (anchorSlot) anchorSlot.addService(googletag.pubads());
+
+              var interstitialSlot = googletag.defineOutOfPageSlot(
+                '${GPT_UNITS.interstitial}',
+                googletag.enums.OutOfPageFormat.INTERSTITIAL
+              );
+              if (interstitialSlot) {
+                interstitialSlot.addService(googletag.pubads());
+              }
+
+              googletag.setConfig({
+                centering: true,
+                disableInitialLoad: true,
+                singleRequest: true
+              });
+              googletag.enableServices();
+
+              var outOfPageSlots = [];
+              if (anchorSlot) {
+                googletag.display(anchorSlot);
+                outOfPageSlots.push(anchorSlot);
+              }
+              if (interstitialSlot) {
+                googletag.display(interstitialSlot);
+                outOfPageSlots.push(interstitialSlot);
+              }
+              if (outOfPageSlots.length) {
+                googletag.pubads().refresh(outOfPageSlots);
+              }
+
+              window.__guildrunGptAnchorSlot = anchorSlot;
+              window.__guildrunGptInterstitialSlot = interstitialSlot;
+            });
+          `}
+        </Script>
+        <Script
+          id="google-publisher-tag"
+          async
+          src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {/* Google tag (gtag.js) */}
         <Script
           async

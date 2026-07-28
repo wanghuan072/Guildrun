@@ -1,4 +1,6 @@
+import GptAdSlot from "@/src/components/GptAdSlot";
 import JsonLd from "@/src/components/JsonLd";
+import { createGptElementId } from "@/src/config/gpt";
 import { webPageSchema } from "@/src/seo/schema";
 
 export default function LegalDocument({ document, path, tdk }) {
@@ -18,6 +20,11 @@ export default function LegalDocument({ document, path, tdk }) {
             <h1>{tdk.h1}</h1>
             <p>{document.intro}</p>
           </header>
+          {/* GPT: banner_1 */}
+          <GptAdSlot
+            id={createGptElementId(path, "legal-start")}
+            unit="banner1"
+          />
           <article className="detail-article">
             {document.sections.map((section) => (
               <section className="detail-section-block" key={section.title}>
@@ -28,6 +35,11 @@ export default function LegalDocument({ document, path, tdk }) {
               </section>
             ))}
           </article>
+          {/* GPT: banner_2 */}
+          <GptAdSlot
+            id={createGptElementId(path, "legal-end")}
+            unit="banner2"
+          />
         </div>
       </section>
     </main>
