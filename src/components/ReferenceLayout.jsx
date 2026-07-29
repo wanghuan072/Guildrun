@@ -1,3 +1,4 @@
+import { Children, Fragment } from "react";
 import Link from "next/link";
 import GptAdSlot from "@/src/components/GptAdSlot";
 import { createGptElementId } from "@/src/config/gpt";
@@ -58,9 +59,12 @@ export default function ReferenceLayout({
   section,
   activeHref,
   pageLinks = [],
+  leadAdAfter = 1,
+  showLeadAd = true,
   children,
 }) {
   const adScope = activeHref || section;
+  const contentChildren = Children.toArray(children);
 
   return (
     <div className="container reference-layout">
@@ -99,12 +103,20 @@ export default function ReferenceLayout({
         </div>
       </aside>
       <div className="reference-content">
-        {/* GPT: banner_1 */}
-        <GptAdSlot
-          id={createGptElementId(adScope, "content-start")}
-          unit="banner1"
-        />
-        {children}
+        {contentChildren.map((child, index) => (
+          <Fragment key={child.key || index}>
+            {child}
+            {showLeadAd && index + 1 === leadAdAfter && (
+              <>
+                {/* GPT: banner_1 · after the page heading or hero */}
+                <GptAdSlot
+                  id={createGptElementId(adScope, "content-start")}
+                  unit="banner1"
+                />
+              </>
+            )}
+          </Fragment>
+        ))}
         {/* GPT: banner_2 */}
         <GptAdSlot
           id={createGptElementId(adScope, "content-end")}

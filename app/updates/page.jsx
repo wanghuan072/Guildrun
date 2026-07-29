@@ -1,6 +1,8 @@
 import Link from "next/link";
 import ChangeLedger from "@/src/components/ChangeLedger";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import { updatesData } from "@/src/lib/content/updates";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -87,6 +89,12 @@ export default function UpdatesPage() {
             </div>
           </section>
 
+          {/* GPT: banner_2 · between the featured patch and exact ledger */}
+          <GptAdSlot
+            id={createGptElementId("updates", "featured-patch")}
+            unit="banner2"
+          />
+
           <section id="ledger" className="update-ledger-section">
             <header className="reading-heading">
               <span className="archive-kicker">Entity-level diff</span>
@@ -148,6 +156,12 @@ export default function UpdatesPage() {
               ))}
             </div>
           </section>
+
+          {/* GPT: banner_3 · between the timeline and content policy */}
+          <GptAdSlot
+            id={createGptElementId("updates", "timeline")}
+            unit="banner3"
+          />
 
           <section id="policy" className="reference-note">
             <div>

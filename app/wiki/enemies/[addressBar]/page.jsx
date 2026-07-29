@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import {
   enemyCollection,
   statusEffectsData,
@@ -180,6 +182,12 @@ export default async function EnemyDetailPage({ params }) {
               </div>
             </section>
           )}
+
+          {/* GPT: banner_3 · between variant data and locations */}
+          <GptAdSlot
+            id={createGptElementId(`enemy-${enemy.addressBar}`, "variants")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="locations">
             <span className="archive-kicker">Stage appearances</span>

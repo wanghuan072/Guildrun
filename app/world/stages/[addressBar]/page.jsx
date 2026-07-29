@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import { getEnemy } from "@/src/lib/content/wiki";
 import { stageCollection } from "@/src/lib/content/world";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
@@ -189,6 +191,12 @@ export default async function StageDetailPage({ params }) {
             </div>
           </section>
 
+          {/* GPT: banner_2 · after encounter telemetry */}
+          <GptAdSlot
+            id={createGptElementId(`world-stage-${stage.addressBar}`, "telemetry")}
+            unit="banner2"
+          />
+
           <section className="record-section" id="formation">
             <div className="stage-section-heading">
               <div>
@@ -305,6 +313,12 @@ export default async function StageDetailPage({ params }) {
               </p>
             </div>
           </section>
+
+          {/* GPT: banner_3 · before preparation guidance */}
+          <GptAdSlot
+            id={createGptElementId(`world-stage-${stage.addressBar}`, "environment")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="preparation">
             <span className="archive-kicker">Formation plan</span>

@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import { heroCollection } from "@/src/lib/content/heroes";
 import { getStatusRelations, statusSlugForTerm } from "@/src/lib/content/relations";
@@ -182,6 +184,12 @@ export default async function HeroDetailPage({ params }) {
             )}
           </section>
 
+          {/* GPT: banner_2 · between stats and rank progression */}
+          <GptAdSlot
+            id={createGptElementId(`hero-${hero.addressBar}`, "stats")}
+            unit="banner2"
+          />
+
           <section className="record-section hero-ranks" id="ranks">
             <span className="archive-kicker">C → B → A → S</span>
             <h2>{hero.name} ranks</h2>
@@ -316,6 +324,12 @@ export default async function HeroDetailPage({ params }) {
               </div>
             )) : <p>No class modifiers were recorded for this hero in the current snapshot.</p>}
           </section>
+
+          {/* GPT: banner_3 · between modifier data and build guidance */}
+          <GptAdSlot
+            id={createGptElementId(`hero-${hero.addressBar}`, "modifiers")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="strategy">
             <span className="archive-kicker">Editorial build guide</span>

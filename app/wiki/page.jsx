@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import { wikiCategories } from "@/src/lib/content/wiki";
 import { pageTdk } from "@/src/seo/tdk";
@@ -55,6 +57,12 @@ export default function WikiPage() {
             ))}
           </div>
         </section>
+
+        {/* GPT: banner_3 · below the Wiki category list */}
+        <GptAdSlot
+          id={createGptElementId("wiki", "category-list")}
+          unit="banner3"
+        />
 
         <section className="manual-section">
           <span className="archive-kicker">How the databases connect</span>

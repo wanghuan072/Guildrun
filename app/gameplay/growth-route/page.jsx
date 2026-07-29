@@ -1,5 +1,7 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import "@/src/styles/growth-route.css";
 import { growthFacts, priceReference } from "@/app/gameplay/content";
 import dataset from "@/src/data/dataset.json";
@@ -295,6 +297,12 @@ export default function GrowthRoutePage() {
             </div>
           </section>
 
+          {/* GPT: banner_2 · after the opening formation chapter */}
+          <GptAdSlot
+            id={createGptElementId("growth-route", "opening-formation")}
+            unit="banner2"
+          />
+
           <section className="manual-section" id="team-growth">
             <span className="archive-kicker">02 · Four- and five-hero boards</span>
             <h2>Add coverage before adding more damage</h2>
@@ -429,6 +437,12 @@ export default function GrowthRoutePage() {
             </div>
           </section>
 
+          {/* GPT: banner_3 · after the rank route chapter */}
+          <GptAdSlot
+            id={createGptElementId("growth-route", "rank-route")}
+            unit="banner3"
+          />
+
           <section className="manual-section" id="upgrade-order">
             <div id="economy" className="scroll-anchor" tabIndex={-1} />
             <div id="build-layers" className="scroll-anchor" tabIndex={-1} />
@@ -538,6 +552,12 @@ export default function GrowthRoutePage() {
               <Link href="/wiki/relics/">Compare relic engines</Link>
             </div>
           </section>
+
+          {/* GPT: banner_2 · before the worked example */}
+          <GptAdSlot
+            id={createGptElementId("growth-route", "upgrade-order")}
+            unit="banner2"
+          />
 
           <section className="manual-section" id="example-route">
             <span className="archive-kicker">05 · Example decision sequence</span>

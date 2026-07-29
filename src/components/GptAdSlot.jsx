@@ -17,9 +17,8 @@ export default function GptAdSlot({ id, unit = "banner1" }) {
   return (
     <aside
       className={`gpt-ad-shell gpt-ad-shell--${unit}`}
-      aria-label="Advertisement"
+      aria-label="Sponsored content"
     >
-      <span className="gpt-ad-label">Advertisement</span>
       <div
         className="gpt-ad-slot"
         id={id}

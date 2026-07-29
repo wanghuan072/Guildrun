@@ -17,8 +17,6 @@ export default function SearchPage() {
   return (
     <main className="archive-main">
       <div className="container search-page">
-        {/* GPT: banner_1 */}
-        <GptAdSlot id={createGptElementId("search", 1)} unit="banner1" />
         <header className="reference-page-head">
           <div>
             <span className="archive-eyebrow">
@@ -36,6 +34,8 @@ export default function SearchPage() {
             <span>indexed records</span>
           </div>
         </header>
+        {/* GPT: banner_1 · below the search hero */}
+        <GptAdSlot id={createGptElementId("search", 1)} unit="banner1" />
         <Suspense fallback={<p className="directory-status">Loading search…</p>}>
           <SiteSearch />
         </Suspense>

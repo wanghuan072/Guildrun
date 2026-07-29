@@ -1,5 +1,7 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import "@/src/styles/fight-modes.css";
 import referenceData from "@/src/data/gameplay/reference.json";
 import { fightModesReferenceData } from "@/src/lib/content/world";
@@ -195,6 +197,12 @@ export default function FightModesPage() {
             </div>
           </section>
 
+          {/* GPT: banner_2 · between challenge and difficulty chapters */}
+          <GptAdSlot
+            id={createGptElementId("world-fight-modes", "challenges")}
+            unit="banner2"
+          />
+
           <section className="record-section" id="difficulty">
             <span className="archive-kicker">Run-level pressure</span>
             <h2>Difficulty progression</h2>
@@ -242,6 +250,12 @@ export default function FightModesPage() {
               </p>
             </div>
           </section>
+
+          {/* GPT: banner_3 · between Red Rift and Endless */}
+          <GptAdSlot
+            id={createGptElementId("world-fight-modes", "red-rift")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="endless">
             <span className="archive-kicker">Post-campaign scaling</span>

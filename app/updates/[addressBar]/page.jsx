@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ChangeLedger from "@/src/components/ChangeLedger";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import { slugify } from "@/src/lib/content/collection";
 import { updateCollection } from "@/src/lib/content/updates";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
@@ -58,6 +60,7 @@ export default async function UpdateDetailPage({ params }) {
         { label: update.title },
       ]}
       jsonLd={jsonLd}
+      showLeadAd={false}
     >
       <article className="reading-layout">
         <header className="update-detail-hero">
@@ -79,6 +82,11 @@ export default async function UpdateDetailPage({ params }) {
             />
           </span>
         </header>
+        {/* GPT: banner_1 · directly below the update hero */}
+        <GptAdSlot
+          id={createGptElementId(`update-${update.addressBar}`, "hero")}
+          unit="banner1"
+        />
         <div className="reading-columns">
           <div className="reading-article">
             <section id="impact">
@@ -103,6 +111,11 @@ export default async function UpdateDetailPage({ params }) {
                 </ul>
               </section>
             ))}
+            {/* GPT: banner_3 · between patch sections and the change ledger */}
+            <GptAdSlot
+              id={createGptElementId(`update-${update.addressBar}`, "sections")}
+              unit="banner3"
+            />
             <ChangeLedger
               sections={update.ledger}
               compact

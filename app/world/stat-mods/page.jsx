@@ -1,5 +1,7 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import { statModsReferenceData } from "@/src/lib/content/world";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -80,6 +82,12 @@ export default function StatModsPage() {
               </section>
             );
           })}
+
+          {/* GPT: banner_3 · after the modifier tables */}
+          <GptAdSlot
+            id={createGptElementId("world-stat-mods", "modifier-tables")}
+            unit="banner3"
+          />
 
           <section className="record-section">
             <span className="archive-kicker">Growth decision</span>

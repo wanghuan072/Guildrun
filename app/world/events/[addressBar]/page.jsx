@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import { eventCollection } from "@/src/lib/content/world";
 import { articleSchema, breadcrumbSchema } from "@/src/seo/schema";
 import "@/src/styles/systems.css";
@@ -124,6 +126,12 @@ export default async function EventDetailPage({ params }) {
               </div>
             ) : <p>No choice-level extraction was available for this event record.</p>}
           </section>
+
+          {/* GPT: banner_3 · between outcomes and route context */}
+          <GptAdSlot
+            id={createGptElementId(`world-event-${event.addressBar}`, "choices")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="route">
             <span className="archive-kicker">Map connections</span>

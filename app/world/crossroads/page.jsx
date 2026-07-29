@@ -1,5 +1,7 @@
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import { crossroadsReferenceData } from "@/src/lib/content/world";
 import { createMetadata } from "@/src/seo/siteConfig";
 import { pageTdk } from "@/src/seo/tdk";
@@ -49,6 +51,12 @@ export default function CrossroadsPage() {
             </tbody>
           </table>
         </div>
+
+        {/* GPT: banner_3 · below the route-node database */}
+        <GptAdSlot
+          id={createGptElementId("world-crossroads", "route-list")}
+          unit="banner3"
+        />
 
         <section className="manual-section">
           <span className="archive-kicker">Route decision</span>

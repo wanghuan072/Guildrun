@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DetailPageLayout from "@/src/components/DetailPageLayout";
+import GptAdSlot from "@/src/components/GptAdSlot";
+import { createGptElementId } from "@/src/config/gpt";
 import { getStatusRelations } from "@/src/lib/content/relations";
 import { statusEffectCollection } from "@/src/lib/content/wiki";
 import { breadcrumbSchema, definedTermSchema } from "@/src/seo/schema";
@@ -147,6 +149,12 @@ export default async function StatusEffectDetailPage({ params }) {
             <h2>Relics that use {effect.name}</h2>
             <RelatedTable records={relations.relics} type="Relics" />
           </section>
+
+          {/* GPT: banner_3 · between related record groups */}
+          <GptAdSlot
+            id={createGptElementId(`status-${effect.addressBar}`, "relations")}
+            unit="banner3"
+          />
 
           <section className="record-section" id="heroes">
             <span className="archive-kicker">{relations.heroes.length} linked records</span>

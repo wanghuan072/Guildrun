@@ -8,6 +8,8 @@ export default function DetailPageLayout({
   pageLinks = [],
   breadcrumbs,
   jsonLd,
+  leadAdAfter = 2,
+  showLeadAd = true,
   children,
 }) {
   return (
@@ -17,6 +19,8 @@ export default function DetailPageLayout({
         section={section}
         activeHref={activeHref}
         pageLinks={pageLinks}
+        leadAdAfter={leadAdAfter}
+        showLeadAd={showLeadAd}
       >
         <nav className="breadcrumb compact-breadcrumb" aria-label="Breadcrumb">
           <ol>

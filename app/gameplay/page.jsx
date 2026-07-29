@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import GptAdSlot from "@/src/components/GptAdSlot";
 import ReferenceLayout from "@/src/components/ReferenceLayout";
+import { createGptElementId } from "@/src/config/gpt";
 import dataset from "@/src/data/dataset.json";
 import referenceData from "@/src/data/gameplay/reference.json";
 import {
@@ -204,6 +206,12 @@ export default function GameplayPage() {
             </div>
           </section>
 
+          {/* GPT: banner_2 · between gameplay chapters */}
+          <GptAdSlot
+            id={createGptElementId("gameplay", "team-building")}
+            unit="banner2"
+          />
+
           <section className="manual-section" id="enemies">
             <span className="archive-kicker">03 · Enemy reading</span>
             <h2>Read the threat before changing the build</h2>
@@ -315,6 +323,12 @@ export default function GameplayPage() {
             </div>
           </section>
 
+          {/* GPT: banner_3 · between gameplay chapters */}
+          <GptAdSlot
+            id={createGptElementId("gameplay", "positioning")}
+            unit="banner3"
+          />
+
           <section className="manual-section" id="heroes">
             <span className="archive-kicker">05 · Choosing heroes</span>
             <h2>Recruit for a job, then grow into a build</h2>
@@ -367,6 +381,12 @@ export default function GameplayPage() {
               <Link href="/gameplay/growth-route/">Continue to the Guildrun Growth Route</Link>
             </div>
           </section>
+
+          {/* GPT: banner_2 · between gameplay chapters */}
+          <GptAdSlot
+            id={createGptElementId("gameplay", "heroes")}
+            unit="banner2"
+          />
 
           <section className="manual-section" id="economy">
             <span className="archive-kicker">06 · Shop, economy and recovery</span>
