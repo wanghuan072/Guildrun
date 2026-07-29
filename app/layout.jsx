@@ -93,6 +93,22 @@ export default function RootLayout({ children }) {
               );
               if (anchorSlot) anchorSlot.addService(googletag.pubads());
 
+              var leftRailSlot = googletag.defineOutOfPageSlot(
+                '${GPT_UNITS.anchor}',
+                googletag.enums.OutOfPageFormat.LEFT_SIDE_RAIL
+              );
+              if (leftRailSlot) {
+                leftRailSlot.addService(googletag.pubads());
+              }
+
+              var rightRailSlot = googletag.defineOutOfPageSlot(
+                '${GPT_UNITS.anchor}',
+                googletag.enums.OutOfPageFormat.RIGHT_SIDE_RAIL
+              );
+              if (rightRailSlot) {
+                rightRailSlot.addService(googletag.pubads());
+              }
+
               var interstitialSlot = googletag.defineOutOfPageSlot(
                 '${GPT_UNITS.interstitial}',
                 googletag.enums.OutOfPageFormat.INTERSTITIAL
@@ -113,6 +129,14 @@ export default function RootLayout({ children }) {
                 googletag.display(anchorSlot);
                 outOfPageSlots.push(anchorSlot);
               }
+              if (leftRailSlot) {
+                googletag.display(leftRailSlot);
+                outOfPageSlots.push(leftRailSlot);
+              }
+              if (rightRailSlot) {
+                googletag.display(rightRailSlot);
+                outOfPageSlots.push(rightRailSlot);
+              }
               if (interstitialSlot) {
                 googletag.display(interstitialSlot);
                 outOfPageSlots.push(interstitialSlot);
@@ -122,6 +146,8 @@ export default function RootLayout({ children }) {
               }
 
               window.__guildrunGptAnchorSlot = anchorSlot;
+              window.__guildrunGptLeftRailSlot = leftRailSlot;
+              window.__guildrunGptRightRailSlot = rightRailSlot;
               window.__guildrunGptInterstitialSlot = interstitialSlot;
             });
           `}
